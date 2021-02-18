@@ -18,7 +18,6 @@ const profileSchema = mongoose.Schema({
 	resin: { type: Number, required: true, default: 160 },
 	characters: []
 
-
 });
 
 module.exports = mongoose.model('profile', profileSchema, 'profiles');
