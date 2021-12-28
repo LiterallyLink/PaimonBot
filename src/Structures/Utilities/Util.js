@@ -167,7 +167,6 @@ module.exports = class Util {
 		});
 	}
 
-	// eslint-disable-next-line consistent-return
 	async loadSlashCommands() {
 		const slashCommandArray = [];
 
