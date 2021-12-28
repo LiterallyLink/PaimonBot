@@ -106,6 +106,7 @@ module.exports = class Util {
 		// }
 
 		await this.loadElements();
+		await this.loadWeapons();
 		await this.loadCharacters();
 	}
 
@@ -128,6 +129,14 @@ module.exports = class Util {
 
 		for (let i = 0; i < body.length; i++) {
 			this.client.characters.set(body[i].id, body[i]);
+		}
+	}
+
+	async loadWeapons() {
+		const { body } = await request.get('https://impact.moe/api/weapons');
+
+		for (let i = 0; i < body.length; i++) {
+			this.client.weapons.set(body[i].id, body[i]);
 		}
 	}
 
@@ -188,7 +197,7 @@ module.exports = class Util {
 		}
 
 		const clientID = '809302717843111946';
-		const guildID = '866509260925567006';
+		const guildID = '804190768591405116';
 		const rest = new REST({ version: '9' }).setToken(token);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
 	}
@@ -232,4 +241,3 @@ module.exports = class Util {
 	}
 
 };
-
