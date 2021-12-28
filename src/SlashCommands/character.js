@@ -1,8 +1,8 @@
-/* eslint-disable consistent-return */
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
 const emote = require('../../assets/emotes.json');
 const charImages = require('../../assets/charImages.json');
+const stringSimilarity = require('string-similarity');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -35,58 +35,33 @@ module.exports = {
 					['Geo', 'Geo'],
 					['Electro', 'Electro'],
 					['Anemo', 'Anemo']
+				]))
+		.addStringOption(option =>
+			option
+				.setName('rarity')
+				.setDescription('The rarity of the characters.')
+				.addChoices([
+					['⭐⭐⭐⭐', '4'],
+					['⭐⭐⭐⭐⭐', '5']
 				])),
 	async run({ paimonClient, application }) {
-		const characterName = application.options.getString('name');
+		let characterName = application.options.getString('name');
 		const weaponType = application.options.getString('weapon');
 		const visionType = application.options.getString('vision');
+		const characterRarity = application.options.getString('rarity');
 		let characterList = paimonClient.characters;
 
 		if (characterName) {
-			let character = this.findCharacterByName(characterList, characterName);
-
-			if (!character) {
-				const characterGuess = this.autoCorrect(characterList, characterName);
-				character = this.findCharacterByName(characterList, characterGuess.name);
-
-				if (characterGuess.editDistance > 2) {
-					const characterInputted = characterName.length > 15 ? `${characterName.substring(0, 15)}...` : characterName;
-
-					const confirmOrDeny = new MessageActionRow()
-						.addComponents(
-							new MessageButton()
-								.setCustomId('confirm')
-								.setStyle('SUCCESS')
-								.setLabel('Confirm'),
-							new MessageButton()
-								.setCustomId('deny')
-								.setLabel('Cancel')
-								.setStyle('DANGER')
-						);
-
-					const didYouMeanEmbed = new MessageEmbed()
-						.setTitle('Character Not Found')
-						.setThumbnail(character.icon)
-						.setDescription(`You searched for \`${characterInputted}\`\nDid you mean \`${character.name}\`?`)
-						.setColor('WHITE');
-					const msg = await application.followUp({ embeds: [didYouMeanEmbed], components: [confirmOrDeny] });
-
-					const filter = i => {
-						i.deferUpdate();
-						return i.user.id === application.user.id;
-					};
-
-					const optionCollector = await msg.awaitMessageComponent({ filter, componentType: 'BUTTON', time: 150000 }).catch(() => null);
-					msg.delete().catch(() => null);
-					if (!optionCollector || optionCollector.customId === 'deny') return;
-				}
-			}
-
+			characterName = characterName.toLowerCase();
+			const characterGuess = stringSimilarity.findBestMatch(characterName, characterList.map(char => char.name)).bestMatch.target;
+			const character = characterList.find(char => char.name === characterGuess);
 			const { name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
-			const charRarity = Array(rarity).fill('⭐').join('');
+
+			const starRarity = Array(rarity).fill('⭐').join('');
+
 			const optionRow = new MessageActionRow();
 
-			if (charImages[name.toLowerCase()]?.ascension) {
+			if (charImages[characterGuess.toLowerCase()]?.ascension) {
 				optionRow.addComponents(
 					new MessageButton()
 						.setCustomId('ascension')
@@ -120,23 +95,23 @@ module.exports = {
 					.setStyle('PRIMARY')
 			);
 
-			const characterInformationEmbed = new MessageEmbed()
-				.setTitle(`${name}`)
-				.setImage(image)
+			const characterEmbed = new MessageEmbed()
+				.setTitle(name)
 				.setThumbnail(icon)
-				.setDescription(`${description || 'No description available.'}`)
-				.addField('Vision', `${paimonClient.utils.capitalize(element) || 'Unknown'} ${emote?.[element.toLowerCase()] || ''}`, true)
-				.addField('Weapon', `${paimonClient.utils.capitalize(weapon) || 'Unknown'} ${emote?.[weapon.toLowerCase()] || ''}`, true)
-				.addField('Nation', `${paimonClient.utils.capitalize(region) || 'Unknown'} ${emote?.[region.toLowerCase()] || ''}`, true)
+				.setImage(image)
+				.setDescription(`${description}`)
+				.addField('Vision', `${paimonClient.utils.capitalize(element)} ${emote[element.toLowerCase()] || 'Unknown'}`, true)
+				.addField('Weapon', `${paimonClient.utils.capitalize(weapon)} ${emote[weapon.toLowerCase()] || 'Unknown'}`, true)
+				.addField('Nation', `${paimonClient.utils.capitalize(region)} ${emote[region.toLowerCase()] || 'Unknown'}`, true)
 				.addField('Affiliation', `${paimonClient.utils.capitalize(faction) || 'Unknown'}`, true)
-				.addField('Rarity', `${charRarity || 'Unknown'}`, true)
-				.addField('Constellation', `${paimonClient.utils.capitalize(constellation) || 'Unknown'}`, true)
+				.addField('Rarity', `${starRarity || 'Unknown'}`, true)
+				.addField('Constellation', `${constellation || 'Unknown'}`, true)
 				.setColor('WHITE');
-			const characterEmbed = await application.followUp({ embeds: [characterInformationEmbed], components: [optionRow] });
+			const charEmbedMsg = await application.followUp({ embeds: [characterEmbed], components: [optionRow] });
 
 			const filter = i => i.user.id === application.user.id;
 
-			const collector = characterEmbed.createMessageComponentCollector({ filter, time: 300000 });
+			const collector = charEmbedMsg.createMessageComponentCollector({ filter, time: 300000 });
 
 			return collector.on('collect', async i => {
 				i.deferUpdate();
@@ -144,13 +119,21 @@ module.exports = {
 
 				if (choice === 'delete') {
 					collector.stop();
-					characterEmbed.delete().catch(() => null);
+					charEmbedMsg.delete().catch(() => null);
+				}
+
+				if (choice === 'ascension') {
+					const charBuildEmbed = new MessageEmbed()
+						.setAuthor({ name: `${name}`, iconURL: icon })
+						.setImage(charImages?.[characterGuess.toLowerCase()].ascension)
+						.setColor('WHITE');
+					await charEmbedMsg.edit({ embeds: [charBuildEmbed] });
 				}
 
 				if (choice === 'constellation') {
 					const { constellations } = character;
 					const constellationEmbed = new MessageEmbed()
-						.setAuthor(`${name}`, icon)
+						.setAuthor({ name: `${name}`, iconURL: icon })
 						.setThumbnail(image)
 						.setDescription(`**Constellation**\n\n${constellation}`)
 						.setColor('WHITE');
@@ -159,15 +142,7 @@ module.exports = {
 						constellationEmbed.addField(`${constellations[j].name}`, `Level: **${constellations[j].order}**\n${constellations[j].description}`, true);
 					}
 
-					await characterEmbed.edit({ embeds: [constellationEmbed] });
-				}
-
-				if (choice === 'ascension') {
-					const charBuildEmbed = new MessageEmbed()
-						.setAuthor(`${name}`, icon)
-						.setImage(charImages?.[name.toLowerCase()].ascension)
-						.setColor('WHITE');
-					await characterEmbed.edit({ embeds: [charBuildEmbed] });
+					await charEmbedMsg.edit({ embeds: [constellationEmbed] });
 				}
 
 				const charBuild = roles.find(build => build.name === choice);
@@ -181,78 +156,50 @@ module.exports = {
 						.setTitle(`${charBuild.name}`)
 						.setAuthor(`${name}`, icon)
 						.addField(`${emote?.[weapon.toLowerCase()]} Weapons`, `${weaponList}`, true)
-						.addField('Artifacts', `${artifactList}`, true)
+						.addField(`${emote.artifact} Artifacts`, `${artifactList}`, true)
 						.setColor('WHITE');
 					await characterEmbed.edit({ embeds: [charBuildEmbed] });
 				}
 			});
-		} else if (weaponType || visionType) {
-			if (weaponType) characterList = characterList.filter(char => char.weapon === weaponType);
-			if (visionType) characterList = characterList.filter(char => char.element === visionType);
+		} else if (weaponType || visionType || characterRarity) {
+			let embedTitle = '';
 
-			const characterNames = characterList.map(char => char.name);
-			const updatedCharacterList = characterNames.length ? characterNames.join('\n') : 'None';
+			if (characterRarity) {
+				embedTitle += `${characterRarity} Star`;
+				characterList = characterList.filter(char => `${char.rarity}` === characterRarity);
+			}
+
+			if (visionType) {
+				embedTitle += ` ${visionType}`;
+				characterList = characterList.filter(char => char.element === visionType);
+			}
+
+			if (weaponType) {
+				embedTitle += ` ${weaponType}`;
+				characterList = characterList.filter(char => char.weapon === weaponType);
+			}
 
 			const filteredCharacterListEmbed = new MessageEmbed()
-				.setTitle(`List Of ${visionType || ''} ${weaponType || ''} Characters`)
-				.setDescription(`${updatedCharacterList}`)
+				.setTitle(`${embedTitle} Characters`)
+				.setThumbnail('https://i.ibb.co/nbp23by/paimon.png')
+				.setDescription(`${characterList.map(char => char.name).join('\n') || 'No Characters Found'}`)
 				.setColor('WHITE');
 			return application.followUp({ embeds: [filteredCharacterListEmbed] });
 		}
 
 		const charListEmbed = new MessageEmbed()
 			.setTitle('Character Help')
-			.setDescription('To search for a character.\nType `/character <name>`\nTo filter out certain characters.\nType `/character <weapon type> or <vision>`')
+			.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon type> or <vision>`')
 			.setColor('WHITE');
 
-		const elementList = [...paimonClient.elements.keys()];
+		const characterTypes = [...paimonClient.elements.keys()];
 
-		for (let i = 0; i < elementList.length; i++) {
-			const elementName = elementList[i];
+		for (let i = 0; i < characterTypes.length; i++) {
+			const elementName = characterTypes[i];
 			const filteredCharacters = characterList.filter(char => char.element === elementName).map(char => char.name);
 			charListEmbed.addField(`${emote[elementName.toLowerCase()]} ${elementName}`, filteredCharacters.join('\n'), true);
 		}
+
 		return application.followUp({ embeds: [charListEmbed] });
-	},
-
-	findCharacterByName(characterList, characterName) {
-		return characterList.find(char => char.id === characterName.toLowerCase());
-	},
-
-	autoCorrect(characterList, character) {
-		/* eslint-disable id-length */
-		const characters = characterList.map(char => char.id);
-		const characterObj = characters.map(char => ({ name: char, editDistance: 0 }));
-
-		for (let i = 0; i < characters.length; i++) {
-			if (characters[i].length === 0) return character.length;
-			if (character.length === 0) return characters[i].length;
-
-			const matrix = [];
-
-			for (let j = 0; j <= character.length; j++) {
-				matrix[j] = [j];
-			}
-
-			for (let h = 0; h <= characters[i].length; h++) {
-				matrix[0][h] = h;
-			}
-
-			for (let k = 1; k <= character.length; k++) {
-				for (let j = 1; j <= characters.length; j++) {
-					if (character.charAt(k - 1) === characters[i].charAt(j - 1)) {
-						matrix[k][j] = matrix[k - 1][j - 1];
-					} else {
-						matrix[k][j] = Math.min(matrix[k - 1][j - 1] + 1,
-							Math.min(matrix[k][j - 1] + 1,
-								matrix[k - 1][j] + 1));
-					}
-				}
-			}
-
-			characterObj[i].editDistance = matrix[character.length][characters[i].length];
-		}
-
-		return characterObj.reduce((a, b) => a.editDistance < b.editDistance ? a : b);
 	}
 };
