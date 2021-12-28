@@ -1,12 +1,7 @@
 const PaimonClient = require('./Structures/PaimonClient');
 const config = require('../config.json');
-// const { teyToken } = config;
-// const Teyvat = require('@teyvatdev/node-sdk').default;
 
 const client = new PaimonClient(config);
-// client.tey = new Teyvat(teyToken, {
-//	aggressive: true
-// });
 
 process.on('unhandledRejection', (reason, pr) => {
 	console.log(' [antiCrash] :: Unhandled Rejection/Catch');
