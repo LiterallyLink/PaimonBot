@@ -12,13 +12,14 @@
   "dependencies": {
     "@discordjs/builders": "^0.9.0",
     "@discordjs/rest": "^0.1.0-canary.0",
-    "@teyvatdev/node-sdk": "^1.0.7",
+    "@teyvatdev/node-sdk": "^1.0.6",
     "axios": "^0.24.0",
     "common-tags": "^1.8.2",
     "discord-api-types": "^0.25.2",
-    "discord.js": "^13.3.1",
+    "discord.js": "^13.4.0",
     "glob": "^7.2.0",
-    "node-superfetch": "^0.2.3"
+    "node-superfetch": "^0.2.3",
+    "string-similarity": "^4.0.4"
   },
   "devDependencies": {
     "eslint": "^8.4.1",
