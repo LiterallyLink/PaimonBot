@@ -94,26 +94,9 @@ module.exports = class Util {
 	}
 
 	async storeAPIData() {
-		// const endPoints = await this.fetchEndpoints();
-		// for (let i = 0; i < endPoints.length; i++) {
-		// 	try {
-		// 		const { body } = await request.get(`https://api.genshin.dev/${endPoints[i]}/all`);
-		// 	} catch (error) {
-		// 		if (error.status === 404) {
-		// 			console.log(`${endPoints[i]} is not a valid endpoint.`);
-		// 		}
-		// 	}
-		// }
-
 		await this.loadElements();
 		await this.loadWeapons();
 		await this.loadCharacters();
-	}
-
-	async fetchEndpoints() {
-		const { body } = await request.get('https://api.genshin.dev/');
-		const { types } = body;
-		return types;
 	}
 
 	async loadElements() {
@@ -199,6 +182,7 @@ module.exports = class Util {
 		const clientID = '809302717843111946';
 		const guildID = '804190768591405116';
 		const rest = new REST({ version: '9' }).setToken(token);
+		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
 	}
 
