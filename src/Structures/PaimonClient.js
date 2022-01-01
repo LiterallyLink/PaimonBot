@@ -18,13 +18,13 @@ module.exports = class PaimonClient extends Client {
 		this.characters = new Collection();
 		this.artifacts = new Collection();
 		this.consumables = new Collection();
-		this.elements = new Collection();
 		this.domains = new Collection();
 		this.enemies = new Collection();
 		this.materials = new Collection();
 		this.nations = new Collection();
 		this.weapons = 	new Collection();
 		this.utils = new Util(this);
+		this.mongoose = require('./Mongo');
 	}
 
 	validate(options) {
@@ -37,6 +37,7 @@ module.exports = class PaimonClient extends Client {
 	async start(token = this.token) {
 		// await this.utils.clearSlashCommands();
 		await this.utils.loadSlashCommands();
+		this.mongoose.init();
 		await this.utils.storeAPIData();
 		this.utils.loadEvents();
 
