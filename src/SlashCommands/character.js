@@ -154,11 +154,11 @@ module.exports = {
 
 					const charBuildEmbed = new MessageEmbed()
 						.setTitle(`${charBuild.name}`)
-						.setAuthor(`${name}`, icon)
+						.setAuthor({ name: `${name}`, iconURL: icon })
 						.addField(`${emote?.[weapon.toLowerCase()]} Weapons`, `${weaponList}`, true)
 						.addField(`${emote.artifact} Artifacts`, `${artifactList}`, true)
 						.setColor('WHITE');
-					await characterEmbed.edit({ embeds: [charBuildEmbed] });
+					await charEmbedMsg.edit({ embeds: [charBuildEmbed] });
 				}
 			});
 		} else if (weaponType || visionType || characterRarity) {
@@ -192,7 +192,7 @@ module.exports = {
 			.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon type> or <vision>`')
 			.setColor('WHITE');
 
-		const characterTypes = [...paimonClient.elements.keys()];
+		const characterTypes = ['Geo', 'Hydro', 'Pyro', 'Electro', 'Cryo', 'Anemo'];
 
 		for (let i = 0; i < characterTypes.length; i++) {
 			const elementName = characterTypes[i];
