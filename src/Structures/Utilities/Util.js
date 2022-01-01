@@ -94,17 +94,9 @@ module.exports = class Util {
 	}
 
 	async storeAPIData() {
-		await this.loadElements();
 		await this.loadWeapons();
 		await this.loadCharacters();
-	}
-
-	async loadElements() {
-		const { body } = await request.get('https://api.genshin.dev/elements/all');
-
-		for (let i = 0; i < body.length; i++) {
-			this.client.elements.set(body[i].name, body[i]);
-		}
+		await this.loadArtifacts();
 	}
 
 	async loadCharacters() {
@@ -115,9 +107,21 @@ module.exports = class Util {
 		}
 	}
 
+	async loadArtifacts() {
+		const { body } = await request.get('https://impact.moe/api/artifacts/');
+		const artifactSetList = [...new Set(body.map(artifact => artifact.artifactSet.name))];
+		const artifactMap = body.map(artifact => artifact);
+
+		for (let i = 0; i < artifactSetList.length; i++) {
+			const artifactSetName = artifactSetList[i];
+			const artifactSetArtifacts = artifactMap.filter(artifact => artifact.artifactSet.name === artifactSetName);
+
+			this.client.artifacts.set(artifactSetName, artifactSetArtifacts);
+		}
+	}
+
 	async loadWeapons() {
 		const { body } = await request.get('https://impact.moe/api/weapons');
-
 		for (let i = 0; i < body.length; i++) {
 			this.client.weapons.set(body[i].id, body[i]);
 		}
