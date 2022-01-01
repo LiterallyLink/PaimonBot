@@ -1,0 +1,81 @@
+{
+    "pyro": {
+        "reactions": ["Vaporize", "Overloaded", "Melt", "Burning", "Crystallize"],
+        "description": "Being affected by Pyro has no inherent effects on its own. However, being affected by Pyro will allow Pyro Elemental Reactions to occur. Any source of Pyro DMG will apply the Pyro status. Flaming Flowers and Pyro Boom Blossoms do not inherently apply Pyro, but are often surrounded by grass and will inflict Burning damage. Any lit torch, campfire, or cooking pot will cause Burning damage if the active character comes too close to them.",
+        "image": "https://i.ibb.co/4tBrxZk/Vision-Liyue-Pyro.png"
+    },
+    "hydro": {
+        "reactions": ["Vaporize", "Electro Charged", "Frozen", "Swirl", "Crystallize"],
+        "description": "Wet itself does not have any special effects; it is simply considered the application of Hydro. However, being affected by Wet allows Hydro Elemental Reactions to occur. Any source of Hydro DMG will apply Wet. It will also be applied during rain and upon coming in contact with bodies of water.",
+        "image": "https://i.ibb.co/mD5Vs7p/Vision-Liyue-Hydro.png"
+    },
+    "anemo": {
+        "reactions": ["Swirl"],
+        "description": "Similar to the Geo status, the Anemo status is ephemeral and will either react immediately with pre-applied elements or disappear instantly after application if no other elements are applied when applied to an enemy. However, the Anemo Hypostasis applies a long-lasting Anemo status to itself while its core is exposed, and unlike Persistent Geo on Geo Hypostasis and Planet Befall it can react with other elements to trigger Swirl - albeit it has an Internal Cooldown which disallows it from activating Swirl again before a set amount of time passes. Additionally, Jean's Elemental Burst Dandelion Breeze continuously and periodically applies Anemo to characters that stand in the talent's area of effect until the effect dissipates, but the Anemo status effect does not behave any differently from a normal Anemo status effect and will disappear momentarily after application until the next periodic application occurs by the talent.",
+        "image": "https://i.ibb.co/Nt2dkK8/Vision-Liyue-Anemo.png"
+    },
+    "electro": {
+        "reactions": ["Overloaded", "Electro Charged", "Superconduct", "Swirl", "Crystallize"],
+        "description": "Electro on its own does not have any special effect, but it will allow Electro Elemental Reactions to occur. Certain mechanics in Inazuma, such as the Lightning Strike Probe, will respond to characters or monsters affected by Electro. Any source of Electro DMG, including Electro Crystals, will apply the Electro status. Getting struck by lightning or entering a body of water struck by lightning during a thunderstorm will also apply Electro.",
+        "image": "https://i.ibb.co/Ph1Xn4Z/Vision-Liyue-Electro.png"
+    },
+    "geo": {
+        "reactions": ["Crystallize"],
+        "description": "Similar to Anemo, Geo is ephemeral and will either react immediately with preapplied elements or disappear instantly after application if no other elements are applied when applied to an enemy. However, Geo Hypostasis as well as Stonehide Lawachurl and Large Geo Slime whilst their shields are active have a perpetual Geo status applied to them, but it cannot react with other elements to trigger Crystallize. Another exception exists: Zhongli's Elemental Burst, Planet Befall, is capable of applying a persistent Geo status effect for the duration of his Petrification.",
+        "image": "https://i.ibb.co/QMkx7q8/Vision-Liyue-Geo.png"
+    },
+    "cryo": {
+        "reactions": ["Melt", "Frozen", "Superconduct", "Crystallize"],
+        "description": "Cryo is a status effect that reduces overall character speed. While affected by the Cryo status, all animation speed will decrease by 15% (stacking multiplicatively). This is not to be confused with Sheer Cold, an environmental mechanic that is the result of the Subzero Climate. Unlike other elements, the Cryo status can also be applied to certain objects, such as Ores, Thunderwoods, Thunder Dwellings, and Amber's Baron Bunny, and can allow certain elemental reactions to occur on such objects.",
+        "image": "https://i.ibb.co/mJQptDc/Vision-Liyue-Cryo.png"
+    },
+    "reactionData": [
+        {
+            "name": "Swirl",
+            "initialElement": "anemo",
+            "elementalFormula": ["pyro", "hydro", "electro", "cryo", "anemo"],
+            "description": "When Anemo meets certain other elements, it can trigger Swirl. Swirl can deal elemental DMG, affect beings, and generate further Elemental Reactions."
+        },
+        {
+            "name": "Melt",
+            "elementalFormula": ["pyro", "cryo"],
+            "description": "When Cryo meets Pyro, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs. Melt itself does not inflict DMG. However, the Pyro or Cryo attack that triggers Melt deals increased DMG."
+        },
+        {
+            "name": "Frozen",
+            "elementalFormula": ["hydro", "cryo"],
+            "description": "When Cryo meets Hydro, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
+        },
+        {
+            "name": "Superconduct",
+            "elementalFormula": ["electro", "cryo"],
+            "description": "When Cryo meets Electro, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
+        },
+        {
+            "name": "Burning",
+            "elementalFormula": ["pyro", "dendro"],
+            "description": "When Dendro meets Pyro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
+        },
+        {
+            "name": "Overloaded",
+            "elementalFormula": ["electro", "pyro"],
+            "description": "When Electro meets Pyro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
+        },
+        {
+            "name": "Electro Charged",
+            "elementalFormula": ["electro", "hydro"],
+            "description": "When Electro meets Hydro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off. Electricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
+        },
+        {
+            "name": "Crystallize",
+            "initialElement": "geo",
+            "elementalFormula": ["hydro", "electro", "cryo", "pyro", "geo"],
+            "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystalize will be triggered!"
+        },
+        {
+            "name": "Vaporize",
+            "elementalFormula": ["hydro", "pyro"],
+            "description": "When Hydro meets Pyro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs. Vaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
+        }
+    ]
+}
