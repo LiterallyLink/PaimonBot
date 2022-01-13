@@ -1,0 +1,108 @@
+{
+    "bannerName": "Wanderlust Invocation",
+    "image": "wanderlust",
+    "gachaPool": [
+        {
+            "rarity": 3,
+            "type": "weapon",
+            "chance": 90.3,
+            "weaponPool": [
+                "Raven Bow",
+                "Sharpshooter's Oath",
+                "Slingshot",
+                "Emerald Orb",
+                "Magic Guide",
+                "Thrilling Tales of Dragon Slayers",
+                "Bloodtainted Greatsword",
+                "Debate Club",
+                "Ferrous Shadow",
+                "Black Tassel",
+                "Cool Steel",
+                "Harbinger Of Dawn",
+                "Skyrider Sword"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "weapon",
+            "chance": 4.2,
+            "weaponPool": [
+                "Favonius Warbow",
+                "Rust",
+                "Sacrificial Bow",
+                "The Stringless",
+                "Eye of Perception",
+                "Favonius Codex",
+                "Sacrificial Fragments",
+                "The Widsith",
+                "Rainslasher",
+                "Sacrificial Greatsword",
+                "The Bell",
+                "Dragon's Bane",
+                "Favonius Lance",
+                "Favonius Sword",
+                "Lion's Roar",
+                "Sacrificial Sword",
+                "The Flute"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 3.6,
+            "characterPool": [
+                "Sayu",
+                "Sucrose",
+                "Chongyun",
+                "Diona",
+                "Kaeya",
+                "Rosaria",
+                "Beidou",
+                "Fischl",
+                "Kujou Sara",
+                "Lisa",
+                "Razor",
+                "Gorou",
+                "Ningguang",
+                "Noelle",
+                "Barbara",
+                "Xingqiu",
+                "Amber",
+                "Bennett",
+                "Thoma",
+                "Xiangling",
+                "Xinyan",
+                "Yanfei"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "weapon",
+            "chance": 0.8,
+            "weaponPool": [
+                "Amos' Bow",
+                "Skyward Harp",
+                "Lost Prayer to the Sacred Winds",
+                "Skyward Atlas",
+                "Skyward Pride",
+                "Wolf's Gravestone",
+                "Primordial Jade Winged-Spear",
+                "Skyward Spine",
+                "Aquila Favonia",
+                "Skyward Blade"
+            ]
+        },
+    {
+            "rarity": 5,
+            "type": "character",
+            "chance": 0.8,
+            "characterPool": [
+                "Jean",
+                "Qiqi",
+                "Keqing",
+                "Mona",
+                "Diluc"
+            ]
+        }
+    ]
+}
