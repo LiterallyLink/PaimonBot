@@ -1,12 +1,12 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
 const emote = require('../../assets/emotes.json');
-const charImages = require('../../assets/charImages.json');
+const charImages = require('../../assets/images/charImages.json');
 const stringSimilarity = require('string-similarity');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('character')
+		.setName('characters')
 		.setDescription('Retrieve information on a character.')
 		.addStringOption(option =>
 			option
