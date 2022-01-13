@@ -1,0 +1,584 @@
+[
+    {
+       "id":"adventurer",
+       "name":"Adventurer",
+       "description":"Adventurer is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Midsummer Courtyard, Chests, Investigation, Shiliu, Oceanid, Pyro Regisvine, and Adventure Rank Rewards (7, 8, 9, 11)",
+       "maxRarity":3,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Max HP increased by 1,000."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Opening chest regenerates 30% Max HP over 5s."
+          }
+       ]
+    },
+    {
+       "id":"archaic-petra",
+       "name":"Archaic Petra",
+       "description":"Archaic Petra is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Domain of Guyun.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Gain a 15% Geo DMG Bonus"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+          }
+       ]
+    },
+    {
+       "id":"berserker",
+       "name":"Berserker",
+       "description":"Berserker, also called Blood-Soaked in the Adventurer Handbook, is an Artifact Set available at 3-star, and 4-star rarities which can be obtained from Elite Enemies, Domain Reliquary: Tier III, Domain Reliquary: Tier II, Anemo Hypostasis, Cryo Hypostasis, Cryo Regisvine, Oceanid, Pyro Regisvine, Primo Geovishap, Weekly Bosses, and Chests.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"CRIT Rate +12%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When HP is below 70%, CRIT Rate increases by an additional 24%."
+          }
+       ]
+    },
+    {
+       "id":"blizzard-strayer",
+       "name":"Blizzard Strayer",
+       "description":"Blizzard Strayer, also called Icebreaker in the Adventurer Handbook, is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Peak of Vindagnyr.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Cryo DMG Bonus +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
+          }
+       ]
+    },
+    {
+       "id":"bloodstained-chivalry",
+       "name":"Bloodstained Chivalry",
+       "description":"Bloodstained Chivalry is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Clear Pool and Mountain Cavern.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Physical DMG +25%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+          }
+       ]
+    },
+    {
+       "id":"brave-heart",
+       "name":"Brave Heart",
+       "description":"Brave Heart, also called Heart of Bravery in the Adventurer Handbook, is a 3-star and 4-star Artifact Set obtained from Domain of Guyun and Ridge Watch.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"ATK +18%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases DMG by 30% against enemies with more than 50% HP."
+          }
+       ]
+    },
+    {
+       "id":"crimson-witch-of-flames",
+       "name":"Crimson Witch of Flames",
+       "description":"Crimson Witch of Flames is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Hidden Palace of Zhou Formula.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Gain a 15% Pyro DMG Bonus."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks."
+          }
+       ]
+    },
+    {
+       "id":"defenders-will",
+       "name":"Defender's Will",
+       "description":"Defender's Will is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Hidden Palace of Zhou Formula and Peak of Vindagnyr.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Base DEF +30%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Elemental RES by 30% for each element present in the party."
+          }
+       ]
+    },
+    {
+       "id":"emblem-of-severed-fate",
+       "name":"Emblem of Severed Fate",
+       "description":"Emblem of Severed Fate (Japanese: 絕縁の旗印) is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Momiji-Dyed Court in Inazuma.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Energy Recharge +20%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum  of 75% bonus DMG can be obtained in this way."
+          }
+       ]
+    },
+    {
+       "id":"gambler",
+       "name":"Gambler",
+       "description":"Gambler is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Clear Pool and Mountain Cavern and Peak of Vindagnyr.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Elemental Skill DMG increased by 20%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+          }
+       ]
+    },
+    {
+       "id":"gladiators-finale",
+       "name":"Gladiator's Finale",
+       "description":"Gladiator's Finale is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Bosses at World Level 2 and above.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"ATK +18%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+          }
+       ]
+    },
+    {
+       "id":"heart-of-depth",
+       "name":"Heart of Depth",
+       "description":"Heart of Depth, also called Ocean Conqueror in the Adventurer Handbook, is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Peak of Vindagnyr.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Hydro DMG Bonus +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+          }
+       ]
+    },
+    {
+       "id":"husk-of-opulent-dreams",
+       "name":"Husk of Opulent Dreams",
+       "description":"Husk of Opulent Dreams is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Slumbering Court.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"DEF +30%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.\nWhen off the field, the character gains 1 stack ever 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+          }
+       ]
+    },
+    {
+       "id":"initiate",
+       "name":"Initiate",
+       "description":"Initiate is an artifact set that is only available on Trial Characters in Story Domains. There are only the Flower of Life and Plume of Death pieces and does not have a 2-Piece Bonus.",
+       "maxRarity":1
+    },
+    {
+       "id":"instructor",
+       "name":"Instructor",
+       "description":"Instructor is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Elite Enemies, Anemo Hypostasis, Electro Hypostasis, Pyro Regisvine, Geo Hypostasis, and Primo Geovishap.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Increases Elemental Mastery by 80."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s."
+          }
+       ]
+    },
+    {
+       "id":"lavawalker",
+       "name":"Lavawalker",
+       "description":"Lavawalker is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Hidden Palace of Zhou Formula.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Pyro RES increased by 40%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases DMG against enemies that are Burning or affected by Pyro by 35%."
+          }
+       ]
+    },
+    {
+       "id":"lucky-dog",
+       "name":"Lucky Dog",
+       "description":"Lucky Dog is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Domain of Guyun, Zhang Shun, Chests, Investigation, Anemo Hypostasis, Cryo Regisvine, and Cryo Hypostasis.",
+       "maxRarity":3,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"DEF increased by 100."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Picking up Mora restores 300 HP."
+          }
+       ]
+    },
+    {
+       "id":"maiden-beloved",
+       "name":"Maiden Beloved",
+       "description":"Maiden Beloved is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Valley of Remembrance.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Character Healing Effectiveness +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+          }
+       ]
+    },
+    {
+       "id":"martial-artist",
+       "name":"Martial Artist",
+       "description":"Martial Artist is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Hidden Palace of Zhou Formula and Ridge Watch.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Increases Normal Attack and Charged Attack DMG by 15%."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+          }
+       ]
+    },
+    {
+       "id":"noblesse-oblige",
+       "name":"Noblesse Oblige",
+       "description":"Noblesse Oblige is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Clear Pool and Mountain Cavern.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Elemental Burst DMG +20%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Using an Elemental Burst increase all party memebers' ATK by 20% for 12s. This effect cannot stack."
+          }
+       ]
+    },
+    {
+       "id":"ocean-hued-clam",
+       "name":"Ocean-Hued Clam",
+       "description":"Ocean-Hued Clam is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Slumbering Court.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Healing Bonus +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+          }
+       ]
+    },
+    {
+       "id":"pale-flame",
+       "name":"Pale Flame",
+       "description":"Pale Flame is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Ridge Watch.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Physical DMG +25%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+          }
+       ]
+    },
+    {
+       "id":"prayers-for-destiny",
+       "name":"Prayers for Destiny",
+       "description":"Prayers for Destiny is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Oceanid, Primo Geovishap, and Hydro Hypostasis.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"One Piece Bonus",
+             "effect":"Affected by Hydro for 40% less time."
+          }
+       ]
+    },
+    {
+       "id":"prayers-for-illumination",
+       "name":"Prayers for Illumination",
+       "description":"Prayers for Illumination is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Pyro Regisvine, Primo Geovishap, and Pyro Hypostasis.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"One Piece Bonus",
+             "effect":"Affected by Pyro for 40% less time."
+          }
+       ]
+    },
+    {
+       "id":"prayers-to-springtime",
+       "name":"Prayers to Springtime",
+       "description":"Prayers to Springtime is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Cryo Regisvine, Cryo Hypostasis, Primo Geovishap, and the Perpetual Mechanical Array.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"One Piece Bonus",
+             "effect":"Affected by Cryo for 40% less time."
+          }
+       ]
+    },
+    {
+       "id":"prayers-for-wisdom",
+       "name":"Prayers for Wisdom",
+       "description":"Prayers for Wisdom is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Electro Hypostasis, Primo Geovishap, and Thunder Manifestation.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"One Piece Bonus",
+             "effect":"Affected by Electro for 40% less time."
+          }
+       ]
+    },
+    {
+       "id":"resolution-of-sojourner",
+       "name":"Resolution of Sojourner",
+       "description":"Resolution of Sojourner is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Midsummer Courtyard, Adventurer Handbook, and Adventure Rank Rewards.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"ATK +18%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Charged Attack CRIT Rate by 30%."
+          }
+       ]
+    },
+    {
+       "id":"retracing-bolide",
+       "name":"Retracing Bolide",
+       "description":"Retracing Bolide is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Domain of Guyun.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Increases Shield Strength by 35%."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+          }
+       ]
+    },
+    {
+       "id":"scholar",
+       "name":"Scholar",
+       "description":"Scholar is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Clear Pool and Mountain Cavern and Adventure Rank Rewards.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Elemental Mastery +80"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+          }
+       ]
+    },
+    {
+       "id":"shimenawasreminiscence",
+       "name":"Shimenawa's Reminiscence",
+       "description":"Shimenawa's Reminiscence (Japanese: 追つい憶おくのしめ縄なわ tsuioku no shimenawa)[1] is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Momiji-Dyed Court in Inazuma.",
+       "maxRarity:":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"ATK +18%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+          }
+       ]
+    },
+    {
+       "id":"the-exile",
+       "name":"The Exile",
+       "description":"The Exile, also called Legacy in the Adventurer Handbook, is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Elite Enemies, Domain Reliquary: Tier III, Domain Reliquary: Tier II, Electro Hypostasis, Cryo Hypostasis, Cryo Regisvine, Oceanid, Geo Hypostasis, Primo Geovishap, and Chests.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Energy Recharge +20%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+          }
+       ]
+    },
+    {
+       "id":"tenacity-of-the-millelith",
+       "name":"Tenacity of the Millelith",
+       "description":"Tenacity of the Millelith is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Ridge Watch.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"HP +20%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+          }
+       ]
+    },
+    {
+       "id":"thundering-fury",
+       "name":"Thundering Fury",
+       "description":"Thundering Fury is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Midsummer Courtyard.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Electro DMG Bonus +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+          }
+       ]
+    },
+    {
+       "id":"thundersoother",
+       "name":"Thundersoother",
+       "description":"Thundersoother is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Midsummer Courtyard.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Electro RES increased by 40%."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases DMG against opponents affected by Electro by 35%."
+          }
+       ]
+    },
+    {
+       "id":"tiny-miracle",
+       "name":"Tiny Miracle",
+       "description":"Tiny Miracle is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Valley of Remembrance and Momiji-Dyed Court.",
+       "maxRarity":4,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"All Elemental RES increased by 20%."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+          }
+       ]
+    },
+    {
+       "id":"traveling-doctor",
+       "name":"Traveling Doctor",
+       "description":"Traveling Doctor is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Valley of Remembrance, Chests, Elite Enemies, Investigation, Xigu Antiques, Electro Hypostasis and Geo Hypostasis.",
+       "maxRarity":3,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Increases incoming healing by 20%."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Using Elemental Burst restores 20% HP."
+          }
+       ]
+    },
+    {
+       "id":"viridescent-venerer",
+       "name":"Viridescent Venerer",
+       "description":"Viridescent Venerer is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Valley of Remembrance.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Anemo DMG Bonus +15%"
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+          }
+       ]
+    },
+    {
+       "id":"wanderers-troupe",
+       "name":"Wanderer's Troupe",
+       "description":"Wanderer's Troupe is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Bosses at World Level 2 and above.",
+       "maxRarity":5,
+       "pieceBonuses":[
+          {
+             "type":"Two Piece Bonus",
+             "effect":"Increases Elemental Mastery by 80."
+          },
+          {
+             "type":"Four Piece Bonus",
+             "effect":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+          }
+       ]
+    }
+ ]
