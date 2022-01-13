@@ -12,9 +12,7 @@ module.exports = class extends Event {
 		console.log([
 			`Logged in as ${this.client.user.tag}`,
 			`Cached ${this.client.characters.size} characters`,
-			`Cached ${this.client.weapons.size} weapons`,
-			`Cached ${this.client.artifacts.size} artifact sets`,
-			`Cached ${this.client.artifacts.map(art => art).flat().length} artifacts`
+			`Cached ${this.client.weapons.size} weapons`
 		].join('\n'));
 
 
