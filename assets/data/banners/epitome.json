@@ -1,0 +1,80 @@
+{
+    "bannerName": "Epitome Invocation",
+    "image": "epitome",
+    "gachaPool": [
+        {
+            "rarity": 3,
+            "type": "weapon",
+            "chance": 90.3,
+            "weaponPool": [
+                "Raven Bow",
+                "Sharpshooter's Oath",
+                "Slingshot",
+                "Emerald Orb",
+                "Magic Guide",
+                "Thrilling Tales of Dragon Slayers",
+                "Bloodtainted Greatsword",
+                "Debate Club",
+                "Ferrous Shadow",
+                "Black Tassel",
+                "Cool Steel",
+                "Harbinger Of Dawn",
+                "Skyrider Sword"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "weapon",
+            "chance": 4.2,
+            "weaponPool": [
+                "Favonius Warbow",
+                "Rust",
+                "Sacrificial Bow",
+                "Eye of Perception",
+                "Favonius Codex",
+                "Favonius Greatsword",
+                "Sacrificial Fragments",
+                "Rainslasher",
+                "Dragon's Bane",
+                "Favonius Sword",
+                "Lion's Roar",
+                "Sacrificial Sword"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 3.6,
+            "characterPool": [
+                "Sucrose",
+                "Chongyun",
+                "Beidou",
+                "Fischl",
+                "Razor",
+                "Ningguang",
+                "Noelle",
+                "Barbara",
+                "Xingqiu",
+                "Bennett",
+                "Xiangling"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "weapon",
+            "chance": 0.8,
+            "weaponPool": [
+                "Amos' Bow",
+                "Skyward Harp",
+                "Lost Prayer to the Sacred Winds",
+                "Skyward Atlas",
+                "Skyward Pride",
+                "Wolf's Gravestone",
+                "Primordial Jade Winged-Spear",
+                "Skyward Spine",
+                "Aquila Favonia",
+                "Skyward Blade"
+            ]
+        }
+    ]
+}
