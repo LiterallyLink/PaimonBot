@@ -170,7 +170,7 @@ module.exports = class Util {
 		}
 
 		const clientID = '809302717843111946';
-		const guildID = '804190768591405116';
+		const guildID = '866509260925567006';
 		const rest = new REST({ version: '9' }).setToken(token);
 		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
