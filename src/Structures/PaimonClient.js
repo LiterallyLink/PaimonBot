@@ -1,5 +1,8 @@
 const { Client, Collection, Intents } = require('discord.js');
 const Util = require('./Utilities/Util.js');
+const Canvas = require('./Utilities/Canvas');
+const Database = require('./Utilities/Database');
+const Economy = require('./Utilities/Economy');
 
 module.exports = class PaimonClient extends Client {
 
@@ -15,6 +18,7 @@ module.exports = class PaimonClient extends Client {
 
 		this.slashCommands = new Collection();
 		this.events = new Collection();
+
 		this.characters = new Collection();
 		this.artifacts = new Collection();
 		this.consumables = new Collection();
@@ -23,7 +27,11 @@ module.exports = class PaimonClient extends Client {
 		this.materials = new Collection();
 		this.nations = new Collection();
 		this.weapons = 	new Collection();
+
 		this.utils = new Util(this);
+		this.canvas = new Canvas(this);
+		this.database = new Database(this);
+		this.economy = new Economy(this);
 		this.mongoose = require('./Mongo');
 	}
 
