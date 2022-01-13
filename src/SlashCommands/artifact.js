@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
-const emote = require('../../assets/emotes.json');
+const { MessageEmbed, MessageAttachment } = require('discord.js');
 const stringSimilarity = require('string-similarity');
+const artifactSetList = require('../../assets/data/artifacts/artifacts.json');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -10,82 +10,43 @@ module.exports = {
 		.addStringOption(option =>
 			option
 				.setName('name')
-				.setDescription('The name of the artifact set.'))
-		.addStringOption(option =>
-			option
-				.setName('type')
-				.setDescription('The artifact\'s type.')
-				.addChoices([
-					['Flower of Life', 'Flower of Life'],
-					['Plume of Death', 'Plume of Death'],
-					['Sands of Eon', 'Sands of Eon'],
-					['Goblet of Eonothem', 'Goblet of Eonothem'],
-					['Circlet of Logos', 'Circlet of Logos']
-				]))
-		.addStringOption(option =>
-			option
-				.setName('rarity')
-				.setDescription('The rarity of the characters.')
-				.addChoices([
-					['⭐', '1'],
-					['⭐⭐', '2'],
-					['⭐⭐⭐', '3'],
-					['⭐⭐⭐⭐', '4'],
-					['⭐⭐⭐⭐⭐', '5']
-				])),
-	async run({ paimonClient, application }) {
-		let artifactName = application.options.getString('name');
-		const artifactRarity = application.options.getString('rarity');
-		const artifactType = application.options.getString('type');
-		const artifactList = paimonClient.artifacts;
+				.setDescription('The name of the artifact set.')),
+	async run({ application }) {
+		const artifactName = application.options.getString('name');
+
 		if (artifactName) {
-			artifactName = artifactName.toLowerCase();
-			const artifactGuess = stringSimilarity.findBestMatch(artifactName, Array.from(artifactList.keys())).bestMatch.target;
-			const artifact = artifactList.get(artifactGuess)[0];
-			const starRarity = Array(artifact.artifactSet.maxRarity).fill('⭐').join('');
+			const artifactGuess = stringSimilarity.findBestMatch(artifactName, artifactSetList.map(artifact => artifact.name)).bestMatch.target;
+			const artifact = artifactSetList.find(art => art.name === artifactGuess);
+
+			const { name, description, maxRarity, id } = artifact;
+			const starRarity = Array(maxRarity).fill('⭐').join('');
+
+			const artifactImage = new MessageAttachment(`.\\assets\\images\\artifacts\\${id}.png`, `${id}.png`);
 
 			const artifactEmbed = new MessageEmbed()
-				.setTitle(artifact.name)
-				.setThumbnail(artifact.image)
-				.setDescription(`Obtainable from ${artifact.location}\n\n${artifact.description}` || 'No description available.')
-				.addField('2 Piece Bonus', `${artifact.artifactSet.twoPieceBonus}`, true)
-				.addField('4 Piece Bonus', `${artifact.artifactSet.fourPieceBonus}`, true)
+				.setTitle(`${name} Set`)
+				.setDescription(description)
+				.setThumbnail(`attachment://${id}.png`)
 				.addField('Max Rarity', `${starRarity}`, true)
 				.setColor('WHITE');
-			return application.followUp({ embeds: [artifactEmbed] });
-		} else if (artifactRarity || artifactType) {
-			let weaponTitle = '';
-			let mappedArtifactList = artifactList.map(art => art).flat();
 
-			if (artifactRarity) {
-				weaponTitle += `${artifactRarity} Star`;
-				mappedArtifactList = mappedArtifactList.filter(art => `${art.rarity}` === artifactRarity);
+			if (artifact.pieceBonuses) {
+				for (let i = 0; i < artifact.pieceBonuses.length; i++) {
+					artifactEmbed.addField(`${artifact.pieceBonuses[i].type}`, `${artifact.pieceBonuses[i].effect}`, true);
+				}
 			}
 
-			if (artifactType) {
-				weaponTitle += ` ${artifactType}`;
-				mappedArtifactList = mappedArtifactList.filter(art => art.type === artifactType);
-			}
+			return application.followUp({ embeds: [artifactEmbed], files: [artifactImage] });
+		} else {
+			const artifactSetNames = artifactSetList.map(artifact => artifact.name).join('\n');
+			const artifactThumbnail = new MessageAttachment(`.\\assets\\images\\artifacts\\strongbox.png`, `strongbox.png`);
 
-			const filteredArtifactsEmbed = new MessageEmbed()
-				.setTitle(`${weaponTitle} Artifacts`)
-				.setThumbnail(mappedArtifactList[0].image)
-				.setDescription(`${mappedArtifactList.map(art => `${art.rarity}⭐ ${emote[art.type.split(' ')[0].toLowerCase()]} ${art.name}`).join('\n')}`)
+			const artifactEmbed = new MessageEmbed()
+				.setTitle('Artifact Set List')
+				.setThumbnail(`attachment://strongbox.png`)
+				.setDescription(`For information on an artifact set.\nType \`/artifact <name>\`\n\n${artifactSetNames}`)
 				.setColor('WHITE');
-			return application.followUp({ embeds: [filteredArtifactsEmbed] });
+			return application.followUp({ embeds: [artifactEmbed], files: [artifactThumbnail] });
 		}
-
-		const artifactEmbed = new MessageEmbed()
-			.setTitle('Artifact Help')
-			.setDescription('To search for an artifact set.\nType `/artifact <name>`\nTo filter for certain artifacts.\nType `/artifact <type> or <rarity>`')
-			.setColor('WHITE');
-
-		const artifactTypeList = [...new Set(artifactList.map(art => art).flat().map(art => art.type))];
-
-		for (let i = 0; i < artifactTypeList.length; i++) {
-			artifactEmbed.addField(`${emote[artifactTypeList[i].split(' ')[0].toLowerCase()]} ${artifactTypeList[i]}`, `ass`, true);
-		}
-
-		return application.followUp({ embeds: [artifactEmbed] });
 	}
 };
