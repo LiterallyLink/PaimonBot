@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Default",
+        "embedColor": "#44586C",
+        "topBar": "#8fb3c6",
+        "bottomBar": "#44586C",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelStroke": "#44586C",
+        "rankAndLevelBars": "#8fb3c6"
+
+    },
+    {
+        "name": "The Winds' Course",
+        "embedColor": "#22858a",
+        "topBar": "#76dedf",
+        "bottomBar": "#17898a",
+        "profileBackdrop": "#c7e7d7",
+        "rankAndLevelStroke": "#c7e7d7",
+        "rankAndLevelBars": "#67c5b4"
+    },
+    {
+        "name": "Pavo Ocellus",
+        "embedColor": "#6281ba",
+        "topBar": "#a7d4e4",
+        "bottomBar": "#446b9b",
+        "profileBackdrop": "#749ed4",
+        "rankAndLevelStroke": "#b4d5ff",
+        "rankAndLevelBars": "#749ed4"
+    },
+    {
+        "name": "Ice Sealed",
+        "embedColor": "#628ba4",
+        "topBar": "#a7d4e4",
+        "bottomBar": "#44586C",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelStroke": "#44586C",
+        "rankAndLevelBars": "#8fb3c6"
+    },
+    {
+        "name": "Cold Storage",
+        "embedColor": "#4482a4",
+        "topBar": "#6cb8bf",
+        "bottomBar": "#34719f",
+        "profileBackdrop": "#6cb8bf",
+        "rankAndLevelStroke": "#5aadb6",
+        "rankAndLevelBars": "#34719f"
+    },
+    {
+        "name": "Wolvensprint",
+        "embedColor": "#644c9d",
+        "topBar": "#bba9f3",
+        "bottomBar": "#49377e",
+        "profileBackdrop": "#443b61",
+        "rankAndLevelStroke": "#c3afff",
+        "rankAndLevelBars": "#443b61"
+    },
+    {
+        "name": "Baron Bunny",
+        "embedColor": "#b16750",
+        "topBar": "#ffbea1",
+        "bottomBar": "#be6943",
+        "profileBackdrop": "#b16750",
+        "rankAndLevelStroke": "#f0ba65",
+        "rankAndLevelBars": "#be6943"
+    },
+    {
+        "name": "Flames",
+        "embedColor": "#a65a38",
+        "topBar": "#e8a357",
+        "bottomBar": "#a65a38",
+        "profileBackdrop": "#b16750",
+        "rankAndLevelStroke": "#f0ba65",
+        "rankAndLevelBars": "#c37b5d"
+    },
+    {
+        "name": "Explosive",
+        "embedColor": "#b16750",
+        "topBar": "#d19c80",
+        "bottomBar": "#9c4c34",
+        "profileBackdrop": "#b16750",
+        "rankAndLevelStroke": "#d29b7f",
+        "rankAndLevelBars": "#9c4c34"
+    },
+    {
+        "name": "Catch the Wind",
+        "embedColor": "#5ba8a7",
+        "topBar": "#a2d7d0",
+        "bottomBar": "#396e86",
+        "profileBackdrop": "#b16750",
+        "rankAndLevelStroke": "#7ac3c4",
+        "rankAndLevelBars": "#4c8c84"
+    },
+    {
+        "name": "Azure Sky",
+        "embedColor": "#7fccc5",
+        "topBar": "#79c3c4",
+        "bottomBar": "#3d7d7c",
+        "profileBackdrop": "#3d7d7c",
+        "rankAndLevelStroke": "#7fccc5",
+        "rankAndLevelBars": "#3d7d7c"
+    },
+    {
+        "name": "Foul Legacy",
+        "embedColor": "#a46f6c",
+        "topBar": "#c69a93",
+        "bottomBar": "#d9b789",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelStroke": "#d9b789",
+        "rankAndLevelBars": "#a46f6c"
+    },
+    {
+        "name": "Spirit Soother",
+        "embedColor": "#ecac8d",
+        "topBar": "#e09577",
+        "bottomBar": "#ac6c63",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelStroke": "#ecac8d",
+        "rankAndLevelBars": "#e47a62"
+    },
+    {
+        "name": "Sun Blossom",
+        "embedColor": "#ceaea2",
+        "topBar": "#c69a93",
+        "bottomBar": "#d9b789",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelBars": "#a46f6c",
+        "rankAndLevelStroke": "#ceaea2"
+    },
+    {
+        "name": "Fresh From The Pan",
+        "embedColor": "#f6be58",
+        "topBar": "#dbab4b",
+        "bottomBar": "#a45b1e",
+        "profileBackdrop": "#829EAC",
+        "rankAndLevelBars": "#d5634c",
+        "rankAndLevelStroke": "#fff7a4"
+    },
+    {
+        "name": "Tengu",
+        "embedColor": "#644972",
+        "topBar": "#bf97c4",
+        "bottomBar": "#644972",
+        "profileBackdrop": "#0e5279",
+        "rankAndLevelStroke": "#c4729a",
+        "rankAndLevelBars": "#644972"
+    },
+    {
+        "name": "Flow",
+        "embedColor": "#246b94",
+        "topBar": "#88c3d7",
+        "bottomBar": "#1a678f",
+        "profileBackdrop": "#0e5279",
+        "rankAndLevelStroke": "#88c3d7",
+        "rankAndLevelBars": "#0e5279"
+    },
+    {
+        "name": "Autumn Maple-Viewing",
+        "embedColor": "#789587",
+        "topBar": "#ac9e85",
+        "bottomBar": "#4d5d5b",
+        "profileBackdrop": "#7b8678",
+        "rankAndLevelStroke": "#ac9e85",
+        "rankAndLevelBars": "#9f7562"
+    }
+]
