@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
+const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = require('discord.js');
 const { invite } = require('../../config.json');
 
 module.exports = {
@@ -16,9 +16,11 @@ module.exports = {
 					.setStyle('LINK')
 			);
 
+		const attachment = new MessageAttachment('.\\assets\\images\\paimon\\paimonInvite.png', 'paimonInvite.png');
+
 		const inviteEmbed = new MessageEmbed()
-			.setImage('https://i.ibb.co/h2cF80P/E4ww-Ozi-XEAIvoe4.png')
+			.setImage(`attachment://${attachment.name}`)
 			.setColor('WHITE');
-		return application.followUp({ embeds: [inviteEmbed], components: [invButton] });
+		return application.followUp({ embeds: [inviteEmbed], components: [invButton], files: [attachment] });
 	}
 };
