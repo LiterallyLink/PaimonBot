@@ -99,18 +99,18 @@ module.exports = class Util {
 	}
 
 	async loadCharacters() {
-		const { body } = await request.get('https://impact.moe/api/characters?expand=talents,constellations,roles,overview');
+		const characterlist = require('../../../assets/data/characters/characters.json');
 
-		for (let i = 0; i < body.length; i++) {
-			this.client.characters.set(body[i].id, body[i]);
+		for (let i = 0; i < characterlist.length; i++) {
+			this.client.characters.set(characterlist[i].id, characterlist[i]);
 		}
 	}
 
 	async loadWeapons() {
-		const { body } = await request.get('https://impact.moe/api/weapons');
+		const weaponList = require ('../../../assets/data/weapons/weapons.json');
 
-		for (let i = 0; i < body.length; i++) {
-			this.client.weapons.set(body[i].id, body[i]);
+		for (let i = 0; i < weaponList.length; i++) {
+			this.client.weapons.set(weaponList[i].id, weaponList[i]);
 		}
 	}
 
@@ -170,7 +170,7 @@ module.exports = class Util {
 		}
 
 		const clientID = '809302717843111946';
-		const guildID = '866509260925567006';
+		const guildID = '804190768591405116';
 		const rest = new REST({ version: '9' }).setToken(token);
 		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
