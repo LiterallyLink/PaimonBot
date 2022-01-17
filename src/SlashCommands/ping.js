@@ -14,7 +14,7 @@ module.exports = {
 
 		const pingResponseEmbed = new MessageEmbed()
 			.setThumbnail(`attachment://${attachment.name}`)
-			.setDescription(`Bot Latency: \`${msg.createdTimestamp - application.createdTimestamp}\`ms\nWS Latency: ${apiLatency}\n Uptime: ${uptime}`)
+			.setDescription(`Bot Latency: \`${msg.createdTimestamp - application.createdTimestamp}ms\`\nWS Latency: ${apiLatency}\n Uptime: ${uptime}`)
 			.setColor('WHITE');
 		return application.editReply({ content: '_ _', embeds: [pingResponseEmbed], files: [attachment] });
 	}
