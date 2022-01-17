@@ -1,6 +1,7 @@
 {
     "bannerName": "Epitome Invocation",
     "image": "epitome",
+    "emote": "<:acquaintfate:929290333475471390>",
     "gachaPool": [
         {
             "rarity": 3,
@@ -25,38 +26,21 @@
         {
             "rarity": 4,
             "type": "weapon",
-            "chance": 4.2,
+            "chance": 3,
             "weaponPool": [
-                "Favonius Warbow",
                 "Rust",
                 "Sacrificial Bow",
+                "The Stringless",
                 "Eye of Perception",
                 "Favonius Codex",
-                "Favonius Greatsword",
                 "Sacrificial Fragments",
                 "Rainslasher",
+                "Sacrificial Greatsword",
+                "The Bell",
                 "Dragon's Bane",
-                "Favonius Sword",
+                "Favonius Lance",
                 "Lion's Roar",
                 "Sacrificial Sword"
-            ]
-        },
-        {
-            "rarity": 4,
-            "type": "character",
-            "chance": 3.6,
-            "characterPool": [
-                "Sucrose",
-                "Chongyun",
-                "Beidou",
-                "Fischl",
-                "Razor",
-                "Ningguang",
-                "Noelle",
-                "Barbara",
-                "Xingqiu",
-                "Bennett",
-                "Xiangling"
             ]
         },
         {
@@ -70,10 +54,56 @@
                 "Skyward Atlas",
                 "Skyward Pride",
                 "Wolf's Gravestone",
-                "Primordial Jade Winged-Spear",
                 "Skyward Spine",
                 "Aquila Favonia",
                 "Skyward Blade"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 3.6,
+            "characterPool": [
+                "Sayu",
+                "Sucrose",
+                "Chongyun",
+                "Diona",
+                "Rosaria",
+                "Beidou",
+                "Fischl",
+                "Kujou Sara",
+                "Razor",
+                "Gorou",
+                "Ningguang",
+                "Noelle",
+                "Barbara",
+                "Xingqiu",
+                "Bennett",
+                "Thoma",
+                "Xiangling",
+                "Xinyan",
+                "Yanfei"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "weapon",
+            "chance": 4,
+            "weaponPool": [
+                "Lithic Spear",
+                "The Flute",
+                "Favonius Greatsword",
+                "The Widsith",
+                "Favonius Warbow"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "weapon",
+            "chance": 1.2,
+            "weaponPool": [
+                "Calamity Queller",
+                "Primordial Jade Winged-Spear"
             ]
         }
     ]
