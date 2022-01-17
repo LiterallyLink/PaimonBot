@@ -1,12 +1,12 @@
 {
-    "bannerName": "Wanderlust Invocation",
-    "image": "wanderlust",
-    "emote": "<:acquaintfate:929290333475471390>",
+    "bannerName": "The Transcendent One Returns",
+    "image": "transcendent",
+    "emote": "<:intertwinedfate:931798527988883516>",
     "gachaPool": [
         {
             "rarity": 3,
             "type": "weapon",
-            "chance": 90.3,
+            "chance": 94.3,
             "weaponPool": [
                 "Raven Bow",
                 "Sharpshooter's Oath",
@@ -26,7 +26,7 @@
         {
             "rarity": 4,
             "type": "weapon",
-            "chance": 4.2,
+            "chance": 1.77,
             "weaponPool": [
                 "Favonius Warbow",
                 "Rust",
@@ -36,6 +36,7 @@
                 "Favonius Codex",
                 "Sacrificial Fragments",
                 "The Widsith",
+                "Favonius Greatsword",
                 "Rainslasher",
                 "Sacrificial Greatsword",
                 "The Bell",
@@ -50,21 +51,14 @@
         {
             "rarity": 4,
             "type": "character",
-            "chance": 3.6,
+            "chance": 3.3,
             "characterPool": [
                 "Sayu",
                 "Sucrose",
-                "Chongyun",
                 "Diona",
-                "Kaeya",
-                "Rosaria",
-                "Beidou",
-                "Fischl",
                 "Kujou Sara",
-                "Lisa",
                 "Razor",
                 "Gorou",
-                "Ningguang",
                 "Noelle",
                 "Barbara",
                 "Xingqiu",
@@ -78,31 +72,32 @@
         },
         {
             "rarity": 5,
-            "type": "weapon",
-            "chance": 0.8,
-            "weaponPool": [
-                "Amos' Bow",
-                "Skyward Harp",
-                "Lost Prayer to the Sacred Winds",
-                "Skyward Atlas",
-                "Skyward Pride",
-                "Wolf's Gravestone",
-                "Primordial Jade Winged-Spear",
-                "Skyward Spine",
-                "Aquila Favonia",
-                "Skyward Blade"
-            ]
-        },
-    {
-            "rarity": 5,
             "type": "character",
-            "chance": 0.8,
+            "chance": 0.6,
             "characterPool": [
                 "Jean",
                 "Qiqi",
                 "Keqing",
                 "Mona",
                 "Diluc"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 3.3,
+            "characterPool": [
+                "Yun Jin",
+                "Ningguang",
+                "Chongyun"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "character",
+            "chance": 0.6,
+            "characterPool": [
+                "Shenhe"
             ]
         }
     ]
