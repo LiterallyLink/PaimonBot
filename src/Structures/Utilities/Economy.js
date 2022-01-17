@@ -6,7 +6,7 @@ module.exports = class Economy {
 		this.client = client;
 	}
 
-	async modifyCurrency(userID, amount, type, operation) {
+	async modifyCurrency(userID, amount, operation) {
 		let userProfile = await Player.findOne({ userId: userID });
 
 		if (!userProfile) {
@@ -14,9 +14,9 @@ module.exports = class Economy {
 		}
 
 		if (operation === 'add') {
-			userProfile[type] += amount;
+			userProfile.mora += amount;
 		} else if (operation === 'subtract') {
-			userProfile[type] -= amount;
+			userProfile.mora -= amount;
 		}
 
 		userProfile.lastUpdated = Date.now();
@@ -25,8 +25,7 @@ module.exports = class Economy {
 	}
 
 	async daily(userID) {
-		await this.modifyCurrency(userID, 160, 'primogems', 'add');
-		await this.modifyCurrency(userID, 20000, 'mora', 'add');
+		await this.modifyCurrency(userID, 20000, 'add');
 
 		const userProfile = await Player.findOne({ userId: userID });
 		userProfile.dailyLastClaimedAt = Date.now();
