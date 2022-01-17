@@ -1,8 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
+const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = require('discord.js');
 const emote = require('../../assets/emotes.json');
-const elementalData = require('../../assets/elementalData.json');
-const { reactionData } = elementalData;
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -20,96 +18,101 @@ module.exports = {
 					['Electro', 'Electro'],
 					['Anemo', 'Anemo']
 				])),
-	async run({ application }) {
+	async run({ paimonClient, application }) {
 		const vision = application.options.getString('vision');
 
 		if (vision) {
+			const { description, reactions } = paimonClient.elements.get(vision);
+			const attachment = new MessageAttachment(`.\\assets\\images\\elements\\${vision}.png`, `${vision}.png`);
+
 			const optionRow = new MessageActionRow()
 				.addComponents(
 					new MessageButton()
-						.setCustomId('characters')
-						.setLabel(`${vision} Characters`)
-						.setStyle('PRIMARY'),
+						.setCustomId('back')
+						.setLabel('Back')
+						.setStyle('PRIMARY')
+						.setDisabled(true)
+				)
+				.addComponents(
 					new MessageButton()
 						.setCustomId('reactions')
 						.setLabel('Reactions')
-						.setStyle('PRIMARY'),
+						.setStyle('PRIMARY')
+				)
+				.addComponents(
 					new MessageButton()
 						.setCustomId('delete')
 						.setLabel('🗑️')
 						.setStyle('PRIMARY')
 				);
 
-			const element = elementalData[vision.toLowerCase()];
-
-			const visionTypeEmbed = new MessageEmbed()
-				.setTitle(`${vision} Vision Information`)
-				.setThumbnail(element.image)
-				.setDescription(element.description)
+			const elementEmbed = new MessageEmbed()
+				.setTitle(`${vision} Element Information`)
+				.setThumbnail(`attachment://${attachment.name}`)
+				.setDescription(description)
 				.setColor('WHITE');
-			const visionMsg = await application.followUp({ embeds: [visionTypeEmbed], components: [optionRow] });
+			const msg = await application.followUp({ embeds: [elementEmbed], files: [attachment], components: [optionRow] });
 
 			const filter = i => i.user.id === application.user.id;
-			const collector = visionMsg.createMessageComponentCollector({ filter, time: 300000 });
+			const collector = msg.createMessageComponentCollector({ filter, time: 300000 });
 
 			return collector.on('collect', async i => {
 				i.deferUpdate();
-				const choice = i.customId;
+				const { customId } = i;
 
-				if (choice === 'delete') {
+				if (customId === 'delete') {
 					collector.stop();
-					visionMsg.delete().catch(() => null);
+					msg.delete().catch(() => null);
 				}
 
-				if (choice === 'characters') {
-					const characterVisionEmbed = new MessageEmbed()
-						.setTitle(`${vision} Vision Characters`)
+				if (customId === 'reactions') {
+					optionRow.components[0].setDisabled(false);
+					optionRow.components[1].setDisabled(true);
+
+					const filteredReactions = paimonClient.reactions.filter(reaction => reactions.includes(reaction.name));
+
+					const reactionEmbed = new MessageEmbed()
+						.setTitle(`${vision} Element Reactions`)
+						.setThumbnail(`attachment://${attachment.name}`)
 						.setColor('WHITE');
-					await visionMsg.edit({ embeds: [characterVisionEmbed] });
-				}
 
-				if (choice === 'reactions') {
-					const reactionsEmbed = new MessageEmbed()
-						.setTitle(`${vision} Vision Reactions`)
-						.setColor('WHITE');
-
-					for (let j = 0; j < element.reactions.length; j++) {
-						const { elementalFormula, initialElement, name, description } = reactionData.find(react => react.name === element.reactions[j]);
-						let reactionElementArray;
-
-						if (vision === 'Geo' || vision === 'Anemo' || !initialElement) {
-							reactionElementArray = elementalFormula;
-						} else {
-							reactionElementArray = [initialElement, vision.toLowerCase()];
-						}
-
-						reactionsEmbed.addField(`${name}\n${this.formatEmojis(reactionElementArray)}`, `${description}`, true);
+					for (const [key, value] of filteredReactions) {
+						reactionEmbed.addField(`${key}`, `${this.formatEmojis(value.elementalFormula)}\n${value.description}`, true);
 					}
 
-					await visionMsg.edit({ embeds: [reactionsEmbed] });
+					msg.edit({ embeds: [reactionEmbed], files: [attachment], components: [optionRow] });
+				}
+
+				if (customId === 'back') {
+					optionRow.components[0].setDisabled(true);
+					optionRow.components[1].setDisabled(false);
+
+					msg.edit({ embeds: [elementEmbed], files: [attachment], components: [optionRow] });
 				}
 			});
-		}
+		} else {
+			const elementalReactionEmbed = new MessageEmbed()
+				.setTitle('Elemental Reactions')
+				.setColor('WHITE');
 
-		const elementalReactionEmbed = new MessageEmbed()
-			.setTitle('Elemental Reactions')
-			.setThumbnail('https://i.ibb.co/HD4gKwc/Icon-Elemental-Sight.png')
-			.setColor('WHITE');
+			for (const [key, value] of paimonClient.reactions) {
+				elementalReactionEmbed.addField(`${key}`, `${this.formatEmojis(value.elementalFormula)}\n${value.description}`, true);
+			}
 
-		for (let i = 0; i < reactionData.length; i++) {
-			const { name, description, elementalFormula } = reactionData[i];
-			elementalReactionEmbed.addField(`${name}\n${this.formatEmojis(elementalFormula)}`, `${description}`, true);
+			return application.followUp({ embeds: [elementalReactionEmbed] });
 		}
-		return application.followUp({ embeds: [elementalReactionEmbed] });
 	},
 
-	formatEmojis(elementsArray) {
-		let formattedEmojis = '';
+	formatEmojis(elementalFormula) {
+		let emojiString = '';
 
-		for (let i = 0; i < elementsArray.length; i++) {
-			formattedEmojis += `${emote[elementsArray[i]]}`;
+		for (let i = 0; i < elementalFormula.length; i++) {
+			const element = elementalFormula[i];
+			const emoji = emote[element];
+
+			emojiString += `${emoji} `;
 		}
 
-		return formattedEmojis;
+		return emojiString;
 	}
 };
