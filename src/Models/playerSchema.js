@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const playerSchema = new mongoose.Schema({
 	userId: { type: String, required: true },
 	mora: { type: Number, default: 0 },
-	primogems: { type: Number, default: 0 },
 	fishingRod: { type: String, default: 'Wilderness Rod' },
 	adventureRank: { type: Number, default: 1 },
 	adventureRankEXP: { type: Number, default: 0 },
