@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Swirl",
+        "elementalFormula": ["pyro", "hydro", "electro", "cryo", "anemo"],
+        "description": "When Anemo meets certain other elements, it can trigger Swirl. Swirl can deal elemental DMG, affect beings, and generate further Elemental Reactions."
+    },
+    {
+        "name": "Melt",
+        "elementalFormula": ["pyro", "cryo"],
+        "description": "When Cryo meets Pyro, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs. Melt itself does not inflict DMG. However, the Pyro or Cryo attack that triggers Melt deals increased DMG."
+    },
+    {
+        "name": "Frozen",
+        "elementalFormula": ["hydro", "cryo"],
+        "description": "When Cryo meets Hydro, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
+    },
+    {
+        "name": "Superconduct",
+        "elementalFormula": ["electro", "cryo"],
+        "description": "When Cryo meets Electro, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
+    },
+    {
+        "name": "Burning",
+        "elementalFormula": ["pyro", "dendro"],
+        "description": "When Dendro meets Pyro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
+    },
+    {
+        "name": "Overloaded",
+        "elementalFormula": ["electro", "pyro"],
+        "description": "When Electro meets Pyro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
+    },
+    {
+        "name": "Electro Charged",
+        "elementalFormula": ["electro", "hydro"],
+        "description": "When Electro meets Hydro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off. Electricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
+    },
+    {
+        "name": "Crystallize",
+        "elementalFormula": ["hydro", "electro", "cryo", "pyro", "geo"],
+        "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystalize will be triggered!"
+    },
+    {
+        "name": "Vaporize",
+        "elementalFormula": ["hydro", "pyro"],
+        "description": "When Hydro meets Pyro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs. Vaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
+    }
+]
