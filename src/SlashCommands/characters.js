@@ -45,14 +45,13 @@ module.exports = {
 					['⭐⭐⭐⭐⭐', '5']
 				])),
 	async run({ paimonClient, application }) {
-		let characterName = application.options.getString('name');
+		const characterName = application.options.getString('name');
 		const weaponType = application.options.getString('weapon');
 		const visionType = application.options.getString('vision');
 		const characterRarity = application.options.getString('rarity');
 		let characterList = paimonClient.characters;
 
 		if (characterName) {
-			characterName = characterName.toLowerCase();
 			const characterGuess = stringSimilarity.findBestMatch(characterName, characterList.map(char => char.name)).bestMatch.target;
 			const character = characterList.find(char => char.name === characterGuess);
 			const { name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
@@ -97,7 +96,6 @@ module.exports = {
 
 			const characterEmbed = new MessageEmbed()
 				.setTitle(name)
-				.setThumbnail(icon)
 				.setImage(image)
 				.setDescription(`${description}`)
 				.addField('Vision', `${paimonClient.utils.capitalize(element)} ${emote[element.toLowerCase()] || 'Unknown'}`, true)
