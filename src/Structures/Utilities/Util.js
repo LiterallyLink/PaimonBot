@@ -5,7 +5,6 @@ const { promisify } = require('util');
 const glob = promisify(require('glob'));
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const request = require('node-superfetch');
 
 module.exports = class Util {
 
@@ -94,11 +93,13 @@ module.exports = class Util {
 	}
 
 	async storeAPIData() {
-		await this.loadWeapons();
-		await this.loadCharacters();
+		await this.cacheWeapons();
+		await this.cacheCharacters();
+		await this.cacheElements();
+		await this.cacheReactions();
 	}
 
-	async loadCharacters() {
+	async cacheCharacters() {
 		const characterlist = require('../../../assets/data/characters/characters.json');
 
 		for (let i = 0; i < characterlist.length; i++) {
@@ -106,8 +107,26 @@ module.exports = class Util {
 		}
 	}
 
-	async loadWeapons() {
-		const weaponList = require ('../../../assets/data/weapons/weapons.json');
+	async cacheElements() {
+		const elementList = require('../../../assets/data/other/elements.json');
+
+		for (let i = 0; i < elementList.length; i++) {
+			const { name, description, reactions } = elementList[i];
+			this.client.elements.set(name, { description: description, reactions: reactions });
+		}
+	}
+
+	async cacheReactions() {
+		const reactionList = require('../../../assets/data/other/reactions.json');
+
+		for (let i = 0; i < reactionList.length; i++) {
+			const { name, description, elementalFormula } = reactionList[i];
+			this.client.reactions.set(name, { name: name, description: description, elementalFormula: elementalFormula });
+		}
+	}
+
+	async cacheWeapons() {
+		const weaponList = require('../../../assets/data/weapons/weapons.json');
 
 		for (let i = 0; i < weaponList.length; i++) {
 			this.client.weapons.set(weaponList[i].id, weaponList[i]);
