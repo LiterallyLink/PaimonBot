@@ -58,7 +58,7 @@ module.exports = {
 			return application.followUp({ embeds: [weaponEmbed] });
 		} else if (weaponType || weaponRarity) {
 			let weaponTitle = '';
-			let mappedWeaponList = weaponList.map(weap => weap);
+			let mappedWeaponList = [...weaponList];
 
 			if (weaponRarity) {
 				weaponTitle += `${weaponRarity} Star`;
@@ -81,9 +81,10 @@ module.exports = {
 		const weaponListEmbed = new MessageEmbed()
 			.setTitle('Weapon Help')
 			.setThumbnail('https://i.ibb.co/Wz8rSRF/Icon-Inventory-Weapons.png')
-			.setDescription('To search for a specific weapon.\nType `/weapon <weapon name>`\nTo filter for certain weapons.\nType `/weapon <type> or <rarity>`');
+			.setDescription('To search for a specific weapon.\nType `/weapon <weapon name>`\nTo filter for certain weapons.\nType `/weapon <type> or <rarity>`')
+			.setColor('WHITE');
 
-		const weaponTypeList = [...new Set(weaponList.map(weap => weap.type))];
+		const weaponTypeList = ['Bow', 'Polearm', 'Catalyst', 'Sword', 'Claymore'];
 
 		for (let i = 0; i < weaponTypeList.length; i++) {
 			weaponListEmbed.addField(`${emote[weaponTypeList[i].toLowerCase()]} ${weaponTypeList[i]}`,
