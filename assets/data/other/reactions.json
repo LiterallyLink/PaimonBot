@@ -2,7 +2,7 @@
     {
         "name": "Swirl",
         "elementalFormula": ["pyro", "hydro", "electro", "cryo", "anemo"],
-        "description": "When Anemo meets certain other elements, it can trigger Swirl. Swirl can deal elemental DMG, affect beings, and generate further Elemental Reactions."
+        "description": "Infuses an element and deals that elemental damage while spreading the effect to nearby enemies. It does not deal Anemo DMG (as that elemental damage seen comes from the talent that is dealing the Anemo element). Only one element at a time can be infused with Anemo."
     },
     {
         "name": "Melt",
@@ -12,12 +12,12 @@
     {
         "name": "Frozen",
         "elementalFormula": ["hydro", "cryo"],
-        "description": "When Cryo meets Hydro, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
+        "description": " Freezes the target. If the frozen target is hit by a Claymore, a Sword Plunge Attack, or Geo DMG (excluding Catalyst user's Plunge), it will cause Shattered. Shattering a frozen target will deal additional Physical DMG."
     },
     {
         "name": "Superconduct",
         "elementalFormula": ["electro", "cryo"],
-        "description": "When Cryo meets Electro, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
+        "description": "Deals AoE Cryo DMG and reduces the target's Physical DMG Resistance by -40% for 12 seconds. Each Superconduct reaction deals DMG to targets within its range once, meaning if there are 3 Superconduct reactions, given all 3 targets are within the reactions' AoE, each target will take DMG 3 times."
     },
     {
         "name": "Burning",
@@ -37,7 +37,7 @@
     {
         "name": "Crystallize",
         "elementalFormula": ["hydro", "electro", "cryo", "pyro", "geo"],
-        "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystalize will be triggered!"
+        "description": " Absorbs the element and drops a crystal of that same element. The crystal will give an elemental shield. The shield absorbs all types of damage, but it protects more efficiently against the shield's element."
     },
     {
         "name": "Vaporize",
