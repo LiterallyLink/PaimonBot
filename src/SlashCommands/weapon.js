@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed, MessageAttachment } = require('discord.js');
 const emote = require('../../assets/emotes.json');
 const stringSimilarity = require('string-similarity');
 
@@ -58,38 +58,42 @@ module.exports = {
 			return application.followUp({ embeds: [weaponEmbed] });
 		} else if (weaponType || weaponRarity) {
 			let weaponTitle = '';
-			let mappedWeaponList = [...weaponList];
+			let filteredWeapons = weaponList;
 
 			if (weaponRarity) {
 				weaponTitle += `${weaponRarity} Star`;
-				mappedWeaponList = mappedWeaponList.filter(weap => `${weap.rarity}` === weaponRarity);
+				filteredWeapons = filteredWeapons.filter(weap => `${weap.rarity}` === weaponRarity);
 			}
 
 			if (weaponType) {
 				weaponTitle += ` ${weaponType}`;
-				mappedWeaponList = mappedWeaponList.filter(weap => weap.type === weaponType);
+				filteredWeapons = filteredWeapons.filter(weap => weap.type === weaponType);
 			}
+
+			const { image } = filteredWeapons.values().next().value;
 
 			const weaponEmbed = new MessageEmbed()
 				.setTitle(`${weaponTitle} Weapons`)
-				.setThumbnail(mappedWeaponList[0]?.image)
-				.setDescription(mappedWeaponList.map(weap => `${weap.name}`).join('\n') || 'No weapons found.')
+				.setThumbnail(image)
+				.setDescription(filteredWeapons.map(weap => `${weap.name}`).join('\n') || 'No weapons found.')
 				.setColor('WHITE');
 			return application.followUp({ embeds: [weaponEmbed] });
 		}
 
+		const weaponTypeList = ['Bow', 'Polearm', 'Catalyst', 'Sword', 'Claymore'];
+		const randomImage = weaponTypeList[Math.floor(Math.random() * 5)];
+		const attachment = new MessageAttachment(`.\\assets\\images\\other\\${randomImage}.png`, 'weapon.png');
+
 		const weaponListEmbed = new MessageEmbed()
 			.setTitle('Weapon Help')
-			.setThumbnail('https://i.ibb.co/Wz8rSRF/Icon-Inventory-Weapons.png')
+			.setThumbnail(`attachment://${attachment.name}`)
 			.setDescription('To search for a specific weapon.\nType `/weapon <weapon name>`\nTo filter for certain weapons.\nType `/weapon <type> or <rarity>`')
 			.setColor('WHITE');
-
-		const weaponTypeList = ['Bow', 'Polearm', 'Catalyst', 'Sword', 'Claymore'];
 
 		for (let i = 0; i < weaponTypeList.length; i++) {
 			weaponListEmbed.addField(`${emote[weaponTypeList[i].toLowerCase()]} ${weaponTypeList[i]}`,
 				`${weaponList.filter(weap => weap.type === weaponTypeList[i]).map(weap => weap.name).join('\n')}`, true);
 		}
-		return application.followUp({ embeds: [weaponListEmbed] });
+		return application.followUp({ embeds: [weaponListEmbed], files: [attachment] });
 	}
 };
