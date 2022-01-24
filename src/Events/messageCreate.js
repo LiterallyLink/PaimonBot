@@ -5,8 +5,8 @@ module.exports = class extends Event {
 	async run(message) {
 		if (message.author.bot) return;
 
-		await this.client.database.fetchPlayerData(message.author.id);
-		console.log(this.client.utils.generateRandomInteger(0, 31));
+		const memberData = await this.client.database.fetchMemberData(message.author.id, message.guild.id);
+		await this.client.level.appendXp(memberData);
 	}
 
 };
