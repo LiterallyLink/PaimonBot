@@ -7,7 +7,7 @@
             "rarity": 3,
             "type": "weapon",
             "chance": 94.3,
-            "weaponPool": [
+            "itemPool": [
                 "Raven Bow",
                 "Sharpshooter's Oath",
                 "Slingshot",
@@ -26,8 +26,8 @@
         {
             "rarity": 4,
             "type": "weapon",
-            "chance": 1.77,
-            "weaponPool": [
+            "chance": 5.1,
+            "itemPool": [
                 "Favonius Warbow",
                 "Rust",
                 "Sacrificial Bow",
@@ -51,8 +51,8 @@
         {
             "rarity": 4,
             "type": "character",
-            "chance": 3.3,
-            "characterPool": [
+            "chance": 5.1,
+            "itemPool": [
                 "Sayu",
                 "Sucrose",
                 "Diona",
@@ -74,7 +74,7 @@
             "rarity": 5,
             "type": "character",
             "chance": 0.6,
-            "characterPool": [
+            "itemPool": [
                 "Jean",
                 "Qiqi",
                 "Keqing",
@@ -85,18 +85,16 @@
         {
             "rarity": 4,
             "type": "character",
-            "chance": 3.3,
-            "characterPool": [
-                "Yun Jin",
-                "Ningguang",
-                "Chongyun"
+            "chance": 6,
+            "itemPool": [
+                "Yun Jin"
             ]
         },
         {
             "rarity": 5,
             "type": "character",
-            "chance": 0.6,
-            "characterPool": [
+            "chance": 0.8,
+            "itemPool": [
                 "Shenhe"
             ]
         }

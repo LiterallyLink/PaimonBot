@@ -6,8 +6,8 @@
         {
             "rarity": 3,
             "type": "weapon",
-            "chance": 90.3,
-            "weaponPool": [
+            "chance": 94.3,
+            "itemPool": [
                 "Raven Bow",
                 "Sharpshooter's Oath",
                 "Slingshot",
@@ -26,8 +26,8 @@
         {
             "rarity": 4,
             "type": "weapon",
-            "chance": 4.2,
-            "weaponPool": [
+            "chance": 5.1,
+            "itemPool": [
                 "Favonius Warbow",
                 "Rust",
                 "Sacrificial Bow",
@@ -50,8 +50,8 @@
         {
             "rarity": 4,
             "type": "character",
-            "chance": 3.6,
-            "characterPool": [
+            "chance": 5.1,
+            "itemPool": [
                 "Sayu",
                 "Sucrose",
                 "Chongyun",
@@ -80,7 +80,7 @@
             "rarity": 5,
             "type": "weapon",
             "chance": 0.8,
-            "weaponPool": [
+            "itemPool": [
                 "Amos' Bow",
                 "Skyward Harp",
                 "Lost Prayer to the Sacred Winds",
@@ -97,7 +97,7 @@
             "rarity": 5,
             "type": "character",
             "chance": 0.8,
-            "characterPool": [
+            "itemPool": [
                 "Jean",
                 "Qiqi",
                 "Keqing",
