@@ -3,6 +3,7 @@ const Util = require('./Utilities/Util.js');
 const Canvas = require('./Utilities/Canvas');
 const Database = require('./Utilities/Database');
 const Economy = require('./Utilities/Economy');
+const Level = require('./Utilities/Level');
 
 module.exports = class PaimonClient extends Client {
 
@@ -29,6 +30,7 @@ module.exports = class PaimonClient extends Client {
 		this.canvas = new Canvas(this);
 		this.database = new Database(this);
 		this.economy = new Economy(this);
+		this.level = new Level(this);
 		this.mongoose = require('./Mongo');
 	}
 
