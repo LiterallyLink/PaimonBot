@@ -120,14 +120,6 @@ module.exports = {
 					charEmbedMsg.delete().catch(() => null);
 				}
 
-				if (choice === 'ascension') {
-					const charBuildEmbed = new MessageEmbed()
-						.setAuthor({ name: `${name}`, iconURL: icon })
-						.setImage(charImages?.[characterGuess.toLowerCase()].ascension)
-						.setColor('WHITE');
-					await charEmbedMsg.edit({ embeds: [charBuildEmbed] });
-				}
-
 				if (choice === 'constellation') {
 					const { constellations } = character;
 					const constellationEmbed = new MessageEmbed()
