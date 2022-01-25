@@ -146,11 +146,12 @@ module.exports = {
 	},
 
 	async multiSummon(client, user, gachaPool) {
-		let itemArray = [];
 		const player = await client.database.fetchPlayerData(user.id);
 
 		await player.updateOne({ $inc: { totalWishes: 10, fiveStarPity: 10 } });
 		await player.updateOne({ $set: { fourStarPity: 0 } });
+
+		let itemArray = [];
 
 		if ((player.fiveStarPity + 10) >= 90) {
 			const fiveStarPool = this.filterGachaPool(gachaPool, 5);
@@ -169,18 +170,29 @@ module.exports = {
 			itemArray.push(pull);
 		}
 
-		itemArray = client.utils.shuffle(itemArray);
 		const pulledFiveStar = itemArray.some(i => i.rarity === 5);
+		if (pulledFiveStar) await player.updateOne({ $set: { fiveStarPity: 0 } });
 
-		const itemMap = new Map();
+		itemArray = client.utils.shuffle(itemArray);
 
-		for (let i = 0; i < 10; i++) {
-			itemMap.set(i, this.updatePlayerInventory(player, itemArray[i].prize));
+		const modifiedItemArray = itemArray.reduce((acc, cur) => {
+			const existing = acc.find(i => i.prize === cur.prize);
+			if (existing) {
+				existing.count += 1;
+			} else {
+				acc.push({ prize: cur.prize, count: 1 });
+			}
+			return acc;
+		}, []);
+
+
+		const arr = [];
+
+		for (let i = 0; i < modifiedItemArray.length; i++) {
+			arr.push(this.updatePlayerInventory(player, modifiedItemArray[i].prize, modifiedItemArray[i].count));
 		}
 
-		await Promise.all(itemMap.values());
-
-		if (pulledFiveStar) await player.updateOne({ $set: { fiveStarPity: 0 } });
+		await Promise.all(arr);
 
 		return itemArray;
 	},
@@ -214,14 +226,15 @@ module.exports = {
 		return gachaPool.filter(i => i.rarity === rarity);
 	},
 
-	async updatePlayerInventory(player, prize) {
+	async updatePlayerInventory(player, prize, count) {
+		if (!count) count = 1;
 		const item = player.inventory.find(i => i.name === prize);
 
 		if (!item) {
 			await player.updateOne({ $push: { inventory: { name: prize, count: 1 } } });
 		} else {
 			const itemIndex = player.inventory.findIndex(obj => obj.name === prize);
-			await player.updateOne({ $inc: { [`inventory.${itemIndex}.count`]: 1 } });
+			await player.updateOne({ $inc: { [`inventory.${itemIndex}.count`]: count } });
 		}
 	}
 
