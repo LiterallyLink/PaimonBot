@@ -128,7 +128,7 @@ module.exports = {
 
 		if ((player.fiveStarPity + 10) === 90) {
 			gachaPool = this.filterGachaPool(gachaPool, 5);
-		} else if (player.fourStarPity === 10) {
+		} else if ((player.fourStarPity + 1) === 10) {
 			gachaPool = this.filterGachaPool(gachaPool, 4);
 		}
 
@@ -139,6 +139,8 @@ module.exports = {
 		} else if (rarity === 5) {
 			await player.updateOne({ $set: { fiveStarPity: 0 } });
 		}
+
+		await this.updatePlayerInventory(player, prize);
 
 		return prize;
 	},
@@ -169,6 +171,14 @@ module.exports = {
 
 		itemArray = client.utils.shuffle(itemArray);
 		const pulledFiveStar = itemArray.some(i => i.rarity === 5);
+
+		const itemMap = new Map();
+
+		for (let i = 0; i < 10; i++) {
+			itemMap.set(i, this.updatePlayerInventory(player, itemArray[i].prize));
+		}
+
+		await Promise.all(itemMap.values());
 
 		if (pulledFiveStar) await player.updateOne({ $set: { fiveStarPity: 0 } });
 
@@ -202,6 +212,17 @@ module.exports = {
 
 	filterGachaPool(gachaPool, rarity) {
 		return gachaPool.filter(i => i.rarity === rarity);
+	},
+
+	async updatePlayerInventory(player, prize) {
+		const item = player.inventory.find(i => i.name === prize);
+
+		if (!item) {
+			await player.updateOne({ $push: { inventory: { name: prize, count: 1 } } });
+		} else {
+			const itemIndex = player.inventory.findIndex(obj => obj.name === prize);
+			await player.updateOne({ $inc: { [`inventory.${itemIndex}.count`]: 1 } });
+		}
 	}
 
 
