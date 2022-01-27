@@ -15,7 +15,9 @@ module.exports = class Level {
 			member = await this.client.database.createMemberData(userId, guildId);
 		}
 
-		member.xp += parseInt(xp, 10);
+		member.xp += xp;
+
+		member.level = Math.floor(0.1 * Math.sqrt(member.xp));
 		member.lastUpdated = new Date();
 
 		await member.save().catch(err => console.log(`Failed to append xp: ${err}`));
@@ -23,18 +25,11 @@ module.exports = class Level {
 		return Math.floor(0.1 * Math.sqrt(member.xp -= xp)) < member.level;
 	}
 
-	async appendLevel(userId, guildId, levelss) {
-		const member = await Member.findOne({ userID: userId, guildID: guildId });
+	async fetchRank(userID, guildID) {
+		const rank = await Member.find({ guildId: guildID }).sort([['xp', 'descending']]).exec();
+		const rankPosition = rank.findIndex(i => i.userId === userID) + 1;
 
-		if (!member) return false;
-
-		member.level += parseInt(levelss, 10);
-		member.xp = member.level * member.level * 100;
-		member.lastUpdated = new Date();
-
-		member.save().catch(err => console.log(`Failed to append level: ${err}`));
-
-		return member;
+		return rankPosition;
 	}
 
 	xpFor(targetLevel) {
