@@ -10623,7 +10623,7 @@
        "description":"An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
        "region":"Liyue",
        "faction":"",
-       "image":"",
+       "image":"https://i.ibb.co/bXrjJw6/Character-Shenhe-Portrait-1.png",
        "quote":"",
        "icon":"",
        "squareCard":"https://impact.moe/assets/img/square-cards/shenhe.webp",
@@ -11771,7 +11771,6 @@
           },
           {
              "name":"Support",
-             "notes":"<p>Use Palm Vortex (<a href=\"characters/traveler-anemo/talents\" class=\"talent-link\">E</a>) and/or Gust Surge (<a href=\"characters/traveler-anemo/talents\" class=\"talent-link\">Q</a>), then switch.</p>",
              "weapons":[
                 {
                    "id":167,
@@ -12652,7 +12651,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<ul class=\"text-list-1\">\n              <li>\n                <p><a href=\"weapon/crescent-pike\" class=\"weapon-link\">Crescent Pike</a> is extremely strong on <a href=\"character/xiangling\" class=\"character-link\">Xiangling</a> due to the nature of her attack combo, <a href=\"weapon/crescent-pike\" class=\"weapon-link\">Crescent Pike</a> continues to surpass <a href=\"weapon/primordial-jade-winged-spear\" class=\"weapon-link\">Primordial Jade Winged-Spear</a> in terms of Normal/Charge Attack Damage.</p>\n              </li>\n              <li>\n                <p>Use artifact set 2 with <a href=\"weapon/crescent-pike\" class=\"weapon-link\">Crescent Pike</a> due to the passive damage scaling with physical damage, NOT normal damage.</p>\n              </li>\n            </ul>",
              "weapons":[
                 {
                    "id":72,
@@ -12793,7 +12791,6 @@
           },
           {
              "name":"Sub DPS",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Use Elemental Skill and/or Elemental Burst and a few auto attacks if using <a href=\"weapon/halberd\" class=\"weapon-link\">Halberd</a>, then switch.</p></li>\n\n<li><p><a href=\"weapon/prototype-starglitter\" class=\"weapon-link\">Prototype Starglitter</a> vs <a href=\"weapon/dragons-bane\" class=\"weapon-link\">Dragon's Bane</a> depends on what artifacts you currently have. <a href=\"weapon/prototype-starglitter\" class=\"weapon-link\">Prototype Starglitter</a> offers more upfront ER while <a href=\"weapon/dragons-bane\" class=\"weapon-link\">Dragon's Bane</a> offers more upfront EM, and a balanced mix is necessary.</p></li>\n\n<li><p>ER becomes less important when considering a second Pyro character for increased energy generation.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":76,
@@ -13082,7 +13079,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p>\n<a href=\"characters/xiao\" class=\"character-link\">Xiao</a> has issues with energy since he cannot generate energy particles with his Lemniscatic Wind Cycling (<a href=\"characters/xiao/talents\" class=\"talent-link\">E</a>) skill while his Bane of All Evil (<a href=\"characters/xiao/talents\" class=\"talent-link\">Q</a>) is up. To help <a href=\"characters/xiao\" class=\"character-link\">Xiao</a> charge up energy for his Bane of All Evil (<a href=\"characters/xiao/talents\" class=\"talent-link\">Q</a>) while it is on cooldown, you'll want to pair him with other <a class=\"anemo\" href=\"https://impact.moe/character-list/element\">Anemo</a> characters such as <a href=\"characters/venti\" class=\"character-link\">Venti</a> / <a href=\"characters/sucrose\" class=\"character-link\">Sucrose</a> / <a href=\"characters/jean\" class=\"character-link\">Jean</a> / <a href=\"characters/traveler-anemo\" class=\"character-link\">Traveler (Anemo)</a> / <a href=\"characters/kazuha\" class=\"character-link\">Kazuha</a> / <a href=\"characters/sayu\" class=\"character-link\">Sayu</a> </p>\n\n<p> <b>Artifacts</b> <br>\nFocus on getting good sub stats. Choose artifact set bonuses based on your weapon stat bonus and artifact sub stats. You'll want to aim for a two-to-one ratio of CRIT DMG to CRIT Rate.\n\n\n\n<p><b>Ability Tips</b><br>\n<ul class=\"text-list-1\">\n<li><a href=\"characters/xiao\" class=\"character-link\">Xiao</a>'s Bane of All Evil (<a href=\"characters/xiao/talents\" class=\"talent-link\">Q</a>) ends when you swap to another character.</li>\n\n<li>At [<a href=\"characters/xiao/constellations\" class=\"constellation-link\">C0</a>], he has two charges of Lemniscatic Wind Cycling (<a href=\"characters/xiao/talents\" class=\"talent-link\">E</a>), take note that only ONE charge comes back PER cooldown. [<a href=\"characters/xiao/constellations\" class=\"constellation-link\">C1</a>] increases this to three charges, which will give you much more usability.\n</li>\n\n<li>To ensure maximum damage while <a href=\"characters/xiao\" class=\"character-link\">Xiao</a>'s Bane of All Evil (<a href=\"characters/xiao/talents\" class=\"talent-link\">Q</a>) is active, spam his plunge attack (Jump + Normal Attack).</li>\n\n<li>Use normal attack to cancel plunge animation. You can't cancel plunge animation with dodge/sprint.</li>\n\n<br>\n<li><p>Best combo for single target:</p></li>\n<ul class=\"text-list-1\">\n<p>Plunge &#8594; Auto Attack &#8594; Charged Attack &#8594; Plunge</p>\n</ul>\n\n\n<li><p>Best combo for AoE damage:</p></li>\n<ul class=\"text-list-1\">\n<p>Plunge &#8594; Auto Attack &#8594; Plunge</p>\n</ul>\n</ul>\n",
              "weapons":[
                 {
                    "id":184,
@@ -13403,7 +13399,6 @@
        "roles":[
           {
              "name":"Sub DPS",
-             "notes":"<p>While Noblesse Oblige (2) Heart of Depth (2) offers the highest DPS output for <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a>, it's worth noting that Noblesse Oblige (4) offers much more to the team if there are no 4-piece Noblesse Oblige holders on the team since it boosts the whole party member's attack. It's ranked lower because most of the time there are characters who have better Noblesse Oblige uptime than <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a> on the team.</p>\n\n<p>Thundersoothers (4) is only recommended if you're running an electrocharged team. It's essentially the same as Noblesse Oblige (2) Heart of Depth (2) in terms of damage boost, but it also increases Elemental Skill damage, it comes with a condition though; the enemy needs to be affected by Electro aura.</p>\n\n<p>Blizzard Strayer (4) is only recommended on a freeze team to optimize <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a>'s stats since he can just disregard CRIT Rate and build CRIT damage % instead for more damage output.</p>\n\n<p>The Exile (2) Scholar (2) is a cheap beginner option to maintain burst uptime well since it gives 40% Energy Recharge.</p>\n\n<p>*Regarding <a class=\"weapon-link\" href=\"/weapons/harbinger-of-dawn\">Harbinger of Dawn</a>: This is a great weapon for <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a>, assuming he's either <a href=\"characters/xingqiu/constellations\" class=\"constellation-link\">[C6]</a> or teamed with another Hydro character for energy generation.</p>",
              "weapons":[
                 {
                    "id":372,
@@ -14008,7 +14003,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":" <p>Yanfei can have trouble trying to set up for her reaction DPS. Vaporize is generally the more consistent option and you need Xingqiu to make this work best. When running a Vaporize team with Xingqiu, 3 normal attacks into a charged attack (N1>N2>N3>C) is the safest and most reliable way to vaporize your charged attacks. Make sure you're adding applying hydro first before starting combos.</p>\n\n<p>Regarding Weapon Choices:<br>\nDodoco Tales: On equal refinements, Widsith is better than Dodoco Tales, but assuming it's R5 Dodoco Tales vs R1-R3 Widsith, R5 Dodoco Tales is better. Note that Bennett buff / Thrilling Tales of Dragon Slayer's buff + Noblesse Oblige (4) buff may push Widsith and Solar Pearl above Dodoco Tales, even at low refinements.</p>\n\n<p>Regarding Artifact Set:<br>\nRetracing Bolide (4): Running Yanfei with a shield character also allows you to make use of a full Retracing Bolide 4-set as a placeholder until you're able to find a good Crimson Witch 4-set.</p>\n\n<p>Regarding Substats Choice:<br>\nEnergy Recharge is prioritized over Elemental Mastery here since she has an 80 energy burst cost while her skill is also not very efficient at generating particles for getting it back. A major source of your energy will be coming from enemies as well as potential pyro batteries like Bennett, so be sure to have her pick the particles up as off-field characters only get 0.6x the value of the particles.</p>",
              "weapons":[
                 {
                    "id":528,
@@ -14345,7 +14339,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p><b>Weapon Choices</b><br>\n<a href=\"weapons/rust\" class=\"weapon-link\">Rust</a>: On higher refinements, Rust can be a better option than R1 Amos' Bow and Skyward Harp.<br>\n<a href=\"weapons/hamayumi\" class=\"weapon-link\">Hamayumi</a>: If you're using Shimenawa's Reminiscence (4), this weapon doesn't synergize well with that artifact set due to its passive. Generally, just use <a href=\"weapons/prototype-crescent\" class=\"weapon-link\">Prototype Crescent</a> over this weapon.</p>\n\n<p><b>Artifacts</b><br>\nCrimson Witch of Flames(2) +18% ATK set (2): The best generalist set on Yoimiya. This set is considered better than Shimenawa's Reminiscence (4) due to Yoimiya's optimal combo which involves using Q before E, as detailed in xandy#7124's sheet. Shimenawa's Reminiscence (4) offers more personal damage on Yoimiya but it sacrifices her Elemental Burst uptime which translates to lower overall team DPS due to not being able to fully benefit from her Ascension 4 passive.<br>\nCrimson Witch of Flames (4): The go-to artifact set for Vaporize focused Pyro carries, excels over the other options especially on a reaction focused team comp.<br>\nLavawalker (4): Viable option on a mono Pyro team comp where Yoimiya can have 100% uptime on the artifact passive.</p>\n\n<p><b>Talent Priorities</b><br>\nElemental Skill scales very poorly which is why it is the least priority. If you do not care about her Elemental Burst damage output, you can prioritize Elemental Skill over Elemental Burst, but Normal Attack talent still has the most priority since it's the main source of Yoimiya's damage.</p>",
              "weapons":[
                 {
                    "id":616,
@@ -14519,7 +14512,7 @@
        "description":"A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
        "region":"Liyue",
        "faction":"",
-       "image":"",
+       "image":"https://i.ibb.co/jvJm5y0/Character-Yun-Jin-Portrait.png",
        "quote":"",
        "icon":"",
        "squareCard":"",
@@ -14856,7 +14849,6 @@
           },
           {
              "name":"Sub DPS / Nuke",
-             "notes":"<p><a href=\"character/zhongli\" class=\"character-link\">Zhongli</a>'s kit is best utilized as a Geo burst damage support for his short burst cool down (12s) and low energy cost (40 energy), while his Elemental Skill Hold Cast (Shield) scales with his HP. After obtaining his <a href=\"#\" class=\"talent-link\">Dominance of Earth (Passive)</a> by ascending to Phase 4, his <a href=\"#\" class=\"talent-link\">Planet Befall (Q)</a> deals additional damage that scales with 33% of his Max HP, making him an amazing source of shields and damage.</p>\n\n<p><a href=\"character/zhongli\" class=\"character-link\">Zhongli</a> works best as <a href=\"character/traveler-geo\" class=\"character-link\">Geo Traveler</a>/<a href=\"character/ningguang\" class=\"character-link\">Ningguang</a>'s support as he recharges energy rapidly with <a href=\"character/traveler-geo\" class=\"character-link\">Geo Traveler</a>/<a href=\"character/ningguang\" class=\"character-link\">Ningguang</a> constantly generating energy for burst charge to chain bursting.</p>\n\n<p>Ideally, you'll want HP || ATK || ATK% || Geo DMG Bonus || Crit Rate/DMG for maximum burst damage, as his <a href=\"#\" class=\"talent-link\">Dominance of Earth (Passive)</a> improves talent scaling, which is most beneficial when HP% is a main stat; any additional HP stat is desirable as it goes to his shield durability/burst damage. </p>\n\n<p>The recommended stat priorities assume that you'll be using <a href=\"character/zhongli\" class=\"character-link\">Zhongli</a> as a burst damage support with weaker shields, if you prefer to have a stronger shield but weaker <a href=\"#\" class=\"talent-link\">Planet Befall (Q)</a> scaling, feel free to use HP as your main stat on artifacts.</p>",
              "weapons":[
                 {
                    "id":220,
