@@ -38,14 +38,20 @@ module.exports = {
 
 			return application.followUp({ embeds: [artifactEmbed], files: [artifactImage] });
 		} else {
-			const artifactSetNames = artifactSetList.map(artifact => artifact.name).join('\n');
 			const artifactThumbnail = new MessageAttachment(`.\\assets\\images\\artifacts\\strongbox.png`, `strongbox.png`);
+			const artifactRarities = [5, 4, 3, 1];
 
 			const artifactEmbed = new MessageEmbed()
 				.setTitle('Artifact Set List')
 				.setThumbnail(`attachment://strongbox.png`)
-				.setDescription(`For information on an artifact set.\nType \`/artifact <name>\`\n\n${artifactSetNames}`)
+				.setDescription(`For information on an artifact set.\nType \`/artifact <name>\`\n\n`)
 				.setColor('WHITE');
+
+			for (let i = 0; i < artifactRarities.length; i++) {
+				const filteredArtifactList = artifactSetList.filter(art => art.maxRarity === artifactRarities[i]);
+				artifactEmbed.addField(`${artifactRarities[i]} ⭐`, `${filteredArtifactList.map(art => art.name).join('\n')}`, true);
+			}
+
 			return application.followUp({ embeds: [artifactEmbed], files: [artifactThumbnail] });
 		}
 	}
