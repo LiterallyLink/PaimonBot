@@ -103,7 +103,7 @@ module.exports = class Util {
 		const characterlist = require('../../../assets/data/characters/characters.json');
 
 		for (let i = 0; i < characterlist.length; i++) {
-			this.client.characters.set(characterlist[i].id, characterlist[i]);
+			this.client.characters.set(characterlist[i].name, characterlist[i]);
 		}
 	}
 
@@ -129,7 +129,7 @@ module.exports = class Util {
 		const weaponList = require('../../../assets/data/weapons/weapons.json');
 
 		for (let i = 0; i < weaponList.length; i++) {
-			this.client.weapons.set(weaponList[i].id, weaponList[i]);
+			this.client.weapons.set(weaponList[i].name, weaponList[i]);
 		}
 	}
 
