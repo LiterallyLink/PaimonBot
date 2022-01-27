@@ -1,0 +1,98 @@
+{
+    "bannerName": "Gentry of Hermitage",
+    "image": "gentry",
+    "emote": "<:intertwinedfate:931798527988883516>",
+    "gachaPool": [
+        {
+            "rarity": 3,
+            "type": "weapon",
+            "chance": 94.3,
+            "itemPool": [
+                "Raven Bow",
+                "Sharpshooter's Oath",
+                "Slingshot",
+                "Emerald Orb",
+                "Magic Guide",
+                "Thrilling Tales of Dragon Slayers",
+                "Bloodtainted Greatsword",
+                "Debate Club",
+                "Ferrous Shadow",
+                "Black Tassel",
+                "Cool Steel",
+                "Harbinger of Dawn",
+                "Skyrider Sword"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "weapon",
+            "chance": 3.4,
+            "itemPool": [
+                "Favonius Warbow",
+                "Rust",
+                "Sacrificial Bow",
+                "The Stringless",
+                "Eye of Perception",
+                "Favonius Codex",
+                "Sacrificial Fragments",
+                "The Widsith",
+                "Favonius Greatsword",
+                "Rainslasher",
+                "Sacrificial Greatsword",
+                "The Bell",
+                "Dragon's Bane",
+                "Favonius Lance",
+                "Favonius Sword",
+                "Lion's Roar",
+                "Sacrificial Sword",
+                "The Flute"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 3.4,
+            "itemPool": [
+                "Sucrose",
+                "Beidou",
+                "Fischl",
+                "Ningguang",
+                "Noelle",
+                "Barbara",
+                "Bennett",
+                "Xiangling",
+                "Xingqiu"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "character",
+            "chance": 0.6,
+            "itemPool": [
+                "Jean",
+                "Qiqi",
+                "Keqing",
+                "Mona",
+                "Diluc"
+            ]
+        },
+        {
+            "rarity": 4,
+            "type": "character",
+            "chance": 5.1,
+            "itemPool": [
+                "Xinyan",
+                "Razor",
+                "Chongyun"
+            ]
+        },
+        {
+            "rarity": 5,
+            "type": "character",
+            "chance": 0.8,
+            "itemPool": [
+                "Zhongli"
+            ]
+        }
+    ]
+}
