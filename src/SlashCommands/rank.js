@@ -8,27 +8,27 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('rank')
 		.setDescription('Provides rank information.')
-		.addStringOption(option =>
-			option
-				.setName('name')
-				.setDescription('The name of the card.')),
+		.addUserOption(option => option.setName('user').setDescription("The user you'd like to fetch the rank of.")),
 	async run({ paimonClient, application }) {
+		const target = application.options.getUser('user') || application.user;
+
 		const canvasWidth = 930;
 		const canvasHeight = 280;
 
 		const canvas = createCanvas(canvasWidth, canvasHeight);
 		const ctx = canvas.getContext('2d');
-		const cardName = application.options.getString('name');
 
-		const { name, embedColor, topBar, bottomBar, profileBackdrop, rankAndLevelStroke, rankAndLevelBars } = listOfNamecards.find(card => card.name === cardName) || listOfNamecards[1];
+		const { currentCard } = await paimonClient.database.fetchPlayerData(target.id);
+		const { name, embedColor, topBar, bottomBar, profileBackdrop, rankAndLevelStroke, rankAndLevelBars } = listOfNamecards.find(card => card.name === currentCard);
+
+		const { xp, level } = await paimonClient.database.fetchMemberData(target.id, application.guild.id);
+		const xpNeededForNextLevel = paimonClient.level.xpFor(level);
+		const rank = await paimonClient.level.fetchRank(target.id, application.guild.id);
 
 		await this.createCanvasBackground(ctx, name);
-		this.drawRankAndLevelGfx(ctx, paimonClient, rankAndLevelBars, rankAndLevelStroke);
-
-		const target = application.user;
+		this.drawRankAndLevelGfx(ctx, paimonClient, rankAndLevelBars, rankAndLevelStroke, rank, level);
 		this.drawUsername(ctx, target);
-
-		this.drawProgress(ctx, 100, 200, topBar, bottomBar, paimonClient);
+		this.drawProgress(ctx, xp, xpNeededForNextLevel, topBar, bottomBar, paimonClient);
 		await this.drawAvatar(ctx, target, profileBackdrop);
 
 		const rankcardEmbed = new MessageEmbed()
@@ -42,11 +42,11 @@ module.exports = {
 		ctx.drawImage(rankCardBackground, 0, 0, ctx.canvas.width, ctx.canvas.height);
 	},
 
-	drawRankAndLevelGfx(ctx, client, rankAndLevelBarColor, rankAndLevelStroke) {
+	drawRankAndLevelGfx(ctx, client, rankAndLevelBarColor, rankAndLevelStroke, rank, level) {
 		ctx.font = '28px "Zh-cn"';
 		const textYPosition = 16;
-		const text = [`RANK 20`, `LEVEL 2`];
-		let textXPosition = 550;
+		const text = [`RANK ${rank}`, `LEVEL ${level}`];
+		let textXPosition = 500;
 
 		for (let i = 0; i < text.length; i++) {
 			const metrics = ctx.measureText(text[i]);
@@ -86,7 +86,10 @@ module.exports = {
 		const barYPosition = 160;
 
 		client.canvas.drawBar(ctx, barHeight, barWidth, barXPosition, barYPosition, bottomBarColor);
-		client.canvas.drawBar(ctx, barHeight, barWidth2, barXPosition, barYPosition, topBarColor);
+
+		if (xpPercentage > 0) {
+			client.canvas.drawBar(ctx, barHeight, barWidth2, barXPosition, barYPosition, topBarColor);
+		}
 
 		ctx.fillStyle = 'white';
 		ctx.font = '25px Zh-cn';
