@@ -14,7 +14,8 @@ module.exports = {
 				.addChoices([
 					['Wanderlust Invocation', 'wanderlust'],
 					['Epitome Invocation', 'epitome'],
-					['The Transcendent One Returns', 'transcendent']
+					['Gentry of Hermitage', 'gentry'],
+					['Adrift in the Harbor', 'adrift']
 				])
 				.setRequired(true)),
 	async run({ paimonClient, application }) {
@@ -63,13 +64,15 @@ module.exports = {
 			if (customId === 'delete') {
 				collector.stop();
 				wishEmbed.delete().catch(() => null);
-			} else if (customId === 'single') {
+			}
+
+			if (customId === 'single') {
 				this.generateBackground(ctx);
 
 				const singleReward = await this.singleSummon(paimonClient, application.user, gachaPool);
 				await this.generateSinglePullImage(ctx, singleReward);
 
-				totalWishes += 1;
+				totalWishes++;
 
 				const singlePullEmbed = new MessageEmbed()
 					.setTitle(`${bannerName}`)
@@ -77,7 +80,9 @@ module.exports = {
 					.setFooter({ text: `Wish ${totalWishes}` })
 					.setColor('WHITE');
 				application.editReply({ embeds: [singlePullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'singlepull.png' }] });
-			} else if (customId === 'multi') {
+			}
+
+			if (customId === 'multi') {
 				this.generateBackground(ctx);
 
 				const multiRewards = await this.multiSummon(paimonClient, application.user, gachaPool);
@@ -140,7 +145,7 @@ module.exports = {
 			await player.updateOne({ $set: { fiveStarPity: 0 } });
 		}
 
-		await this.updatePlayerInventory(player, prize);
+		await this.updatePlayerInventory(player, prize, 1);
 
 		return prize;
 	},
@@ -177,14 +182,15 @@ module.exports = {
 
 		const modifiedItemArray = itemArray.reduce((acc, cur) => {
 			const existing = acc.find(i => i.prize === cur.prize);
+
 			if (existing) {
-				existing.count += 1;
+				existing.count++;
 			} else {
 				acc.push({ prize: cur.prize, count: 1 });
 			}
+
 			return acc;
 		}, []);
-
 
 		const arr = [];
 
@@ -227,7 +233,6 @@ module.exports = {
 	},
 
 	async updatePlayerInventory(player, prize, count) {
-		if (!count) count = 1;
 		const item = player.inventory.find(i => i.name === prize);
 
 		if (!item) {
