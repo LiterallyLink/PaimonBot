@@ -1,7 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
 const emote = require('../../assets/emotes.json');
-const charImages = require('../../assets/images/charImages.json');
 const stringSimilarity = require('string-similarity');
 
 module.exports = {
@@ -52,31 +51,13 @@ module.exports = {
 		let characterList = paimonClient.characters;
 
 		if (characterName) {
-			const characterGuess = stringSimilarity.findBestMatch(characterName, characterList.map(char => char.name)).bestMatch.target;
+			const characterGuess = stringSimilarity.findBestMatch(characterName.toLowerCase(), characterList.map(char => char.name)).bestMatch.target;
 			const character = characterList.find(char => char.name === characterGuess);
 			const { name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
 
 			const starRarity = Array(rarity).fill('⭐').join('');
 
 			const optionRow = new MessageActionRow();
-
-			if (charImages[characterGuess.toLowerCase()]?.ascension) {
-				optionRow.addComponents(
-					new MessageButton()
-						.setCustomId('ascension')
-						.setLabel('Ascension')
-						.setStyle('PRIMARY')
-				);
-			}
-
-			for (let i = 0; i < character.roles.length; i++) {
-				optionRow.addComponents(
-					new MessageButton()
-						.setCustomId(roles[i].name)
-						.setLabel(roles[i].name)
-						.setStyle('PRIMARY')
-				);
-			}
 
 			if (character.constellations.length) {
 				optionRow.addComponents(
