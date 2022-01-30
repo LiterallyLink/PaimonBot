@@ -1,6 +1,5 @@
 const Player = require('../../Models/playerSchema.js');
 const Member = require('../../Models/memberSchema.js');
-const Shop = require('../../Models/shopSchema.js');
 
 module.exports = class Database {
 
