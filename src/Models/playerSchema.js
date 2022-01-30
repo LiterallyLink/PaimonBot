@@ -7,8 +7,29 @@ const playerSchema = new mongoose.Schema({
 	namecards: { type: Array, default: [] },
 	currentCard: { type: String, default: 'Default' },
 	totalWishes: { type: Number, default: 0 },
-	fourStarPity: { type: Number, default: 0 },
-	fiveStarPity: { type: Number, default: 0 },
+	pity: { type: Array, default: [
+		{
+			type: 'standard',
+			totalWishes: 0,
+			fourStarPity: 0,
+			fiveStarPity: 0,
+			wishHistory: []
+		},
+		{
+			type: 'weapon',
+			totalWishes: 0,
+			fourStarPity: 0,
+			fiveStarPity: 0,
+			wishHistory: []
+		},
+		{
+			type: 'character',
+			totalWishes: 0,
+			fourStarPity: 0,
+			fiveStarPity: 0,
+			wishHistory: []
+		}
+	] },
 	createdOn: { type: Date, default: new Date().getTime() },
 	lastUpdated: { type: Date, default: new Date().getTime() },
 	dailyLastClaimedAt: { type: Date, default: 0 },
