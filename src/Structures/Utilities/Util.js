@@ -92,22 +92,31 @@ module.exports = class Util {
 		return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
 	}
 
-	async storeAPIData() {
-		await this.cacheWeapons();
-		await this.cacheCharacters();
-		await this.cacheElements();
-		await this.cacheReactions();
+	storeAPIData() {
+		this.cacheWeapons();
+		this.cacheCharacters();
+		this.cacheEnemies();
+		this.cacheElements();
+		this.cacheReactions();
 	}
 
-	async cacheCharacters() {
-		const characterlist = require('../../../assets/data/characters/characters.json');
+	cacheCharacters() {
+		const characterlist = require('../../../assets/data/characters.json');
 
 		for (let i = 0; i < characterlist.length; i++) {
 			this.client.characters.set(characterlist[i].name, characterlist[i]);
 		}
 	}
 
-	async cacheElements() {
+	cacheEnemies() {
+		const enemyList = require('../../../assets/data/enemies.json');
+
+		for (let i = 0; i < enemyList.length; i++) {
+			this.client.enemies.set(enemyList[i].id, enemyList[i]);
+		}
+	}
+
+	cacheElements() {
 		const elementList = require('../../../assets/data/other/elements.json');
 
 		for (let i = 0; i < elementList.length; i++) {
@@ -116,7 +125,7 @@ module.exports = class Util {
 		}
 	}
 
-	async cacheReactions() {
+	cacheReactions() {
 		const reactionList = require('../../../assets/data/other/reactions.json');
 
 		for (let i = 0; i < reactionList.length; i++) {
@@ -125,8 +134,8 @@ module.exports = class Util {
 		}
 	}
 
-	async cacheWeapons() {
-		const weaponList = require('../../../assets/data/weapons/weapons.json');
+	cacheWeapons() {
+		const weaponList = require('../../../assets/data/weapons.json');
 
 		for (let i = 0; i < weaponList.length; i++) {
 			this.client.weapons.set(weaponList[i].name, weaponList[i]);
