@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 const stringSimilarity = require('string-similarity');
-const artifactSetList = require('../../assets/data/artifacts/artifacts.json');
+const artifactSetList = require('../../assets/data/artifacts.json');
 
 module.exports = {
 	data: new SlashCommandBuilder()
