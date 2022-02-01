@@ -1123,7 +1123,6 @@
           },
           {
              "name":"Support",
-             "notes":"<p>Amber support can be utilized even at very low levels, as she grows in constellation she'll be giving more utility bonuses, an extra Barron Bunny from her Explosive Puppet (<a class=\"talent-link\" href=\"characters/amber/talents\">E</a>) skill, manual detonation, burst giving movement speed and ATK bonuses by 15% for 10s.</p>",
              "weapons":[
                 {
                    "id":60,
@@ -1403,7 +1402,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p><a class=\"character-link\" href=\"characters/ayaka\">Kamisato Ayaka</a> is a pretty straightforward DPS that deals most of her damage from her Elemental Burst. She has very high scalings on her burst at the cost of it being 80 energy. You will likely need another <a class=\"cryo\">Cryo</a> battery on the team to provide energy for her (<a class=\"character-link\" href=\"characters/diona\">Diona</a>, <a class=\"character-link\" href=\"characters/kaeya\">Kaeya</a>, <a class=\"character-link\" href=\"characters/rosaria\">Rosaria</a>, etc). She has a special dash (like <a class=\"character-link\" href=\"characters/mona\">Mona</a>) and after she dashes, she will get a <a class=\"cryo\">Cryo</a> infusion on her Normal Attacks. Ensure you always have this bonus active to maximise your rotation damage.</p>\n\n<p>She can be played on a permafreeze team (paired with a Hydro enabler such as <a class=\"character-link\" href=\"characters/mona\">Mona</a>, <a class=\"character-link\" href=\"characters/xingqiu\">Xingqiu</a>, or even <a class=\"character-link\" href=\"characters/barbara\">Barbara</a>/<a class=\"character-link\" href=\"characters/kokomi\">Kokomi</a>) where she could gain huge benefits from the Blizzard Strayer (4) artifact set. Blizzard Strayer (4) piece gives a huge amount of stats on a <a class=\"cryo\">Freeze</a> team, so try to get this artifact set as fast as you can. Her Elemental Burst also sticks on <a class=\"cryo\">frozen</a> enemies, but it also has a small hitbox so you need to position it well so that it can hit multiple bigger enemies.</p>\n\n<p><b>Weapon Choices</b>\n<ul class=\"text-list-1\">\n<li><a class=\"weapon-link\" href=\"weapons/aquila-favonia\">Aquila Favonia</a>: While Aquila has Physical Damage% as a main stat, which is basically useless on Ayaka, it is still a good statstick as it has a high base ATK and ATK% buff from the passive.</li>\n<li><a class=\"weapon-link\" href=\"weapons/primordial-jade-cutter\">Primordial Jade Cutter</a>: With Blizzard Strayer (4) and <a class=\"cryo\">Cryo</a> Resonance, this weapon overcrits, so avoid getting Crit Rate substats.</li>\n<li><a class=\"weapon-link\" href=\"weapons/skyward-blade\">Skyward Blade</a>, <a class=\"weapon-link\" href=\"weapons/blackcliff-longsword\">Blackcliff Longsword</a>, <a class=\"weapon-link\" href=\"weapons/the-black-sword\">The Black Sword</a>, <a class=\"weapon-link\" href=\"weapons/amenoma-kageuchi\">Amenoma Kageuchi</a>: These 4 weapons will give a similar output, so it's not worth getting or building another when you already have one. Depends on how much Energy Recharge you're running, how much stacks your Blackcliff has, how much time you're gonna spend doing Normal Attacks, and how much you value the passive on Amenoma since it gives you leeway in building Energy Recharge, one can be better than the other. If you're running Skyward Blade or Amenoma Kageuchi (especially with higher refines), avoid getting Energy Recharge substats as their stats / passives assist in elemental burst generation significantly.</li>\n<li><a class=\"weapon-link\" href=\"weapons/the-flute\">The Flute</a>: Offers slightly more damage potential than Amenoma Kageuchi, with the tradeoff being losing Kageuchi's energy generation. Decide for yourself which is better for your team and rotations.</li>",
              "weapons":[
                 {
                    "id":678,
@@ -1713,7 +1711,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Use charged attacks</p></li>\n<li><p>Activate your Let the Show Begin (<a href=\"#\" class=\"talent-link\">E</a>) skill first, as it reduces stamina consumption</p></li>\n\n</ul>",
              "weapons":[
                 {
                    "id":362,
@@ -1854,7 +1851,6 @@
           },
           {
              "name":"Support",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Use Let the Show Begin (<a href=\"#\" class=\"talent-link\">E</a>) skill and/or Shining Miracle (<a href=\"#\" class=\"talent-link\">Q</a>) skill, then switch characters</p></li>\n<li><p>For more consistent heals, prioritize Energy Recharge artifact stat.</p></li>\n<li><p>If you're satisfied with her healing, you can run <a href=\"artifact-set/noblesse-oblige\" class=\"artifact-set-link\">Noblesse Oblige</a> to buff your main damage dealer.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":370,
@@ -2089,7 +2085,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"",
              "weapons":[
                 {
                    "id":286,
@@ -2152,7 +2147,6 @@
           },
           {
              "name":"Sub DPS",
-             "notes":"",
              "weapons":[
                 {
                    "id":292,
@@ -2340,7 +2334,6 @@
        "roles":[
           {
              "name":"Support",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Heals from <a class=\"character-link\" href=\"characters/bennett\">Bennett</a>'s Fantastic Voyage (<a class=\"talent-link\" href=\"characters/bennett/talents\">Q</a>) scale off of HP, while damage buff only scales with your base ATK (see below).</p></li>\n\n<li><p>Base ATK refers to only character base ATK stat and weapon base ATK stat.</p></li>\n\n<li><p><b>CAUTION</b> Do not increase <a class=\"character-link\" href=\"characters/bennett\">Bennett</a>'s constellation from 5 to 6 unless he will ONLY be in a <a class=\"pyro\">Pyro</a> team or you know what you're doing. This is because <a class=\"character-link\" href=\"characters/bennett\">Bennett</a> turns all of your melee on-field character's Normal/Charge attacks into <a class=\"pyro\">Pyro</a>, which means that <a class=\"character-link\" href=\"characters/bennett\">Bennett</a> will lose a lot of his team comp potential.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":91,
@@ -2537,7 +2530,6 @@
           },
           {
              "name":"DPS",
-             "notes":"<ul class=\"text-list-1\">\n\n<li><p>Set 1 works best with <a href=\"character/chongyun\" class=\"character-link\">Chongyun</a> on the same team for consistent melt reaction. </p></li>\n\n<li><p>[<a href=\"#\" class=\"constellation-link\">C6</a>] <a href=\"character/bennett\" class=\"character-link\">Bennett</a> does not work with <a href=\"character/chongyun\" class=\"character-link\">Chongyun</a> at all</p></li>\n\n<li><p>The recommended artifact sets are based on the assumption a DPS <a href=\"character/bennett\" class=\"character-link\">Bennett</a> is build with a <a class=\"pyro\">Melt</a>/<a class=\"hydro\">Vaporize</a> team compostion.</p></li>\n<li><p>Without <a class=\"pyro\">Melt</a>/<a class=\"hydro\">Vaporize</a> reactions, a Physical DMG <a href=\"characters/bennett\" class=\"character-link\">Bennett</a> is useless compared to other main DPS roles.</p></li>\n<li><p><a class=\"pyro\">Melt</a>/<a class=\"hydro\">Vaporize</a> comps are where <a href=\"characters/bennett\" class=\"character-link\">Bennett</a> shines as a DPS.</p></li>\n</ul>\n\n<p>Assuming a <a class=\"pyro\">Melt</a>/<a class=\"hydro\">Vaporize</a> team, <a href=\"artifact-set/crimson-witch-of-flames\" class=\"artifact-set-link\">Crimson Witch of Flames</a> 4-pcs is your best set for damage.\n<a class=\"pyro\">Pyro</a> DMG bonus will always be the best for cup. The combo to deal the highest <a class=\"pyro\">Melt</a>/<a class=\"hydro\">Vaporize</a> damage is <a href=\"weapons/the-black-sword\" class=\"weapon-link\">The Black Sword</a> and Elemental Mastery sand. [R1] <a href=\"weapons/iron-sting\" class=\"weapon-link\">Iron Sting</a> and EM sand turns out to have deminishing returns and isn't as good, but [R2+] <a href=\"weapons/iron-sting\" class=\"weapon-link\">Iron Sting</a> is a different question because the buffs are better. (Assuming you don't have a whale build's CR/CD stats, in which case <a href=\"weapons/aquila-favonia\" class=\"weapon-link\">Aquilla Favonia</a> with Elemental Mastery sands is just flat out better.)</p>",
              "weapons":[
                 {
                    "id":81,
@@ -2835,7 +2827,6 @@
        "roles":[
           {
              "name":"Sub DPS / Nuke",
-             "notes":"<p>\n<a class=\"character-link\" href=\"characters/chongyun\">Chongyun</a> is much preferred as a Sub DPS / Nuke over main DPS since his auto attack scalings are very low. His auto attacks take such a low portion of his damage even when including [<a class=\"constellation-link\" href=\"characters/chongyun/constellations\">C1</a>]. His Spirit Blade: Cloud-Parting Star (<a class=\"talent-link\" href=\"characters/chongyun/talents\">Q</a>) on the other hand hits extremely hard with higher constellation levels and takes a much higher total damage portion over his AA. On top of that, you can <a class=\"pyro\">Melt</a> all 3 hits of his Spirit Blade: Cloud-Parting Star (<a class=\"talent-link\" href=\"characters/chongyun/talents\">Q</a>) with <a class=\"character-link\" href=\"characters/bennett\">Bennett</a>'s strong <a class=\"pyro\">Pyro</a> application. \n</p>\n\n<p>\nHe gains extra ATK % as he ascends, giving you some free space to put in EM for <a class=\"pyro\">Melt</a> reaction damage bonus. \n</p>\n\n<p>\n<a class=\"weapon-link\" href=\"weapons/debate-club\">Debate Club</a> [R5] beats <a class=\"weapon-link\" href=\"weapons/prototype-archaic\">Prototype Archaic</a> [R2] up until level 70. \n\n</p>\t\t\t\t\t",
              "weapons":[
                 {
                    "id":192,
@@ -3008,7 +2999,6 @@
           },
           {
              "name":"Support",
-             "notes":"<p>At [<a class=\"constellation-link\" href=\"characters/chongyun/constellations\">C2</a>], his Spirit Blade: Chonghua's Layered Frost (<a class=\"talent-link\" href=\"characters/chongyun/talents\">E</a>) reduces ability CD that is casted within the zone. Just watch out for his <a class=\"cryo\">Cryo</a> field overwriting your elemental melee basics (e.g. <a class=\"character-link\" href=\"characters/keqing\">Keqing</a>). </p>\n<ul class=\"ul-list-1\">\n\n<li><p>Elemental priorities: <a class=\"pyro\">Pyro</a> > <a class=\"cryo\">Cryo</a> > <a class=\"electro\">Electro</a> </p></li>\n\n</ul>\n\n<p>\nIf you're running Instructors on <a class=\"character-link\" href=\"characters/chongyun\">Chongyun</a>, you should be the one who procs elemental reactions for the 4 set perk to proc.\nYour primary goal with using <a class=\"character-link\" href=\"characters/chongyun\">Chongyun</a> as a support is to let him function as a <a class=\"cryo\">Cryo</a> battery/applier + an attack buffer with <a class=\"weapon-link\" href=\"weapons/wolfs-gravestone\">WGS</a>. \nER weapons allow you to quickly gain energy for <a class=\"character-link\" href=\"characters/chongyun\">Chongyun</a>, allowing for easier burst rotations. </p>",
              "weapons":[
                 {
                    "id":193,
@@ -3305,7 +3295,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<ul class=\"text-list-1\">\n\n<li><p><a href=\"artifact-set/crimson-witch-of-flames\" class=\"artifact-set-link\">Crimson Witch of Flames</a> is generally the better choice with how easily <a href=\"character/diluc\" class=\"character-link\">Diluc</a> can stack up for Pyro damage, while his burst imbues his Normal/Charged Attacks with Pyro.</p></li>\n\n<li><p><a href=\"artifact-set/gladiators-finale\" class=\"artifact-set-link\">Gladiator's Finale</a> is for those who are still reluctant on farming for <a href=\"artifact-set/crimson-witch-of-flames\" class=\"artifact-set-link\">Crimson Witch of Flames</a> (Pre-AR 45), this will still provide it a fairly decent increase in DPS as he still relies on his Normal/Charged Attacks mostly.</p></li>\n\n<li><p>If you have [<a href=\"#\" class=\"constellation-link\">C2</a>], refrain from using <a href=\"weapon/serpent-spine\" class=\"weapon-link\">Serpent Spine</a> as it requires you to take damage for the buff, which counteracts with this weapon's stacks. <a href=\"weapon/serpent-spine\" class=\"weapon-link\">Serpent Spine</a> can lose its stacks if you come into contact with burning grass.</p></li>\n\n<li><p>If <a href=\"character/diluc\" class=\"character-link\">Diluc</a> is running with <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a> where he can trigger vaporize very often, you can run EM sand as an alternative to ATK sand since EM boosts his reaction damage by a lot. </p></li>\n<li><p>When <a href=\"character/diluc\" class=\"character-link\">Diluc</a>'s Pyro imbued basic attack is active, he can trigger vaporize every 2 basic attacks due to elemental reaction cooldown. (vaporize, no vaporize, vaporize, no vaporize, etc.)</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":173,
@@ -3611,7 +3600,6 @@
        "roles":[
           {
              "name":"Support",
-             "notes":"<ul class=\"text-list-1\">\n<li><p><a href=\"artifact-set/maiden-beloved\" class=\"artifact-set-link\">Maiden Beloved</a> to increase healing potential of her Signature Mix (<a class=\"talent-link\" href=\"characters/diona/talents\">Q</a>), which is <a href=\"characters/diona\" class=\"character-link\">Diona</a>'s specialty, healing and shielding.</p></li>\n\n<li><p><a href=\"artifact-set/noblesse-oblige\" class=\"artifact-set-link\">Noblesse Oblige</a> for those who uses <a href=\"characters/diona\" class=\"character-link\">Diona</a> for <a class=\"cryo\">Cryo</a> procs and want the ATK bonus from her Signature Mix (<a class=\"talent-link\" href=\"characters/diona/talents\">Q</a>) burst. \n<ul class=\"text-list-1\"><p>Her <a class=\"cryo\">Cryo</a> procs are to be used for <a class=\"electro\">Superconduct</a> only. It isn't consistent enough for <a class=\"pyro\">Melt</a> and/or shield breaking.</p></ul></p></li>\n\n<li><p>Use a <a href=\"artifact-set/the-exile\" class=\"artifact-set-link\">Exile</a>/<a href=\"artifact-set/scholar\" class=\"artifact-set-link\">Scholar</a> 2-piece set to compensate for <a href=\"characters/diona\" class=\"character-link\">Diona</a>'s lack of energy since her Signature Mix (<a class=\"talent-link\" href=\"characters/diona/talents\">Q</a>) costs 80 energy.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":181,
@@ -3870,7 +3858,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p>Eula's weapon rankings assume that you're running her with a cryo battery (i.e. Diona) instead of Bennett and that she has more than 30% ER substats from her artifacts alone. Increasing it to 40% through substats can help alleviate her energy issues.</p>\n\n<p>Eula's Elemental Burst does not snapshot. This means that any buffs Eula has upon casting burst will not be taken into effect if the buff duration expires before the Lightfall Sword hits.</p>\n\n<p>Regarding Weapon Choice:<br>\nSerpent Spine: It can be better than Skyward Pride if you have at least 130% ER from substats and running a cryo battery. It is also worth noting that an R5 Serpent Spine will outperform all 5⭐ weapons at R1 with proper stack management.<br>\nSkyward Pride: This weapon is more forgiving towards ER substats. If there is a cryo battery unit in your team (Diona with Sacrificial bow or Kaeya with Favonius Sword) or your team generates enough particles on their own, Skyward Pride loses effectiveness compared to the above options.<br>\nAkuoumaru: This weapon will outperform Luxurious Sea Lord at higher refinements.</p>\n\n<p>Regarding Artifact Sets:<br>\nPale Flame (4): This is Eula's optimal artifact set and it relies on having a condition fulfilled in order to outperform Pale Flame (2) + Bloodstained Chivalry (2). If you are able to sustain the conditional buff, you will be able to achieve a 50% Physical DMG Bonus + 18% Atk. Without using your Elemental Burst, you can sustain the Pale Flame's 4 set bonus because each stack lasts 7s and it refreshes per stack, and Eula's Elemental Skill is only 4s when doing 1-taps, therefore you can keep the condition up.<br>\nWhen using this set, it is recommended to not use hold skill cast until your Lightfall Sword is nearly about to end. This restriction is only for players who don't have Eula C2 or above. Please visit the Ability Tips for her combo.<br>\nPale Flame (2) Bloodstained Chivalry (2): This is a non-conditional, consistent artifact set that provides you a constant 50% physical dmg bonus. While that by itself is amazing, Pale Flame (4) can out perform this set because it also has an 18% atk buff and is easily maintained through her low tap skill cooldown.</p>",
              "weapons":[
                 {
                    "id":687,
@@ -4707,7 +4694,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p>Weapon Notes</p>\n<ul class=\"text-list-1\">\n<li><p><a href=\"weapons/amos-bow\" class=\"weapon-link\">Amos's Bow</a> passive description is poorly worded. The actual passive description is: \"For every 0.1 second your arrow is in flight, the arrow gains 8% normal/charge attack damage. This stacks up to 5 times.\" This makes Amos sounds a bit worse on paper, but for some reason Ganyu's charge attack bloom delay duration is considered to be \"in flight\", and you can get 4 stacks even on point blank range, which makes this bow even more ridiculous on Ganyu.<br /><br /></p></li>\n</ul>\n\n<p>Artifact Set Notes</p>\n<ul class=\"text-list-1\">\n\n<li><p><b>Set 1</b> is the generalist set, and provides the most damage output for crowd battles.</p></li>\n\n<li><p><strong>Set 2 </strong>is a niche&nbsp;build, but is&nbsp;highly recommended&nbsp;within its niche, that focuses on Ganyu reaction team comps. This set can outshine Set 1 and 2 with a very specific team comp; which&nbsp;has to have&nbsp;<a href=\"characters/sucrose\" class=\"character-link\">Sucrose</a>/<a href=\"characters/venti\" class=\"character-link\">Venti</a>, <a href=\"characters/bennett\" class=\"character-link\">Bennett</a> + <a href=\"characters/xiangling\" class=\"character-link\">Xiangling</a>/<a href=\"characters/klee\" class=\"character-link\">Klee</a>. With a <a class=\"pyro\">Melt</a> proc'd charged shot, Wanderer's Troupe has around ~20,000 damage difference from Set 1, but at the same time, Set 1 has a ~14,000 damage advantage than Set 2 with the Elemental Burst.&nbsp;Use this set, if and only if, you have the characters mentioned earlier, or if you know what you are doing with this set, and if you are willing to trade out Elemental Burst damage for more charged attack damage, and you are confident that you can proc <a class=\"pyro\">Melt</a> very consistently.</p></li>\n\n<li><p><strong>Set 3 </strong> is a build for <a class=\"cryo\">Frozen</a> team comp,&nbsp;whereas you focus all your stats on Crit DMG but of course that does not mean you won't aim for crit rate. This has high damage consistency but overall damage output is lower than the two artifact sets above, nonetheless is a solid build. (Requires a supporting hydro unit or rain to freeze targets to make full use of this set).&nbsp;Highly Recommended</p></li>\n\n<li><p><strong>Set 4 </strong>&nbsp;is an alternative to set 2 but&nbsp;ONLY&nbsp;if you pair <a class=\"character-link\">Ganyu</a> with <a href=\"characters/zhongli\" class=\"character-link\">Zhongli</a>. <a href=\"characters/zhongli\" class=\"character-link\">Zhongli</a> is the only character in the game with permanent shield uptime on his own. <a href=\"characters/diona\" class=\"character-link\">Diona</a> still has downtime on her shield since the shield lasts 10-12 seconds. This set out performs set 1 assuming the shield bonus is up, and it is MUCH easier to obtain than Set 1 and Set 2.</p></li>\n\n<li><p><strong>Set 5 </strong>&nbsp;is an alternative to set 4 if you don't have <a href=\"characters/zhongli\" class=\"character-link\">Zhongli</a>, it is on par with set 1. Only use this set when you already have existing HoD pieces, in cases when you, for example, farmed this set for a different character like <a href=\"characters/tartaglia\" class=\"character-link\">Childe</a>. It is not recommended to farm HoD just for Ganyu.&nbsp;It is <em>not</em>&nbsp;recommended to farm.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":266,
@@ -4871,7 +4857,6 @@
           },
           {
              "name":"Sub DPS",
-             "notes":"<p>You would want at least 140% ER with a support <a class=\"character-link\">Ganyu</a>, although from testing, with a DPS <a class=\"character-link\">Ganyu</a> at 111% ER, the ult uptime is already 100% so you don't have to invest a lot of stats into Energy Recharge explicitly, you want to focus more on CRIT Rate / DMG and Elemental Mastery. The stats priority, CRIT Rate / DMG and Elemental Mastery is interchangeable depending on what team comp you're using <a class=\"character-link\">Ganyu</a> as a support is in. Elemental Mastery would be no. 2 prioritiy for Reverse Melt comps, while CRIT Rate / DMG for a more general purpose, and CRIT Rate / DMG is generally more versatile and useful.</p>\n<br>\n\n<p>Weapon Notes</p>\n<ul class=\"text-list-1\">\n<li><p><a href=\"weapons/the-stringless\" class=\"weapon-link\">Stringless</a> is BiS only when <a class=\"character-link\">Ganyu</a> is used as a reverse melt sub dps, <a href=\"weapons/skyward-harp\" class=\"weapon-link\">Skyward Harp</a> is BiS for any other build.</p></li>\n</ul>\n<br>\n<p>Artifact Notes</p>\n<ul class=\"text-list-1\">\n<li><p><strong>Set 1</strong> is the generalist set, it focuses on dealing damage with her elemental burst and constantly affecting enemies with cryo for reactions.</p></li>\n<li><p><strong>Set 2</strong> has the same ease of use as&nbsp;<strong>Set 1</strong>, however it deals overall less damage than&nbsp;<strong>Set 1</strong>.</p></li>\n<li><p><strong>Set 3</strong> same as&nbsp;<strong>Set 1</strong> and <strong>Set 2</strong>, just deals less damage compared to both.</p></li>\n<li><p><strong>Set 4</strong> is a pure support build for Ganyu, focuses on her using her burst and switching out to to your main dps for extra damage (Gives a 20% boost to DMG) and to trigger reactions.&nbsp;Use this set if you are only using her Burst and to support your main DPS.</p></li>\n</ul>\n",
              "weapons":[
                 {
                    "id":272,
@@ -5283,7 +5268,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p>Hu Tao is most effective when used with Xingqiu to proc Vaporize reactions which utilizes her BiS Set, Crimson Witch of Flames 4-pcs.<br /><br />Set 1 and 2 are for higher sustained dps and higher reaction damage, while Set 3 is for higher Elemental burst damage in exchange for lower sustained &amp; reaction damage. Prioritize burst before your skill if you are going 2 set NO 2 set CW, and prioritize skill if you are running a 4 set CW or 2 set CW 2 set WT<br /><br />Retracing Bolide (4)&nbsp;and&nbsp;Wanderer's Troupe (2) + Crimson's Witch of Flame (2)&nbsp;is almost on equal footing because both of the sets have an equal overall damage output assuming you have 100% shield uptime when using Bolide (4). The difference is, you want to use 2/2 WT/CW when focusing on Nuking and better consistency, while 4 Bolide is for overall higher AA damage at the expense of lower burst damage, although inconsistent if you cannot keep your shield permanently.<br /><br />Heart of Depth is a niche alternative for charge attack spam builds. 4 Thundering Fury is also a niche alternative for when you pair hutao with xingqiu and fischl to overload and reduce e downtime.<br /><br />Deathmatch (4⭐) is better than Dragon's Bane (4⭐) when you're not using Xingqiu in pair with Hu Tao. Although it is&nbsp;highly recommended&nbsp;to pair Xingqiu with her, so most of the times, Dragon's Bane is better.<br /><br />Vortex Vanquisher and Skyward Spine provide little to nothing to hutao since hutao scales better with HP% than atk% with every spear in the game. Base attack&nbsp;DOES NOT MAKE A DIFFERENCE WHATSOEVER&nbsp;on Hutao because Hutao has a very high hp to atk conversion cap. It is so high that even a 3 star weapon's base attack is enough. In this example scenario, with 40k max hp, hutao won't hit the conversion cap with the 3 star weapon base atk, and normally you won't be getting 40k max hp anyway, so getting a spear on hutao only for the sake of higher conversion cap is just not worth it.</p>",
              "weapons":[
                 {
                    "id":389,
@@ -5743,7 +5727,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>It's recommended to have at least [<a href=\"/characters/jean/constellations\" class=\"constellation-link\">C2</a>] to have her as your main DPS, and if the RNG gods have blessed you, she is extremely powerful with [<a href=\"characters/jean/constellations\" class=\"constellation-link\">C4</a>].</p></li>\n\n<li><p>If you aim her Gale Blade (<a href=\"characters/jean/talents\" class=\"talent-link\">E</a>) elemental skill upwards, it will cause additional fall damage based off of Max HP% of the enemy.</p></li>\n\n<li><p>Some 4-star characters can deal more DPS than <a href=\"characters/jean\" class=\"character-link\">Jean</a>, so we recommend using her in a support role.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":100,
@@ -5956,7 +5939,6 @@
           },
           {
              "name":"Support",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Gale Blade (<a href=\"/characters/jean/talents\" class=\"talent-link\">E</a>) can be used to push smaller mobs away.</p></li>\n\n<li><p>Healing from Dandelion Breeze (<a href=\"/characters/jean/talents\" class=\"talent-link\">Q</a>) scales off <a href=\"characters/jean\" class=\"character-link\">Jean</a>'s ATK. If you have low Energy Recharge, use <a href=\"weapons/sacrificial-sword\" class=\"weapon-link\">Sacrificial Sword</a> over <a href=\"weapons/the-flute\" class=\"weapon-link\">The Flute</a>.</p></li>\n\n<li><p>You can either go for more ATK to get stronger heals, but relatively lower Dandelion Breeze (<a href=\"/characters/jean/talents\" class=\"talent-link\">Q</a>) uptime. Or, you can focus on Energy Recharge to maintain the uptime on <Dandelion Breeze (<a href=\"/characters/jean/talents\" class=\"talent-link\">Q</a>), but this will sacrifice her healing potential. The choice is yours :D</p></li>\n\n<li><p>If <a href=\"character/venti\" class=\"character-link\">Venti</a>, <a href=\"character/sucrose\" class=\"character-link\">Sucrose</a>, <a href=\"character/jean\" class=\"character-link\">Jean</a>, <a href=\"character/traveler-anemo\" class=\"character-link\">Traveler (Anemo)</a>, and/or <a href=\"characters/kazuha\" class=\"character-link\">Kazuha</a> is on the team, you can go for a full DPS or Sub DPS build without worrying about energy for her Dandelion Breeze (<a href=\"/characters/jean/talents\" class=\"talent-link\">Q</a>) since you can use them to generate Anemo elemental particles for <a href=\"characters/jean\" class=\"character-link\">Jean</a>.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":110,
@@ -6378,7 +6360,6 @@
           },
           {
              "name":"Support",
-             "notes":"<ul class=\"text-list-1\">\n\n<li><p>Wanted for his burst that works even off-field, granting Cryo procs while you can use your main DPS.</p></li>\n\n<li><p><a href=\"character/kaeya\" class=\"character-link\">Kaeya's</a> <a href=\"#\" class=\"talent-link\">Glacial Waltz (Q)</a> actually outscales <a href=\"character/venti\" class=\"character-link\">Venti's</a> <a href=\"#\" class=\"talent-link\">Wind's Grand Ode (Q)</a> in terms of raw skill damage. This means that <a href=\"character/kaeya\" class=\"character-link\">Kaeya's</a> <a href=\"#\" class=\"talent-link\">Glacial Waltz (Q)</a> has very high damage ceiling and can be especially lethal on [<a href=\"#\" class=\"constellation-link\">C6</a>].</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":47,
@@ -6683,7 +6664,6 @@
        "roles":[
           {
              "name":"Elemental Mastery",
-             "notes":"<p>Kazuha's 4th Ascension Passive, <a href=\"characters/kazuha/talents\" class=\"talent-link\">Poetics of Fuubutsu</a> encourages players to maximise Elemental Mastery in order to maximise his utility.</p>\n\n<p>Similar to <a href=\"characters/venti/overview\" class=\"character-link\">Venti</a>, due to the EM buffs, a triple EM build will out-damage a regular ATK-EM/<a class=\"anemo\">Anemo</a>/Crit build as long as there are 2+ enemies due to the amount of <a class=\"anemo\">swirls</a> involved. Because of this, an ADC (Attack/Damage/Crit) build isn't recommended unless he is in a team whereby he cannot make use of his <a href=\"characters/kazuha/talents\" class=\"talent-link\">Poetics of Fuubutsu</a> passive or <a class=\"anemo\">swirls</a>. (i.e. mono <a class=\"anemo\">Anemo</a>/<a class=\"geo\">Geo</a> teams)</p>\n\n<p><b>Regarding Weapon Choices: </b><br>The ultimate goal is to try stack as much EM while getting enough ER (160-180%) for a consistent Burst uptime. Having <a href=\"weapons/sacrificial-sword\" class=\"weapon-link\">Sacrificial Sword</a> or a second <a class=\"anemo\">Anemo</a> character in the team will also help reduce the needs for ER and prioritize EM substat more. <a href=\"weapons/iron-sting\" class=\"weapon-link\">Iron Sting</a> will yield the highest upfront EM and teamwide buff if compared to the other 4 star options, if you manage to meet his energy needs or simply don't need more than one rotation, this would be the better option if compared to the Energy Recharge weapons.</p>",
              "weapons":[
                 {
                    "id":592,
@@ -6816,7 +6796,6 @@
           },
           {
              "name":"Sub DPS",
-             "notes":"<ul class=text-list-1>\n<li><p> <a href=\"characters/kazuha\" class=\"character-link\">Kazuha</a>'s 1st Ascension Passive <a href=\"characters/kazuha/talents\" class=\"talent-link\">Souman Swordsmanship</a> encourages players to maximize Elemental Mastery in order to maximize his utility. </p></li>\n\n<li><p> <a href=\"characters/kazuha\" class=\"character-link\">Kazuha</a>'s crowd control is <b>unreliable</b> due to the knockback from his plunge attack (the small vortex after plunging negates some knockback but not all) coupled with his long cooldown on the <i>hold</i> Chihayaburu (<a href=\"characters/kazuha/talents\" class=\"talent-link\">E</a>) elemental skill.</p></li>\n\n\n\n</ul>",
              "weapons":[
                 {
                    "id":599,
@@ -7223,7 +7202,6 @@
           },
           {
              "name":"Physical DPS",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Set 1 is the most recommended set to use for Physical DMG <a href=\"characters/keqing\" class=\"character-link\">Keqing</a>.</p></li>\n\n<li><p>Set 2 is used in scenarios where there are multiple mobs that can be killed with charged attacks within 10 seconds, this is for dealing with a crowd, in other words, AoE. It is not recommended because of the kill condition.</p></li>\n\n<li><p>Set 3 is for co-op content, when you have a Geo party member who can proc Crystalize at least once every 10 seconds.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":16,
@@ -7436,7 +7414,6 @@
           },
           {
              "name":"Sustained Electro",
-             "notes":"<ul class=\"text-list-1\"><li><p>Set 1 can be used generally anywhere, whether it be Co-op Mode or Spiral Abyss, or other single player content. This has a lot of consistency due to its independence from Electro aura, and it is more viable in Spiral Abyss.</p></li><li><p>Set 2 should be used with Electro-charged team compositions (<a href=\"character/keqing\" class=\"character-link\">Keqing</a> + <a href=\"character/xingqiu\" class=\"character-link\">Xingqiu</a>), or single electro team comp, but this is <b>NOT</b> recommended. This set has a 35% damage modifier, which increases all damage from all sources, although that modifier is a bit unstable due to it's dependency to the sustainability of Electro aura on enemies.</p></li></ul>",
              "weapons":[
                 {
                    "id":31,
@@ -7726,7 +7703,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"",
              "weapons":[
                 {
                    "id":474,
@@ -8492,7 +8468,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"",
              "weapons":[
                 {
                    "id":320,
@@ -8743,7 +8718,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"",
              "weapons":[
                 {
                    "id":333,
@@ -9192,7 +9166,6 @@
           },
           {
              "name":"Support",
-             "notes":"<p>Qiqi's elemental burst allows other characters to maximize dps while healing off-field herself. Prioritize using QiQi's burst when facing against situations that require you to do DPS, for example time-trial challenges. At ascension 4, she applies the same marks as the ones from her burst through basic attacks.\n\nSet 2 (2Maiden+2Gladi) this set focuses on a stable increase of her E heal procs without the need of having her onfield for heals, allowing to change to the main Carry and continue to do DPS. Where 4-pcs Maiden bonus only would apply to the first proc on the changed character. </p>",
              "weapons":[
                 {
                    "id":246,
@@ -9663,7 +9636,6 @@
        "roles":[
           {
              "name":"Sub DPS",
-             "notes":"<p>This Sub DPS section is tailored around giving Rosaria as much damage as possible. Crit Rate stacking is not as necessary, long as 50% Crit Rate is guaranteed at the very least, you will still be giving crit rate buffs of 9.7% with the Ascension 1 Talent Bonus.<br /><br />Elemental Mastery is only recommended if you are proccing reverse melt on Rosaria.<br /><br /><br>The following is only recommended to those who have not obtained a desirable set for Rosaria, with crit rate building as her place holder set:<br /><br>If you don't wish to hyper invest onto Rosaria, she could still be used as a crit rate battery, you can build up to 88% Crit Rate and use skill to cap out 100% Crit Rate, then burst for easy crit rate buff. This can be easily achievable if you have an existing Crit Rate substat polearm, otherwise just put on whatever Crit Rate Circlet, substat and Berserker artifacts you may have.</p>",
              "weapons":[
                 {
                    "id":520,
@@ -9835,7 +9807,6 @@
           },
           {
              "name":"Cryo DPS",
-             "notes":"<p>This section is dedicated for Rosaria's synergy with Chongyun, which allows her attacks to be infused with Cryo.<br />If played in a permafreeze setup, Rosaria has the same teamcomp as Freeze kaeya. Check Kaeya's ability tips section for teamcomp setup.</p>\n<p><strong>Dragon's Bane</strong>:&nbsp;This ranking for Dragon's Bane is only if Rosaria is played in a team comp in which she triggers reverse melt, otherwise do not use this weapon.<br /><br /><strong>Substat choices</strong>:&nbsp;Energy Recharge has a higher priority over Crit Rate until the 150% mark.<br />Compared to Kaeya, Rosaria has even less desire for Crit Rate, as her Ascension 1 Talent includes an extra 15% Crit Rate once skill hits the back of an enemy.</p>",
              "weapons":[
                 {
                    "id":496,
@@ -10031,7 +10002,6 @@
           },
           {
              "name":"Physical DPS",
-             "notes":"<ul class=\"text-list-1\">\n<li><p>Regarding Blizzard Strayer (4):&nbsp;It has been tested that Rosaria's Q is required to maintain uptime on 4pc blizzard strayer (due to fischl/beidou stealing cryo procs for superconduct). Due to the low uptime of Rosaria's Q at&nbsp;[C0]&nbsp;this artifact set should only be recommended at&nbsp;[C2+].</p></li>\n</ul>\n<p>&nbsp;</p>\n<ul class=\"text-list-1\">\n<li><p>Regarding Gladiator's Finale (2) Bloodstained Chivalry (2):&nbsp;This set is better than Gladiator's Finale (4) if Rosaria is running Crescent Pike (4⭐). This is because the 4-set effect of Gladiator's Finale does not stack with Crescent Pike's passive.</p></li>\n</ul>",
              "weapons":[
                 {
                    "id":508,
@@ -10452,7 +10422,6 @@
        "roles":[
           {
              "name":"Support",
-             "notes":"<p><a href=\"characters/sayu\" class=\"character-link\">Sayu</a> does more damage with EM builds and heals more with ATK hybrid builds, Healing Bonus hat can be used for better heals while maintaining respectable damage. Note that <a href=\"characters/sayu\" class=\"character-link\">Sayu</a> wants a large amount of energy recharge when used as the only <a class=\"anemo\">Anemo</a> slot on the team (200%ish).</p>\n\n<p>Regarding Weapon Choices:<br>\n<a href=\"weapons/wolfs-gravestone\" class=\"weapon-link\">Wolf's Gravestone</a> is a universal claymore that is capable of buffing your teammates along with providing more healing in <a href=\"characters/sayu\" class=\"character-link\">Sayu</a>'s case. It is best used once you achieve your ER threshold.</p>\n\n<p>Regarding Artifact Sets:<br>\n<a href=\"artifacts/26\" class=\"artifact-set-link\">Viridescent Venerer</a>: The bread and butter artifact set for <a class=\"anemo\">Anemo</a> units, this set provides the ability to shred the enemy's elemental resistance while also buffing <a href=\"characters/sayu\" class=\"character-link\">Sayu</a>'s <a class=\"anemo\">swirl</a> damage output.</p>",
              "weapons":[
                 {
                    "id":602,
@@ -10865,7 +10834,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p><a class=\"character-link\">Sucrose</a> can utilize both builds in either role, if you have strong Vaporize/Melt reactions in your team, build for EM, otherwise build for <a class=\"anemo\">Anemo DMG</a>.</p>\n<p>Despite how much damage she could do alone, <a class=\"character-link\">Sucrose</a> DPS playstyle still surrounds other party members to have her kit utilized at max.</p>",
              "weapons":[
                 {
                    "id":132,
@@ -11005,7 +10973,6 @@
           },
           {
              "name":"Support",
-             "notes":"<p>People often compare <a class=\"character-link\">Sucrose</a> with <a href=\"characters/venti\" class=\"character-link\">Venti</a> for crowd control capabilities, but that's not what you'll be looking for. <a class=\"character-link\">Sucrose</a> is a character that can share Elemental Mastery to her teammates through swirling elements (<a href=\"characters/sucrose/talents\" class=\"talent-link\">Catalyst Conversion</a>), which in turn improves reaction damage for the character benefiting from the EM boost.</p>",
              "weapons":[
                 {
                    "id":140,
@@ -14644,7 +14611,6 @@
        "roles":[
           {
              "name":"DPS",
-             "notes":"<p>Generally, a Geo DPS build is not recommended since his kit is best utilized for burst damage support.</p>\n\n<p>If you wish to make Geo DPS <a href=\"character/zhongli\" class=\"character-link\">Zhongli</a> viable, you'll have to use <a href=\"character/traveler-geo\" class=\"character-link\">Traveler (Geo)</a>/<a href=\"character/ningguang\" class=\"character-link\">Ningguang</a> as a \"Geo battery\" to generate enough energy for his <a href=\"#\" class=\"talent-link\">Planet Befall (Q)</a>, since the energy gain per <a href=\"#\" class=\"talent-link\">Dominus Lapidis (E)</a>'s Stone Stele pulse seems to be capped at one Geo energy particle, which makes it a terrible source of Geo energy.</p>\n\n\n<p><a href=\"character/zhongli\" class=\"character-link\">Zhongli</a>'s Geo DPS is not very high, and so we look to build his Physical DPS here. </p>\n\n<p>The Physical DPS combo tested by <a href=\"https://www.youtube.com/channel/UCEU2FbTBYxAETGH4sqqzhPA\" class=\"external-link\">JinJinx</a> is to:</p>\n<ul class=\"text-list-1\">\n<li><p>Place Skill > Charge Attack > Full Normal Attack Rotation > Repeat</p></li></ul>\n\n<p>Another combo for dealing fall damage with elemental skill is showcased by <a href=\"https://www.reddit.com/user/ST4RK0221/\" class=\"external-link\">u/ST4RK0221</a>:</p>\n<ul class=\"text-list-1\"><li><p>Full Normal Attack Rotation > Place Skill</p></li></ul>\n\n\n",
              "weapons":[
                 {
                    "id":209,
