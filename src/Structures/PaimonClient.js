@@ -21,8 +21,9 @@ module.exports = class PaimonClient extends Client {
 		this.events = new Collection();
 
 		this.characters = new Collection();
-		this.artifacts = new Collection();
+		this.enemies = new Collection();
 		this.weapons = 	new Collection();
+		this.artifacts = new Collection();
 		this.elements = new Collection();
 		this.reactions = new Collection();
 
