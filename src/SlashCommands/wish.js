@@ -245,7 +245,7 @@ module.exports = {
 		const item = player.inventory.find(i => i.name === prize);
 
 		if (!item) {
-			await player.updateOne({ $push: { inventory: { name: prize, count: 1 } } });
+			await player.updateOne({ $push: { inventory: { name: prize, count: count } } });
 		} else {
 			const itemIndex = player.inventory.findIndex(obj => obj.name === prize);
 			await player.updateOne({ $inc: { [`inventory.${itemIndex}.count`]: count } });
