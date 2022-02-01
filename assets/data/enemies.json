@@ -1,0 +1,637 @@
+[
+    {
+        "id": "slimes",
+        "name": "Slimes",
+        "rarity": "Common Enemies",
+        "description": "Slimes are Common Enemies found all around Teyvat. They are Elemental Lifeforms, but are typically only a threat in large numbers. They are immune to their own element and are able to inflict other Slimes with it as well.",
+        "types": [
+            "Anemo Slime",
+            "Cryo Slime",
+            "Dendro Slime",
+            "Electro Slime",
+            "Geo Slime",
+            "Hydro Slime"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Slime Condensate",
+            "Slime Secretions",
+            "Slime Concentrate"
+        ]
+    },
+    {
+        "id": "specters",
+        "name": "Specters",
+        "rarity": "Common Enemies",
+        "description": "Specters are Common Enemies found in Inazuma. They float in the air and have what appears to be a single eye. When hit by an attack which deals a lot of damage, it will accumulate \"Fury\" and grow larger and stronger. When defeated they will explode.",
+        "types": [
+            "Anemo Specter",
+            "Cryo Specter",
+            "Electro Specter",
+            "Geo Specter",
+            "Hydro Specter",
+            "Pyro Specter"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Spectral Husk",
+            "Spectral Heart",
+            "Spectral Nucleus"
+        ]
+    },
+    {
+        "id": "whopperflowers",
+        "name": "Whopperflowers",
+        "rarity": "Common Enemies",
+        "description": "Whopperflowers are dangerous plants that can be found all over Teyvat, although some types of Whopperflowers are unique to specific nations. Whopperflowers will spawn with three \"fruits,\" which it uses for specific attacks.",
+        "types": [
+            "Cryo Whopperflower",
+            "Electro Whopperflower",
+            "Fellflower",
+            "Pyro Whooperflower"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Whooper-flower Nectar",
+            "Shimmering Nectar",
+            "Energy Nectar"
+        ]
+    },
+    {
+        "id": "cicins",
+        "name": "Cincins",
+        "rarity": "Common Enemies",
+        "description": "Cicins are small bat-like creatures that do not deal much damage or have much health, but they are hard to lock down and defeat. When attacking together with other enemies, they can become a real nuisance. They are attracted to mist pollen.",
+        "types": [
+            "Cryo Cicin",
+            "Hydro Cicin",
+            "Electro Cicin"
+        ],
+        "drops": [
+            "None"
+        ]
+    },
+    {
+      "id": "hilichurls",
+      "name": "Hilichurls",
+      "rarity": "Common Enemies",
+      "description": "Primitive humanoid monsters that can be found all across Teyvat. Most people have already given up on trying to communicate with the hilichurls, believing that they are monsters simply incapable of communication.",
+      "types": [
+          "Hilichurl",
+          "Hilichurl Fighter",
+          "Hilichurl Shooter",
+          "Unusual Hilichurl"
+      ],
+      "drops": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+      ]
+    },
+    {
+        "id": "samachurls",
+        "name": "Samachurls",
+        "rarity": "Common Enemies",
+        "description": "There are six types of Samachurls, and all of them have a base 50% Resistance to their respective element (meaning 50% damage reduction to the corresponding elemental damage). Besides ranged attacks, they can also strike the player at extended melee range using their large staves. While slow and clunky, they usually deal more damage than other smaller hilichurls.",
+        "types": [
+            "Anemo Samachurl",
+            "Cryo Samachurl",
+            "Dendro Samachurl",
+            "Electro Samachurl",
+            "Geo Samachurl",
+            "Hydro Samachurl"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Damaged Mask",
+            "Stained Mask",
+            "Ominous Mask",
+            "Divining Scroll",
+            "Sealed Scroll",
+            "Forbidden Curse Scroll"
+        ]
+    },
+    {
+        "id": "fatui-skirmishers",
+        "name": "Fatui Skirmishers",
+        "rarity": "Common Enemies",
+        "description": "Fatui Skirmishers are combatants and foot soldiers of the Fatui that are located in multiple locations across Teyvat.",
+        "types": [
+            "Geochanter Bracers",
+            "Pyroslinger Bracers",
+            "Cryogunner Legionnaires",
+            "Hydrogunner Legionnaires",
+            "Anemoboxer Vanguards",
+            "Electrohammer Vanguards"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Recruit's Insignia",
+            "Sergeant's Insignia",
+            "Lietenant's Insignia"
+        ]
+    },
+    {
+        "id": "treasure-hoarders",
+        "name": "Treasure Hoarders",
+        "rarity": "Common Enemies",
+        "description": "Treasure Hoarders are a group of bandits that can be found across numerous locations in Teyvat, especially in ruins. Renowned for their Ravenwing motif, all members have their own reason of joining the criminal organization, but it is usually attributed either illegal activities or a lack of stable income. Not all members get along though, as some of them are more looked down upon than others. To protect their identities from law enforcement, most members wear a face mask. The few that don't are usually either of high importance or are used to draw unsuspecting victims into their traps.   ",
+        "types": [
+            "Crusher",
+            "Gravedigger",
+            "Marksman",
+            "Scout",
+            "Handyman",
+            "Pugilist",
+            "Seaman"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Treasure Hoarder Insignia",
+            "Silver Raven Insignia",
+            "Golden Raven Insignia"
+        ]
+    },
+    {
+        "id": "nobushi",
+        "name": "Nobushi",
+        "rarity": "Common Enemies",
+        "description": "Nobushi are sometimes led by Kairagi. All Nobushi share the same set of common auto-attacks, but each one also has an attack unique to themselves.",
+        "types": [
+            "Hitsukeban",
+            "Jintouban",
+            "Kikouban"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Old Handguard",
+            "Kageuchi Handguard",
+            "Famed Handguard"
+        ]
+    },
+    {
+        "id": "kairagi",
+        "name": "Kairagi",
+        "rarity": "Common Enemies",
+        "description": "Most Kairagi are former yoriki of the Shogun's Army who left for various reasons and typically rob others to make a living. It appears that they can imbue their swords with the Elements through a forgotten technique with a paper seal from a Kamuna art.",
+        "types": [
+            "Dancing Thunder",
+            "Fiery Might"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Old Handguard",
+            "Kageuchi Handguard",
+            "Famed Handguard"
+        ]
+    },
+    {
+        "id": "mitachurls",
+        "name": "Mitachurl",
+        "rarity": "Common Enemies",
+        "description": "The most formidable warriors of the Hilichurl tribes. Fighting and eating meat are the two most important things to Hilichurls, because those are what make them grow stronger. All young Hilichurls dream of growing up to become a big and strong Mitachurl, because that way they can eat more meat, and fight more battles.",
+        "types": [
+            "Crackling Axe Mitachurl",
+            "Ice Shieldwall Mitachurl",
+            "Wooden Shieldwall Mitachurl",
+            "Rock Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Damaged Mask",
+            "Stained Mask",
+            "Ominous Mask",
+            "Heavy Horn",
+            "Black Bronze Horn",
+            "Black Crystal Horn",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "lawachurls",
+        "name": "Stonehide Lawachurl",
+        "rarity": "Elite Enemies",
+        "description": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks. This huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Damaged Mask",
+            "Stained Mask",
+            "Ominous Mask",
+            "Heavy Horn",
+            "Black Bronze Horn",
+            "Black Crystal Horn",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "abyss-heralds",
+        "name": "Abyss Heralds",
+        "rarity": "Elite Enemies",
+        "description": "Servants of the Abyss Order that use Hydro in combat. These silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Dead Ley Line Branch",
+            "Dead Ley Line Leaves",
+            "Ley Line Sprout",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "abyss-lectors",
+        "name": "Abyss Lectors",
+        "rarity": "Elite Enemies",
+        "description": "Abyss Lectors are creatures that are a part of the Abyss Order and who are capable of manipulating intense abyssal energy. These creatures are evangelists that can chant malefic poetry of the Abyss to command their powers.",
+        "types": [
+            "Fathomless Flames",
+            "Violet Lightning"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Dead Ley Line Branch",
+            "Dead Ley Line Leaves",
+            "Ley Line Sprout",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "rifthounds",
+        "name": "Rifthounds",
+        "rarity": "Elite Enemies",
+        "description": "Ominous, alien beasts with dull colors that travel in packs much as wolves do. It is said that they have the power to dissolve the world's borders.",
+        "types": [
+            "Rockfond Rifthound",
+            "Rockfond Rifthound Whelp",
+            "Thundercraven Rifthound",
+            "Thundercraven Rifthound Whelp"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Concealed Claw",
+            "Concealed Unguis",
+            "Concealed Talon",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "humanoid-ruin-machines",
+        "name": "Humanoid Ruin Machines",
+        "rarity": "Elite Enemies",
+        "description": "An ancient humanoid war machine. They are said to be remnants from a lost ancient nation. Some believe that they were developed not as war machines, but as protectors of the ruins. Though that hypothesis does not explain why they choose to employ explosive weaponry inside the very ruins they are supposed to protect...",
+        "types": [
+            "Ruin Guard",
+            "Ruin Hunter",
+            "Ruin Grader"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Chaos Device",
+            "Chaos Circuit",
+            "Chaos Core",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "ruin-sentinels",
+        "name": "Ruin Sentinels",
+        "rarity": "Elite Enemies",
+        "description": "Ruin Sentinel is an Enemy Group of Automatons in the Inazuma region. They are usually found in groups, all Ruin Sentinels will take the form of a robotic cube when dormant. When not dormant, they will be patrolling on a fixed route.",
+        "types": [
+            "Ruin Cruiser",
+            "Ruin Destroyer",
+            "Ruin Defender",
+            "Ruin Scout"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Chaos Gear",
+            "Chaos Axis",
+            "Chaos Oculus",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "fatui-cicins",
+        "name": "Fatui Cincin Mages",
+        "rarity": "Elite Enemies",
+        "description": "A Fatui mage who can command Cicins in battle. Similarly to the way that Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey. They seem to wander the land aimlessly, as if compelled by some unknown duty.",
+        "types": [
+            "Fatui Cryo Cicin Mage",
+            "Fatui Electro Cicin Mage"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Recruit's Insignia",
+            "Sergeant's Insignia",
+            "Lietenant's Insignia",
+            "Mist Grass Pollen",
+            "Mist Grass",
+            "Mist Grass Wick",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "fatui-pyro-agent",
+        "name": "Fatui Pyro Agent",
+        "rarity": "Elite Enemies",
+        "description": "A Fatui secret agent. The duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature. They also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Recruit's Insignia",
+            "Sergeant's Insignia",
+            "Lietenant's Insignia"
+        ]
+    },
+    {
+        "id": "mirror-maiden",
+        "name": "Snezhnayan Maiden: Mirror Envoy",
+        "rarity": "Elite Enemies",
+        "description": "A Fatui mage who came command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god. The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...",
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Dismal Prism",
+            "Crystal Prism",
+            "Polarizing Prism",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "geovishaps",
+        "name": "Geovishaps",
+        "rarity": "Elite Enemies",
+        "description": "Vishaps are a species of dragon-like creatures that once followed each of the Seven Sovereigns with their corresponding elements and were formerly the dominant race of the world.",
+        "types": [
+            "Hatchling",
+            "Mature"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Fragile Bone Shard",
+            "Sturdy Bone Shard",
+            "Fossilized Bone Shard",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "bathysmal-vishaps",
+        "name": "Bathysmal Vishaps",
+        "rarity": "Elite Enemies",
+        "description": "",
+        "types": [
+            "Bolteater Hatchling",
+            "Primordial Hatchling",
+            "Rimebiter Hatchling",
+            "Primordial"
+        ],
+        "drops": [
+            "Mora",
+            "Character EXP",
+            "Fragile Bone Shard",
+            "Sturdy Bone Shard",
+            "Fossilized Bone Shard",
+            "Artifact Sets"
+        ]
+    },
+    {
+        "id": "eye-of-the-storm",
+        "name": "Eye of the Storm",
+        "rarity": "Elite Enemies",
+        "description": "The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.",
+        "drops": [
+            "Mora"
+        ]
+    },
+    {
+        "id": "the-great-snowbear-king",
+        "name": "The Great Snowbear King",
+        "rarity": "Elite Enemies",
+        "description": "Amidst the snow and ice dwells an ancient king waiting to be awakened by its ice-entombed brethren. In the distant past beyond memory, a certain legend circulated among hunters out in the wild: when the land sealed by ice returns to life and when an uninvited guest disturbs the deep, frozen silence, the lord and leader of the snowboars unto greatness will awaken from slumber, shake off the ice that shackles it, and bring judgment upon those disrespectful interlopers.",
+        "drops": [
+            "Chilled Meat"
+        ]
+    },
+    {
+        "id": "azhdaha",
+        "name": "Azhdaha: Sealed Lord of Vishaps",
+        "rarity": "Weekly Bosses",
+        "description": "An enormous dragon as ancient as the mountains themselves. In an age that has all but faded from memory, he stood shoulder to shoulder with one who ruled over a harbor of stone. But in the end, the two came into conflict, and the dragon was banished to a dark place deep underground. Over the long years of his imprisonment, his power has slowly dissipated. He has also become disfigured from the various kinds of erosion he has been subjected to. The faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.",
+        "drops": [
+            "Dragon Lord's Crown",
+            "Bloodjade Branch",
+            "Gilded Scale",
+            "Artifact Sets",
+            "Dream Solvents",
+            "Northlander Billets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "stormterror",
+        "name": "Dvalin: Erstwhile King of the Skies",
+        "rarity": "Weekly Bosses",
+        "description": "One of The Four Winds of Mondstadt: Dvalin, the Dragon of the East. With the passages of long years and amid boudless darkness, even the purest gem will become dulled by dust, and even the noble dragon might be corrupted and cankered by hatred. But never forget that dust can be wiped away, and the power of doubt and poison can be shattered.",
+        "drops": [
+            "Dvalin's Plume",
+            "Dvalin's Claw",
+            "Dvalin's Sigh",
+            "Artifact Sets",
+            "Dream Solvents",
+            "Northlander Billets",  
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "childe",
+        "name": "Childe: Eleventh of the Fatui Harbingers",
+        "rarity": "Weekly Bosses",
+        "description": "\"Childe\" Tartaglia, Eleventh of the Fatui Harbingers. He draws power from the ominous Delusion he possesses and fights using martial arts that he learned in the land of darkness.",
+        "phases": [
+            "Delusion Unleashed",
+            "Foul Legacy - The Devouring Deep"
+        ],
+        "drops": [
+            "Tusk of Monoceros Caeli",
+            "Shard of a Foul Legacy",
+            "Shadow of the Warrior",
+            "Artifact Sets",
+            "Dream Solvents",
+            "Northlander Billets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "la-signora",
+        "name": "La Signora: Eighth of the Fatui Harbingers",
+        "rarity": "Weekly Bosses",
+        "description": "Signora, the Eighth of the Fatui Harbingers. Unlike other Fatui who use the authority granted by Delusions, her Delusion is meant to shackle a flame that will devour everything. As opposed to a weapon used to kill, it might be more fitting to consider this a tool of imprisonment. And it was the embers of that flame, which had accumulated over many long years, that would break through the frosty seal of the Delusion and apply a warped rouge upon her.",
+        "phases": [
+            "Cryo Phase",
+            "Cocoon Phase",
+            "Pyro Phase"
+        ],
+        "drops": [
+            "Molten Moment",
+            "Hellfire Butterfly",
+            "Ashen Heart",
+            "Artifact Sets",
+            "Dream Solvents",
+            "Northlander Billets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "lupus-boreas",
+        "name": "Andrius: Dominator of Wolves",
+        "rarity": "Weekly Bosses",
+        "description": "A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and show its fangs and claws. It is said that its powers were given to it by an ancient archon.",
+        "phases": [
+            "Interlude Phase",
+            "Spirit Wolf Phase"
+        ],
+        "drops": [
+            "Tail of Boreas",
+            "Ring of Boreas",
+            "Spirit Locket of Boreas",
+            "Artifact Sets",
+            "Dream Solvents",
+            "Northlander Billets",
+            "Character Ascension Materials" 
+        ]
+    },
+    {
+        "id": "hypostases",
+        "name": "Hypostases",
+        "rarity": "Boss Enemies",
+        "description": "Hypostases are life forms that reached the highest level of elemental purity. Hypostases are invulnerable when their cube-like shells are surrounding them; they are only exposed when their diamond-shaped cores are exposed, typically during or after they perform an attack. Their attacks deal elemental damage of their type and they are immune to said type.",
+        "types": [
+            "Anemo Hypostasis",
+            "Cryo Hypostasis",
+            "Electro Hypostasis",
+            "Geo Hyostasis",
+            "Hydro Hypostasis",
+            "Pyro Hypostasis"
+        ],
+        "drops": [
+            "Anemo: Hurricane Seed",
+            "Cryo: Crystalline Bloom",
+            "Electro: Lightning Prism",
+            "Geo: Basalt Pillar",
+            "Hydro: Dew of Repudiation",
+            "Pyro: Smoldering Pearl",
+            "Artifact Sets",
+            "Character Ascension Materials" 
+        ]
+    },
+    {
+        "id": "regisvines",
+        "name": "Regisvines",
+        "rarity": "Boss Enemies",
+        "description": "Regisvines are Whopperflowers that have fed for a long time without interruption, their elemental properties are more refined but they lose the mobility their brethren had.",
+        "types": [
+            "Cryo Regisvine",
+            "Pyro Regisvine"
+        ],
+        "drops": [
+            "Cryo: Hoarfrost Core",
+            "Pyro: Everflame Seed",
+            "Artifact Sets",
+            "Character Ascension Materials" 
+        ]
+    },
+    {
+        "id": "oceanid",
+        "name": "Oceanid",
+        "rarity": "Boss Enemies",
+        "description": "A life-form created from condensed Hydro elements of incredible purity.",
+        "drops": [
+            "Cleansing Heart",
+            "Artifact Sets",
+            "Character Ascension Materials" 
+        ]
+    },
+    {
+        "id": "primo-geovishap",
+        "name": "Primo Geovishap",
+        "rarity": "Boss Enemies",
+        "description": "After many years, the awesomely powerful Ancient Geovishaps grow accustomed to changes in their elemental environment. Folktales hold that after the great \"draconic calamity that led to the ruination of Tianqiu Valley, the overlord of the Geovishaps and Primo Geovishaps was imprisoned deep beneath the earth, and so too did they burrow into deep and unseen places, awaiting their chance to rise once more...",
+        "drops": [
+            "Juvenile Jade",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "maguu-kenki",
+        "name": "Maguu Kenki",
+        "rarity": "Boss Enemies",
+        "description": "An autonomous humanoid swordsman. It is said that this machine was made using the culminative memory of the first-generation master of a certain sword technique known for its secret technique, the Tengu Sweeper. However, it malfunctioned, lost control, and was ultimately discarded. Some sing that this blade-ghost wanders about in a place where fate was severed.",
+        "drops": [
+            "Marionette Core",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "perpetual-mechanical-array",
+        "name": "Perpetual Mechanical Array",
+        "rarity": "Boss Enemies",
+        "description": "They say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks. This machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+        "drops": [
+            "Perpetual Heart",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "thunder-manifestation",
+        "name": "Thunder Manifestation",
+        "rarity": "Boss Enemies",
+        "description": "An unusual Electro life form that weaves thunder and lightning as song unto the resentment that drives its every move. Even though this creature may seem similar to the Oceanids, this creature lacks their intelligence. They say that this is an elemental being driven by pure regret.",
+        "drops": [
+            "Storm Beads",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "golden-wolflord",
+        "name": "Golden Wolflord",
+        "rarity": "Boss Enemies",
+        "description": "A twisted beast from another world. This creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
+        "drops": [
+            "Riftborn Regalia",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    },
+    {
+        "id": "coral-defenders",
+        "name": "Coral Defenders",
+        "rarity": "Boss Enemies",
+        "description": "A powerful group of Bathysmal Vishaps. They have been specifically bred and selected by the people of Enkanomiya, which has given them their exceptional strength. Of course, no vishap would consider this some sort of debt to be repaid. The strongest members of the herd can use different elements, which they wield as a show of their hatred.",
+        "drops": [
+            "Dragonheir's False Fin",
+            "Artifact Sets",
+            "Character Ascension Materials"
+        ]
+    }
+]
