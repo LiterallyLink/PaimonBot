@@ -20,7 +20,7 @@ module.exports = {
 			const dailyClaimedEmbed = new MessageEmbed()
 				.setAuthor({ name: 'Daily Claimed!', iconURL: application.user.displayAvatarURL({ dynamic: true }) })
 				.setThumbnail(`attachment://${attachment.name}`)
-				.setDescription(`+20,000 Mora ${mora}`)
+				.setDescription(`+20000 Mora ${mora}`)
 				.setColor('WHITE');
 			return application.followUp({ embeds: [dailyClaimedEmbed], files: [attachment] });
 		} else {
