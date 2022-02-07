@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = require('discord.js');
 const { createCanvas, loadImage, registerFont } = require('canvas');
@@ -66,10 +67,8 @@ module.exports = {
 
 			if (customId === 'delete') {
 				collector.stop();
-				wishEmbed.delete().catch(() => null);
-			}
-
-			if (customId === 'single') {
+				return wishEmbed.delete().catch(() => null);
+			} else if (customId === 'single') {
 				this.generateBackground(ctx);
 				totalWishes++;
 
@@ -82,10 +81,8 @@ module.exports = {
 					.setImage('attachment://singlepull.png')
 					.setFooter({ text: `Wish ${totalWishes}` })
 					.setColor('WHITE');
-				application.editReply({ embeds: [singlePullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'singlepull.png' }] });
-			}
-
-			if (customId === 'multi') {
+				return application.editReply({ embeds: [singlePullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'singlepull.png' }] });
+			} else if (customId === 'multi') {
 				this.generateBackground(ctx);
 				totalWishes += 10;
 
@@ -93,12 +90,12 @@ module.exports = {
 				const rewards = await this.multiSummon(player, banner);
 				await this.generateMultiImage(ctx, rewards);
 
-				const singlePullEmbed = new MessageEmbed()
+				const multiPullEmbed = new MessageEmbed()
 					.setTitle(`${bannerName}`)
-					.setImage('attachment://multipull.png')
+					.setImage('attachment://multi.png')
 					.setFooter({ text: `Wish ${totalWishes}` })
 					.setColor('WHITE');
-				application.editReply({ embeds: [singlePullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'multipull.png' }] });
+				application.editReply({ embeds: [multiPullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'multi.png' }] });
 			}
 		});
 	},
@@ -108,7 +105,6 @@ module.exports = {
 		ctx.drawImage(wishBackground, 0, 0, ctx.canvas.width, ctx.canvas.height);
 	},
 
-	// eslint-disable-next-line consistent-return
 	summon(pool) {
 		let total = 0;
 
@@ -122,7 +118,8 @@ module.exports = {
 			const { chance, itemPool, rarity } = pool[i];
 
 			if (rand < chance) {
-				return { prize: itemPool[Math.floor(Math.random() * itemPool.length)], rarity: rarity };
+				const item = itemPool[Math.floor(Math.random() * itemPool.length)];
+				return { prize: item, rarity: rarity };
 			}
 
 			rand -= chance;
@@ -130,26 +127,23 @@ module.exports = {
 	},
 
 	async singleSummon(player, banner) {
-		const { type } = banner;
 		let { gachaPool } = banner;
+		const { type } = banner;
 
-		const pityIndex = player.pity.findIndex(j => j.type === type);
-		const { fourStarPity, fiveStarPity } = player.pity[pityIndex];
+		const { fourStarPity, fiveStarPity } = player.pity[type];
 
-		if (fiveStarPity >= 89) gachaPool = this.filterGachaPool(gachaPool, 5);
-		else if (fourStarPity >= 9) gachaPool = this.filterGachaPool(gachaPool, 4);
+		if (fiveStarPity >= 89) gachaPool = gachaPool.filter(i => i.rarity === 5);
+		else if (fourStarPity >= 9) gachaPool = gachaPool.filter(i => i.rarity === 4);
 
 		const { prize, rarity } = this.summon(gachaPool);
 
 		await player.updateOne({
-			$inc: { totalWishes: 1, [`pity.${pityIndex}.fourStarPity`]: 1, [`pity.${pityIndex}.fiveStarPity`]: 1, [`pity.${pityIndex}.totalWishes`]: 1 },
-			$push: { [`pity.${pityIndex}.wishHistory`]: `${rarity}⭐: ${prize}` }
+			$inc: { totalWishes: 1, [`pity.${type}.fourStarPity`]: 1, [`pity.${type}.fiveStarPity`]: 1, [`pity.${type}.totalWishes`]: 1 },
+			$push: { [`pity.${type}.wishHistory`]: `${rarity}⭐: ${prize}`, inventory: prize }
 		});
 
-		if (rarity === 4) await player.updateOne({ $set: { [`pity.${pityIndex}.fourStarPity`]: 1 } });
-		else if (rarity === 5) await player.updateOne({ $set: { [`pity.${pityIndex}.fiveStarPity`]: 1 } });
-
-		await this.updatePlayerInventory(player, prize, 1);
+		if (rarity === 4) await player.updateOne({ $set: { [`pity.${type}.fourStarPity`]: 0 } });
+		else if (rarity === 5) await player.updateOne({ $set: { [`pity.${type}.fiveStarPity`]: 0 } });
 
 		return prize;
 	},
@@ -168,22 +162,19 @@ module.exports = {
 	async multiSummon(player, banner) {
 		const { type, gachaPool } = banner;
 
-		const pityIndex = player.pity.findIndex(j => j.type === type);
-		const { fiveStarPity } = player.pity[pityIndex];
-
-		await player.updateOne({ $set: { [`pity.${pityIndex}.fourStarPity`]: 0 }, $inc: { totalWishes: 10, [`pity.${pityIndex}.fiveStarPity`]: 10, [`pity.${pityIndex}.totalWishes`]: 10 } });
+		const { fiveStarPity } = player.pity[type];
 
 		const itemArray = [];
 
+		const fourStarPool = gachaPool.filter(i => i.rarity === 4);
+		const fourStarPull = this.summon(fourStarPool);
+		itemArray.push(fourStarPull);
+
 		if (fiveStarPity >= 80) {
-			const fiveStarPool = this.filterGachaPool(gachaPool, 5);
+			const fiveStarPool = gachaPool.filter(i => i.rarity === 5);
 			const fiveStarPull = this.summon(fiveStarPool);
 			itemArray.push(fiveStarPull);
 		}
-
-		const fourStarPool = this.filterGachaPool(gachaPool, 4);
-		const fourStarPull = this.summon(fourStarPool);
-		itemArray.push(fourStarPull);
 
 		const iterations = 10 - itemArray.length;
 
@@ -192,29 +183,15 @@ module.exports = {
 			itemArray.push(pull);
 		}
 
-		await player.updateOne({ $push: { [`pity.${pityIndex}.wishHistory`]: { $each: itemArray.map(j => `${j.rarity}⭐: ${j.prize}`) } } });
+		await player.updateOne({
+			$set: { [`pity.${type}.fourStarPity`]: 0 },
+			$inc: { totalWishes: 10, [`pity.${type}.fiveStarPity`]: 10, [`pity.${type}.totalWishes`]: 10 },
+			$push: { [`pity.${type}.wishHistory`]: { $each: itemArray.map(j => `${j.rarity}⭐: ${j.prize}`) }, inventory: { $each: itemArray.map(j => j.prize) } }
+		});
 
 		const pulledFiveStar = itemArray.some(j => j.rarity === 5);
-		if (pulledFiveStar) await player.updateOne({ $set: { [`pity.${pityIndex}.fiveStarPity`]: 0 } });
+		if (pulledFiveStar) await player.updateOne({ $set: { [`pity.${type}.fiveStarPity`]: 0 } });
 
-		const modifiedItemArray = itemArray.reduce((acc, cur) => {
-			const existing = acc.find(i => i.prize === cur.prize);
-			if (existing) {
-				existing.count++;
-			} else {
-				acc.push({ prize: cur.prize, count: 1 });
-			}
-
-			return acc;
-		}, []);
-
-		const arr = [];
-
-		for (let i = 0; i < modifiedItemArray.length; i++) {
-			arr.push(this.updatePlayerInventory(player, modifiedItemArray[i].prize, modifiedItemArray[i].count));
-		}
-
-		await Promise.all(arr);
 
 		for (let i = 0; i < itemArray.length - 1; i++) {
 			const j = Math.floor(Math.random() * (i + 1));
@@ -234,21 +211,6 @@ module.exports = {
 
 			ctx.drawImage(portrait, panelXPositionIncrement, dy, portrait.width, portrait.height);
 			panelXPositionIncrement += (portrait.width / 2) + 25;
-		}
-	},
-
-	filterGachaPool(gachaPool, rarity) {
-		return gachaPool.filter(i => i.rarity === rarity);
-	},
-
-	async updatePlayerInventory(player, prize, count) {
-		const item = player.inventory.find(i => i.name === prize);
-
-		if (!item) {
-			await player.updateOne({ $push: { inventory: { name: prize, count: count } } });
-		} else {
-			const itemIndex = player.inventory.findIndex(obj => obj.name === prize);
-			await player.updateOne({ $inc: { [`inventory.${itemIndex}.count`]: count } });
 		}
 	}
 
