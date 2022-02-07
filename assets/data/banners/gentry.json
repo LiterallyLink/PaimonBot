@@ -1,6 +1,6 @@
 {
     "bannerName": "Gentry of Hermitage",
-    "type": "character",
+    "type": "2",
     "image": "gentry",
     "emote": "<:intertwinedfate:931798527988883516>",
     "gachaPool": [
@@ -54,15 +54,22 @@
             "type": "character",
             "chance": 3.4,
             "itemPool": [
+                "Sayu",
                 "Sucrose",
-                "Beidou",
+                "Chongyun",
+                "Diona",
+                "Rosaria",
                 "Fischl",
-                "Ningguang",
+                "Kujou Sara",
+                "Razor",
+                "Gorou",
+                "Ningguang",  
                 "Noelle",
                 "Barbara",
                 "Bennett",
+                "Thoma",
                 "Xiangling",
-                "Xingqiu"
+                "Xinyan"
             ]
         },
         {
@@ -82,9 +89,9 @@
             "type": "character",
             "chance": 5.1,
             "itemPool": [
-                "Xinyan",
-                "Razor",
-                "Chongyun"
+                "Xingqiu",
+                "Beidou",
+                "Yanfei"
             ]
         },
         {
