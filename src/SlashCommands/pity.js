@@ -18,7 +18,7 @@ module.exports = {
 
 		for (let i = 0; i < pity.length; i++) {
 			const { wishHistory } = pity[i];
-			const wishHistoryList = wishHistory.length ? wishHistory.slice(1).slice(-5).join('\n') : 'None';
+			const wishHistoryList = wishHistory.length ? wishHistory.slice(Math.max(wishHistory.length - 5, 0)).join('\n') : 'None';
 			pityEmbed.addField(`Last 5 Wishes:`, `${wishHistoryList}`, true);
 		}
 
