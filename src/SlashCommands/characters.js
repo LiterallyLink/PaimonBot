@@ -89,7 +89,6 @@ module.exports = {
 			const charEmbedMsg = await application.followUp({ embeds: [characterEmbed], components: [optionRow] });
 
 			const filter = i => i.user.id === application.user.id;
-
 			const collector = charEmbedMsg.createMessageComponentCollector({ filter, time: 300000 });
 
 			return collector.on('collect', async i => {
