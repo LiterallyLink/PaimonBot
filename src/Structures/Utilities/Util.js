@@ -98,6 +98,7 @@ module.exports = class Util {
 		this.cacheEnemies();
 		this.cacheElements();
 		this.cacheReactions();
+		this.cacheFood();
 	}
 
 	cacheCharacters() {
@@ -131,6 +132,14 @@ module.exports = class Util {
 		for (let i = 0; i < reactionList.length; i++) {
 			const { name, description, elementalFormula } = reactionList[i];
 			this.client.reactions.set(name, { name: name, description: description, elementalFormula: elementalFormula });
+		}
+	}
+
+	cacheFood() {
+		const foodList = require('../../../assets/data/consumables/food.json');
+
+		for (let i = 0; i < foodList.length; i++) {
+			this.client.food.set(foodList[i].name, foodList[i]);
 		}
 	}
 
@@ -198,7 +207,7 @@ module.exports = class Util {
 		}
 
 		const clientID = '809302717843111946';
-		const guildID = '866509260925567006';
+		const guildID = '780394213200232491';
 		const rest = new REST({ version: '9' }).setToken(token);
 		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
