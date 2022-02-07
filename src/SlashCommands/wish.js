@@ -68,7 +68,9 @@ module.exports = {
 			if (customId === 'delete') {
 				collector.stop();
 				return wishEmbed.delete().catch(() => null);
-			} else if (customId === 'single') {
+			}
+
+			if (customId === 'single') {
 				this.generateBackground(ctx);
 				totalWishes++;
 
@@ -82,7 +84,9 @@ module.exports = {
 					.setFooter({ text: `Wish ${totalWishes}` })
 					.setColor('WHITE');
 				return application.editReply({ embeds: [singlePullEmbed], files: [{ attachment: canvas.toBuffer(), name: 'singlepull.png' }] });
-			} else if (customId === 'multi') {
+			}
+
+			if (customId === 'multi') {
 				this.generateBackground(ctx);
 				totalWishes += 10;
 
