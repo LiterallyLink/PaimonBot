@@ -24,6 +24,7 @@ module.exports = class PaimonClient extends Client {
 		this.enemies = new Collection();
 		this.weapons = 	new Collection();
 		this.artifacts = new Collection();
+		this.food = new Collection();
 		this.elements = new Collection();
 		this.reactions = new Collection();
 
@@ -43,7 +44,7 @@ module.exports = class PaimonClient extends Client {
 	}
 
 	async start(token = this.token) {
-		// await this.utils.clearSlashCommands();
+		await this.utils.clearSlashCommands();
 		await this.utils.loadSlashCommands();
 		this.mongoose.init();
 		await this.utils.storeAPIData();
