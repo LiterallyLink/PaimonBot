@@ -34,7 +34,7 @@ module.exports = {
 			}
 		}
 
-		const totalCharacters = weaponArr.reduce((acc, cur) => acc + cur.count, 0);
+		const totalCharacters = characterArr.reduce((acc, cur) => acc + cur.count, 0);
 		const totalWeapons = weaponArr.reduce((acc, cur) => acc + cur.count, 0);
 		characterArr.sort((a, b) => b.rarity - a.rarity);
 		weaponArr.sort((a, b) => b.rarity - a.rarity);
@@ -73,10 +73,12 @@ module.exports = {
 		return collector.on('collect', async i => {
 			i.deferUpdate();
 			const { customId } = i;
+
 			if (customId === 'delete') {
 				collector.stop();
 				msg.delete().catch(() => null);
 			}
+
 			if (customId === 'characters') {
 				optionRow.components[0].setDisabled(true);
 				optionRow.components[1].setDisabled(false);
@@ -86,6 +88,7 @@ module.exports = {
 					.setColor('WHITE');
 				msg.edit({ embeds: [characterEmbed], components: [optionRow] });
 			}
+
 			if (customId === 'weapons') {
 				optionRow.components[0].setDisabled(false);
 				optionRow.components[1].setDisabled(true);
