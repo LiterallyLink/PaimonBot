@@ -31,7 +31,7 @@ module.exports = {
 					['Lawachurls', 'lawachurls'],
 					['Abyss Heralds', 'abyss-heralds'],
 					['Abyss Lectors', 'abyss-lectors'],
-					['Rifthounds Whelps', 'rifthounds-whelps'],
+					['Rifthounds Whelps', 'rifthound-whelps'],
 					['Humanoid Ruin Machines', 'humanoid-ruin-machines'],
 					['Ruin Sentinels', 'ruin-sentinels'],
 					['Fatui Cicin Mages', 'fatui-cicin-mages'],
@@ -71,7 +71,7 @@ module.exports = {
 				])),
 	async run({ paimonClient, application }) {
 		const input = application.options.getString('common-enemies') || application.options.getString('elite-enemies') ||
-                      application.options.getString('normal-bosses') || application.options.getString('weekly-bosses');
+		application.options.getString('normal-bosses') || application.options.getString('weekly-bosses');
 
 		if (!input) {
 			const enemyListEmbed = new MessageEmbed()
@@ -89,7 +89,7 @@ module.exports = {
 			return application.followUp({ embeds: [enemyListEmbed] });
 		}
 
-		const { name, description, types, drops, phases } = paimonClient.enemies.find(j => j.id === input);
+		const { name, description, types, drops, phases } = paimonClient.enemies.get(input);
 		const thumbnail = new MessageAttachment(`.\\assets\\images\\enemies\\${input}.png`);
 
 		const enemyEmbed = new MessageEmbed()
