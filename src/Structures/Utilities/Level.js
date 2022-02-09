@@ -7,22 +7,30 @@ module.exports = class Level {
 	}
 
 	async appendXp(userId, guildId) {
-		const xp = this.client.utils.generateRandomInteger(1, 29);
+		const xpToAdd = this.client.utils.generateRandomInteger(1, 29);
 
-		let member = await Member.findOne({ userID: userId, guildID: guildId });
+		const member = await Member.findOneAndUpdate({
+			userId,
+			guildId
+		},
+		{
+			userId,
+			guildId,
+			$inc: {
+				xp: xpToAdd
+			},
+			$set: {
+				lastUpdated: new Date()
+			}
+		},
+		{
+			upsert: true,
+			new: true
+		});
 
-		if (!member) {
-			member = await this.client.database.createMemberData(userId, guildId);
+		if (this.xpFor(member.level) < member.xp) {
+			await this.levelUp(member);
 		}
-
-		member.xp += xp;
-
-		member.level = Math.floor(0.1 * Math.sqrt(member.xp));
-		member.lastUpdated = new Date();
-
-		await member.save().catch(err => console.log(`Failed to append xp: ${err}`));
-
-		return Math.floor(0.1 * Math.sqrt(member.xp -= xp)) < member.level;
 	}
 
 	async fetchRank(userID, guildID) {
@@ -34,6 +42,11 @@ module.exports = class Level {
 
 	xpFor(targetLevel) {
 		return targetLevel * targetLevel * 100;
+	}
+
+	async levelUp(member) {
+		const newLevel = Math.floor(0.1 * Math.sqrt(member.xp));
+		await member.updateOne({ $inc: { level: newLevel } });
 	}
 
 };
