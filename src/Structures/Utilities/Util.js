@@ -98,6 +98,7 @@ module.exports = class Util {
 		this.cacheEnemies();
 		this.cacheElements();
 		this.cacheReactions();
+		this.cachePotions();
 		this.cacheFood();
 	}
 
@@ -121,8 +122,8 @@ module.exports = class Util {
 		const elementList = require('../../../assets/data/other/elements.json');
 
 		for (let i = 0; i < elementList.length; i++) {
-			const { name, description, reactions } = elementList[i];
-			this.client.elements.set(name, { description: description, reactions: reactions });
+			const { name } = elementList[i];
+			this.client.elements.set(name, elementList[i]);
 		}
 	}
 
@@ -131,7 +132,7 @@ module.exports = class Util {
 
 		for (let i = 0; i < reactionList.length; i++) {
 			const { name, description, elementalFormula } = reactionList[i];
-			this.client.reactions.set(name, { name: name, description: description, elementalFormula: elementalFormula });
+			this.client.reactions.set(name, { name, description, elementalFormula });
 		}
 	}
 
@@ -140,6 +141,14 @@ module.exports = class Util {
 
 		for (let i = 0; i < foodList.length; i++) {
 			this.client.food.set(foodList[i].name, foodList[i]);
+		}
+	}
+
+	cachePotions() {
+		const potionList = require('../../../assets/data/consumables/potions.json');
+
+		for (let i = 0; i < potionList.length; i++) {
+			this.client.potions.set(potionList[i].id, potionList[i]);
 		}
 	}
 
