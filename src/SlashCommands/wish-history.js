@@ -69,11 +69,14 @@ module.exports = {
 			.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
 		const historyEmbed = await application.followUp({ embeds: [wishHistoryEmbed], components: [buttonRow] });
 
-		const filter = i => i.user.id === application.user.id;
+		const filter = i => {
+			i.deferUpdate();
+			return i.user.id === application.user.id;
+		};
+
 		const collector = historyEmbed.createMessageComponentCollector({ filter, time: 300000 });
 
 		return collector.on('collect', async i => {
-			i.deferUpdate();
 			const { customId } = i;
 
 			if (customId === 'delete') {
