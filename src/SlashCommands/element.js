@@ -1,118 +1,89 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = require('discord.js');
-const emote = require('../../assets/emotes.json');
+const { anemo, cryo, dendro, electro, geo, hydro, pyro } = require('../../assets/emotes.json');
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('element')
-		.setDescription('Retrieve information on specific elements/reactions.')
-		.addStringOption(option =>
-			option
-				.setName('vision')
-				.setDescription('The desired vision.')
-				.addChoices([
-					['Pyro', 'Pyro'],
-					['Hydro', 'Hydro'],
-					['Cryo', 'Cryo'],
-					['Geo', 'Geo'],
-					['Electro', 'Electro'],
-					['Anemo', 'Anemo']
-				])),
+		.setDescription('Retrieve information on specific elements/reactions.'),
 	async run({ paimonClient, application }) {
-		const vision = application.options.getString('vision');
+		const elementRow = new MessageActionRow()
+			.addComponents(
+				new MessageButton()
+					.setCustomId('Anemo')
+					.setEmoji(anemo)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Cryo')
+					.setEmoji(cryo)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Dendro')
+					.setEmoji(dendro)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Electro')
+					.setEmoji(electro)
+					.setStyle('PRIMARY')
+			);
 
-		if (vision) {
-			const { description, reactions } = paimonClient.elements.get(vision);
-			const attachment = new MessageAttachment(`.\\assets\\images\\elements\\${vision}.png`, `${vision}.png`);
+		const elementRow2 = new MessageActionRow()
+			.addComponents(
+				new MessageButton()
+					.setCustomId('Geo')
+					.setEmoji(geo)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Hydro')
+					.setEmoji(hydro)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Pyro')
+					.setEmoji(pyro)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('delete')
+					.setLabel('🗑️')
+					.setStyle('PRIMARY')
+			);
 
-			const optionRow = new MessageActionRow()
-				.addComponents(
-					new MessageButton()
-						.setCustomId('back')
-						.setLabel('Back')
-						.setStyle('PRIMARY')
-						.setDisabled(true)
-				)
-				.addComponents(
-					new MessageButton()
-						.setCustomId('reactions')
-						.setLabel('Reactions')
-						.setStyle('PRIMARY')
-				)
-				.addComponents(
-					new MessageButton()
-						.setCustomId('delete')
-						.setLabel('🗑️')
-						.setStyle('PRIMARY')
-				);
+		const thumbnail = new MessageAttachment('.\\assets\\images\\other\\elementalsight.png', 'elementalsight.png');
 
-			const elementEmbed = new MessageEmbed()
-				.setTitle(`${vision} Element Information`)
-				.setThumbnail(`attachment://${attachment.name}`)
-				.setDescription(description)
-				.setColor('WHITE');
-			const msg = await application.followUp({ embeds: [elementEmbed], files: [attachment], components: [optionRow] });
+		const elementEmbed = new MessageEmbed()
+			.setTitle('Element Help Menu')
+			.setDescription('Click on an element below\nfor more information on it.')
+			.setThumbnail('attachment://elementalsight.png')
+			.setColor('WHITE');
+		const msg = await application.followUp({ embeds: [elementEmbed], components: [elementRow, elementRow2], files: [thumbnail] });
 
-			const filter = i => i.user.id === application.user.id;
-			const collector = msg.createMessageComponentCollector({ filter, time: 300000 });
+		const filter = i => {
+			i.deferUpdate();
+			return i.user.id === application.user.id;
+		};
 
-			return collector.on('collect', async i => {
-				i.deferUpdate();
-				const { customId } = i;
+		const collector = msg.createMessageComponentCollector({ filter, time: 300000 });
 
-				if (customId === 'delete') {
-					collector.stop();
-					msg.delete().catch(() => null);
-				}
+		return collector.on('collect', async i => {
+			const { customId } = i;
 
-				if (customId === 'reactions') {
-					optionRow.components[0].setDisabled(false);
-					optionRow.components[1].setDisabled(true);
-
-					const filteredReactions = paimonClient.reactions.filter(reaction => reactions.includes(reaction.name));
-
-					const reactionEmbed = new MessageEmbed()
-						.setTitle(`${vision} Element Reactions`)
-						.setThumbnail(`attachment://${attachment.name}`)
-						.setColor('WHITE');
-
-					for (const [key, value] of filteredReactions) {
-						reactionEmbed.addField(`${key}`, `${this.formatEmojis(value.elementalFormula)}\n${value.description}`, true);
-					}
-
-					msg.edit({ embeds: [reactionEmbed], files: [attachment], components: [optionRow] });
-				}
-
-				if (customId === 'back') {
-					optionRow.components[0].setDisabled(true);
-					optionRow.components[1].setDisabled(false);
-
-					msg.edit({ embeds: [elementEmbed], files: [attachment], components: [optionRow] });
-				}
-			});
-		} else {
-			const elementalReactionEmbed = new MessageEmbed()
-				.setTitle('Elemental Reactions')
-				.setColor('WHITE');
-
-			for (const [key, value] of paimonClient.reactions) {
-				elementalReactionEmbed.addField(`${key}`, `${this.formatEmojis(value.elementalFormula)}\n${value.description}`, true);
+			if (customId === 'delete') {
+				collector.stop();
+				return msg.delete().catch(() => null);
 			}
 
-			return application.followUp({ embeds: [elementalReactionEmbed] });
-		}
-	},
+			const { name, description, reactions, resonance } = paimonClient.elements.get(customId);
+			const elementThumbnail = new MessageAttachment(`.\\assets\\images\\elements\\${customId}.png`, `${customId}.png`);
+			const playableCharacters = paimonClient.characters.filter(char => char.element === customId).map(char => char.name).join('\n');
 
-	formatEmojis(elementalFormula) {
-		let emojiString = '';
-
-		for (let i = 0; i < elementalFormula.length; i++) {
-			const element = elementalFormula[i];
-			const emoji = emote[element];
-
-			emojiString += `${emoji} `;
-		}
-
-		return emojiString;
+			const elementInfoEmbed = new MessageEmbed()
+				.setTitle(name)
+				.setThumbnail(`attachment://${elementThumbnail.name}`)
+				.setDescription(description)
+				.addField(`Playable ${name} Characters`, playableCharacters, true)
+				.addField('Reactions', reactions.join('\n'), true)
+				.addField('Resonance', resonance, true)
+				.setColor('WHITE');
+			return msg.edit({ embeds: [elementInfoEmbed], components: [elementRow, elementRow2], files: [elementThumbnail] });
+		});
 	}
 };
