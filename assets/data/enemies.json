@@ -267,7 +267,7 @@
         ]
     },
     {
-        "id": "rifthounds",
+        "id": "rifthound-whelps",
         "name": "Rifthounds",
         "rarity": "Elite Enemies",
         "description": "Ominous, alien beasts with dull colors that travel in packs much as wolves do. It is said that they have the power to dissolve the world's borders.",
@@ -326,7 +326,7 @@
         ]
     },
     {
-        "id": "fatui-cicins",
+        "id": "fatui-cicin-mages",
         "name": "Fatui Cincin Mages",
         "rarity": "Elite Enemies",
         "description": "A Fatui mage who can command Cicins in battle. Similarly to the way that Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey. They seem to wander the land aimlessly, as if compelled by some unknown duty.",
