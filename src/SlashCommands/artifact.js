@@ -16,7 +16,7 @@ module.exports = {
 
 		if (artifactName) {
 			const artifactGuess = stringSimilarity.findBestMatch(artifactName, artifactSetList.map(artifact => artifact.name)).bestMatch.target;
-			const artifact = artifactSetList.find(art => art.name === artifactGuess);
+			const artifact = artifactSetList.get(artifactGuess);
 
 			const { name, description, maxRarity, id } = artifact;
 			const starRarity = Array(maxRarity).fill('⭐').join('');
