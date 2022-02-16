@@ -1,7 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 const stringSimilarity = require('string-similarity');
-const artifactSetList = require('../../assets/data/artifacts.json');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -11,12 +10,12 @@ module.exports = {
 			option
 				.setName('name')
 				.setDescription('The name of the artifact set.')),
-	async run({ application }) {
+	async run({ paimonClient, application }) {
 		const artifactName = application.options.getString('name');
 
 		if (artifactName) {
-			const artifactGuess = stringSimilarity.findBestMatch(artifactName, artifactSetList.map(artifact => artifact.name)).bestMatch.target;
-			const artifact = artifactSetList.get(artifactGuess);
+			const artifactGuess = stringSimilarity.findBestMatch(artifactName, [...paimonClient.artifacts.keys()]).bestMatch.target;
+			const artifact = paimonClient.artifacts.get(artifactGuess);
 
 			const { name, description, maxRarity, id } = artifact;
 			const starRarity = Array(maxRarity).fill('⭐').join('');
@@ -48,7 +47,7 @@ module.exports = {
 				.setColor('WHITE');
 
 			for (let i = 0; i < artifactRarities.length; i++) {
-				const filteredArtifactList = artifactSetList.filter(art => art.maxRarity === artifactRarities[i]);
+				const filteredArtifactList = paimonClient.artifacts.map(art => art).filter(art => art.maxRarity === artifactRarities[i]);
 				artifactEmbed.addField(`${artifactRarities[i]} ⭐`, `${filteredArtifactList.map(art => art.name).join('\n')}`, true);
 			}
 
