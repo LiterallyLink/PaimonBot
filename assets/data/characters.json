@@ -6107,7 +6107,7 @@
        "squareCard":"https://impact.moe/assets/img/square-cards/kaeya.webp",
        "title":"Cavalry Captain",
        "birthdayMonth":"November",
-       "birthdayDay": 13,
+       "birthdayDay": 30,
        "constellation":"Pavo Ocellus",
        "chineseVA":"Ye Sun (孙晔)",
        "japaneseVA":"Kohsuke Toriumi (鳥海 浩輔)",
@@ -8858,35 +8858,22 @@
     {
        "id":"paimon",
        "name":"Paimon",
-       "tier":"",
        "rarity":0,
-       "weapon":"",
-       "element":"",
+       "weapon":"Unknown",
+       "element":"Unknown",
        "description":"Paimon is a non-playable character in Genshin Impact and accompanies the Traveler throughout their adventure in Teyvat as their guide. She met the Traveler by being fished out of a lake in which she mentions she would've drowned if not being fished out. She is currently representing Genshin Impact and is on the Genshin Impact app, website, and social media icons.",
        "region":"Mondstadt",
        "faction":"Unknown God??",
        "image":"https://impact.moe/assets/img/portraits/Paimon.webp",
-       "quote":"",
        "icon":"https://impact.moe/assets/img/character-icons/Paimon.webp",
        "squareCard":"https://impact.moe/assets/img/square-cards/paimon.webp",
        "title":"Emergency Food",
        "birthdayMonth":"June",
        "birthdayDay": 1,
-       "constellation":"",
        "chineseVA":"Shi Xinlei (时欣蕾)",
        "japaneseVA":"Aoi Koga (古賀 葵)",
        "englishVA":"Corina Boettger",
-       "koreanVA":"Garyeong Kim (김가령)",
-       "talents":[
-          
-       ],
-       "constellations":[
-          
-       ],
-       "roles":[
-          
-       ],
-       "characterOverview":null
+       "koreanVA":"Garyeong Kim (김가령)"
     },
     {
        "id":"qiqi",
@@ -10553,33 +10540,6 @@
                 }
              ]
           }
-       ],
-       "characterOverview":null
-    },
-    {
-       "id":"scaramouche",
-       "name":"Scaramouche",
-       "rarity":5,
-       "weapon":"catalyst",
-       "element":"electro",
-       "description":"",
-       "region":"Snezhnaya",
-       "faction":"Fatui",
-       "image":"",
-       "quote":"",
-       "icon":"",
-       "squareCard":"",
-       "title":"Balladeer",
-       "birthday":"",
-       "constellation":"",
-       "talents":[
-          
-       ],
-       "constellations":[
-          
-       ],
-       "roles":[
-          
        ],
        "characterOverview":null
     },
@@ -14501,7 +14461,6 @@
     {
        "id":"zhongli",
        "name":"Zhongli",
-       "tier":"A",
        "rarity":5,
        "weapon":"Polearm",
        "element":"Geo",
@@ -14516,10 +14475,6 @@
        "birthdayMonth":"December",
        "birthdayDay": 31,
        "constellation":"Lapid Dei",
-       "chineseVA":"Pengbo (彭博)",
-       "japaneseVA":"Tomoaki Maeno (前野 智昭)",
-       "englishVA":"Keith Silverstein",
-       "koreanVA":"Pyo Yeong-jae (표영재)",
        "talents":[
           {
              "id":"173",
@@ -15005,6 +14960,43 @@
                    "characterId":"zhongli",
                    "characterRole":"Sub DPS / Nuke"
                 }
+             ]
+          }
+       ],
+       "characterOverview":{
+          "abilityTips":"",
+          "recommendedRole":"Support"
+       }
+    },
+    {
+       "id": "yae-miko",
+       "name": "Yae Miko",
+       "rarity": 5,
+       "weapon":"Catalyst",
+       "element":"Electro",
+       "description": "Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance",
+       "region":"Inazuma",
+       "faction":"Grand Narukami Shrine Yae Publishing House",
+       "image":"https://i.ibb.co/sPVqyvm/yaemiko-gacha-splash.png",
+       "icon":"https://i.ibb.co/NK7KH02/yaemiko-face.png",
+       "title":"Astute Amusement",
+       "birthdayMonth":"June",
+       "birthdayDay": 27,
+       "constellation":"Divina Vulpes",
+       "talents":[
+       ],
+       "constellations":[
+       ],
+       "roles":[
+          {
+             "name":"DPS",
+             "weapons":[
+             ],
+             "artifacts":[
+             ],
+             "mainStats":[
+             ],
+             "subStats":[
              ]
           }
        ],
