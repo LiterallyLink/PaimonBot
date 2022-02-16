@@ -117,7 +117,7 @@
         "name": "Streaming Essential Oil",
         "emote": "<:hydroDMG:940799332007936020>",
         "rarity": 3,
-        "type": "ATK-Boosting",
+        "type": "DMG-Boosting",
         "description": "Grants greater affinity for Hydro, boosting Hydro DMG. It's a slippery medicine for external use, able to better channel Hydro energy. It has a subtle fragrance.",
         "effect": "Increases all party members' Hydro DMG by 25% for 300s.",
         "recipe": [
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "heartshield-potion",
+        "id": "heatshield-potion",
         "name": "Heatshield Potion",
         "emote": "<:pyroRES:940799332288954418>",
         "rarity": 3,
