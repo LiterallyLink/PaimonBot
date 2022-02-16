@@ -16,6 +16,23 @@
       "stats":null
    },
    {
+      "id": "kaguras-verity",
+      "name": "Kagura's Verity",
+      "type": "Catalyst",
+      "rarity": 5,
+      "baseAtk": 608,
+      "subStatType": "CRIT DMG",
+      "subStat": 66.2,
+      "abilityName": "Kagura Dance of the Sacred Sakura",
+      "abilityDescription": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 24% for 16s. Max 3 stacks. This character will gain 24% All Elemental DMG Bonus when they possess 3 stacks.",
+      "description": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+      "lore": "",
+      "image": "https://i.ibb.co/YbrzCmT/image-2022-02-15-232051.png",
+      "location": "Gacha",
+      "stats": null
+
+   },
+   {
       "id":"alley-hunter",
       "name":"Alley Hunter",
       "type":"Bow",
