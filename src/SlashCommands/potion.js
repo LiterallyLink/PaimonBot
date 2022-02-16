@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed, MessageAttachment } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -33,16 +33,36 @@ module.exports = {
 		),
 	async run({ paimonClient, application }) {
 		const potion = application.options.getString('atk-boosting') || application.options.getString('def-boosting');
-		const { name, emote, rarity, type, description, effect, recipe } = paimonClient.potions.get(potion);
+		const potionList = paimonClient.potions;
+
+		if (!potion) {
+			const potionListEmbed = new MessageEmbed()
+				.setTitle('Potion List')
+				.setColor('WHITE');
+
+			const potionTypes = [...new Set(potionList.map(i => i.type))];
+
+			for (let i = 0; i < potionTypes.length; i++) {
+				const potionType = potionTypes[i];
+
+				potionListEmbed.addField(potionType, potionList.filter(j => j.type === potionType).map(j => `${j.emote} ${j.name} Potion`).join('\n'), true);
+			}
+
+			return application.followUp({ embeds: [potionListEmbed] });
+		}
+
+		const { name, id, emote, rarity, type, description, effect, recipe } = potionList.get(potion);
+		const thumbnail = new MessageAttachment(`.\\assets\\images\\consumables\\potions\\${id}.png`, `${id}.png`);
 		const starRarity = Array(rarity).fill('⭐').join('');
 
 		const potionEmbed = new MessageEmbed()
 			.setTitle(name)
+			.setThumbnail(`attachment://${id}.png`)
 			.setDescription(`${description}\n\n**Effect:**\n${effect}`)
 			.addField('Rarity', starRarity, true)
 			.addField('Type', `${emote} ${type}`, true)
 			.addField('Recipe', recipe.join('\n'), true)
 			.setColor('WHITE');
-		return application.followUp({ embeds: [potionEmbed] });
+		return application.followUp({ embeds: [potionEmbed], files: [thumbnail] });
 	}
 };
