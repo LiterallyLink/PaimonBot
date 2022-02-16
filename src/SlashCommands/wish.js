@@ -15,8 +15,7 @@ module.exports = {
 				.addChoices([
 					['Wanderlust Invocation', 'wanderlust'],
 					['Epitome Invocation', 'epitome'],
-					['Gentry of Hermitage', 'gentry'],
-					['Adrift in the Harbor', 'adrift']
+					['Everbloom Violet', 'everbloom']
 				])
 				.setRequired(true)),
 	async run({ paimonClient, application }) {
