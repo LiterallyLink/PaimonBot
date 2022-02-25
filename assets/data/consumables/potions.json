@@ -1,0 +1,171 @@
+[
+    {
+        "id": "gushing-essential-oil",
+        "name": "Gushing Essential Oil",
+        "emote": "<:anemoDMG:940799331978592306>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Anemo, boosting Anemo DMG. It has a fragrant smell. It is said that using it during your travels will make you walk as if you're riding on the wind.",
+        "effect": "Increases all party members' Anemo DMG by 25% for 300s.",
+        "recipe": [
+            "1x Lizard Tail",
+            "1x Dandelion Seed",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "windbarrier-potion",
+        "name": "Windbarrier Potion",
+        "emote": "<:anemoRES:940798268357627904>",
+        "rarity": 3,
+        "type": "RES-Boosting",
+        "description": "Grants greater affinity for Anemo, boosting Anemo DMG. It has a fragrant smell. It is said that using it during your travels will make you walk as if you're riding on the wind.",
+        "effect": "Increases all party members' Anemo DMG by 25% for 300s.",
+        "recipe": [
+            "1x Lizard Tail",
+            "1x Dandelion Seed",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "frosting-essential-oil",
+        "name" :"Frosting Essential Oil",
+        "emote": "<:cryoDMG:940799332200890418>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Cryo, boosting Cryo DMG. It has a chilling sensation when applied, and helps one to better channel Cryo energy. It also helps to keep you cool-headed and calm.",
+        "effect": "Increases all party members' Cryo DMG by 25% for 300s.",
+        "recipe": [
+            "1x Lizard Tail",
+            "1x Mist Flower Corolla",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "frostshield-potion",
+        "name": "Frostshield Potion",
+        "emote": "<:cryoRES:940799332024721438>",
+        "rarity": 3,
+        "type": "RES-Boosting",
+        "description": "A miraculous potion that boosts Cryo RES and makes one able to withstand extreme cold. Induces a chilling sensation when drank, but once this sensation spreads throughout the body, the feeling of being cold disappears.",
+        "effect": "Increases all party members' Cryo RES by 25% for 300s.",
+        "recipe": [
+            "1x Crystal Core",
+            "1x Mist Flower Corolla",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "shocking-essential-oil",
+        "name": "Shocking Essential Oil",
+        "emote": "<:electroDMG:940799332033105941>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Electro, boosting Electro DMG. It induces a tingling sensation on the skin and renders the user better able to better channel Electro energy - but comes with a risk of causing an electrical fire that would definitely ruin your perfect hair.",
+        "effect": "Increases all party members' Electro DMG by 25% for 300s.",
+        "recipe": [
+            "1x Frog",
+            "1x Electro Crystal",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "insulation-potion",
+        "name": "Insulation Potion",
+        "emote": "<:electroRES:940799331970215937>",
+        "rarity": 3,
+        "type": "RES-Boosting",
+        "description": "A potion that boosts Electro RES and keeps one from getting electro-shocked. Induces a tingling sensation when drank. It is said to work by filling the body with inversely charged electrical energy, which counteracts the effect of Electro damage.",
+        "effect": "Increases all party members' Electro RES by 25% for 300s.",
+        "recipe": [
+            "1x Butterfly Wings",
+            "1x Electro Crystal",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "unmoving-essential-oil",
+        "name": "Unmoving Essential Oil",
+        "emote": "<:geoDMG:940799332150542456>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Geo, boosting Geo DMG. You can feel the fine Geo pellets within when applied. It's said to help with physical injuries.",
+        "effect": "Increases all party members' Geo DMG by 25% for 300s.",
+        "recipe": [
+            "1x Frog",
+            "1x Cor Lapis",
+            "100 Mora"
+        ]
+        
+    },
+    {
+        "id": "dustproof-potion",
+        "name": "Dustproof Potion",
+        "emote": "<:geoRES:940799331684991017>",
+        "rarity": 3,
+        "type":"RES-Boosting",
+        "description": "A potion that boosts Geo RES and keeps one from getting bothered by sand and dust. It has a strange taste not unlike that of magnets. It keeps a traveler clean from all the sand and dust out there.",
+        "effect": "Increases all party members' Geo RES by 25% for 300s.",
+        "recipe": [
+            "1x Butterfly Wings",
+            "1x Cor Lapis",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "streaming-essential-oil",
+        "name": "Streaming Essential Oil",
+        "emote": "<:hydroDMG:940799332007936020>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Hydro, boosting Hydro DMG. It's a slippery medicine for external use, able to better channel Hydro energy. It has a subtle fragrance.",
+        "effect": "Increases all party members' Hydro DMG by 25% for 300s.",
+        "recipe": [
+            "1x Butterfly Wings",
+            "1x Lotus Head",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "desiccant-potion",
+        "name": "Desiccant Potion",
+        "emote": "<:hydroRES:940799331580133427>",
+        "rarity": 3,
+        "type": "RES-Boosting",
+        "description": "A kind of potion that boosts Hydro RES and makes one able to withstand highly humid environments. It is said to act like a desiccant and be highly effective at keeping items dry. It can also be ingested for the same effect.",
+        "effect": "Increases all party members' Hydro RES by 25% for 300s.",
+        "recipe": [
+            "1x Butterfly Wings",
+            "1x Lotus Head",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "flaming-essential-oil",
+        "name": "Flaming Essential Oil",
+        "emote": "<:pyroDMG:940799331986989096>",
+        "rarity": 3,
+        "type": "DMG-Boosting",
+        "description": "Grants greater affinity for Pyro, boosting Pyro DMG. It is made of materials that gestate Pyro, which serves to draw in Pyro energy more effectively. It also makes the user more fired-up and passionate.",
+        "effect": "Increases all party members' Pyro DMG by 25% for 300s.",
+        "recipe": [
+            "1x Frog",
+            "1x Flaming Flower Stamen",
+            "100 Mora"
+        ]
+    },
+    {
+        "id": "heatshield-potion",
+        "name": "Heatshield Potion",
+        "emote": "<:pyroRES:940799332288954418>",
+        "rarity": 3,
+        "type": "RES-Boosting",
+        "description": "A miraculous potion that boosts Pyro RES and makes one able to withstand high heat. It works not by cooling the body, but by helping the body acclimate to high temperatures.",
+        "effect": "Increases all party members' Pyro RES by 25% for 300s.",
+        "recipe": [
+            "1x Butterfly Wings",
+            "1x Flaming Flower Stamen",
+            "100 Mora"
+        ]
+    }
+]

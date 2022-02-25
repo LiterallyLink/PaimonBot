@@ -20,90 +20,88 @@ module.exports = {
 		const { pity } = await paimonClient.database.fetchPlayerData(application.user.id);
 		const { wishHistory } = pity.find(i => i.type === banner.toLowerCase());
 
-		let initialIndex = 0;
-		let page = 0;
-		let maxPages = Math.ceil(wishHistory.length / 10);
-		const descriptionArray = [];
-		let description;
+		const wishHistoryArray = [];
 
-		for (let i = 0; i < maxPages; i++) {
-			const wishHistoryList = wishHistory.slice(initialIndex, initialIndex + 10).join('\n');
-			descriptionArray.push(wishHistoryList);
-			initialIndex += 10;
+		for (let i = 0; i < wishHistory.length; i += 10) {
+			wishHistoryArray.push(wishHistory.slice(i, i + 10).join('\n'));
 		}
-
-		const buttonRow = new MessageActionRow();
-
-		if (descriptionArray.length < 10) {
-			description = "No Character's or Weapon's to display.";
-			maxPages = 1;
-		} else {
-			description = descriptionArray[page];
-
-			buttonRow.addComponents(
-				new MessageButton()
-					.setLabel('◀️')
-					.setCustomId('backward')
-					.setStyle('PRIMARY')
-					.setDisabled(true)
-			);
-			buttonRow.addComponents(
-				new MessageButton()
-					.setLabel('▶️')
-					.setCustomId('forward')
-					.setStyle('PRIMARY')
-			);
-		}
-
-		buttonRow.addComponents(
-			new MessageButton()
-				.setLabel('🗑️')
-				.setCustomId('delete')
-				.setStyle('PRIMARY')
-		);
 
 		const wishHistoryEmbed = new MessageEmbed()
 			.setTitle(`${banner} Banner Wish History`)
-			.setDescription(`${description}`)
-			.setColor('WHITE')
-			.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
-		const historyEmbed = await application.followUp({ embeds: [wishHistoryEmbed], components: [buttonRow] });
+			.setFooter({ text: `Page 1 of 1` })
+			.setColor('WHITE');
 
-		const filter = i => i.user.id === application.user.id;
-		const collector = historyEmbed.createMessageComponentCollector({ filter, time: 300000 });
+		if (!wishHistoryArray.length) {
+			wishHistoryEmbed.setDescription("No Character's or Weapon's to display.");
+			return application.followUp({ embeds: [wishHistoryEmbed] });
+		} else if (wishHistory.length <= 10) {
+			wishHistoryEmbed.setDescription(wishHistoryArray[0]);
+			return application.followUp({ embeds: [wishHistoryEmbed] });
+		} else {
+			const buttonRow = new MessageActionRow()
+				.addComponents(
+					new MessageButton()
+						.setLabel('◀️')
+						.setCustomId('backward')
+						.setStyle('PRIMARY')
+						.setDisabled(true),
+					new MessageButton()
+						.setLabel('▶️')
+						.setCustomId('forward')
+						.setStyle('PRIMARY'),
+					new MessageButton()
+						.setLabel('🗑️')
+						.setCustomId('delete')
+						.setStyle('PRIMARY')
+				);
 
-		return collector.on('collect', async i => {
-			i.deferUpdate();
-			const { customId } = i;
+			let page = 0;
+			let description = wishHistoryArray[page];
+			const maxPages = Math.ceil(wishHistory.length / 10);
 
-			if (customId === 'delete') {
-				collector.stop();
-				historyEmbed.delete().catch(() => null);
-			}
+			wishHistoryEmbed.setDescription(description);
+			wishHistoryEmbed.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
+			const historyEmbed = await application.followUp({ embeds: [wishHistoryEmbed], components: [buttonRow] });
 
-			if (customId === 'forward') {
-				page++;
-				description = descriptionArray[page];
+			const filter = i => {
+				i.deferUpdate();
+				return i.user.id === application.user.id;
+			};
 
-				if (page + 1 === maxPages) buttonRow.components[1].setDisabled(true);
-				if (page > 0) buttonRow.components[0].setDisabled(false);
+			const collector = historyEmbed.createMessageComponentCollector({ filter, time: 300000 });
 
-				wishHistoryEmbed.setDescription(description);
-				wishHistoryEmbed.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
-				application.editReply({ embeds: [wishHistoryEmbed], components: [buttonRow] });
-			}
+			return collector.on('collect', async i => {
+				const { customId } = i;
 
-			if (customId === 'backward') {
-				page--;
-				description = descriptionArray[page];
+				if (customId === 'delete') {
+					collector.stop();
+					historyEmbed.delete().catch(() => null);
+				}
 
-				if (page === 0) buttonRow.components[0].setDisabled(true);
-				if (page < 1) buttonRow.components[1].setDisabled(false);
+				if (customId === 'forward') {
+					page++;
+					description = wishHistoryArray[page];
 
-				wishHistoryEmbed.setDescription(description);
-				wishHistoryEmbed.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
-				application.editReply({ embeds: [wishHistoryEmbed], components: [buttonRow] });
-			}
-		});
+					if (page + 1 === maxPages) buttonRow.components[1].setDisabled(true);
+					if (page > 0) buttonRow.components[0].setDisabled(false);
+
+					wishHistoryEmbed.setDescription(description);
+					wishHistoryEmbed.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
+					application.editReply({ embeds: [wishHistoryEmbed], components: [buttonRow] });
+				}
+
+				if (customId === 'backward') {
+					page--;
+					description = wishHistoryArray[page];
+
+					if (page === 0) buttonRow.components[0].setDisabled(true);
+					if (page < 1) buttonRow.components[1].setDisabled(false);
+
+					wishHistoryEmbed.setDescription(description);
+					wishHistoryEmbed.setFooter({ text: `Page ${page + 1} of ${maxPages}` });
+					application.editReply({ embeds: [wishHistoryEmbed], components: [buttonRow] });
+				}
+			});
+		}
 	}
 };

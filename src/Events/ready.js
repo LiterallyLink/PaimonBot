@@ -10,10 +10,7 @@ module.exports = class extends Event {
 
 	async run() {
 		console.log([
-			`Logged in as ${this.client.user.tag}`,
-			`Cached ${this.client.characters.size} characters`,
-			`Cached ${this.client.weapons.size} weapons`,
-			`Cached ${this.client.enemies.size} enemies`
+			`Logged in as ${this.client.user.tag}`
 		].join('\n'));
 
 

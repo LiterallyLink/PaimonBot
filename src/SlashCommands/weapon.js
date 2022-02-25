@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed, MessageAttachment } = require('discord.js');
-const emote = require('../../assets/emotes.json');
+const { MessageEmbed, MessageAttachment, MessageButton, MessageActionRow } = require('discord.js');
+const { bow, catalyst, claymore, polearm, sword } = require('../../assets/emotes.json');
 const stringSimilarity = require('string-similarity');
 
 module.exports = {
@@ -39,9 +39,10 @@ module.exports = {
 		const weaponRarity = application.options.getString('rarity');
 		const weaponList = paimonClient.weapons;
 
+
 		if (weaponName) {
 			const weaponGuess = stringSimilarity.findBestMatch(weaponName, weaponList.map(weap => weap.name)).bestMatch.target;
-			const weapon = weaponList.find(weap => weap.name === weaponGuess);
+			const weapon = weaponList.get(weaponGuess);
 			const starRarity = Array(weapon.rarity).fill('⭐').join('');
 
 			const weaponEmbed = new MessageEmbed()
@@ -80,20 +81,74 @@ module.exports = {
 			return application.followUp({ embeds: [weaponEmbed] });
 		}
 
-		const weaponTypeList = ['Bow', 'Polearm', 'Catalyst', 'Sword', 'Claymore'];
-		const randomImage = weaponTypeList[Math.floor(Math.random() * 5)];
-		const attachment = new MessageAttachment(`.\\assets\\images\\other\\${randomImage}.png`, 'weapon.png');
+		const optionRow = new MessageActionRow()
+			.addComponents(
+				new MessageButton()
+					.setCustomId('Bow')
+					.setEmoji(bow)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Catalyst')
+					.setEmoji(catalyst)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Claymore')
+					.setEmoji(claymore)
+					.setStyle('PRIMARY')
+			);
 
-		const weaponListEmbed = new MessageEmbed()
-			.setTitle('Weapon Help')
-			.setThumbnail(`attachment://${attachment.name}`)
-			.setDescription('To search for a specific weapon.\nType `/weapon <weapon name>`\nTo filter for certain weapons.\nType `/weapon <type> or <rarity>`')
+		const optionRow2 = new MessageActionRow()
+			.addComponents(
+				new MessageButton()
+					.setCustomId('Polearm')
+					.setEmoji(polearm)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('Sword')
+					.setEmoji(sword)
+					.setStyle('PRIMARY'),
+				new MessageButton()
+					.setCustomId('delete')
+					.setLabel('🗑️')
+					.setStyle('PRIMARY')
+			);
+
+		const weaponEmbed = new MessageEmbed()
+			.setTitle('Weapon Help Menu')
+			.setDescription('To search for a specific weapon.\nType `/weapon <weapon name>`\n\nTo filter for certain weapons.\nType `/weapon <type> or <rarity>`')
 			.setColor('WHITE');
+		const msg = await application.followUp({ embeds: [weaponEmbed], components: [optionRow, optionRow2] });
 
-		for (let i = 0; i < weaponTypeList.length; i++) {
-			weaponListEmbed.addField(`${emote[weaponTypeList[i].toLowerCase()]} ${weaponTypeList[i]}`,
-				`${weaponList.filter(weap => weap.type === weaponTypeList[i]).map(weap => weap.name).join('\n')}`, true);
-		}
-		return application.followUp({ embeds: [weaponListEmbed], files: [attachment] });
+		const filter = i => {
+			i.deferUpdate();
+			return i.user.id === application.user.id;
+		};
+
+		const collector = msg.createMessageComponentCollector({ filter, time: 300000 });
+
+		return collector.on('collect', async i => {
+			const { customId } = i;
+
+			if (customId === 'delete') {
+				collector.stop();
+				msg.delete().catch(() => null);
+			}
+
+			const filteredWeaponsMap = weaponList.filter(j => j.type === customId);
+			const thumbnail = new MessageAttachment(`.\\assets\\images\\other\\${customId}.png`, `${customId}.png`);
+
+			const weaponTypeEmbed = new MessageEmbed()
+				.setTitle(`${customId} Weapons`)
+				.setThumbnail(`attachment://${thumbnail.name}`)
+				.setColor('WHITE');
+
+			for (let j = 5; j > 2; j--) {
+				const starRarity = Array(j).fill('⭐').join('');
+				const formattedWeaponList = filteredWeaponsMap.filter(weap => weap.rarity === j).map(weap => weap.name).join('\n');
+				weaponTypeEmbed.addField(`${starRarity}`, formattedWeaponList, true);
+			}
+
+			msg.edit({ embeds: [weaponTypeEmbed], components: [optionRow, optionRow2], files: [thumbnail] });
+		});
 	}
 };

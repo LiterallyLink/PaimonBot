@@ -97,7 +97,9 @@ module.exports = class Util {
 		this.cacheCharacters();
 		this.cacheEnemies();
 		this.cacheElements();
+		this.cacheArtifacts();
 		this.cacheReactions();
+		this.cachePotions();
 		this.cacheFood();
 	}
 
@@ -106,6 +108,14 @@ module.exports = class Util {
 
 		for (let i = 0; i < characterlist.length; i++) {
 			this.client.characters.set(characterlist[i].name, characterlist[i]);
+		}
+	}
+
+	cacheArtifacts() {
+		const artifactList = require('../../../assets/data/artifacts.json');
+
+		for (let i = 0; i < artifactList.length; i++) {
+			this.client.artifacts.set(artifactList[i].name, artifactList[i]);
 		}
 	}
 
@@ -121,8 +131,8 @@ module.exports = class Util {
 		const elementList = require('../../../assets/data/other/elements.json');
 
 		for (let i = 0; i < elementList.length; i++) {
-			const { name, description, reactions } = elementList[i];
-			this.client.elements.set(name, { description: description, reactions: reactions });
+			const { name } = elementList[i];
+			this.client.elements.set(name, elementList[i]);
 		}
 	}
 
@@ -131,7 +141,7 @@ module.exports = class Util {
 
 		for (let i = 0; i < reactionList.length; i++) {
 			const { name, description, elementalFormula } = reactionList[i];
-			this.client.reactions.set(name, { name: name, description: description, elementalFormula: elementalFormula });
+			this.client.reactions.set(name, { name, description, elementalFormula });
 		}
 	}
 
@@ -140,6 +150,14 @@ module.exports = class Util {
 
 		for (let i = 0; i < foodList.length; i++) {
 			this.client.food.set(foodList[i].name, foodList[i]);
+		}
+	}
+
+	cachePotions() {
+		const potionList = require('../../../assets/data/consumables/potions.json');
+
+		for (let i = 0; i < potionList.length; i++) {
+			this.client.potions.set(potionList[i].id, potionList[i]);
 		}
 	}
 
@@ -207,7 +225,7 @@ module.exports = class Util {
 		}
 
 		const clientID = '809302717843111946';
-		const guildID = '780394213200232491';
+		const guildID = '736127299065217104';
 		const rest = new REST({ version: '9' }).setToken(token);
 		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
 		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
