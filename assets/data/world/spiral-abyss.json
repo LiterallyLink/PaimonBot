@@ -1,0 +1,152 @@
+[
+    {
+        "leyline": "Pyro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
+        "chamber": [
+            {
+                "enemylevel": 25,
+                "challenge": "Remaining challenge time longer than 90/150/210 sec.",
+                "enemies": [
+                    "17x Electro Slimes",
+                    "1x Large Electro Slime",
+                    "4x Mutant Electro Slimes"
+                ]
+
+            },
+            {
+                "enemylevel": 25,
+                "challenge": "Remaining challenge time longer than 90/150/210 sec.",
+                "enemies": [
+                    "6x Hilichurl Fighters",
+                    "9x Wooden Shield Hilichurl Guards",
+                    "2x Hilichurl Shooters",
+                    "2x Pyro Hilichurl Grenadiers",
+                    "1x Wooden Shield Mitachurl",
+                    "1x Blazing Axe Mitachurl"
+                ]
+            },
+            {
+                "enemylevel": 25,
+                "challenge": "Remaining challenge time longer than 90/150/210 sec.",
+                "enemies": [
+                    "2x Hilichurl Shooters",
+                    "1x Wooden Shield Mitachurl",
+                    "1x Large Electro Slime",
+                    "1x Mutant Electro Slime",
+                    "1x Fatui Electro Cicin Mage"
+                ]
+            }
+        ]
+    },
+    {
+        "leyline": "Cryo DMG dealt by all party members increased by 75%.\nThe duration of the Frozen status effect is greatly increased.",
+        "chamber": [
+            {
+                "enemylevel": 40,
+                "challenge": "Remaining challenge time longer than 60/90/180 sec.",
+                "enemies": [
+                    "5x Electro Slime",
+                    "5x Large Electro Slimes",
+                    "4x Mutant Electro Slimes"
+                ]
+            },
+            {
+                "enemylevel": 40,
+                "challenge": "Target defense process greater than 20/40/60%.",
+                "enemies": [
+                    "2x Hydro Slimes",
+                    "8 Large Hydro Slimes",
+                    "1x Blazing Axe Mitachurl",
+                    "1x Hydro Abyss Mage"
+                ]
+            },
+            {
+                "enemylevel": 40,
+                "challenge": "Remaining challenge time longer than 60/90/180 sec.",
+                "enemies": [
+                    "2x Hydro Samachurls",
+                    "1x Blazing Axe Mitachurl",
+                    "2x Hydro Abyss Mages"
+                ]
+            }
+        ]
+    },
+    {
+        "leyline": "Increases Swirl reaction DMG by 300%, and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
+        "chamber": [
+            {
+                "enemylevel": 45,
+                "challenge":"Remaining challenge time longer than 60/90/180 sec.",
+                "enemies": [
+                    "5x Cryo Slimes",
+                    "1x Large Slimes",
+                    "5x Pyro Slimes",
+                    "1x Large Pyro Slime",
+                    "1x Large Electro Slime",
+                    "2x Cryo Hilichurl Shooter",
+                    "2x Pyro Hilichurl Shooter",
+                    "6x Wooden Shield Hilichurl Guard"
+                ]
+            },
+            {
+                "enemylevel": 45,
+                "challenge": "Remaining challenge time longer than 60/90/180 sec.",
+                "enemies": [
+                    "4x Treasure Hoarders: Pyro Potioneer",
+                    "2x Treasure Hoarders: Hydro Potioneer",
+                    "6x Treasure Hoarders: Electro Potioneer",
+                    "2x Treasure Hoarders: Cryo Potioneer",
+                    "1x Treasure Hoarders - Crusher",
+                    "1x Treasure Hoarders: Gravedigger",
+                    "1x Treasure Hoarders - Pugilist"
+                ]
+            },
+            {
+                "enemylevel": 45,
+                "challenge": "Remaining challenge time longer than 60/90/180 sec.",
+                "enemies": [
+                    "1x Blazing Axe Mitachurl",
+                    "1x Ruin Guard"
+                ]
+            }
+        ]
+    },
+    {
+         "leyline": "Electro DMG dealt by all party members increased by 75%.\nElectro-Charged DMG increased by 150%, and its AoE is increased by 100%.",
+         "chamber": [
+            {
+                "enemylevel": 50,
+                "challenge": "Remaining challenge time longer than 60/120/180 sec.",
+                "enemies": [
+                    "4x Hydro Slimes",
+                    "7x Large Hydro Slimes",
+                    "8x Hilichurl Fighters",
+                    "2x Cryo Hilichurl Shooters",
+                    "2x Hydro Abyss Mages"
+                ]
+            },
+            {
+                "enemylevel": 50,
+                "challenge": "Target defense process greater than 20/40/60%.",
+                "ememies": [
+                    "10x Hydro Slimes",
+                    "4x Hilichurl Fighters",
+                    "2x Cryo Hilichurl Shooters",
+                    "3x Hilichurl Berserkers",
+                    "1x Blazing Axe Mitachurl",
+                    "2x Hydro Abyss Mages"
+                ]
+            },
+            {
+                "enemylevel": 50,
+                "challenge": "Remaining challenge time longer than 60/120/180 sec.",
+                "enemies": [
+                    "2x Hilichurl Fighters",
+                    "1x Cryo Hilichurl Shooter",
+                    "1x Hydro Samachurl",
+                    "1x Blazing Axe Mitachurl",
+                    "2x Hydro Abyss Mages"
+                ]
+            }
+         ]
+    }
+]
