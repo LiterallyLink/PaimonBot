@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
+const { MessageEmbed, MessageButton, MessageActionRow, MessageAttachment } = require('discord.js');
 const emote = require('../../assets/emotes.json');
 const stringSimilarity = require('string-similarity');
 
@@ -52,14 +52,14 @@ module.exports = {
 
 		if (characterName) {
 			const characterGuess = stringSimilarity.findBestMatch(characterName.toLowerCase(), characterList.map(char => char.name)).bestMatch.target;
-			const character = characterList.find(char => char.name === characterGuess);
-			const { name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
+			const character = characterList.get(characterGuess);
+			const { id, name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
 
 			const starRarity = Array(rarity).fill('⭐').join('');
 
 			const optionRow = new MessageActionRow();
 
-			if (character.constellations.length) {
+			if (character.constellations?.length) {
 				optionRow.addComponents(
 					new MessageButton()
 						.setCustomId('constellation')
@@ -79,9 +79,9 @@ module.exports = {
 				.setTitle(name)
 				.setImage(image)
 				.setDescription(`${description}`)
-				.addField('Vision', `${paimonClient.utils.capitalize(element)} ${emote[element.toLowerCase()] || 'Unknown'}`, true)
-				.addField('Weapon', `${paimonClient.utils.capitalize(weapon)} ${emote[weapon.toLowerCase()] || 'Unknown'}`, true)
-				.addField('Nation', `${paimonClient.utils.capitalize(region)} ${emote[region.toLowerCase()] || 'Unknown'}`, true)
+				.addField('Vision', ` ${emote[element.toLowerCase()] || ''} ${paimonClient.utils.capitalize(element)}` || 'Unknown', true)
+				.addField('Weapon', ` ${emote[weapon.toLowerCase()] || ''} ${paimonClient.utils.capitalize(weapon)}` || 'Unknown', true)
+				.addField('Nation', ` ${emote[region.toLowerCase()] || ''} ${paimonClient.utils.capitalize(region) || 'Unknown'}`, true)
 				.addField('Affiliation', `${paimonClient.utils.capitalize(faction) || 'Unknown'}`, true)
 				.addField('Rarity', `${starRarity || 'Unknown'}`, true)
 				.addField('Constellation', `${constellation || 'Unknown'}`, true)
@@ -102,11 +102,17 @@ module.exports = {
 
 				if (choice === 'constellation') {
 					const { constellations } = character;
+
 					const constellationEmbed = new MessageEmbed()
 						.setAuthor({ name: `${name}`, iconURL: icon })
-						.setThumbnail(image)
 						.setDescription(`**Constellation**\n\n${constellation}`)
 						.setColor('WHITE');
+
+					if (id !== 'aloy') {
+						const constellationThumbnail = new MessageAttachment(`.\\assets\\images\\characters\\constellations\\${id}-constellation.jpg`, `${id}-constellation.jpg`);
+						constellationEmbed.setImage(`attachment://${constellationThumbnail.name}`);
+						charEmbedMsg.files = [constellationThumbnail];
+					}
 
 					for (let j = 0; j < constellations.length; j++) {
 						constellationEmbed.addField(`${constellations[j].name}`, `Level: **${constellations[j].order}**\n${constellations[j].description}`, true);
@@ -155,21 +161,21 @@ module.exports = {
 				.setDescription(`${characterList.map(char => char.name).join('\n') || 'No Characters Found'}`)
 				.setColor('WHITE');
 			return application.followUp({ embeds: [filteredCharacterListEmbed] });
+		} else {
+			const charListEmbed = new MessageEmbed()
+				.setTitle('Character Help')
+				.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon type> or <vision>`')
+				.setColor('WHITE');
+
+			const characterTypes = ['Geo', 'Hydro', 'Pyro', 'Electro', 'Cryo', 'Anemo'];
+
+			for (let i = 0; i < characterTypes.length; i++) {
+				const elementName = characterTypes[i];
+				const filteredCharacters = characterList.filter(char => char.element === elementName).map(char => char.name);
+				charListEmbed.addField(`${emote[elementName.toLowerCase()]} ${elementName}`, filteredCharacters.join('\n'), true);
+			}
+
+			return application.followUp({ embeds: [charListEmbed] });
 		}
-
-		const charListEmbed = new MessageEmbed()
-			.setTitle('Character Help')
-			.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon type> or <vision>`')
-			.setColor('WHITE');
-
-		const characterTypes = ['Geo', 'Hydro', 'Pyro', 'Electro', 'Cryo', 'Anemo'];
-
-		for (let i = 0; i < characterTypes.length; i++) {
-			const elementName = characterTypes[i];
-			const filteredCharacters = characterList.filter(char => char.element === elementName).map(char => char.name);
-			charListEmbed.addField(`${emote[elementName.toLowerCase()]} ${elementName}`, filteredCharacters.join('\n'), true);
-		}
-
-		return application.followUp({ embeds: [charListEmbed] });
 	}
 };
