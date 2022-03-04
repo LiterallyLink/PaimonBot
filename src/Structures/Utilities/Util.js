@@ -227,8 +227,8 @@ module.exports = class Util {
 		const clientID = '809302717843111946';
 		const guildID = '736127299065217104';
 		const rest = new REST({ version: '9' }).setToken(token);
-		// await this.registerSlashCommandsGlobally(rest, slashCommandArray);
-		return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
+		await this.registerSlashCommandsGlobally(rest, slashCommandArray);
+		// return await this.registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray);
 	}
 
 	async registerSlashCommandsToGuild(clientID, guildID, rest, slashCommandArray) {
