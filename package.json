@@ -4,7 +4,8 @@
   "description": "A interactive bot made with DJS based off of the popular MMORPG Genshin Impact.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "LiterallyLink",
