@@ -23,7 +23,7 @@
     "string-similarity": "^4.0.4"
   },
   "devDependencies": {
-    "eslint": "^8.10.0",
+    "eslint": "^8.13.0",
     "eslint-config-tesseract": "^0.3.0"
   }
 }
