@@ -350,6 +350,7 @@ module.exports = class Util {
 		const currentPotionJSON = require(`${this.directory}../assets/data/consumables/potions.json`);
 
 		const potionsToAdd = this.compareArrays(currentPotionJSON.map(potion => potion.name), potionList);
+
 		if (potionsToAdd.length > 0) await this.retrieveAndSubmitPotionData(potionsToAdd);
 
 		const potionJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/consumables/potions.json`, 'utf8'));
@@ -393,11 +394,19 @@ module.exports = class Util {
 			const potionObj = {
 				name: potionsToAdd[i],
 				type,
+				recipe: [],
 				rarity,
 				description,
 				effect,
 				thumbnail
 			};
+
+			$('.new_genshin_recipe_body .card_with_caption').each((_i, ele) => {
+				const amount = $(ele).find('.card_text').text();
+				const item = $(ele).find('.card_caption').text();
+
+				potionObj.recipe.push(`x${amount} ${item}`);
+			});
 
 			potionJSON.push(potionObj);
 		}
