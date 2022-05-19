@@ -1,13 +1,14 @@
 {
   "name": "paimonbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A interactive bot made with DJS based off of the popular MMORPG Genshin Impact.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "lint": "eslint ."
   },
   "keywords": [],
-  "author": "",
+  "author": "LiterallyLink",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
@@ -22,7 +23,7 @@
     "twitter": "^1.7.1"
   },
   "devDependencies": {
-    "eslint": "^8.4.1",
+    "eslint": "^8.10.0",
     "eslint-config-tesseract": "^0.3.0"
   }
 }
