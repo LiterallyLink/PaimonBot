@@ -61,9 +61,11 @@ async run({ paimonClient, application }) {
 			return application.followUp({ embeds: [dishEmbed] });
 		}
 	} else {
+		const randomFood = [...paimonClient.food.keys()][Math.floor(Math.random() * paimonClient.food.size)];
+
 		const dishHelpEmbed = new MessageEmbed()
 			.setTitle('Food Command Help')
-			.setDescription('To search for a specific dish.\nType `/food <name>`\nExample `/food Steak`')
+			.setDescription(`To search for a specific dish.\nType \`/food <name>\`\nExample \`/food ${randomFood}\``)
 			.setColor('WHITE');
 		return application.followUp({ embeds: [dishHelpEmbed] });
 	}

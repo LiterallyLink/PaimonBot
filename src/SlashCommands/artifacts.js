@@ -66,9 +66,11 @@ async run({ paimonClient, application }) {
 			artifactSetMessage.edit({ embeds: [artifactSetEmbed], components: [buttonRow] });
 		});
 	} else {
+		const randomArtifact = [...artifacts.keys()][Math.floor(Math.random() * artifacts.size)];
+
 		const artifactHelpEmbed = new MessageEmbed()
 			.setTitle('Artifact Help')
-			.setDescription('To search for an artifact set.\nType `/artifact <name>`\nExample `/artifact The Exile`')
+			.setDescription(`To search for an artifact set.\nType \`/artifact <name>\`\nExample \`/artifact ${randomArtifact}\``)
 			.setColor('WHITE');
 
 		const rarities = [5, 4, 3, 2, 1];
