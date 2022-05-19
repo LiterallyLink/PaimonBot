@@ -47,7 +47,7 @@ module.exports = class PaimonClient extends Client {
 	}
 
 	async start(token = this.token) {
-		await this.utils.loadSlashCommands('952707420700934195');
+		await this.utils.loadSlashCommands('736127299065217104');
 		await this.utils.storeAPIData();
 		this.utils.loadEvents();
 		this.mongoose.init();
