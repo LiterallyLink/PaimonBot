@@ -1,19 +1,19 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
-const { mora } = require('../../assets/emotes.json');
+const emotes = require('../../assets/other/emotes.json');
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('balance')
-		.setDescription('Shows your current balance'),
+		.setDescription('Check your total mora and primogems.'),
 	async run({ paimonClient, application }) {
-		const player = await paimonClient.database.fetchPlayerData(application.user.id);
-		const moraCount = player.mora.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+		const { mora, primogems } = await paimonClient.database.fetchPlayerData(application.user.id);
 
 		const balanceEmbed = new MessageEmbed()
 			.setAuthor({ name: `${application.user.username}'s Balance`, iconURL: application.user.avatarURL() })
-			.setDescription(`${mora} ${moraCount} Mora`)
+			.addField(`Total Mora (${emotes.mora})`, `${mora}`)
+			.addField(`Total Primogems (${emotes.primogem})`, `${primogems}`)
 			.setColor('WHITE');
-		application.followUp({ embeds: [balanceEmbed] });
+		return application.followUp({ embeds: [balanceEmbed] });
 	}
 };

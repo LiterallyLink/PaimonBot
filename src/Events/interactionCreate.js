@@ -32,6 +32,33 @@ module.exports = class extends Event {
 			const command = this.client.slashCommands.get(interaction.commandName);
 			if (command) command.run(this.client, interaction);
 		}
+
+		// Autocomplete handling
+		if (interaction.isAutocomplete()) {
+			const focusedOption = interaction.options.getFocused(true);
+			let choices;
+
+			if (interaction.commandName === 'characters') {
+				choices = [...this.client.characters.keys()];
+			}
+
+			if (interaction.commandName === 'artifacts') {
+				choices = [...this.client.artifacts.keys()];
+			}
+
+			if (interaction.commandName === 'food') {
+				choices = [...this.client.food.keys()];
+			}
+
+			await interaction.respond(this.onAutoComplete(focusedOption.value, choices));
+		}
+	}
+
+	onAutoComplete(value, choicesArray) {
+		const filtered = choicesArray.filter(choice => choice.startsWith(value));
+		const filteredList = filtered.length < 25 ? filtered : filtered.slice(0, 25);
+		return filteredList.map(choice => ({ name: choice, value: choice }));
 	}
 
 };
+

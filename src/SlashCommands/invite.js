@@ -3,7 +3,6 @@ const { MessageEmbed, MessageActionRow, MessageButton, MessageAttachment } = req
 const { invite } = require('../../config.json');
 
 module.exports = {
-
 	data: new SlashCommandBuilder()
 		.setName('invite')
 		.setDescription('Provides a link to invite Paimon to your server.'),
@@ -16,7 +15,7 @@ module.exports = {
 					.setStyle('LINK')
 			);
 
-		const attachment = new MessageAttachment('.\\assets\\images\\paimon\\paimonInvite.png', 'paimonInvite.png');
+		const attachment = new MessageAttachment('.\\assets\\images\\other\\invite.png', 'invite.png');
 
 		const inviteEmbed = new MessageEmbed()
 			.setImage(`attachment://${attachment.name}`)

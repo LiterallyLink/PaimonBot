@@ -13,7 +13,6 @@ module.exports = class extends Event {
 			`Logged in as ${this.client.user.tag}`
 		].join('\n'));
 
-
 		await this.client.user.setActivity(`EHE TE NANDAYO!`, { type: 'WATCHING' });
 	}
 

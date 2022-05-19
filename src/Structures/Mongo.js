@@ -22,7 +22,7 @@ module.exports = {
 		});
 
 		mongoose.connection.on('disconnected', () => {
-			console.warn('Database connection lost.');
+			console.warn('Disconnected from the database.');
 		});
 	}
 };

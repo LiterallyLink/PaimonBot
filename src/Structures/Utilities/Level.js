@@ -9,24 +9,17 @@ module.exports = class Level {
 	async appendXp(userId, guildId) {
 		const xpToAdd = this.client.utils.generateRandomInteger(1, 29);
 
-		const member = await Member.findOneAndUpdate({
-			userId,
-			guildId
-		},
-		{
-			userId,
-			guildId,
-			$inc: {
-				xp: xpToAdd
+		const member = await Member.findOneAndUpdate({ userId, guildId },
+			{
+				userId,
+				guildId,
+				$inc: { xp: xpToAdd },
+				$set: { lastUpdated: new Date() }
 			},
-			$set: {
-				lastUpdated: new Date()
-			}
-		},
-		{
-			upsert: true,
-			new: true
-		});
+			{
+				upsert: true,
+				new: true
+			});
 
 		if (this.xpFor(member.level) < member.xp) {
 			await this.levelUp(member);

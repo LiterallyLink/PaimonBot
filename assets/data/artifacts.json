@@ -1,584 +1,1821 @@
 [
-    {
-       "id":"adventurer",
-       "name":"Adventurer",
-       "description":"Adventurer is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Midsummer Courtyard, Chests, Investigation, Shiliu, Oceanid, Pyro Regisvine, and Adventure Rank Rewards (7, 8, 9, 11)",
-       "maxRarity":3,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Max HP increased by 1,000."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Opening chest regenerates 30% Max HP over 5s."
-          }
-       ]
-    },
-    {
-       "id":"archaic-petra",
-       "name":"Archaic Petra",
-       "description":"Archaic Petra is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Domain of Guyun.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Gain a 15% Geo DMG Bonus"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
-          }
-       ]
-    },
-    {
-       "id":"berserker",
-       "name":"Berserker",
-       "description":"Berserker, also called Blood-Soaked in the Adventurer Handbook, is an Artifact Set available at 3-star, and 4-star rarities which can be obtained from Elite Enemies, Domain Reliquary: Tier III, Domain Reliquary: Tier II, Anemo Hypostasis, Cryo Hypostasis, Cryo Regisvine, Oceanid, Pyro Regisvine, Primo Geovishap, Weekly Bosses, and Chests.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"CRIT Rate +12%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When HP is below 70%, CRIT Rate increases by an additional 24%."
-          }
-       ]
-    },
-    {
-       "id":"blizzard-strayer",
-       "name":"Blizzard Strayer",
-       "description":"Blizzard Strayer, also called Icebreaker in the Adventurer Handbook, is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Peak of Vindagnyr.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Cryo DMG Bonus +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
-          }
-       ]
-    },
-    {
-       "id":"bloodstained-chivalry",
-       "name":"Bloodstained Chivalry",
-       "description":"Bloodstained Chivalry is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Clear Pool and Mountain Cavern.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Physical DMG +25%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
-          }
-       ]
-    },
-    {
-       "id":"brave-heart",
-       "name":"Brave Heart",
-       "description":"Brave Heart, also called Heart of Bravery in the Adventurer Handbook, is a 3-star and 4-star Artifact Set obtained from Domain of Guyun and Ridge Watch.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"ATK +18%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases DMG by 30% against enemies with more than 50% HP."
-          }
-       ]
-    },
-    {
-       "id":"crimson-witch-of-flames",
-       "name":"Crimson Witch of Flames",
-       "description":"Crimson Witch of Flames is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Hidden Palace of Zhou Formula.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Gain a 15% Pyro DMG Bonus."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks."
-          }
-       ]
-    },
-    {
-       "id":"defenders-will",
-       "name":"Defender's Will",
-       "description":"Defender's Will is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Hidden Palace of Zhou Formula and Peak of Vindagnyr.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Base DEF +30%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Elemental RES by 30% for each element present in the party."
-          }
-       ]
-    },
-    {
-       "id":"emblem-of-severed-fate",
-       "name":"Emblem of Severed Fate",
-       "description":"Emblem of Severed Fate (Japanese: 絕縁の旗印) is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Momiji-Dyed Court in Inazuma.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Energy Recharge +20%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum  of 75% bonus DMG can be obtained in this way."
-          }
-       ]
-    },
-    {
-       "id":"gambler",
-       "name":"Gambler",
-       "description":"Gambler is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Clear Pool and Mountain Cavern and Peak of Vindagnyr.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Elemental Skill DMG increased by 20%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
-          }
-       ]
-    },
-    {
-       "id":"gladiators-finale",
-       "name":"Gladiator's Finale",
-       "description":"Gladiator's Finale is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Bosses at World Level 2 and above.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"ATK +18%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
-          }
-       ]
-    },
-    {
-       "id":"heart-of-depth",
-       "name":"Heart of Depth",
-       "description":"Heart of Depth, also called Ocean Conqueror in the Adventurer Handbook, is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Peak of Vindagnyr.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Hydro DMG Bonus +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
-          }
-       ]
-    },
-    {
-       "id":"husk-of-opulent-dreams",
-       "name":"Husk of Opulent Dreams",
-       "description":"Husk of Opulent Dreams is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Slumbering Court.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"DEF +30%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.\nWhen off the field, the character gains 1 stack ever 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
-          }
-       ]
-    },
-    {
-       "id":"initiate",
-       "name":"Initiate",
-       "description":"Initiate is an artifact set that is only available on Trial Characters in Story Domains. There are only the Flower of Life and Plume of Death pieces and does not have a 2-Piece Bonus.",
-       "maxRarity":1
-    },
-    {
-       "id":"instructor",
-       "name":"Instructor",
-       "description":"Instructor is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Elite Enemies, Anemo Hypostasis, Electro Hypostasis, Pyro Regisvine, Geo Hypostasis, and Primo Geovishap.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Increases Elemental Mastery by 80."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s."
-          }
-       ]
-    },
-    {
-       "id":"lavawalker",
-       "name":"Lavawalker",
-       "description":"Lavawalker is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Hidden Palace of Zhou Formula.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Pyro RES increased by 40%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases DMG against enemies that are Burning or affected by Pyro by 35%."
-          }
-       ]
-    },
-    {
-       "id":"lucky-dog",
-       "name":"Lucky Dog",
-       "description":"Lucky Dog is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Domain of Guyun, Zhang Shun, Chests, Investigation, Anemo Hypostasis, Cryo Regisvine, and Cryo Hypostasis.",
-       "maxRarity":3,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"DEF increased by 100."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Picking up Mora restores 300 HP."
-          }
-       ]
-    },
-    {
-       "id":"maiden-beloved",
-       "name":"Maiden Beloved",
-       "description":"Maiden Beloved is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Valley of Remembrance.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Character Healing Effectiveness +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
-          }
-       ]
-    },
-    {
-       "id":"martial-artist",
-       "name":"Martial Artist",
-       "description":"Martial Artist is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Hidden Palace of Zhou Formula and Ridge Watch.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Increases Normal Attack and Charged Attack DMG by 15%."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
-          }
-       ]
-    },
-    {
-       "id":"noblesse-oblige",
-       "name":"Noblesse Oblige",
-       "description":"Noblesse Oblige is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Clear Pool and Mountain Cavern.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Elemental Burst DMG +20%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Using an Elemental Burst increase all party memebers' ATK by 20% for 12s. This effect cannot stack."
-          }
-       ]
-    },
-    {
-       "id":"ocean-hued-clam",
-       "name":"Ocean-Hued Clam",
-       "description":"Ocean-Hued Clam is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Slumbering Court.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Healing Bonus +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
-          }
-       ]
-    },
-    {
-       "id":"pale-flame",
-       "name":"Pale Flame",
-       "description":"Pale Flame is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Ridge Watch.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Physical DMG +25%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
-          }
-       ]
-    },
-    {
-       "id":"prayers-for-destiny",
-       "name":"Prayers for Destiny",
-       "description":"Prayers for Destiny is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Oceanid, Primo Geovishap, and Hydro Hypostasis.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"One Piece Bonus",
-             "effect":"Affected by Hydro for 40% less time."
-          }
-       ]
-    },
-    {
-       "id":"prayers-for-illumination",
-       "name":"Prayers for Illumination",
-       "description":"Prayers for Illumination is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Pyro Regisvine, Primo Geovishap, and Pyro Hypostasis.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"One Piece Bonus",
-             "effect":"Affected by Pyro for 40% less time."
-          }
-       ]
-    },
-    {
-       "id":"prayers-to-springtime",
-       "name":"Prayers to Springtime",
-       "description":"Prayers to Springtime is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Cryo Regisvine, Cryo Hypostasis, Primo Geovishap, and the Perpetual Mechanical Array.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"One Piece Bonus",
-             "effect":"Affected by Cryo for 40% less time."
-          }
-       ]
-    },
-    {
-       "id":"prayers-for-wisdom",
-       "name":"Prayers for Wisdom",
-       "description":"Prayers for Wisdom is an Artifact Set available at 3-star and 4-star rarities which can be obtained from the Electro Hypostasis, Primo Geovishap, and Thunder Manifestation.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"One Piece Bonus",
-             "effect":"Affected by Electro for 40% less time."
-          }
-       ]
-    },
-    {
-       "id":"resolution-of-sojourner",
-       "name":"Resolution of Sojourner",
-       "description":"Resolution of Sojourner is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Midsummer Courtyard, Adventurer Handbook, and Adventure Rank Rewards.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"ATK +18%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Charged Attack CRIT Rate by 30%."
-          }
-       ]
-    },
-    {
-       "id":"retracing-bolide",
-       "name":"Retracing Bolide",
-       "description":"Retracing Bolide is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Domain of Guyun.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Increases Shield Strength by 35%."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
-          }
-       ]
-    },
-    {
-       "id":"scholar",
-       "name":"Scholar",
-       "description":"Scholar is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Clear Pool and Mountain Cavern and Adventure Rank Rewards.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Elemental Mastery +80"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
-          }
-       ]
-    },
-    {
-       "id":"shimenawas-reminiscence",
-       "name":"Shimenawa's Reminiscence",
-       "description":"Shimenawa's Reminiscence (Japanese: 追つい憶おくのしめ縄なわ tsuioku no shimenawa)[1] is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Momiji-Dyed Court in Inazuma.",
-       "maxRarity:":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"ATK +18%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
-          }
-       ]
-    },
-    {
-       "id":"the-exile",
-       "name":"The Exile",
-       "description":"The Exile, also called Legacy in the Adventurer Handbook, is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Elite Enemies, Domain Reliquary: Tier III, Domain Reliquary: Tier II, Electro Hypostasis, Cryo Hypostasis, Cryo Regisvine, Oceanid, Geo Hypostasis, Primo Geovishap, and Chests.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Energy Recharge +20%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
-          }
-       ]
-    },
-    {
-       "id":"tenacity-of-the-millelith",
-       "name":"Tenacity of the Millelith",
-       "description":"Tenacity of the Millelith is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Ridge Watch.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"HP +20%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
-          }
-       ]
-    },
-    {
-       "id":"thundering-fury",
-       "name":"Thundering Fury",
-       "description":"Thundering Fury is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Midsummer Courtyard.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Electro DMG Bonus +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
-          }
-       ]
-    },
-    {
-       "id":"thundersoother",
-       "name":"Thundersoother",
-       "description":"Thundersoother is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Midsummer Courtyard.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Electro RES increased by 40%."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases DMG against opponents affected by Electro by 35%."
-          }
-       ]
-    },
-    {
-       "id":"tiny-miracle",
-       "name":"Tiny Miracle",
-       "description":"Tiny Miracle is an Artifact Set available at 3-star and 4-star rarities which can be obtained from Valley of Remembrance and Momiji-Dyed Court.",
-       "maxRarity":4,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"All Elemental RES increased by 20%."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
-          }
-       ]
-    },
-    {
-       "id":"traveling-doctor",
-       "name":"Traveling Doctor",
-       "description":"Traveling Doctor is an Artifact Set available at 1-star, 2-star, and 3-star rarities which can be obtained from Valley of Remembrance, Chests, Elite Enemies, Investigation, Xigu Antiques, Electro Hypostasis and Geo Hypostasis.",
-       "maxRarity":3,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Increases incoming healing by 20%."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Using Elemental Burst restores 20% HP."
-          }
-       ]
-    },
-    {
-       "id":"viridescent-venerer",
-       "name":"Viridescent Venerer",
-       "description":"Viridescent Venerer is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Valley of Remembrance.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Anemo DMG Bonus +15%"
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
-          }
-       ]
-    },
-    {
-       "id":"wanderers-troupe",
-       "name":"Wanderer's Troupe",
-       "description":"Wanderer's Troupe is an Artifact Set available at 4-star and 5-star rarities which can be obtained from Bosses at World Level 2 and above.",
-       "maxRarity":5,
-       "pieceBonuses":[
-          {
-             "type":"Two Piece Bonus",
-             "effect":"Increases Elemental Mastery by 80."
-          },
-          {
-             "type":"Four Piece Bonus",
-             "effect":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
-          }
-       ]
-    }
- ]
+  {
+    "name": "Initiate",
+    "rarity": [
+      1
+    ],
+    "bonuses": [],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Initiate's Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20210514215057",
+        "lore": "A small flower. Cute and adorable, just like the early spring of North Teyvat."
+      },
+      {
+        "id": "plume",
+        "name": "Initiate's Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Initiate%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20210514215058",
+        "lore": "An item attached to the grip of a traveler's first sword, bearing the modest dreams of its wielder."
+      }
+    ]
+  },
+  {
+    "name": "Adventurer",
+    "rarity": [
+      1,
+      2,
+      3
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Max HP increased by 1,000."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Opening a chest regenerates 30% Max HP over 5s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Adventurer's Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120051635",
+        "lore": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal."
+      },
+      {
+        "id": "plume",
+        "name": "Adventurer's Tail Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Adventurer%27s_Tail_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120051654",
+        "lore": "The feather of an exotic bird rarely seen on this continent."
+      },
+      {
+        "id": "sands",
+        "name": "Adventurer's Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120051708",
+        "lore": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city."
+      },
+      {
+        "id": "goblet",
+        "name": "Adventurer's Golden Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120051727",
+        "lore": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find."
+      },
+      {
+        "id": "circlet",
+        "name": "Adventurer's Bandana",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Adventurer%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120051739",
+        "lore": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride."
+      }
+    ]
+  },
+  {
+    "name": "Lucky Dog",
+    "rarity": [
+      1,
+      2,
+      3
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "DEF increased by 100."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Picking up Mora restores 300 HP."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Lucky Dog's Clover",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Lucky_Dog%27s_Clover.png/revision/latest/scale-to-width-down/60?cb=20201120052434",
+        "lore": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck."
+      },
+      {
+        "id": "plume",
+        "name": "Lucky Dog's Eagle Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Item_Lucky_Dog%27s_Eagle_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052445",
+        "lore": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck."
+      },
+      {
+        "id": "sands",
+        "name": "Lucky Dog's Hourglass",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120052500",
+        "lore": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world."
+      },
+      {
+        "id": "goblet",
+        "name": "Lucky Dog's Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120052515",
+        "lore": "An exquisite metallic vessel that was once used to knock out a thief."
+      },
+      {
+        "id": "circlet",
+        "name": "Lucky Dog's Silver Circlet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Lucky_Dog%27s_Silver_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120052544",
+        "lore": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident."
+      }
+    ]
+  },
+  {
+    "name": "Traveling Doctor",
+    "rarity": [
+      1,
+      2,
+      3
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases incoming healing by 20%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Using Elemental Burst restores 20% HP."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Traveling Doctor's Silver Lotus",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Traveling_Doctor%27s_Silver_Lotus.png/revision/latest/scale-to-width-down/60?cb=20201120052230",
+        "lore": "A precious medicinal ingredient that has lost all medicinal value after years in storage."
+      },
+      {
+        "id": "plume",
+        "name": "Traveling Doctor's Owl Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Traveling_Doctor%27s_Owl_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052246",
+        "lore": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night."
+      },
+      {
+        "id": "sands",
+        "name": "Traveling Doctor's Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120052258",
+        "lore": "A precise instrument used for keeping time. For a doctor, every second counts."
+      },
+      {
+        "id": "goblet",
+        "name": "Traveling Doctor's Medicine Pot",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png/revision/latest/scale-to-width-down/60?cb=20201120052322",
+        "lore": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine."
+      },
+      {
+        "id": "circlet",
+        "name": "Traveling Doctor's Handkerchief",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Traveling_Doctor%27s_Handkerchief.png/revision/latest/scale-to-width-down/60?cb=20201120052333",
+        "lore": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies."
+      }
+    ]
+  },
+  {
+    "name": "Resolution of Sojourner",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases Charged Attack CRIT Rate by 30%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Heart of Comradeship",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Heart_of_Comradeship.png/revision/latest/scale-to-width-down/60?cb=20201120055604",
+        "lore": "A small cerulean flower with somebody's ribbon pinned to the stem."
+      },
+      {
+        "id": "plume",
+        "name": "Feather of Homecoming",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Feather_of_Homecoming.png/revision/latest/scale-to-width-down/60?cb=20201120055615",
+        "lore": "A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon."
+      },
+      {
+        "id": "sands",
+        "name": "Sundial of the Sojourner",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Sundial_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055626",
+        "lore": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky."
+      },
+      {
+        "id": "goblet",
+        "name": "Goblet of the Sojourner",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055633",
+        "lore": "A plain porcelain goblet that was once brimming with joyous brews."
+      },
+      {
+        "id": "circlet",
+        "name": "Crown of Parting",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Crown_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20201120055642",
+        "lore": "A reed coronet that emanates the spring breeze."
+      }
+    ]
+  },
+  {
+    "name": "Tiny Miracle",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "All Elemental RES increased by 20%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Tiny Miracle's Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Tiny_Miracle%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120060259",
+        "lore": "A flower that grew from a rock, breaking through the stone as it strove to reach the light."
+      },
+      {
+        "id": "plume",
+        "name": "Tiny Miracle's Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Tiny_Miracle%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120060340",
+        "lore": "A feather from a bird of prey that flies almost too fast for the human eye to detect."
+      },
+      {
+        "id": "sands",
+        "name": "Tiny Miracle's Hourglass",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120060350",
+        "lore": "Just an ordinary everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water."
+      },
+      {
+        "id": "goblet",
+        "name": "Tiny Miracle's Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120060419",
+        "lore": "A cup commonly used for fortunetelling. It can also hold water, of course."
+      },
+      {
+        "id": "circlet",
+        "name": "Tiny Miracle's Earrings",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Tiny_Miracle%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120060428",
+        "lore": "A cheap accessory that is actually made from ancient meteoric ore."
+      }
+    ]
+  },
+  {
+    "name": "Berserker",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "CRIT Rate +12%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Berserker's Rose",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png/revision/latest/scale-to-width-down/60?cb=20220202000733",
+        "lore": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker."
+      },
+      {
+        "id": "plume",
+        "name": "Berserker's Indigo Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Berserker%27s_Indigo_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120053942",
+        "lore": "An indigo feather from a legendary raven, part of which has been dyed crimson red."
+      },
+      {
+        "id": "sands",
+        "name": "Berserker's Timepiece",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png/revision/latest/scale-to-width-down/60?cb=20201120053952",
+        "lore": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world."
+      },
+      {
+        "id": "goblet",
+        "name": "Berserker's Bone Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054003",
+        "lore": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter."
+      },
+      {
+        "id": "circlet",
+        "name": "Berserker's Battle Mask",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png/revision/latest/scale-to-width-down/60?cb=20220202000855",
+        "lore": "A hideous iron mask that has been left half-shattered from vicious battles."
+      }
+    ]
+  },
+  {
+    "name": "Instructor",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases Elemental Mastery by 80."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Instructor's Brooch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Item_Instructor%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120053706",
+        "lore": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day."
+      },
+      {
+        "id": "plume",
+        "name": "Instructor's Feather Accessory",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Item_Instructor%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120053734",
+        "lore": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times."
+      },
+      {
+        "id": "sands",
+        "name": "Instructor's Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Instructor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120053803",
+        "lore": "A stopwatch used not for general timekeeping but to measure the duration of a training session."
+      },
+      {
+        "id": "goblet",
+        "name": "Instructor's Tea Cup",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120053813",
+        "lore": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority."
+      },
+      {
+        "id": "circlet",
+        "name": "Instructor's Cap",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Instructor%27s_Cap.png/revision/latest/scale-to-width-down/60?cb=20201120053824",
+        "lore": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion."
+      }
+    ]
+  },
+  {
+    "name": "The Exile",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Energy Recharge +20%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Exile's Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Exile%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120054137",
+        "lore": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something."
+      },
+      {
+        "id": "plume",
+        "name": "Exile's Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Exile%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120054148",
+        "lore": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile."
+      },
+      {
+        "id": "sands",
+        "name": "Exile's Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120054202",
+        "lore": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end."
+      },
+      {
+        "id": "goblet",
+        "name": "Exile's Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054213",
+        "lore": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off."
+      },
+      {
+        "id": "circlet",
+        "name": "Exile's Circlet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Exile%27s_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120054256",
+        "lore": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was."
+      }
+    ]
+  },
+  {
+    "name": "Defender's Will",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "DEF +30%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Guardian's Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Guardian%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055924",
+        "lore": "An iris that was cherished by the Guardian. Unfortunately, the chance never came for it to be given to whom the Guardian loved."
+      },
+      {
+        "id": "plume",
+        "name": "Guardian's Sigil",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Guardian%27s_Sigil.png/revision/latest/scale-to-width-down/60?cb=20201120055937",
+        "lore": "A feather-shaped brooch that symbolizes someone's yearning to defend others like a shield."
+      },
+      {
+        "id": "sands",
+        "name": "Guardian's Clock",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Guardian%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120060015",
+        "lore": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time."
+      },
+      {
+        "id": "goblet",
+        "name": "Guardian's Vessel",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120060031",
+        "lore": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch."
+      },
+      {
+        "id": "circlet",
+        "name": "Guardian's Band",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Guardian%27s_Band.png/revision/latest/scale-to-width-down/60?cb=20201120060040",
+        "lore": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency."
+      }
+    ]
+  },
+  {
+    "name": "Brave Heart",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases DMG by 30% against opponents with more than 50% HP."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Medal of the Brave",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Medal_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062546",
+        "lore": "A simple flower brooch that is a keepsake from someone's first adventure."
+      },
+      {
+        "id": "plume",
+        "name": "Prospect of the Brave",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Prospect_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062559",
+        "lore": "A shimmering feather from a songbird that brings a nudge of courage to its wearer."
+      },
+      {
+        "id": "sands",
+        "name": "Fortitude of the Brave",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Fortitude_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062607",
+        "lore": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself."
+      },
+      {
+        "id": "goblet",
+        "name": "Outset of the Brave",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Outset_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062619",
+        "lore": "A crude wooden vessel filled only with memories."
+      },
+      {
+        "id": "circlet",
+        "name": "Crown of the Brave",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Crown_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062627",
+        "lore": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown."
+      }
+    ]
+  },
+  {
+    "name": "Martial Artist",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases Normal Attack and Charged Attack DMG by 15%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Martial Artist's Red Flower",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Martial_Artist%27s_Red_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055759",
+        "lore": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain."
+      },
+      {
+        "id": "plume",
+        "name": "Martial Artist's Feather Accessory",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Martial_Artist%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120055810",
+        "lore": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans."
+      },
+      {
+        "id": "sands",
+        "name": "Martial Artist's Water Hourglass",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120055819",
+        "lore": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass."
+      },
+      {
+        "id": "goblet",
+        "name": "Martial Artist's Wine Cup",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120055827",
+        "lore": "A rather exquisite wine cup used in pre-combat rituals."
+      },
+      {
+        "id": "circlet",
+        "name": "Martial Artist's Bandana",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Martial_Artist%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120055837",
+        "lore": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them."
+      }
+    ]
+  },
+  {
+    "name": "Gambler",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases Elemental Skill DMG by 20%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Defeating an opponent has 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Gambler's Brooch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Gambler%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120062914",
+        "lore": "A big, luxurious flower that can hide a loaded dice."
+      },
+      {
+        "id": "plume",
+        "name": "Gambler's Feather Accessory",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Gambler%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120062922",
+        "lore": "The tail feather of a large bird. Perfect for discretely concealing a trump card."
+      },
+      {
+        "id": "sands",
+        "name": "Gambler's Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120062934",
+        "lore": "A shattered pocket watch that once took a lethal hit for its owner."
+      },
+      {
+        "id": "goblet",
+        "name": "Gambler's Dice Cup",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120062942",
+        "lore": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it."
+      },
+      {
+        "id": "circlet",
+        "name": "Gambler's Earrings",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Gambler%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120062950",
+        "lore": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks."
+      }
+    ]
+  },
+  {
+    "name": "Scholar",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Energy Recharge +20%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Scholar's Bookmark",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Scholar%27s_Bookmark.png/revision/latest/scale-to-width-down/60?cb=20201120063103",
+        "lore": "A dried flower used as a bookmark, it had absorbed the scent from the pages."
+      },
+      {
+        "id": "plume",
+        "name": "Scholar's Quill Pen",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Scholar%27s_Quill_Pen.png/revision/latest/scale-to-width-down/60?cb=20201120063115",
+        "lore": "A bird's feather that serves as a quill pen, the tip has long been stained black."
+      },
+      {
+        "id": "sands",
+        "name": "Scholar's Clock",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120063123",
+        "lore": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day."
+      },
+      {
+        "id": "goblet",
+        "name": "Scholar's Ink Cup",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120063134",
+        "lore": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes."
+      },
+      {
+        "id": "circlet",
+        "name": "Scholar's Lens",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Scholar%27s_Lens.png/revision/latest/scale-to-width-down/60?cb=20201120063144",
+        "lore": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying."
+      }
+    ]
+  },
+  {
+    "name": "Prayers for Wisdom",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "One Piece Bonus",
+        "effect": "Affected by Electro for 40% less time."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "circlet",
+        "name": "Tiara of Thunder",
+        "lore": ""
+      }
+    ]
+  },
+  {
+    "name": "Prayers for Destiny",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "One Piece Bonus",
+        "effect": "Affected by Hydro for 40% less time."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "circlet",
+        "name": "Tiara of Torrents",
+        "lore": ""
+      }
+    ]
+  },
+  {
+    "name": "Prayers for Illumination",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "One Piece Bonus",
+        "effect": "Affected by Pyro for 40% less time."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "circlet",
+        "name": "Tiara of Flame",
+        "lore": ""
+      }
+    ]
+  },
+  {
+    "name": "Prayers to Springtime",
+    "rarity": [
+      3,
+      4
+    ],
+    "bonuses": [
+      {
+        "name": "One Piece Bonus",
+        "effect": "Affected by Cryo for 40% less time."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "circlet",
+        "name": "Tiara of Frost",
+        "lore": ""
+      }
+    ]
+  },
+  {
+    "name": "Gladiator's Finale",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Gladiator's Nostalgia",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201120063313",
+        "lore": "No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness."
+      },
+      {
+        "id": "plume",
+        "name": "Gladiator's Destiny",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Gladiator%27s_Destiny.png/revision/latest/scale-to-width-down/60?cb=20201120063322",
+        "lore": "A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom."
+      },
+      {
+        "id": "sands",
+        "name": "Gladiator's Longing",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png/revision/latest/scale-to-width-down/60?cb=20201120063332",
+        "lore": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom."
+      },
+      {
+        "id": "goblet",
+        "name": "Gladiator's Intoxication",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png/revision/latest/scale-to-width-down/60?cb=20201120063342",
+        "lore": "The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall."
+      },
+      {
+        "id": "circlet",
+        "name": "Gladiator's Triumphus",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Gladiator%27s_Triumphus.png/revision/latest/scale-to-width-down/60?cb=20201120063353",
+        "lore": "The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience."
+      }
+    ]
+  },
+  {
+    "name": "Wanderer's Troupe",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases Elemental Mastery by 80."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Troupe's Dawnlight",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png/revision/latest/scale-to-width-down/60?cb=20201120063930",
+        "lore": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing."
+      },
+      {
+        "id": "plume",
+        "name": "Bard's Arrow Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120063940",
+        "lore": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it."
+      },
+      {
+        "id": "sands",
+        "name": "Concert's Final Hour",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063951",
+        "lore": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended."
+      },
+      {
+        "id": "goblet",
+        "name": "Wanderer's String-Kettle",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png/revision/latest/scale-to-width-down/60?cb=20201120064002",
+        "lore": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which plays a wondrous tune as the water flows out."
+      },
+      {
+        "id": "circlet",
+        "name": "Conductor's Top Hat",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120064011",
+        "lore": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within."
+      }
+    ]
+  },
+  {
+    "name": "Noblesse Oblige",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Elemental Burst DMG +20%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Royal Flora",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest/scale-to-width-down/60?cb=20201120063610",
+        "lore": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside."
+      },
+      {
+        "id": "plume",
+        "name": "Royal Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Royal_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063619",
+        "lore": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed."
+      },
+      {
+        "id": "sands",
+        "name": "Royal Pocket Watch",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120063628",
+        "lore": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history."
+      },
+      {
+        "id": "goblet",
+        "name": "Royal Silver Urn",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png/revision/latest/scale-to-width-down/60?cb=20201120063636",
+        "lore": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior."
+      },
+      {
+        "id": "circlet",
+        "name": "Royal Masque",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Royal_Masque.png/revision/latest/scale-to-width-down/60?cb=20201120063649",
+        "lore": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past."
+      }
+    ]
+  },
+  {
+    "name": "Bloodstained Chivalry",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Physical DMG Bonus +25%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Bloodstained Flower of Iron",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png/revision/latest/scale-to-width-down/60?cb=20201120063726",
+        "lore": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master."
+      },
+      {
+        "id": "plume",
+        "name": "Bloodstained Black Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Bloodstained_Black_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063735",
+        "lore": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black."
+      },
+      {
+        "id": "sands",
+        "name": "Bloodstained Final Hour",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Bloodstained_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063745",
+        "lore": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless."
+      },
+      {
+        "id": "goblet",
+        "name": "Bloodstained Chevalier's Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120063755",
+        "lore": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood."
+      },
+      {
+        "id": "circlet",
+        "name": "Bloodstained Iron Mask",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Bloodstained_Iron_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120063804",
+        "lore": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask."
+      }
+    ]
+  },
+  {
+    "name": "Maiden Beloved",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Character Healing Effectiveness +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Maiden's Distant Love",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png/revision/latest/scale-to-width-down/60?cb=20201120063428",
+        "lore": "A fragrant flower that will bloom for all eternity and never wither."
+      },
+      {
+        "id": "plume",
+        "name": "Maiden's Heart-stricken Infatuation",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Item_Maiden%27s_Heart-stricken_Infatuation.png/revision/latest/scale-to-width-down/60?cb=20201120063437",
+        "lore": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind."
+      },
+      {
+        "id": "sands",
+        "name": "Maiden's Passing Youth",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png/revision/latest/scale-to-width-down/60?cb=20201120063446",
+        "lore": "The hands of time will never come to an end, but the same cannot be said for those cherished years of the young maiden's life when she was doted upon."
+      },
+      {
+        "id": "goblet",
+        "name": "Maiden's Fleeting Leisure",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png/revision/latest/scale-to-width-down/60?cb=20201120063454",
+        "lore": "A vessel made with sweet black tea in mind rather than bitter liquor."
+      },
+      {
+        "id": "circlet",
+        "name": "Maiden's Fading Beauty",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png/revision/latest/scale-to-width-down/60?cb=20201120063505",
+        "lore": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight."
+      }
+    ]
+  },
+  {
+    "name": "Viridescent Venerer",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Anemo DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "In Remembrance of Viridescent Fields",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest/scale-to-width-down/60?cb=20201120064508",
+        "lore": "A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest."
+      },
+      {
+        "id": "plume",
+        "name": "Viridescent Arrow Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120064516",
+        "lore": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless."
+      },
+      {
+        "id": "sands",
+        "name": "Viridescent Venerer's Determination",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png/revision/latest/scale-to-width-down/60?cb=20201120064525",
+        "lore": "A wondrous instrument that a hunter once wore. It forever points towards their prey."
+      },
+      {
+        "id": "goblet",
+        "name": "Viridescent Venerer's Vessel",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120064534",
+        "lore": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect."
+      },
+      {
+        "id": "circlet",
+        "name": "Viridescent Venerer's Diadem",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120064550",
+        "lore": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild."
+      }
+    ]
+  },
+  {
+    "name": "Archaic Petra",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Geo DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Flower of Creviced Cliff",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Flower_of_Creviced_Cliff.png/revision/latest/scale-to-width-down/60?cb=20201120064841",
+        "lore": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive."
+      },
+      {
+        "id": "plume",
+        "name": "Feather of Jagged Peaks",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Feather_of_Jagged_Peaks.png/revision/latest/scale-to-width-down/60?cb=20201120064919",
+        "lore": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew."
+      },
+      {
+        "id": "sands",
+        "name": "Sundial of Enduring Jade",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png/revision/latest/scale-to-width-down/60?cb=20201120064941",
+        "lore": "A sundial carved from a single, large piece of jade. It's lined with a pattern that silently records the passage of time."
+      },
+      {
+        "id": "goblet",
+        "name": "Goblet of Chiseled Crag",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png/revision/latest/scale-to-width-down/60?cb=20201120064951",
+        "lore": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone."
+      },
+      {
+        "id": "circlet",
+        "name": "Mask of Solitude Basalt",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Mask_of_Solitude_Basalt.png/revision/latest/scale-to-width-down/60?cb=20201120065000",
+        "lore": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold."
+      }
+    ]
+  },
+  {
+    "name": "Retracing Bolide",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Increases Shield Strength by 35%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Summer Night's Bloom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png/revision/latest/scale-to-width-down/60?cb=20201120064133",
+        "lore": "A man-made flower in eternal bloom. Who knows if there truly is life in there?"
+      },
+      {
+        "id": "plume",
+        "name": "Summer Night's Finale",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png/revision/latest/scale-to-width-down/60?cb=20201120064151",
+        "lore": "A well-crafted wooden dart. It will only stop once it has reached its destination."
+      },
+      {
+        "id": "sands",
+        "name": "Summer Night's Moment",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20201120064255",
+        "lore": "A pocketwatch that has stopped at a certain point in time."
+      },
+      {
+        "id": "goblet",
+        "name": "Summer Night's Waterballoon",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png/revision/latest/scale-to-width-down/60?cb=20201120064320",
+        "lore": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one."
+      },
+      {
+        "id": "circlet",
+        "name": "Summer Night's Mask",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120064405",
+        "lore": "A popular mask cast in the image of a deity, as described in the legends."
+      }
+    ]
+  },
+  {
+    "name": "Thundersoother",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Electro RES increased by 40%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases DMG against opponents affected by Electro by 35%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Thundersoother's Heart",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png/revision/latest/scale-to-width-down/60?cb=20201120065517",
+        "lore": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms."
+      },
+      {
+        "id": "plume",
+        "name": "Thundersoother's Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065527",
+        "lore": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning."
+      },
+      {
+        "id": "sands",
+        "name": "Hour of Soothing Thunder",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Hour_of_Soothing_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120065535",
+        "lore": "A timepiece kept by hero who conquered thunder and lightning. The tiny shard of Electro crystal within flow back and forth with the passing of time."
+      },
+      {
+        "id": "goblet",
+        "name": "Thundersoother's Goblet",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120065626",
+        "lore": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning."
+      },
+      {
+        "id": "circlet",
+        "name": "Thundersoother's Diadem",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120065551",
+        "lore": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land."
+      }
+    ]
+  },
+  {
+    "name": "Thundering Fury",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Electro DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Thunderbird's Mercy",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest/scale-to-width-down/60?cb=20201120064634",
+        "lore": "A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster."
+      },
+      {
+        "id": "plume",
+        "name": "Survivor of Catastrophe",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png/revision/latest/scale-to-width-down/60?cb=20201120064643",
+        "lore": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution."
+      },
+      {
+        "id": "sands",
+        "name": "Hourglass of Thunder",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120064652",
+        "lore": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more."
+      },
+      {
+        "id": "goblet",
+        "name": "Omen of Thunderstorm",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png/revision/latest/scale-to-width-down/60?cb=20201120064701",
+        "lore": "A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within."
+      },
+      {
+        "id": "circlet",
+        "name": "Thunder Summoner's Crown",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png/revision/latest/scale-to-width-down/60?cb=20201120064711",
+        "lore": "A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion."
+      }
+    ]
+  },
+  {
+    "name": "Lavawalker",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Pyro RES increased by 40%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases DMG against opponents affected by Pyro by 35%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Lavawalker's Resolution",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Lavawalker%27s_Resolution.png/revision/latest/scale-to-width-down/60?cb=20201120065116",
+        "lore": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire."
+      },
+      {
+        "id": "plume",
+        "name": "Lavawalker's Salvation",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Lavawalker%27s_Salvation.png/revision/latest/scale-to-width-down/60?cb=20201120065131",
+        "lore": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames."
+      },
+      {
+        "id": "sands",
+        "name": "Lavawalker's Torment",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png/revision/latest/scale-to-width-down/60?cb=20201120065142",
+        "lore": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it."
+      },
+      {
+        "id": "goblet",
+        "name": "Lavawalker's Epiphany",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png/revision/latest/scale-to-width-down/60?cb=20201120065152",
+        "lore": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty."
+      },
+      {
+        "id": "circlet",
+        "name": "Lavawalker's Wisdom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Lavawalker%27s_Wisdom.png/revision/latest/scale-to-width-down/60?cb=20201120065219",
+        "lore": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames."
+      }
+    ]
+  },
+  {
+    "name": "Crimson Witch of Flames",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Pyro DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Witch's Flower of Blaze",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest/scale-to-width-down/60?cb=20201120065356",
+        "lore": "A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it."
+      },
+      {
+        "id": "plume",
+        "name": "Witch's Ever-Burning Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065406",
+        "lore": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot."
+      },
+      {
+        "id": "sands",
+        "name": "Witch's End Time",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png/revision/latest/scale-to-width-down/60?cb=20201120065447",
+        "lore": "A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within."
+      },
+      {
+        "id": "goblet",
+        "name": "Witch's Heart Flames",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png/revision/latest/scale-to-width-down/60?cb=20201120065420",
+        "lore": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master."
+      },
+      {
+        "id": "circlet",
+        "name": "Witch's Scorching Hat",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120065429",
+        "lore": "A hat once worn by the witch who dreamt of burning away all the demons in the world. The large brim blocked her sight."
+      }
+    ]
+  },
+  {
+    "name": "Blizzard Strayer",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Cryo DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Snowswept Memory",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png/revision/latest/scale-to-width-down/60?cb=20201225230245",
+        "lore": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it."
+      },
+      {
+        "id": "plume",
+        "name": "Icebreaker's Resolve",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Icebreaker%27s_Resolve.png/revision/latest/scale-to-width-down/60?cb=20201225230054",
+        "lore": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks."
+      },
+      {
+        "id": "sands",
+        "name": "Frozen Homeland's Demise",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Frozen_Homeland%27s_Demise.png/revision/latest/scale-to-width-down/60?cb=20201225230234",
+        "lore": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt."
+      },
+      {
+        "id": "goblet",
+        "name": "Frost-Weaved Dignity",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Frost-Weaved_Dignity.png/revision/latest/scale-to-width-down/60?cb=20201225230040",
+        "lore": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it."
+      },
+      {
+        "id": "circlet",
+        "name": "Broken Rime's Echo",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Broken_Rime%27s_Echo.png/revision/latest/scale-to-width-down/60?cb=20201225230157",
+        "lore": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter."
+      }
+    ]
+  },
+  {
+    "name": "Heart of Depth",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Hydro DMG Bonus +15%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Gilded Corsage",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest/scale-to-width-down/60?cb=20201225230417",
+        "lore": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago."
+      },
+      {
+        "id": "plume",
+        "name": "Gust of Nostalgia",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Gust_of_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201225230410",
+        "lore": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color."
+      },
+      {
+        "id": "sands",
+        "name": "Copper Compass",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png/revision/latest/scale-to-width-down/60?cb=20201225230459",
+        "lore": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor."
+      },
+      {
+        "id": "goblet",
+        "name": "Goblet of Thundering Deep",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png/revision/latest/scale-to-width-down/60?cb=20220202001855",
+        "lore": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves."
+      },
+      {
+        "id": "circlet",
+        "name": "Wine-Stained Tricorne",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Wine-Stained_Tricorne.png/revision/latest/scale-to-width-down/60?cb=20201225230357",
+        "lore": "An ancient, wine-stained sea hat that still reeks of alcohol even now."
+      }
+    ]
+  },
+  {
+    "name": "Tenacity of the Millelith",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "HP +20%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Flower of Accolades",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png/revision/latest/scale-to-width-down/60?cb=20210416205617",
+        "lore": "A flower made from gold leaf. It represents the glories and honors attained by its wearer"
+      },
+      {
+        "id": "plume",
+        "name": "Ceremonial War-Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Ceremonial_War-Plume.png/revision/latest/scale-to-width-down/60?cb=20210428200249",
+        "lore": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world."
+      },
+      {
+        "id": "sands",
+        "name": "Orichalceous Time-Dial",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Orichalceous_Time-Dial.png/revision/latest/scale-to-width-down/60?cb=20210428200248",
+        "lore": "A simple device for telling time. This was once standard-issue for the Millelith during times of war."
+      },
+      {
+        "id": "goblet",
+        "name": "Noble's Pledging Vessel",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Noble%27s_Pledging_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210428200251",
+        "lore": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine."
+      },
+      {
+        "id": "circlet",
+        "name": "General's Ancient Helm",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Item_General%27s_Ancient_Helm.png/revision/latest/scale-to-width-down/60?cb=20210428200250",
+        "lore": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more."
+      }
+    ]
+  },
+  {
+    "name": "Pale Flame",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Physical DMG Bonus +25%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Stainless Bloom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Stainless_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210416205644",
+        "lore": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade."
+      },
+      {
+        "id": "plume",
+        "name": "Wise Doctor's Pinion",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Wise_Doctor%27s_Pinion.png/revision/latest/scale-to-width-down/60?cb=20210428200635",
+        "lore": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature."
+      },
+      {
+        "id": "sands",
+        "name": "Moment of Cessation",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Moment_of_Cessation.png/revision/latest/scale-to-width-down/60?cb=20210428200637",
+        "lore": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time."
+      },
+      {
+        "id": "goblet",
+        "name": "Surpassing Cup",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Surpassing_Cup.png/revision/latest/scale-to-width-down/60?cb=20210428200638",
+        "lore": "An intricately-made cup. Its appearance betrays nothing of its age to an observer."
+      },
+      {
+        "id": "circlet",
+        "name": "Mocking Mask",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Mocking_Mask.png/revision/latest/scale-to-width-down/60?cb=20210428200636",
+        "lore": "A mask that covers the face, hiding one's expression from others."
+      }
+    ]
+  },
+  {
+    "name": "Shimenawa's Reminiscence",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Entangling Bloom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210721030058",
+        "lore": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true."
+      },
+      {
+        "id": "plume",
+        "name": "Shaft of Remembrance",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shaft_of_Remembrance.png/revision/latest/scale-to-width-down/60?cb=20210721030214",
+        "lore": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day."
+      },
+      {
+        "id": "sands",
+        "name": "Morning Dew's Moment",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Morning_Dew%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20210721030136",
+        "lore": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day."
+      },
+      {
+        "id": "goblet",
+        "name": "Hopeful Heart",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Hopeful_Heart.png/revision/latest/scale-to-width-down/60?cb=20210721030110",
+        "lore": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks."
+      },
+      {
+        "id": "circlet",
+        "name": "Capricious Visage",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Capricious_Visage.png/revision/latest/scale-to-width-down/60?cb=20210721030041",
+        "lore": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips."
+      }
+    ]
+  },
+  {
+    "name": "Emblem of Severed Fate",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Energy Recharge +20%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Magnificent Tsuba",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest/scale-to-width-down/60?cb=20210721030125",
+        "lore": "Legends has it that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun."
+      },
+      {
+        "id": "plume",
+        "name": "Sundered Feather",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Sundered_Feather.png/revision/latest/scale-to-width-down/60?cb=20210721030225",
+        "lore": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman."
+      },
+      {
+        "id": "sands",
+        "name": "Storm Cage",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Storm_Cage.png/revision/latest/scale-to-width-down/60?cb=20210721030223",
+        "lore": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work."
+      },
+      {
+        "id": "goblet",
+        "name": "Scarlet Vessel",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210721030208",
+        "lore": "An intricately-designed wine vessel that a world-famous martial artist once drank from."
+      },
+      {
+        "id": "circlet",
+        "name": "Ornate Kabuto",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Ornate_Kabuto.png/revision/latest/scale-to-width-down/60?cb=20210721030152",
+        "lore": "A sturdy and hard helmet worn as armor by a noble samurai."
+      }
+    ]
+  },
+  {
+    "name": "Husk of Opulent Dreams",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "DEF +30%"
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.When off the field, the character gains 1 stack every 3s.Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Bloom Times",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png/revision/latest/scale-to-width-down/60?cb=20211124024926",
+        "lore": "A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories."
+      },
+      {
+        "id": "plume",
+        "name": "Plume of Luxury",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Plume_of_Luxury.png/revision/latest/scale-to-width-down/60?cb=20211124024107",
+        "lore": "A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form."
+      },
+      {
+        "id": "sands",
+        "name": "Song of Life",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Song_of_Life.png/revision/latest/scale-to-width-down/60?cb=20211124024504",
+        "lore": "As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn."
+      },
+      {
+        "id": "goblet",
+        "name": "Calabash of Awakening",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Calabash_of_Awakening.png/revision/latest/scale-to-width-down/60?cb=20211124024245",
+        "lore": "A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop."
+      },
+      {
+        "id": "circlet",
+        "name": "Skeletal Hat",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Skeletal_Hat.png/revision/latest/scale-to-width-down/60?cb=20211124024522",
+        "lore": "A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured."
+      }
+    ]
+  },
+  {
+    "name": "Ocean-Hued Clam",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "Healing Bonus +15%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).Only one Sea-Dyed Foam can be produced every 3.5 seconds.Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).There can be no more than one Sea-Dyed Foam active at any given time.This effect can still be triggered even when the character who is using this artifact set is not on the field."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Sea-Dyed Blossom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png/revision/latest/scale-to-width-down/60?cb=20211124071311",
+        "lore": "A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light."
+      },
+      {
+        "id": "plume",
+        "name": "Deep Palace's Plume",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Deep_Palace%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20211124071302",
+        "lore": "A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment."
+      },
+      {
+        "id": "sands",
+        "name": "Cowry of Parting",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20211124071325",
+        "lore": "A clean, flawless shell that comes from the bottomless ocean."
+      },
+      {
+        "id": "goblet",
+        "name": "Pearl Cage",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Pearl_Cage.png/revision/latest/scale-to-width-down/60?cb=20211124071308",
+        "lore": "The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim."
+      },
+      {
+        "id": "circlet",
+        "name": "Crown of Watatsumi",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Crown_of_Watatsumi.png/revision/latest/scale-to-width-down/60?cb=20211124071327",
+        "lore": "An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi."
+      }
+    ]
+  },
+  {
+    "name": "Vermillion Hereafter",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Flowering Life",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Flowering_Life.png/revision/latest/scale-to-width-down/60?cb=20220330033017",
+        "lore": "An ancient memento. It still looks as alive as the being that preserved it several centuries ago."
+      },
+      {
+        "id": "plume",
+        "name": "Feather of Nascent Light",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Feather_of_Nascent_Light.png/revision/latest/scale-to-width-down/60?cb=20220330032944",
+        "lore": "A dimly lustrous pinion steeped in strong memories."
+      },
+      {
+        "id": "sands",
+        "name": "Solar Relic",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Item_Solar_Relic.png/revision/latest/scale-to-width-down/60?cb=20220330033109",
+        "lore": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal."
+      },
+      {
+        "id": "goblet",
+        "name": "Moment of the Pact",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Moment_of_the_Pact.png/revision/latest/scale-to-width-down/60?cb=20220330033056",
+        "lore": "An old cup made of sand crystal. Its luster is somehow undimmed by age."
+      },
+      {
+        "id": "circlet",
+        "name": "Thundering Poise",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Thundering_Poise.png/revision/latest/scale-to-width-down/60?cb=20220330033151",
+        "lore": "This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless."
+      }
+    ]
+  },
+  {
+    "name": "Echoes of an Offering",
+    "rarity": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "name": "Two Piece Bonus",
+        "effect": "ATK +18%."
+      },
+      {
+        "name": "Four Piece Bonus",
+        "effect": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.This effect will be dispelled 0.05s after a Normal Attack deals DMG.If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.This trigger can occur once every 0.2s."
+      }
+    ],
+    "pieces": [
+      {
+        "id": "flower",
+        "name": "Soulscent Bloom",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png/revision/latest/scale-to-width-down/60?cb=20220330042626",
+        "lore": "A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it."
+      },
+      {
+        "id": "plume",
+        "name": "Jade Leaf",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Jade_Leaf.png/revision/latest/scale-to-width-down/60?cb=20220330033045",
+        "lore": "A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends."
+      },
+      {
+        "id": "sands",
+        "name": "Symbol of Felicitation",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Symbol_of_Felicitation.png/revision/latest/scale-to-width-down/60?cb=20220330042638",
+        "lore": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin."
+      },
+      {
+        "id": "goblet",
+        "name": "Chalice of the Font",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Chalice_of_the_Font.png/revision/latest/scale-to-width-down/60?cb=20220330033204",
+        "lore": "This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind."
+      },
+      {
+        "id": "circlet",
+        "name": "Flowing Rings",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Flowing_Rings.png/revision/latest/scale-to-width-down/60?cb=20220330033033",
+        "lore": "A pair of earrings made from a single piece of jade. It has a most gentle texture."
+      }
+    ]
+  }
+]

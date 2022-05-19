@@ -1,4 +1,5 @@
 const { Client, Collection, Intents } = require('discord.js');
+
 const Util = require('./Utilities/Util.js');
 const Canvas = require('./Utilities/Canvas');
 const Database = require('./Utilities/Database');
@@ -19,7 +20,7 @@ module.exports = class PaimonClient extends Client {
 
 		this.slashCommands = new Collection();
 		this.events = new Collection();
-		this.cooldown = new Set();
+		this.cooldowns = new Set();
 
 		this.characters = new Collection();
 		this.enemies = new Collection();
@@ -46,11 +47,10 @@ module.exports = class PaimonClient extends Client {
 	}
 
 	async start(token = this.token) {
-		// await this.utils.clearSlashCommands();
-		await this.utils.loadSlashCommands();
-		this.mongoose.init();
+		await this.utils.loadSlashCommands('952707420700934195');
 		await this.utils.storeAPIData();
 		this.utils.loadEvents();
+		this.mongoose.init();
 
 		await super.login(token);
 	}

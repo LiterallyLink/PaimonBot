@@ -1,0 +1,378 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the Yuheng of the Liyue Qixing?",
+    "answers": [
+      "Keqing",
+      "Ganyu",
+      "Ningguang",
+      "Uncle Tian"
+    ],
+    "answer": "Keqing"
+  },
+  {
+    "id": 2,
+    "question": "Which of these **ISN'T** a potential colour for a seelie pet?",
+    "answers": [
+      "Blue",
+      "Red",
+      "Pink",
+      "Yellow"
+    ],
+    "answer": "Red"
+  },
+  {
+    "id": 3,
+    "question": "Which character's specialty food is a fried egg?",
+    "answers": [
+      "Noelle",
+      "Bennet",
+      "Diluc",
+      "Amber"
+    ],
+    "answer": "Bennett"
+  },
+  {
+    "id": 4,
+    "question": "Who taught Razor to talk?",
+    "answers": [
+      "Varka",
+      "Amber",
+      "Jean",
+      "Lisa"
+    ],
+    "answer": "Lisa"
+  },
+  {
+    "id": 5,
+    "question": "Which character was on the first limited banner",
+    "answers": [
+      "Zhongli",
+      "Childe",
+      "Venti",
+      "Klee"
+    ],
+    "answer": "Venti"
+  },
+  {
+    "id": 6,
+    "question": "What is the name of Beidou's armed fleet?",
+    "answers": [
+      "The Sea Dogs",
+      "The Onbringers",
+      "The Crux",
+      "Liyue’s Defenders"
+    ],
+    "answer": "The Crux"
+  },
+  {
+    "id": 7,
+    "question": "Which one of these flowers is not on display at Fiona's flower shop?",
+    "answers": [
+      "Windwheel Aster",
+      "Small Lamp Grass",
+      "Sweet Flower",
+      "Qingxin Flower"
+    ],
+    "answer": "Qingxin Flower"
+  },
+  {
+    "id": 8,
+    "question": "How many nation's are in Teyvat?",
+    "answers": [
+      "4",
+      "10",
+      "8",
+      "7"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 9,
+    "question": "Where is the Spiral Abyss located?",
+    "answers": [
+      "Cape Oath",
+      "Lisha",
+      "Musk Reef",
+      "Dadaupa Gorge"
+    ],
+    "answer": "Musk Reef"
+  },
+  {
+    "id": 10,
+    "question": "Who is the Darknight Hero?",
+    "answers": [
+      "Dainsleif",
+      "Razor",
+      "Diluc",
+      "Venti"
+    ],
+    "answer": "Diluc"
+  },
+  {
+    "id": 11,
+    "question": "When was Genshin Impact first released?",
+    "answers": [
+      "In 2017",
+      "In 2019",
+      "In 2020",
+      "In 2018"
+    ],
+    "answer": "In 2020"
+  },
+  {
+    "id": 12,
+    "question": "What is Childe's birth name?",
+    "answers": [
+      "Childe",
+      "Tartaglia",
+      "Ajax"
+    ],
+    "answer": "Ajax"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following characters can talk to animals?",
+    "answers": [
+      "Venti",
+      "Thoma",
+      "Xiao",
+      "Diluc"
+    ],
+    "answer": "Venti"
+  },
+  {
+    "id": 14,
+    "question": "What role does Thoma serve at the Yashiro Comissions Kamisato Clan",
+    "answers": [
+      "Housekeeper",
+      "Head Chef",
+      "Tea Connoisseur"
+    ],
+    "answer": "Housekeeper"
+  },
+  {
+    "id": 15,
+    "question": "Who wrote the Favonius Survival Book for Klee",
+    "answers": [
+      "Amber",
+      "Kaeya",
+      "Jean",
+      "Mona"
+    ],
+    "answer": "Kaeya"
+  },
+  {
+    "id": 16,
+    "question": "What is Diona's Constellation called?",
+    "answers": [
+      "Viator",
+      "Noctua",
+      "Feles",
+      "Opera Grandis"
+    ],
+    "answer": "Feles"
+  },
+  {
+    "id": 17,
+    "question": "What is the Teapot Traveling Salesman's name?",
+    "answers": [
+      "Datsu",
+      "Chubby",
+      "Blossom",
+      "Kento"
+    ],
+    "answer": "Chubby"
+  },
+  {
+    "id": 18,
+    "question": "What is Gorou's title in the Watatsumi Army?",
+    "answers": [
+      "Commander",
+      "Captain",
+      "General",
+      "Soldier"
+    ],
+    "answer": "General"
+  },
+  {
+    "id": 19,
+    "question": "Who's pen name is Zhenyu",
+    "answers": [
+      "Albedo",
+      "Yae",
+      "Xingqiu",
+      "Kazuha"
+    ],
+    "answer": "Xingqiu"
+  },
+  {
+    "id": 20,
+    "question": "Who is known in the Adventurer's Guild to have several Dads?",
+    "answers": [
+      "Noelle",
+      "Fischl",
+      "Bennett",
+      "Diona"
+    ],
+    "answer": "Bennett"
+  },
+  {
+    "id": 21,
+    "question": "Who owns a 'mood diary'?",
+    "answers": [
+      "Jean",
+      "Sucrose",
+      "Eula",
+      "Kokomi"
+    ],
+    "answer": "Kokomi"
+  },
+  {
+    "id": 22,
+    "question": "In the Neko Shrine at Seirai Island, there is a cat shaped cloud.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 23,
+    "question": "What is Raiden Shogun's true name?",
+    "answers": [
+      "Makoto",
+      "The Almighty Narukami Ogosho",
+      "Ei",
+      "Beelzebub" 
+    ],
+    "answer": "Ei"
+  },
+  {
+    "id": 24,
+    "question": "During the Childe's boss fight, he uses two elements. Which ones are they?",
+    "answers": [
+      "Hydro & Cryo",
+      "Hydro & Electro",
+      "Hydro & Pyro",
+      "Hydro & Anemo"
+    ],
+    "answer": "Hydro & Electro"
+  },
+  {
+    "id": 25,
+    "question": "What is the name of Razor's specialty dish?",
+    "answers": [
+      "Captivating Canine Hashbrown",
+      "Doggy Delights Hashbrown",
+      "Puppy Paw Hashbrown"
+    ],
+    "answer": "Puppy Paw Hashbrown"
+  },
+  {
+    "id": 26,
+    "question": "What color are Yanfei's eyes?",
+    "answers": [
+      "Teal",
+      "Gold",
+      "Violet"
+    ],
+    "answer": "Teal"
+  },
+  {
+    "id": 27,
+    "question": "What vision did Kazuha's deceased friend have?",
+    "answers": [
+      "Electro",
+      "Hydro",
+      "Anemo",
+      "Dendro"
+    ],
+    "answer": "Electro"
+  },
+  {
+    "id": 28,
+    "question": "What type of flower does Lisa wear on her hat?",
+    "answers": [
+      "Peony",
+      "Rose",
+      "Cecila"
+    ],
+    "answer": "Rose"
+  },
+  {
+    "id": 29,
+    "question": "When did Hu Tao host her first funeral?",
+    "answers": [
+      "13",
+      "10",
+      "8"
+    ],
+    "answer": "13"
+  },
+  {
+    "id": 30,
+    "question": "What are the names of Hu Tao's Stone Lion pet's.",
+    "answers": [
+      "Whiskers and Mittens",
+      "Kitty and Zhongli Jr",
+      "Bree and Coco"
+    ],
+    "answer": "Whiskers and Mittens"
+  },
+  {
+    "id": 31,
+    "question": "Which character has an English Constellation name based on Greek instead of Latin?",
+    "answers": [
+      "Eula",
+      "Zhongli",
+      "Qiqi",
+      "Ganyu"
+    ],
+    "answer": "Eula"
+  },
+  {
+    "id": 32,
+    "question": "Which character is afraid of frogs?",
+    "answers": [
+      "Eula",
+      "Xinyan",
+      "Ningguang",
+      "Ganyu"
+    ],
+    "answer": "Xinyan"
+  },
+  {
+    "id": 33,
+    "question": "Which character is allergic to beans?",
+    "answers": [
+      "Beidou",
+      "Diona",
+      "Itto",
+      "Yelan"
+    ],
+    "answer": "Itto"
+  },
+  {
+    "id": 34,
+    "question": "From which book did Fischl get her title, Prinzessin Der Verurteilung?",
+    "answers": [
+      "Legend of the Shattered Halberd",
+      "Flowers for Princess Fischl",
+      "The Pale Princess and the Six Pygmies",
+      "Vera's Melancholy"
+    ],
+    "answer": "Legend of the Shattered Halberd"
+  },
+  {
+    "id": 35,
+    "question": "Which character has the talent to give you an extra talent book of a different type from the crafted one?",
+    "answers": [
+      "Yae",
+      "Xingqiu",
+      "Eula",
+      "Kokomi"
+    ],
+    "answer": "Yae"
+  }
+]

@@ -1,0 +1,42 @@
+[
+   {
+      "name":"Brilliant Diamond Sliver",
+      "id": "brilliant-diamond",
+      "type":"Character Ascension Materials",
+      "rarity":2,
+      "description":"Brilliant Diamond Sliver is a Character Ascension Material used by the Traveler.",
+      "obtain":[
+         "Adventure Rank Reward at level 15"
+      ]
+   },
+   {
+      "name":"Brilliant Diamond Fragment",
+      "type":"Character Ascension Materials",
+      "id": "brilliant-diamond",
+      "rarity":3,
+      "description":"Brilliant Diamond Fragment is a Character Ascension Material used by the Traveler.",
+      "obtain":[
+         "Adventure Rank Reward at levels 25, 26, 28, 30"
+      ]
+   },
+   {
+      "name":"Brilliant Diamond Chunk",
+      "type":"Character Ascension Materials",
+      "id": "brilliant-diamond",
+      "rarity":4,
+      "description":"Brilliant Diamond Chunk is a Character Ascension Material used by the Traveler.",
+      "obtain":[
+         "Adventure Rank Reward at levels 35, 38, and 40."
+      ]
+   },
+   {
+      "name":"Brilliant Diamond Gemstone",
+      "type":"Character Ascension Materials",
+      "id": "brilliant-diamond",
+      "rarity":5,
+      "description":"Brilliant Diamond Gemstone is a Character Ascension Material used by the Traveler.",
+      "obtain":[
+         "Adventure Rank Reward at levels 41, 42, and 45."
+      ]
+   }
+]

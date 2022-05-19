@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Hero's Wit",
+        "effect": "Hero's Wit is a Character EXP Material that provides 20,000 Character EXP to increase a character's level.",
+        "description": "These experiences are extremely precious for a pilgrim traveling through Teyvat in order to be closer to Celestia.",
+        "rarity": 4,
+        "obtain": [
+            "Ley Line Outcrops",
+            "Quest Completion Reward",
+            "Events",
+            "Realm Depot",
+            "[HoYoLAB Community Daily Check-In](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)",
+            "Battle Pass Lv. 21, 24, 27, 31, 34, 37, 41, 44, 47"
+        ]
+    },
+    {
+        "name": "Adventurer's Experience",
+        "effect": "Adventurer's Experience is a Character EXP Material that provides 5,000 Character EXP to increase a character's level.",
+        "description": "These experiences are very beneficial for journeys into the unknown.",
+        "rarity": 3,
+        "obtain": [
+            "Adventure and Exploration Reward",
+            "Paimon's Bargains",
+            "Ley Line Outcrops",
+            "Quest Completion Reward",
+            "[HoYoLAB Community Daily Check-In](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)"
+        ]
+    },
+    {
+        "name": "Wanderer's Advice",
+        "effect": "Wanderer's Advice is a Character EXP Material that provides 1,000 Character EXP to increase a character's level.",
+        "description": "These experiences are still beneficial even if one does not live in Teyvat.",
+        "rarity": 2,
+        "obtain": [
+            "Adventure Rank Rewards",
+            "Spiral Abyss Chamber's Bounty",
+            "Chests",
+            "Ley Line Outcrops Blossom of Revelation"
+        ]
+    }
+]

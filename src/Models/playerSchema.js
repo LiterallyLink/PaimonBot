@@ -3,10 +3,12 @@ const mongoose = require('mongoose');
 const playerSchema = new mongoose.Schema({
 	userId: { type: String, required: true },
 	mora: { type: Number, default: 0 },
+	primogems: { type: Number, default: 0 },
 	inventory: { type: Array, default: [] },
 	namecards: { type: Array, default: [] },
 	currentCard: { type: String, default: 'Default' },
 	totalWishes: { type: Number, default: 0 },
+	lastQuestionId: { type: Number, default: 0 },
 	pity: { type: Array, default: [
 		{
 			type: 'standard',

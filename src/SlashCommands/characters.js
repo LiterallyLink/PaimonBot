@@ -1,181 +1,123 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed, MessageButton, MessageActionRow, MessageAttachment } = require('discord.js');
-const emote = require('../../assets/emotes.json');
-const stringSimilarity = require('string-similarity');
+const { MessageEmbed } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('characters')
-		.setDescription('Retrieve information on a character.')
+		.setDescription('Retrieve information on the specified character(s).')
 		.addStringOption(option =>
 			option
 				.setName('name')
-				.setDescription('The name of the character.'))
-		.addStringOption(option =>
-			option
-				.setName('weapon')
-				.setDescription('The character\'s weapon type.')
-				.addChoices([
-					['Sword', 'Sword'],
-					['Polearm', 'Polearm'],
-					['Bow', 'Bow'],
-					['Catalyst', 'Catalyst'],
-					['Claymore', 'Claymore']
-				]))
+				.setDescription('The name of the character.')
+				.setAutocomplete(true))
 		.addStringOption(option =>
 			option
 				.setName('vision')
-				.setDescription('The character\'s vision.')
-				.addChoices([
-					['Pyro', 'Pyro'],
-					['Dendro', 'Dendro'],
-					['Hydro', 'Hydro'],
-					['Cryo', 'Cryo'],
-					['Geo', 'Geo'],
-					['Electro', 'Electro'],
-					['Anemo', 'Anemo']
-				]))
+				.setDescription('The vision of the character(s).')
+				.setChoices(
+					{ name: 'Anemo', value: 'Anemo' },
+					{ name: 'Cryo', value: 'Cryo' },
+					{ name: 'Dendro', value: 'Dendro' },
+					{ name: 'Electro', value: 'Electro' },
+					{ name: 'Geo', value: 'Geo' },
+					{ name: 'Hydro', value: 'Hydro' },
+					{ name: 'Pyro', value: 'Pyro' }
+				))
 		.addStringOption(option =>
 			option
 				.setName('rarity')
-				.setDescription('The rarity of the characters.')
-				.addChoices([
-					['⭐⭐⭐⭐', '4'],
-					['⭐⭐⭐⭐⭐', '5']
-				])),
+				.setDescription('The rarity of the character(s).')
+				.setChoices(
+					{ name: '⭐⭐⭐⭐⭐', value: '5' },
+					{ name: '⭐⭐⭐⭐', value: '4' }
+				))
+		.addStringOption(option =>
+			option
+				.setName('weapon')
+				.setDescription('The weapon type of the character(s).')
+				.setChoices(
+					{ name: 'Sword', value: 'Sword' },
+					{ 	name: 'Claymore', 	value: 'Claymore' },
+					{ 	name: 'Polearm', 	value: 'Polearm' },
+					{ 	name: 'Catalyst', 	value: 'Catalyst' },
+					{ 	name: 'Bow', 	value: 'Bow' }
+				))
+		.addStringOption(option =>
+			option
+				.setName('region')
+				.setDescription('The region of the character(s).')
+				.setChoices(
+					{ name: 'Mondstadt', value: 'Mondstadt' },
+					{ name: 'Liyue', value: 'Liyue' },
+					{ name: 'Inazuma', value: 'Inazuma' },
+					{ name: 'Sumeru', value: 'Sumeru' },
+					{ name: 'Fontaine', value: 'Fontaine' },
+					{ name: 'Natlan', value: 'Natlan' },
+					{ name: 'Snezhnaya', value: 'Snezhnaya' },
+					{ name: "Khaenri'ah", value: "Khaenri'ah" }
+				)
+		),
 	async run({ paimonClient, application }) {
-		const characterName = application.options.getString('name');
-		const weaponType = application.options.getString('weapon');
-		const visionType = application.options.getString('vision');
-		const characterRarity = application.options.getString('rarity');
-		let characterList = paimonClient.characters;
+		const name = application.options.getString('name');
+		const weapon = application.options.getString('weapon');
+		const vision = application.options.getString('vision');
+		const rarity = application.options.getString('rarity');
+		const region = application.options.getString('region');
 
-		if (characterName) {
-			const characterGuess = stringSimilarity.findBestMatch(characterName.toLowerCase(), characterList.map(char => char.name)).bestMatch.target;
-			const character = characterList.get(characterGuess);
-			const { id, name, rarity, weapon, element, description, region, faction, image, icon, roles, constellation } = character;
+		const { characters } = paimonClient;
+		const character = characters.get(name);
 
-			const starRarity = Array(rarity).fill('⭐').join('');
+		if (character) {
+			const starRarity = '⭐'.repeat(character.rarity);
 
-			const optionRow = new MessageActionRow();
-
-			if (character.constellations?.length) {
-				optionRow.addComponents(
-					new MessageButton()
-						.setCustomId('constellation')
-						.setLabel('Constellations')
-						.setStyle('PRIMARY')
-				);
-			}
-
-			optionRow.addComponents(
-				new MessageButton()
-					.setCustomId('delete')
-					.setLabel('🗑️')
-					.setStyle('PRIMARY')
-			);
-
-			const characterEmbed = new MessageEmbed()
-				.setTitle(name)
-				.setImage(image)
-				.setDescription(`${description}`)
-				.addField('Vision', ` ${emote[element.toLowerCase()] || ''} ${paimonClient.utils.capitalize(element)}` || 'Unknown', true)
-				.addField('Weapon', ` ${emote[weapon.toLowerCase()] || ''} ${paimonClient.utils.capitalize(weapon)}` || 'Unknown', true)
-				.addField('Nation', ` ${emote[region.toLowerCase()] || ''} ${paimonClient.utils.capitalize(region) || 'Unknown'}`, true)
-				.addField('Affiliation', `${paimonClient.utils.capitalize(faction) || 'Unknown'}`, true)
-				.addField('Rarity', `${starRarity || 'Unknown'}`, true)
-				.addField('Constellation', `${constellation || 'Unknown'}`, true)
+			const characterInfoEmbed = new MessageEmbed()
+				.setTitle(`${character.name}`)
+				.setThumbnail(`${character.characterIcon}`)
+				.setDescription(`${character.lore}`)
+				.addField('Vision', `${paimonClient.utils.parseEmote(character.element)} ${character.element}`, true)
+				.addField('Weapon', `${paimonClient.utils.parseEmote(character.weapon)} ${character.weapon}`, true)
+				.addField('Region', `${paimonClient.utils.parseEmote(character.region)} ${character.region}`, true)
+				.addField('Affiliations', `${character.affiliations.join('\n') || 'None'}`, true)
+				.addField('Rarity', `${starRarity}`, true)
+				.addField('Constellation', `${character.constellation}`, true)
 				.setColor('WHITE');
-			const charEmbedMsg = await application.followUp({ embeds: [characterEmbed], components: [optionRow] });
+			return application.followUp({ embeds: [characterInfoEmbed] });
+		} else if (weapon || vision || rarity || region) {
+			let characterList = characters;
 
-			const filter = i => i.user.id === application.user.id;
-			const collector = charEmbedMsg.createMessageComponentCollector({ filter, time: 300000 });
+			if (weapon) characterList = characterList.filter(char => char.weapon === weapon);
+			if (vision) characterList = characterList.filter(char => char.element === vision);
+			if (rarity) characterList = characterList.filter(char => char.rarity === parseInt(rarity));
+			if (region) characterList = characterList.filter(char => char.region === region);
 
-			return collector.on('collect', async i => {
-				i.deferUpdate();
-				const choice = i.customId;
+			const filteredCharacterList = characterList.map(char => char.name).join('\n');
+			const title = `${rarity ? `🌟 **Rarity**: \`${rarity}\`\n` : ''}` +
+						`${weapon ? `${paimonClient.utils.parseEmote(weapon)} **Weapon**: \`${weapon}\`\n` : ''}` +
+						`${vision ? `${paimonClient.utils.parseEmote(vision)} **Vision**: \`${vision}\`\n` : ''}` +
+						`${region ? `${paimonClient.utils.parseEmote(region)} **Region**: \`${region}\`\n` : ''}`;
 
-				if (choice === 'delete') {
-					collector.stop();
-					charEmbedMsg.delete().catch(() => null);
-				}
-
-				if (choice === 'constellation') {
-					const { constellations } = character;
-
-					const constellationEmbed = new MessageEmbed()
-						.setAuthor({ name: `${name}`, iconURL: icon })
-						.setDescription(`**Constellation**\n\n${constellation}`)
-						.setColor('WHITE');
-
-					if (id !== 'aloy') {
-						const constellationThumbnail = new MessageAttachment(`.\\assets\\images\\characters\\constellations\\${id}-constellation.jpg`, `${id}-constellation.jpg`);
-						constellationEmbed.setImage(`attachment://${constellationThumbnail.name}`);
-						charEmbedMsg.files = [constellationThumbnail];
-					}
-
-					for (let j = 0; j < constellations.length; j++) {
-						constellationEmbed.addField(`${constellations[j].name}`, `Level: **${constellations[j].order}**\n${constellations[j].description}`, true);
-					}
-
-					await charEmbedMsg.edit({ embeds: [constellationEmbed] });
-				}
-
-				const charBuild = roles.find(build => build.name === choice);
-
-				if (charBuild) {
-					const { weapons, artifacts } = charBuild;
-					const weaponList = weapons.length ? paimonClient.utils.capitalize(weapons.slice(0, 5).map(weap => weap.weaponId).join('\n').replace(/-/g, ' ')) : 'No Weapon Recommendations';
-					const artifactList = artifacts.length ? paimonClient.utils.capitalize(artifacts.slice(0, 5).map(art => art.artifactSetId).join('\n').replace(/-/g, ' ')) : 'No Artifact Recommendations';
-
-					const charBuildEmbed = new MessageEmbed()
-						.setTitle(`${charBuild.name}`)
-						.setAuthor({ name: `${name}`, iconURL: icon })
-						.addField(`${emote?.[weapon.toLowerCase()]} Weapons`, `${weaponList}`, true)
-						.addField(`${emote.artifact} Artifacts`, `${artifactList}`, true)
-						.setColor('WHITE');
-					await charEmbedMsg.edit({ embeds: [charBuildEmbed] });
-				}
-			});
-		} else if (weaponType || visionType || characterRarity) {
-			let embedTitle = '';
-
-			if (characterRarity) {
-				embedTitle += `${characterRarity} Star`;
-				characterList = characterList.filter(char => `${char.rarity}` === characterRarity);
-			}
-
-			if (visionType) {
-				embedTitle += ` ${visionType}`;
-				characterList = characterList.filter(char => char.element === visionType);
-			}
-
-			if (weaponType) {
-				embedTitle += ` ${weaponType}`;
-				characterList = characterList.filter(char => char.weapon === weaponType);
-			}
-
-			const filteredCharacterListEmbed = new MessageEmbed()
-				.setTitle(`${embedTitle} Characters`)
-				.setThumbnail('https://i.ibb.co/nbp23by/paimon.png')
-				.setDescription(`${characterList.map(char => char.name).join('\n') || 'No Characters Found'}`)
+			const filteredCharacterInfoEmbed = new MessageEmbed()
+				.setTitle(`Filtered Character Search`)
+				.setDescription(`*Using the filters:*\n\n${title}\n\`\`\`${filteredCharacterList || 'No characters found.'}\`\`\``)
 				.setColor('WHITE');
-			return application.followUp({ embeds: [filteredCharacterListEmbed] });
+			return application.followUp({ embeds: [filteredCharacterInfoEmbed] });
 		} else {
-			const charListEmbed = new MessageEmbed()
+			const characterHelpEmbed = new MessageEmbed()
 				.setTitle('Character Help')
-				.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon type> or <vision>`')
+				.setDescription('To search for a character.\nType `/character <name>`\nTo filter for certain characters.\nType `/character <weapon>, <vision>, etc...`')
 				.setColor('WHITE');
 
-			const characterTypes = ['Geo', 'Hydro', 'Pyro', 'Electro', 'Cryo', 'Anemo'];
+			const uniqueElements = [...new Set(characters.map(char => char.element))];
 
-			for (let i = 0; i < characterTypes.length; i++) {
-				const elementName = characterTypes[i];
-				const filteredCharacters = characterList.filter(char => char.element === elementName).map(char => char.name);
-				charListEmbed.addField(`${emote[elementName.toLowerCase()]} ${elementName}`, filteredCharacters.join('\n'), true);
+			for (let i = 0; i < uniqueElements.length; i++) {
+				const element = uniqueElements[i];
+				const title = `${paimonClient.utils.parseEmote(element)} ${element}`;
+				const field = `${characters.filter(char => char.element === element).map(char => char.name).join('\n')}`;
+
+				characterHelpEmbed.addField(title, field, true);
 			}
 
-			return application.followUp({ embeds: [charListEmbed] });
+			return application.followUp({ embeds: [characterHelpEmbed] });
 		}
 	}
 };
