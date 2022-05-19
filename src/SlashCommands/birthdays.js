@@ -1,10 +1,9 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
-const listOfMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('birthday')
+		.setName('birthdays')
 		.setDescription('Retrieve information on a character(s) birthday')
 		.addStringOption(option =>
 			option
@@ -25,6 +24,7 @@ module.exports = {
 					{ name: 'December', value: 'December' }
 				)),
 	async run({ paimonClient, application }) {
+		const listOfMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 		const months = application.options.getString('month') || listOfMonths;
 		const attachment = new MessageAttachment('.\\assets\\images\\other\\birthdaycake.png', 'birthdaycake.png');
 
