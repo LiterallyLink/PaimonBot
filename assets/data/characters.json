@@ -928,5 +928,45 @@
     "birthDay": 31,
     "partyIcon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Character_Zhongli_Side_Icon.png/revision/latest?cb=20210621214100",
     "characterIcon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png/revision/latest/scale-to-width-down/185?cb=20210213163026"
+  },
+  {
+    "name": "Kuki Shinobu",
+    "rarity": 4,
+    "element": "Electro",
+    "weapon": "Sword",
+    "lore": "The deputy leader of the <a href=\"/wiki/Arataki_Gang\" title=\"Arataki Gang\">Arataki Gang</a>. She wears a unique mask and is rather stoic. Few people know why a talent of this caliber would run away to join a street gang. Even fewer people know what she hides under her mask.",
+    "constellation": "Tribulatio Demptio",
+    "region": "Inazuma",
+    "titles": [
+      "Deputy Leader of the Arataki Gang"
+    ],
+    "affiliations": [
+      "Arataki Gang",
+      "Kuki Clan"
+    ],
+    "birthMonth": "July",
+    "birthDay": 27,
+    "partyIcon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Character_Kuki_Shinobu_Side_Icon.png/revision/latest?cb=20220605062453",
+    "characterIcon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Kuki_Shinobu_Thumb.png/revision/latest/scale-to-width-down/185?cb=20220605061801"
+  },
+  {
+    "name": "Yelan",
+    "rarity": 5,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "lore": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list. Elusive, enigmatic, erratic - all of these are Yelan's hallmarks.",
+    "constellation": "Umbrabilis Orchis",
+    "region": "Liyue",
+    "titles": [
+      "A mysterious person who claims to work for the Ministry of Civil Affairs"
+    ],
+    "affiliations": [
+      "Yanshang Teahouse",
+      "Ministry of Civil Affairs"
+    ],
+    "birthMonth": "April",
+    "birthDay": 20,
+    "partyIcon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Character_Yelan_Side_Icon.png/revision/latest?cb=20220531110309",
+    "characterIcon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Character_Yelan_Thumb.png/revision/latest/scale-to-width-down/185?cb=20220601033118"
   }
 ]

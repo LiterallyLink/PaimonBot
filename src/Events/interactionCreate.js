@@ -39,12 +39,14 @@ module.exports = class extends Event {
 			let choices;
 
 			if (interaction.commandName === 'characters') choices = [...this.client.characters.keys()];
-
 			if (interaction.commandName === 'artifacts') choices = [...this.client.artifacts.keys()];
-
 			if (interaction.commandName === 'food') choices = [...this.client.food.keys()];
+			if (interaction.commandName === 'potions') choices = [...this.client.potions.keys()];
+			if (interaction.commandName === 'weapons') choices = [...this.client.weapons.keys()];
 
-			if (interaction.commandName === 'potion') choices = [...this.client.potions.keys()];
+			if (interaction.commandName === 'enemies') {
+				choices = [...this.client.enemies.keys()];
+			}
 
 			await interaction.respond(this.onAutoComplete(focusedOption.value, choices));
 		}

@@ -4,9 +4,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Raw Meat",
-      "Cabbage"
+      "x3 Flour",
+      "x2 Raw Meat",
+      "x1 Cabbage"
     ],
     "tiers": [
       {
@@ -34,10 +34,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Lavender Melon",
-      "Sakura Bloom",
-      "Flour"
+      "x4 Shrimp Meat",
+      "x2 Lavender Melon",
+      "x2 Sakura Bloom",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -53,10 +53,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Milk",
-      "Lavender Melon",
-      "Calla Lily",
-      "Mint"
+      "x3 Milk",
+      "x2 Lavender Melon",
+      "x2 Calla Lily",
+      "x1 Mint"
     ],
     "tiers": [
       {
@@ -98,9 +98,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Seagrass",
-      "Fish"
+      "x3 Flour",
+      "x1 Seagrass",
+      "x1 Fish"
     ],
     "tiers": [
       {
@@ -116,9 +116,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Fish",
-      "Snapdragon",
-      "Salt"
+      "x2 Fish",
+      "x2 Snapdragon",
+      "x1 Salt"
     ],
     "tiers": [
       {
@@ -146,9 +146,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Seagrass",
-      "Fish"
+      "x3 Flour",
+      "x1 Seagrass",
+      "x1 Fish"
     ],
     "tiers": [
       {
@@ -176,10 +176,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fish",
-      "Carrot",
-      "Onion",
-      "Violetgrass"
+      "x4 Fish",
+      "x4 Carrot",
+      "x2 Onion",
+      "x1 Violetgrass"
     ],
     "tiers": [
       {
@@ -207,9 +207,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Lotus Head",
-      "Bird Egg",
-      "Sugar"
+      "x1 Lotus Head",
+      "x1 Bird Egg",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -225,10 +225,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Fowl",
-      "Mushroom",
-      "Ham"
+      "x4 Flour",
+      "x2 Fowl",
+      "x2 Mushroom",
+      "x1 Ham"
     ],
     "tiers": [
       {
@@ -256,10 +256,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Fowl",
-      "Mushroom",
-      "Ham"
+      "x4 Flour",
+      "x2 Fowl",
+      "x2 Mushroom",
+      "x1 Ham"
     ],
     "tiers": [
       {
@@ -275,10 +275,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Radish",
-      "Carrot",
-      "Lavender Melon",
-      "Seagrass"
+      "x2 Radish",
+      "x2 Carrot",
+      "x2 Lavender Melon",
+      "x2 Seagrass"
     ],
     "tiers": [
       {
@@ -306,9 +306,9 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Potato",
-      "Sakura Bloom"
+      "x3 Shrimp Meat",
+      "x3 Potato",
+      "x2 Sakura Bloom"
     ],
     "tiers": [
       {
@@ -336,10 +336,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Unagi Meat",
-      "Rice",
-      "Seagrass",
-      "Salt"
+      "x4 Unagi Meat",
+      "x3 Rice",
+      "x3 Seagrass",
+      "x1 Salt"
     ],
     "tiers": [
       {
@@ -367,10 +367,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Flour",
-      "Bamboo Shoot",
-      "Bird Egg"
+      "x4 Raw Meat",
+      "x3 Flour",
+      "x2 Bamboo Shoot",
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -386,9 +386,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Cabbage",
-      "Raw Meat"
+      "x3 Flour",
+      "x2 Cabbage",
+      "x1 Raw Meat"
     ],
     "tiers": [
       {
@@ -404,8 +404,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Seagrass",
-      "Tofu"
+      "x1 Seagrass",
+      "x1 Tofu"
     ],
     "tiers": [
       {
@@ -421,9 +421,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Berry",
-      "Sugar"
+      "x2 Rice",
+      "x2 Berry",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -451,9 +451,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fish",
-      "Radish",
-      "Salt"
+      "x2 Fish",
+      "x2 Radish",
+      "x1 Salt"
     ],
     "tiers": [
       {
@@ -481,8 +481,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Seagrass"
+      "x1 Flour",
+      "x1 Seagrass"
     ],
     "tiers": [
       {
@@ -510,8 +510,8 @@
     "rarity": 2,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Bamboo Shoot",
-      "Seagrass"
+      "x3 Bamboo Shoot",
+      "x2 Seagrass"
     ],
     "tiers": [
       {
@@ -539,8 +539,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg",
-      "Rice"
+      "x1 Bird Egg",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -556,8 +556,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg",
-      "Rice"
+      "x1 Bird Egg",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -585,10 +585,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Carrot",
-      "Potato",
-      "Onion"
+      "x4 Raw Meat",
+      "x2 Carrot",
+      "x2 Potato",
+      "x1 Onion"
     ],
     "tiers": [
       {
@@ -616,10 +616,10 @@
     "rarity": 4,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Jueyun Chili",
-      "Flour",
-      "Cabbage"
+      "x4 Raw Meat",
+      "x2 Jueyun Chili",
+      "x3 Flour",
+      "x2 Cabbage"
     ],
     "tiers": [
       {
@@ -647,8 +647,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg",
-      "Sugar"
+      "x1 Bird Egg",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -664,8 +664,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Unagi Meat",
-      "Sugar"
+      "x3 Unagi Meat",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -693,10 +693,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Raw Meat",
-      "Seagrass",
-      "Rice"
+      "x4 Fish",
+      "x2 Raw Meat",
+      "x2 Seagrass",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -724,10 +724,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fish",
-      "Bacon",
-      "Lavender Melon",
-      "Flour"
+      "x3 Fish",
+      "x2 Bacon",
+      "x1 Lavender Melon",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -755,10 +755,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Bird Egg",
-      "Rice",
-      "Tomato",
-      "Sugar"
+      "x4 Bird Egg",
+      "x3 Rice",
+      "x2 Tomato",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -786,10 +786,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Tofu",
-      "Ham",
-      "Fowl",
-      "Bamboo Shoot"
+      "x4 Tofu",
+      "x1 Ham",
+      "x1 Fowl",
+      "x2 Bamboo Shoot"
     ],
     "tiers": [
       {
@@ -817,10 +817,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Bird Egg",
-      "Rice",
-      "Milk",
-      "Sugar"
+      "x3 Bird Egg",
+      "x2 Rice",
+      "x2 Milk",
+      "x2 Sugar"
     ],
     "tiers": [
       {
@@ -848,8 +848,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mint",
-      "Sugar"
+      "x1 Mint",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -865,8 +865,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Rice"
+      "x2 Shrimp Meat",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -894,10 +894,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Sunsettia",
-      "Milk",
-      "Flour",
-      "Sugar"
+      "x3 Sunsettia",
+      "x3 Milk",
+      "x2 Flour",
+      "x2 Sugar"
     ],
     "tiers": [
       {
@@ -939,9 +939,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Sugar",
-      "Sakura Bloom"
+      "x4 Rice",
+      "x2 Sugar",
+      "x1 Sakura Bloom"
     ],
     "tiers": [
       {
@@ -957,8 +957,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Salt"
+      "x1 Fish",
+      "x1 Salt"
     ],
     "tiers": [
       {
@@ -974,10 +974,10 @@
     "rarity": 4,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Butter",
-      "Crab",
-      "Seagrass",
-      "Matsutake"
+      "x4 Butter",
+      "x4 Crab",
+      "x2 Seagrass",
+      "x1 Matsutake"
     ],
     "tiers": [
       {
@@ -1005,8 +1005,8 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Crab",
-      "Crab Roe"
+      "x1 Crab",
+      "x1 Crab Roe"
     ],
     "tiers": [
       {
@@ -1034,9 +1034,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Rice",
-      "Seagrass"
+      "x2 Fish",
+      "x1 Rice",
+      "x2 Seagrass"
     ],
     "tiers": [
       {
@@ -1052,8 +1052,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Salt"
+      "x1 Fish",
+      "x1 Salt"
     ],
     "tiers": [
       {
@@ -1081,8 +1081,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg",
-      "Sugar"
+      "x1 Bird Egg",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -1110,10 +1110,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fowl",
-      "Lavender Melon",
-      "Flour",
-      "Bird Egg"
+      "x4 Fowl",
+      "x3 Lavender Melon",
+      "x2 Flour",
+      "x2 Bird Egg"
     ],
     "tiers": [
       {
@@ -1141,10 +1141,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fowl",
-      "Snapdragon",
-      "Lavender Melon",
-      "Mushroom"
+      "x3 Fowl",
+      "x2 Snapdragon",
+      "x2 Lavender Melon",
+      "x1 Mushroom"
     ],
     "tiers": [
       {
@@ -1172,8 +1172,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Tofu",
-      "Seagrass"
+      "x1 Tofu",
+      "x1 Seagrass"
     ],
     "tiers": [
       {
@@ -1201,9 +1201,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Cabbage",
-      "Raw Meat"
+      "x3 Flour",
+      "x2 Cabbage",
+      "x1 Raw Meat"
     ],
     "tiers": [
       {
@@ -1231,9 +1231,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Rice",
-      "Seagrass"
+      "x2 Fish",
+      "x1 Rice",
+      "x2 Seagrass"
     ],
     "tiers": [
       {
@@ -1261,10 +1261,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Sausage",
-      "Tofu",
-      "Fish",
-      "Lavender Melon"
+      "x2 Sausage",
+      "x1 Tofu",
+      "x1 Fish",
+      "x1 Lavender Melon"
     ],
     "tiers": [
       {
@@ -1292,9 +1292,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Sugar",
-      "Sakura Bloom"
+      "x4 Rice",
+      "x2 Sugar",
+      "x1 Sakura Bloom"
     ],
     "tiers": [
       {
@@ -1322,10 +1322,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Lavender Melon",
-      "Sakura Bloom",
-      "Flour"
+      "x4 Shrimp Meat",
+      "x2 Lavender Melon",
+      "x2 Sakura Bloom",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -1353,10 +1353,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fish",
-      "Shrimp Meat",
-      "Crab",
-      "Radish"
+      "x4 Fish",
+      "x4 Shrimp Meat",
+      "x4 Crab",
+      "x2 Radish"
     ],
     "tiers": [
       {
@@ -1384,10 +1384,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Milk",
-      "Snapdragon",
-      "Sakura Bloom",
-      "Rice"
+      "x2 Milk",
+      "x2 Snapdragon",
+      "x2 Sakura Bloom",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -1403,10 +1403,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Flour",
-      "Bamboo Shoot",
-      "Bird Egg"
+      "x4 Raw Meat",
+      "x3 Flour",
+      "x2 Bamboo Shoot",
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -1434,10 +1434,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Bird Egg",
-      "Flour",
-      "Snapdragon"
+      "x4 Raw Meat",
+      "x2 Bird Egg",
+      "x2 Flour",
+      "x1 Snapdragon"
     ],
     "tiers": [
       {
@@ -1465,10 +1465,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Milk",
-      "Snapdragon",
-      "Sakura Bloom",
-      "Rice"
+      "x2 Milk",
+      "x2 Snapdragon",
+      "x2 Sakura Bloom",
+      "x1 Rice"
     ],
     "tiers": [
       {
@@ -1496,8 +1496,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Rice"
+      "x3 Fish",
+      "x3 Rice"
     ],
     "tiers": [
       {
@@ -1539,10 +1539,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fowl",
-      "Ham",
-      "Bird Egg",
-      "Snapdragon"
+      "x4 Fowl",
+      "x2 Ham",
+      "x2 Bird Egg",
+      "x1 Snapdragon"
     ],
     "tiers": [
       {
@@ -1570,8 +1570,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Horsetail"
+      "x1 Rice",
+      "x1 Horsetail"
     ],
     "tiers": [
       {
@@ -1599,9 +1599,9 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Flour",
-      "Snapdragon"
+      "x4 Shrimp Meat",
+      "x3 Flour",
+      "x3 Snapdragon"
     ],
     "tiers": [
       {
@@ -1629,8 +1629,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Crab Roe",
-      "Tofu"
+      "x1 Crab Roe",
+      "x1 Tofu"
     ],
     "tiers": [
       {
@@ -1646,8 +1646,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Crab Roe",
-      "Tofu"
+      "x1 Crab Roe",
+      "x1 Tofu"
     ],
     "tiers": [
       {
@@ -1675,10 +1675,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Ham",
-      "Matsutake",
-      "Snapdragon",
-      "Pepper"
+      "x2 Ham",
+      "x2 Matsutake",
+      "x1 Snapdragon",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -1706,9 +1706,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Rice",
-      "Snapdragon"
+      "x2 Fish",
+      "x2 Rice",
+      "x2 Snapdragon"
     ],
     "tiers": [
       {
@@ -1736,10 +1736,10 @@
     "rarity": 4,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Bird Egg",
-      "Butter",
-      "Flour"
+      "x4 Raw Meat",
+      "x4 Bird Egg",
+      "x3 Butter",
+      "x2 Flour"
     ],
     "tiers": [
       {
@@ -1755,10 +1755,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mint",
-      "Shrimp Meat",
-      "Potato",
-      "Berry"
+      "x4 Mint",
+      "x4 Shrimp Meat",
+      "x3 Potato",
+      "x2 Berry"
     ],
     "tiers": [
       {
@@ -1786,8 +1786,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fowl",
-      "Sweet Flower"
+      "x2 Fowl",
+      "x2 Sweet Flower"
     ],
     "tiers": [
       {
@@ -1803,9 +1803,9 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Potato",
-      "Cream",
-      "Pepper"
+      "x6 Potato",
+      "x4 Cream",
+      "x3 Pepper"
     ],
     "tiers": [
       {
@@ -1833,10 +1833,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fowl",
-      "Flour",
-      "Cabbage",
-      "Butter"
+      "x4 Fowl",
+      "x2 Flour",
+      "x2 Cabbage",
+      "x2 Butter"
     ],
     "tiers": [
       {
@@ -1864,10 +1864,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fowl",
-      "Butter",
-      "Pepper",
-      "Flour"
+      "x4 Fowl",
+      "x4 Butter",
+      "x3 Pepper",
+      "x2 Flour"
     ],
     "tiers": [
       {
@@ -1895,8 +1895,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mint",
-      "Sugar"
+      "x1 Mint",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -1924,9 +1924,9 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Mint",
-      "Raw Meat",
-      "Jueyun Chili"
+      "x4 Mint",
+      "x3 Raw Meat",
+      "x1 Jueyun Chili"
     ],
     "tiers": [
       {
@@ -1954,8 +1954,8 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Mint",
-      "Jueyun Chili"
+      "x4 Mint",
+      "x1 Jueyun Chili"
     ],
     "tiers": [
       {
@@ -1983,9 +1983,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Milk",
-      "Sugar",
-      "Almond"
+      "x3 Milk",
+      "x1 Sugar",
+      "x1 Almond"
     ],
     "tiers": [
       {
@@ -2001,10 +2001,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Shrimp Meat",
-      "Bird Egg",
-      "Flour"
+      "x4 Fish",
+      "x2 Shrimp Meat",
+      "x2 Bird Egg",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -2032,8 +2032,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Matsutake",
-      "Snapdragon"
+      "x2 Matsutake",
+      "x2 Snapdragon"
     ],
     "tiers": [
       {
@@ -2049,9 +2049,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Potato",
-      "Violetgrass",
-      "Matsutake"
+      "x2 Potato",
+      "x1 Violetgrass",
+      "x1 Matsutake"
     ],
     "tiers": [
       {
@@ -2079,8 +2079,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Matsutake",
-      "Snapdragon"
+      "x2 Matsutake",
+      "x2 Snapdragon"
     ],
     "tiers": [
       {
@@ -2206,9 +2206,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Chilled Meat",
-      "Carrot",
-      "Tomato"
+      "x2 Chilled Meat",
+      "x2 Carrot",
+      "x1 Tomato"
     ],
     "tiers": [
       {
@@ -2236,10 +2236,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Horsetail",
-      "Rice",
-      "Ham",
-      "Jueyun Chili"
+      "x2 Horsetail",
+      "x2 Rice",
+      "x1 Ham",
+      "x1 Jueyun Chili"
     ],
     "tiers": [
       {
@@ -2267,10 +2267,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Lotus Head",
-      "Carrot",
-      "Berry"
+      "x4 Rice",
+      "x2 Lotus Head",
+      "x2 Carrot",
+      "x2 Berry"
     ],
     "tiers": [
       {
@@ -2286,10 +2286,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Butter",
-      "Fish",
-      "Salt",
-      "Small Lamp Grass"
+      "x3 Butter",
+      "x3 Fish",
+      "x1 Salt",
+      "x1 Small Lamp Grass"
     ],
     "tiers": [
       {
@@ -2317,10 +2317,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Lotus Head",
-      "Carrot",
-      "Berry"
+      "x4 Rice",
+      "x2 Lotus Head",
+      "x2 Carrot",
+      "x2 Berry"
     ],
     "tiers": [
       {
@@ -2348,10 +2348,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Butter",
-      "Fish",
-      "Salt",
-      "Small Lamp Grass"
+      "x3 Butter",
+      "x3 Fish",
+      "x1 Salt",
+      "x1 Small Lamp Grass"
     ],
     "tiers": [
       {
@@ -2367,9 +2367,9 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Crab",
-      "Calla Lily",
-      "Mint"
+      "x4 Crab",
+      "x1 Calla Lily",
+      "x2 Mint"
     ],
     "tiers": [
       {
@@ -2385,9 +2385,9 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Bird Egg",
-      "Flour",
-      "Ham"
+      "x4 Bird Egg",
+      "x3 Flour",
+      "x1 Ham"
     ],
     "tiers": [
       {
@@ -2415,9 +2415,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Ham",
-      "Bamboo Shoot"
+      "x2 Raw Meat",
+      "x2 Ham",
+      "x1 Bamboo Shoot"
     ],
     "tiers": [
       {
@@ -2445,8 +2445,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Pepper"
+      "x1 Fish",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -2462,9 +2462,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Shrimp Meat",
-      "Potato",
-      "Flour"
+      "x5 Shrimp Meat",
+      "x4 Potato",
+      "x3 Flour"
     ],
     "tiers": [
       {
@@ -2492,10 +2492,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Almond",
-      "Flour",
-      "Butter",
-      "Sugar"
+      "x4 Almond",
+      "x2 Flour",
+      "x2 Butter",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -2523,10 +2523,10 @@
     "rarity": 4,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Bird Egg",
-      "Butter",
-      "Flour"
+      "x4 Raw Meat",
+      "x4 Bird Egg",
+      "x3 Butter",
+      "x2 Flour"
     ],
     "tiers": [
       {
@@ -2554,10 +2554,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Apple",
-      "Butter",
-      "Pepper"
+      "x3 Raw Meat",
+      "x3 Apple",
+      "x1 Butter",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -2585,9 +2585,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fowl",
-      "Jueyun Chili",
-      "Pepper"
+      "x2 Fowl",
+      "x1 Jueyun Chili",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -2603,9 +2603,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Ham",
-      "Bamboo Shoot"
+      "x2 Raw Meat",
+      "x2 Ham",
+      "x1 Bamboo Shoot"
     ],
     "tiers": [
       {
@@ -2621,10 +2621,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Sugar",
-      "Qingxin",
-      "Matsutake"
+      "x4 Raw Meat",
+      "x2 Sugar",
+      "x1 Qingxin",
+      "x1 Matsutake"
     ],
     "tiers": [
       {
@@ -2652,10 +2652,10 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Ham",
-      "Fowl",
-      "Bamboo Shoot",
-      "Mushroom"
+      "x2 Ham",
+      "x2 Fowl",
+      "x1 Bamboo Shoot",
+      "x1 Mushroom"
     ],
     "tiers": [
       {
@@ -2683,10 +2683,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Potato",
-      "Small Lamp Grass",
-      "Cheese"
+      "x3 Raw Meat",
+      "x3 Potato",
+      "x1 Small Lamp Grass",
+      "x1 Cheese"
     ],
     "tiers": [
       {
@@ -2702,10 +2702,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Potato",
-      "Small Lamp Grass",
-      "Cheese"
+      "x3 Raw Meat",
+      "x3 Potato",
+      "x1 Small Lamp Grass",
+      "x1 Cheese"
     ],
     "tiers": [
       {
@@ -2733,9 +2733,9 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Carrot",
-      "Potato",
-      "Onion"
+      "x4 Carrot",
+      "x4 Potato",
+      "x4 Onion"
     ],
     "tiers": [
       {
@@ -2751,10 +2751,10 @@
     "rarity": 5,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Ham",
-      "Crab",
-      "Shrimp Meat",
-      "Matsutake"
+      "x4 Ham",
+      "x3 Crab",
+      "x3 Shrimp Meat",
+      "x3 Matsutake"
     ],
     "tiers": [
       {
@@ -2782,9 +2782,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Shrimp Meat",
-      "Carrot"
+      "x3 Rice",
+      "x3 Shrimp Meat",
+      "x2 Carrot"
     ],
     "tiers": [
       {
@@ -2800,9 +2800,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Milk",
-      "Sugar",
-      "Almond"
+      "x3 Milk",
+      "x1 Sugar",
+      "x1 Almond"
     ],
     "tiers": [
       {
@@ -2830,9 +2830,9 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Carrot",
-      "Potato",
-      "Onion"
+      "x4 Carrot",
+      "x4 Potato",
+      "x4 Onion"
     ],
     "tiers": [
       {
@@ -2860,10 +2860,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Jueyun Chili",
-      "Salt",
-      "Violetgrass"
+      "x3 Fish",
+      "x1 Jueyun Chili",
+      "x1 Salt",
+      "x1 Violetgrass"
     ],
     "tiers": [
       {
@@ -2891,9 +2891,9 @@
     "rarity": 3,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Crab",
-      "Calla Lily",
-      "Mint"
+      "x4 Crab",
+      "x1 Calla Lily",
+      "x2 Mint"
     ],
     "tiers": [
       {
@@ -2921,8 +2921,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mushroom",
-      "Fowl"
+      "x1 Mushroom",
+      "x1 Fowl"
     ],
     "tiers": [
       {
@@ -2950,10 +2950,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Ham",
-      "Bacon",
-      "Sausage",
-      "Mint"
+      "x1 Ham",
+      "x1 Bacon",
+      "x1 Sausage",
+      "x1 Mint"
     ],
     "tiers": [
       {
@@ -2981,9 +2981,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Mushroom",
-      "Raw Meat",
-      "Flour"
+      "x3 Mushroom",
+      "x2 Raw Meat",
+      "x2 Flour"
     ],
     "tiers": [
       {
@@ -2999,10 +2999,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Fish",
-      "Rice",
-      "Tofu"
+      "x3 Raw Meat",
+      "x3 Fish",
+      "x3 Rice",
+      "x1 Tofu"
     ],
     "tiers": [
       {
@@ -3030,10 +3030,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Crab Roe",
-      "Ham",
-      "Cream",
-      "Cabbage"
+      "x1 Crab Roe",
+      "x1 Ham",
+      "x1 Cream",
+      "x1 Cabbage"
     ],
     "tiers": [
       {
@@ -3061,9 +3061,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Raw Meat",
-      "Cream",
-      "Snapdragon"
+      "x2 Raw Meat",
+      "x2 Cream",
+      "x1 Snapdragon"
     ],
     "tiers": [
       {
@@ -3091,9 +3091,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Rice",
-      "Shrimp Meat",
-      "Carrot"
+      "x3 Rice",
+      "x3 Shrimp Meat",
+      "x2 Carrot"
     ],
     "tiers": [
       {
@@ -3121,10 +3121,10 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Cabbage",
-      "Apple",
-      "Bird Egg",
-      "Potato"
+      "x2 Cabbage",
+      "x2 Apple",
+      "x1 Bird Egg",
+      "x1 Potato"
     ],
     "tiers": [
       {
@@ -3140,10 +3140,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Ham",
-      "Bacon",
-      "Sausage",
-      "Mint"
+      "x1 Ham",
+      "x1 Bacon",
+      "x1 Sausage",
+      "x1 Mint"
     ],
     "tiers": [
       {
@@ -3159,10 +3159,10 @@
     "rarity": 2,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Tomato",
-      "Onion",
-      "Milk"
+      "x3 Flour",
+      "x2 Tomato",
+      "x1 Onion",
+      "x1 Milk"
     ],
     "tiers": [
       {
@@ -3178,10 +3178,10 @@
     "rarity": 2,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Tomato",
-      "Onion",
-      "Milk"
+      "x3 Flour",
+      "x2 Tomato",
+      "x1 Onion",
+      "x1 Milk"
     ],
     "tiers": [
       {
@@ -3209,9 +3209,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Raw Meat",
-      "Tomato"
+      "x2 Flour",
+      "x2 Raw Meat",
+      "x1 Tomato"
     ],
     "tiers": [
       {
@@ -3239,8 +3239,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Jueyun Chili"
+      "x1 Raw Meat",
+      "x1 Jueyun Chili"
     ],
     "tiers": [
       {
@@ -3256,9 +3256,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Flour",
-      "Radish",
-      "Pepper"
+      "x3 Flour",
+      "x2 Radish",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -3286,8 +3286,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mushroom",
-      "Fowl"
+      "x1 Mushroom",
+      "x1 Fowl"
     ],
     "tiers": [
       {
@@ -3303,10 +3303,10 @@
     "rarity": 4,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Bird Egg",
-      "Flour",
-      "Crab",
-      "Salt"
+      "x5 Bird Egg",
+      "x5 Flour",
+      "x4 Crab",
+      "x2 Salt"
     ],
     "tiers": [
       {
@@ -3334,8 +3334,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Pepper"
+      "x1 Fish",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -3363,10 +3363,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mushroom",
-      "Flour",
-      "Cabbage",
-      "Cheese"
+      "x4 Mushroom",
+      "x3 Flour",
+      "x2 Cabbage",
+      "x1 Cheese"
     ],
     "tiers": [
       {
@@ -3382,10 +3382,10 @@
     "rarity": 4,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Lotus Head",
-      "Jueyun Chili",
-      "Cabbage",
-      "Ham"
+      "x3 Lotus Head",
+      "x2 Jueyun Chili",
+      "x2 Cabbage",
+      "x1 Ham"
     ],
     "tiers": [
       {
@@ -3413,9 +3413,9 @@
     "rarity": 2,
     "type": "DEF-Boosting Dishes",
     "recipe": [
-      "Snapdragon",
-      "Tofu",
-      "Lotus Head"
+      "x2 Snapdragon",
+      "x2 Tofu",
+      "x1 Lotus Head"
     ],
     "tiers": [
       {
@@ -3443,9 +3443,9 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Fowl",
-      "Jueyun Chili",
-      "Pepper"
+      "x2 Fowl",
+      "x1 Jueyun Chili",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -3473,9 +3473,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Berry",
-      "Flour",
-      "Bird Egg"
+      "x3 Berry",
+      "x2 Flour",
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -3491,9 +3491,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Lotus Head",
-      "Bird Egg",
-      "Sugar"
+      "x1 Lotus Head",
+      "x1 Bird Egg",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -3521,8 +3521,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Matsutake",
-      "Raw Meat"
+      "x2 Matsutake",
+      "x2 Raw Meat"
     ],
     "tiers": [
       {
@@ -3550,8 +3550,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Pepper"
+      "x1 Fish",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -3579,9 +3579,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Pinecone",
-      "Potato",
-      "Jam"
+      "x2 Pinecone",
+      "x1 Potato",
+      "x1 Jam"
     ],
     "tiers": [
       {
@@ -3609,8 +3609,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Flour"
+      "x1 Raw Meat",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -3638,10 +3638,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Mushroom",
-      "Flour",
-      "Cabbage",
-      "Cheese"
+      "x4 Mushroom",
+      "x3 Flour",
+      "x2 Cabbage",
+      "x1 Cheese"
     ],
     "tiers": [
       {
@@ -3669,9 +3669,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Flour",
-      "Raw Meat",
-      "Tomato"
+      "x2 Flour",
+      "x2 Raw Meat",
+      "x1 Tomato"
     ],
     "tiers": [
       {
@@ -3687,10 +3687,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Raw Meat",
-      "Fish",
-      "Rice",
-      "Tofu"
+      "x3 Raw Meat",
+      "x3 Fish",
+      "x3 Rice",
+      "x1 Tofu"
     ],
     "tiers": [
       {
@@ -3706,9 +3706,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Mushroom",
-      "Raw Meat",
-      "Flour"
+      "x3 Mushroom",
+      "x2 Raw Meat",
+      "x2 Flour"
     ],
     "tiers": [
       {
@@ -3736,9 +3736,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Smoked Fowl",
-      "Onion",
-      "Cabbage"
+      "x1 Smoked Fowl",
+      "x1 Onion",
+      "x1 Cabbage"
     ],
     "tiers": [
       {
@@ -3766,10 +3766,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Crab Roe",
-      "Ham",
-      "Cream",
-      "Cabbage"
+      "x1 Crab Roe",
+      "x1 Ham",
+      "x1 Cream",
+      "x1 Cabbage"
     ],
     "tiers": [
       {
@@ -3785,7 +3785,7 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat"
+      "x2 Raw Meat"
     ],
     "tiers": [
       {
@@ -3801,9 +3801,9 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Pinecone",
-      "Potato",
-      "Jam"
+      "x2 Pinecone",
+      "x1 Potato",
+      "x1 Jam"
     ],
     "tiers": [
       {
@@ -3819,8 +3819,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Flour"
+      "x1 Raw Meat",
+      "x1 Flour"
     ],
     "tiers": [
       {
@@ -3836,10 +3836,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Mushroom",
-      "Lotus Head",
-      "Jueyun Chili",
-      "Cabbage"
+      "x3 Mushroom",
+      "x2 Lotus Head",
+      "x1 Jueyun Chili",
+      "x1 Cabbage"
     ],
     "tiers": [
       {
@@ -3867,8 +3867,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Radish",
-      "Mint"
+      "x1 Radish",
+      "x1 Mint"
     ],
     "tiers": [
       {
@@ -3896,10 +3896,10 @@
     "rarity": 2,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Cabbage",
-      "Apple",
-      "Bird Egg",
-      "Potato"
+      "x2 Cabbage",
+      "x2 Apple",
+      "x1 Bird Egg",
+      "x1 Potato"
     ],
     "tiers": [
       {
@@ -3927,10 +3927,10 @@
     "rarity": 3,
     "type": "ATK-Boosting Dishes",
     "recipe": [
-      "Matsutake",
-      "Flour",
-      "Pinecone",
-      "Butter"
+      "x3 Matsutake",
+      "x3 Flour",
+      "x2 Pinecone",
+      "x2 Butter"
     ],
     "tiers": [
       {
@@ -3958,9 +3958,9 @@
     "rarity": 2,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Raw Meat",
-      "Cream",
-      "Snapdragon"
+      "x2 Raw Meat",
+      "x2 Cream",
+      "x1 Snapdragon"
     ],
     "tiers": [
       {
@@ -3976,10 +3976,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Tomato",
-      "Flour",
-      "Sugar"
+      "x4 Fish",
+      "x2 Tomato",
+      "x2 Flour",
+      "x1 Sugar"
     ],
     "tiers": [
       {
@@ -4007,7 +4007,7 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat"
+      "x2 Raw Meat"
     ],
     "tiers": [
       {
@@ -4035,9 +4035,9 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Raw Meat",
-      "Carrot",
-      "Sugar"
+      "x3 Raw Meat",
+      "x2 Carrot",
+      "x2 Sugar"
     ],
     "tiers": [
       {
@@ -4065,8 +4065,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Raw Meat",
-      "Jueyun Chili"
+      "x1 Raw Meat",
+      "x1 Jueyun Chili"
     ],
     "tiers": [
       {
@@ -4094,8 +4094,8 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Pepper"
+      "x1 Fish",
+      "x1 Pepper"
     ],
     "tiers": [
       {
@@ -4111,8 +4111,8 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fowl",
-      "Sweet Flower"
+      "x2 Fowl",
+      "x2 Sweet Flower"
     ],
     "tiers": [
       {
@@ -4140,9 +4140,9 @@
     "rarity": 2,
     "type": "Recovery Dishes",
     "recipe": [
-      "Berry",
-      "Flour",
-      "Bird Egg"
+      "x3 Berry",
+      "x2 Flour",
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -4170,7 +4170,7 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg"
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -4186,7 +4186,7 @@
     "rarity": 1,
     "type": "Recovery Dishes",
     "recipe": [
-      "Bird Egg"
+      "x1 Bird Egg"
     ],
     "tiers": [
       {
@@ -4214,10 +4214,10 @@
     "rarity": 3,
     "type": "Recovery Dishes",
     "recipe": [
-      "Fish",
-      "Jueyun Chili",
-      "Salt",
-      "Violetgrass"
+      "x3 Fish",
+      "x1 Jueyun Chili",
+      "x1 Salt",
+      "x1 Violetgrass"
     ],
     "tiers": [
       {
@@ -4233,10 +4233,10 @@
     "rarity": 3,
     "type": "Adventurer's Dishes",
     "recipe": [
-      "Raw Meat",
-      "Fish",
-      "Flour",
-      "Salt"
+      "x3 Raw Meat",
+      "x3 Fish",
+      "x3 Flour",
+      "x2 Salt"
     ],
     "tiers": [
       {
@@ -4354,6 +4354,259 @@
         "description": " A freshly squeezed, fashionable, and fruity non-alcoholic beverage. Iced Wolfhook juice mixed with a pinch of other ingredients, forming a dreamy shade of violet. ",
         "effect": "Increases all party members' ATK by 114 for 300s.",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Wolfhook_Juice.png/revision/latest?cb=20201126235131"
+      }
+    ]
+  },
+  {
+    "name": "Desiccant Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Butterfly Wings",
+      "x1 Lotus Head",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A kind of potion that boosts Hydro RES and makes one able to withstand highly humid environments. It is said to act like a desiccant and be highly effective at keeping items dry. It can also be ingested for the same effect. ",
+        "effect": "Increases all party members' Hydro RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Desiccant_Potion.png/revision/latest?cb=20210109221148"
+      }
+    ]
+  },
+  {
+    "name": "Dustproof Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Butterfly Wings",
+      "x1 Cor Lapis",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A potion that boosts Geo RES and keeps one from getting bothered by sand and dust. It has a strange taste not unlike that of magnets. It keeps a traveler clean from all the sand and dust out there. ",
+        "effect": "Increases all party members' Geo RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Dustproof_Potion.png/revision/latest?cb=20210109221151"
+      }
+    ]
+  },
+  {
+    "name": "Flaming Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Frog (Material)",
+      "x1 Flaming Flower Stamen",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Pyro, boosting Pyro DMG. It is made of materials that gestate Pyro, which serves to draw in Pyro energy more effectively. It also makes the user more fired-up and passionate. ",
+        "effect": "Increases all party members' Pyro DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Item_Flaming_Essential_Oil.png/revision/latest?cb=20201202043258"
+      }
+    ]
+  },
+  {
+    "name": "Frosting Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Lizard Tail",
+      "x1 Mist Flower Corolla",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Cryo, boosting Cryo DMG. It has a chilling sensation when applied, and helps one to better channel Cryo energy. It also helps to keep you cool-headed and calm. ",
+        "effect": "Increases all party members' Cryo DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Frosting_Essential_Oil.png/revision/latest?cb=20210109221111"
+      }
+    ]
+  },
+  {
+    "name": "Frostshield Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Crystal Core",
+      "x1 Mist Flower Corolla",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A miraculous potion that boosts Cryo RES and makes one able to withstand extreme cold. Induces a chilling sensation when drank, but once this sensation spreads throughout the body, the feeling of being cold disappears. ",
+        "effect": "Increases all party members' Cryo RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Item_Frostshield_Potion.png/revision/latest?cb=20210109221144"
+      }
+    ]
+  },
+  {
+    "name": "Gushing Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Lizard Tail",
+      "x1 Dandelion Seed",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Anemo, boosting Anemo DMG. It has a fragrant smell. It is said that using it during your travels will make you walk as if you're riding on the wind. ",
+        "effect": "Increases all party members' Anemo DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Item_Gushing_Essential_Oil.png/revision/latest?cb=20210109221048"
+      }
+    ]
+  },
+  {
+    "name": "Heatshield Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Butterfly Wings",
+      "x1 Flaming Flower Stamen",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A miraculous potion that boosts Pyro RES and makes one able to withstand high heat. It works not by cooling the body, but by helping the body acclimate to high temperatures. ",
+        "effect": "Increases all party members' Pyro RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Heatshield_Potion.png/revision/latest?cb=20210109223447"
+      }
+    ]
+  },
+  {
+    "name": "Insulation Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Butterfly Wings",
+      "x1 Electro Crystal",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A potion that boosts Electro RES and keeps one from getting electro-shocked. Induces a tingling sensation when drank. It is said to work by filling the body with inversely charged electrical energy, which counteracts the effect of Electro damage. ",
+        "effect": "Increases all party members' Electro RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Insulation_Potion.png/revision/latest?cb=20210109223433"
+      }
+    ]
+  },
+  {
+    "name": "Shocking Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Frog (Material)",
+      "x1 Electro Crystal",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Electro, boosting Electro DMG. It induces a tingling sensation on the skin and renders the user better able to better channel Electro energy - but comes with a risk of causing an electrical fire that would definitely ruin your perfect hair. ",
+        "effect": "Increases all party members' Electro DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Shocking_Essential_Oil.png/revision/latest?cb=20210109223428"
+      }
+    ]
+  },
+  {
+    "name": "Streaming Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Frog (Material)",
+      "x1 Lotus Head",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Hydro, boosting Hydro DMG. It's a slippery medicine for external use, able to better channel Hydro energy. It has a subtle fragrance. ",
+        "effect": "Increases all party members' Hydro DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Item_Streaming_Essential_Oil.png/revision/latest?cb=20210109221058"
+      }
+    ]
+  },
+  {
+    "name": "Unmoving Essential Oil",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Frog (Material)",
+      "x1 Cor Lapis",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " Grants greater affinity for Geo, boosting Geo DMG. You can feel the fine Geo pellets within when applied. It's said to help with physical injuries. ",
+        "effect": "Increases all party members' Geo DMG by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Item_Unmoving_Essential_Oil.png/revision/latest?cb=20210109221053"
+      }
+    ]
+  },
+  {
+    "name": "Windbarrier Potion",
+    "rarity": 3,
+    "type": "",
+    "recipe": [
+      "x1 Crystal Core",
+      "x1 Dandelion Seed",
+      "x100 Mora"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": " A mysterious potion that boosts Anemo RES and makes one able to withstand strong winds. It works wonders for adventurers out in the world and is even said to keep the cold away. ",
+        "effect": "Increases all party members' Anemo RES by 25% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Windbarrier_Potion.png/revision/latest?cb=20210109223450"
+      }
+    ]
+  },
+  {
+    "name": "Dew-Dipped Shrimp",
+    "rarity": null,
+    "type": "DEF-Boosting Dishes",
+    "recipe": [
+      "x4 Shrimp Meat",
+      "x3 Flour",
+      "x3 Snapdragon"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": "Yelan's specialty. Amongst the ingredients here is the new tea, Dipped Dew, delivered from Qiaoying Village right to the Teahouse, which was then quickly fried together with freshly-caught river shrimp. The look is sightly, the scent of distant tea, and the taste both tender and springy... Wait a moment. Why's she coming over with that plate of chilli? ",
+        "effect": "Increases all party members' Shield Strength by 35% for 300s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/Item_Dew-Dipped_Shrimp.png/revision/latest?cb=20220531054313"
+      }
+    ]
+  },
+  {
+    "name": "Omurice Waltz",
+    "rarity": null,
+    "type": "Adventurer's Dishes",
+    "recipe": [
+      "x4 Bird Egg",
+      "x3 Rice",
+      "x2 Tomato",
+      "x1 Sugar"
+    ],
+    "tiers": [
+      {
+        "tier": "Normal",
+        "description": "Kuki Shinobu's specialty. The soft egg skin almost seems to dance upon a stage made from sauce, with fluffy rice wrapped under its swaying skirt. This would even be a match for the work of Uyuu Restaurant's head chef. Truly, Shinobu's chef license was not earned in vain. ",
+        "effect": "Decreases Stamina depleted by climbing and sprinting for all party members by 25% for 900s.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Item_Omurice_Waltz.png/revision/latest?cb=20220531122907"
       }
     ]
   }

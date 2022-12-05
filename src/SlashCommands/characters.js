@@ -68,8 +68,6 @@ module.exports = {
 		const character = characters.get(name);
 
 		if (character) {
-			const starRarity = '⭐'.repeat(character.rarity);
-
 			const characterInfoEmbed = new MessageEmbed()
 				.setTitle(`${character.name}`)
 				.setThumbnail(`${character.characterIcon}`)
@@ -78,19 +76,19 @@ module.exports = {
 				.addField('Weapon', `${paimonClient.utils.parseEmote(character.weapon)} ${character.weapon}`, true)
 				.addField('Region', `${paimonClient.utils.parseEmote(character.region)} ${character.region}`, true)
 				.addField('Affiliations', `${character.affiliations.join('\n') || 'None'}`, true)
-				.addField('Rarity', `${starRarity}`, true)
+				.addField('Rarity', `${'⭐'.repeat(character.rarity)}`, true)
 				.addField('Constellation', `${character.constellation}`, true)
 				.setColor('WHITE');
 			return application.followUp({ embeds: [characterInfoEmbed] });
 		} else if (weapon || vision || rarity || region) {
-			let characterList = characters;
+			const characterList = characters.filter(char => {
+				if (weapon && char.weapon !== weapon) return false;
+				if (vision && char.element !== vision) return false;
+				if (+rarity && char.rarity !== +rarity) return false;
+				if (region && char.region !== region) return false;
+				return true;
+			}).map(char => char.name).join('\n');
 
-			if (weapon) characterList = characterList.filter(char => char.weapon === weapon);
-			if (vision) characterList = characterList.filter(char => char.element === vision);
-			if (rarity) characterList = characterList.filter(char => char.rarity === parseInt(rarity));
-			if (region) characterList = characterList.filter(char => char.region === region);
-
-			const filteredCharacterList = characterList.map(char => char.name).join('\n');
 			const title = `${rarity ? `🌟 **Rarity**: \`${rarity}\`\n` : ''}` +
 						`${weapon ? `${paimonClient.utils.parseEmote(weapon)} **Weapon**: \`${weapon}\`\n` : ''}` +
 						`${vision ? `${paimonClient.utils.parseEmote(vision)} **Vision**: \`${vision}\`\n` : ''}` +
@@ -98,7 +96,7 @@ module.exports = {
 
 			const filteredCharacterInfoEmbed = new MessageEmbed()
 				.setTitle(`Filtered Character Search`)
-				.setDescription(`*Using the filters:*\n\n${title}\n\`\`\`${filteredCharacterList || 'No characters found.'}\`\`\``)
+				.setDescription(`*Using the filters:*\n\n${title}\n\`\`\`${characterList || 'No characters found.'}\`\`\``)
 				.setColor('WHITE');
 			return application.followUp({ embeds: [filteredCharacterInfoEmbed] });
 		} else {

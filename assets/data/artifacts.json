@@ -9,14 +9,14 @@
       {
         "id": "flower",
         "name": "Initiate's Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20210514215057",
-        "lore": "A small flower. Cute and adorable, just like the early spring of North Teyvat."
+        "lore": "A small flower. Cute and adorable, just like the early spring of North Teyvat.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20210514215057"
       },
       {
         "id": "plume",
         "name": "Initiate's Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Initiate%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20210514215058",
-        "lore": "An item attached to the grip of a traveler's first sword, bearing the modest dreams of its wielder."
+        "lore": "An item attached to the grip of a traveler's first sword, bearing the modest dreams of its wielder.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Initiate%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20210514215058"
       }
     ]
   },
@@ -41,32 +41,32 @@
       {
         "id": "flower",
         "name": "Adventurer's Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120051635",
-        "lore": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal."
+        "lore": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120051635"
       },
       {
         "id": "plume",
         "name": "Adventurer's Tail Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Adventurer%27s_Tail_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120051654",
-        "lore": "The feather of an exotic bird rarely seen on this continent."
+        "lore": "The feather of an exotic bird rarely seen on this continent.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Adventurer%27s_Tail_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120051654"
       },
       {
         "id": "sands",
         "name": "Adventurer's Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120051708",
-        "lore": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city."
+        "lore": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120051708"
       },
       {
         "id": "goblet",
         "name": "Adventurer's Golden Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120051727",
-        "lore": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find."
+        "lore": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120051727"
       },
       {
         "id": "circlet",
         "name": "Adventurer's Bandana",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Adventurer%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120051739",
-        "lore": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride."
+        "lore": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Adventurer%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120051739"
       }
     ]
   },
@@ -91,32 +91,32 @@
       {
         "id": "flower",
         "name": "Lucky Dog's Clover",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Lucky_Dog%27s_Clover.png/revision/latest/scale-to-width-down/60?cb=20201120052434",
-        "lore": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck."
+        "lore": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Lucky_Dog%27s_Clover.png/revision/latest/scale-to-width-down/60?cb=20201120052434"
       },
       {
         "id": "plume",
         "name": "Lucky Dog's Eagle Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Item_Lucky_Dog%27s_Eagle_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052445",
-        "lore": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck."
+        "lore": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Item_Lucky_Dog%27s_Eagle_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052445"
       },
       {
         "id": "sands",
         "name": "Lucky Dog's Hourglass",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120052500",
-        "lore": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world."
+        "lore": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120052500"
       },
       {
         "id": "goblet",
         "name": "Lucky Dog's Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120052515",
-        "lore": "An exquisite metallic vessel that was once used to knock out a thief."
+        "lore": "An exquisite metallic vessel that was once used to knock out a thief.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120052515"
       },
       {
         "id": "circlet",
         "name": "Lucky Dog's Silver Circlet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Lucky_Dog%27s_Silver_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120052544",
-        "lore": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident."
+        "lore": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Lucky_Dog%27s_Silver_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120052544"
       }
     ]
   },
@@ -141,32 +141,32 @@
       {
         "id": "flower",
         "name": "Traveling Doctor's Silver Lotus",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Traveling_Doctor%27s_Silver_Lotus.png/revision/latest/scale-to-width-down/60?cb=20201120052230",
-        "lore": "A precious medicinal ingredient that has lost all medicinal value after years in storage."
+        "lore": "A precious medicinal ingredient that has lost all medicinal value after years in storage.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Traveling_Doctor%27s_Silver_Lotus.png/revision/latest/scale-to-width-down/60?cb=20201120052230"
       },
       {
         "id": "plume",
         "name": "Traveling Doctor's Owl Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Traveling_Doctor%27s_Owl_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052246",
-        "lore": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night."
+        "lore": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Traveling_Doctor%27s_Owl_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052246"
       },
       {
         "id": "sands",
         "name": "Traveling Doctor's Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120052258",
-        "lore": "A precise instrument used for keeping time. For a doctor, every second counts."
+        "lore": "A precise instrument used for keeping time. For a doctor, every second counts.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120052258"
       },
       {
         "id": "goblet",
         "name": "Traveling Doctor's Medicine Pot",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png/revision/latest/scale-to-width-down/60?cb=20201120052322",
-        "lore": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine."
+        "lore": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png/revision/latest/scale-to-width-down/60?cb=20201120052322"
       },
       {
         "id": "circlet",
         "name": "Traveling Doctor's Handkerchief",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Traveling_Doctor%27s_Handkerchief.png/revision/latest/scale-to-width-down/60?cb=20201120052333",
-        "lore": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies."
+        "lore": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Traveling_Doctor%27s_Handkerchief.png/revision/latest/scale-to-width-down/60?cb=20201120052333"
       }
     ]
   },
@@ -190,32 +190,32 @@
       {
         "id": "flower",
         "name": "Heart of Comradeship",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Heart_of_Comradeship.png/revision/latest/scale-to-width-down/60?cb=20201120055604",
-        "lore": "A small cerulean flower with somebody's ribbon pinned to the stem."
+        "lore": "A small cerulean flower with somebody's ribbon pinned to the stem.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Heart_of_Comradeship.png/revision/latest/scale-to-width-down/60?cb=20201120055604"
       },
       {
         "id": "plume",
         "name": "Feather of Homecoming",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Feather_of_Homecoming.png/revision/latest/scale-to-width-down/60?cb=20201120055615",
-        "lore": "A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon."
+        "lore": "A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Feather_of_Homecoming.png/revision/latest/scale-to-width-down/60?cb=20201120055615"
       },
       {
         "id": "sands",
         "name": "Sundial of the Sojourner",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Sundial_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055626",
-        "lore": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky."
+        "lore": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Sundial_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055626"
       },
       {
         "id": "goblet",
         "name": "Goblet of the Sojourner",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055633",
-        "lore": "A plain porcelain goblet that was once brimming with joyous brews."
+        "lore": "A plain porcelain goblet that was once brimming with joyous brews.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055633"
       },
       {
         "id": "circlet",
         "name": "Crown of Parting",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Crown_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20201120055642",
-        "lore": "A reed coronet that emanates the spring breeze."
+        "lore": "A reed coronet that emanates the spring breeze.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Crown_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20201120055642"
       }
     ]
   },
@@ -239,32 +239,32 @@
       {
         "id": "flower",
         "name": "Tiny Miracle's Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Tiny_Miracle%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120060259",
-        "lore": "A flower that grew from a rock, breaking through the stone as it strove to reach the light."
+        "lore": "A flower that grew from a rock, breaking through the stone as it strove to reach the light.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Tiny_Miracle%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120060259"
       },
       {
         "id": "plume",
         "name": "Tiny Miracle's Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Tiny_Miracle%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120060340",
-        "lore": "A feather from a bird of prey that flies almost too fast for the human eye to detect."
+        "lore": "A feather from a bird of prey that flies almost too fast for the human eye to detect.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Tiny_Miracle%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120060340"
       },
       {
         "id": "sands",
         "name": "Tiny Miracle's Hourglass",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120060350",
-        "lore": "Just an ordinary everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water."
+        "lore": "Just an ordinary everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120060350"
       },
       {
         "id": "goblet",
         "name": "Tiny Miracle's Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120060419",
-        "lore": "A cup commonly used for fortunetelling. It can also hold water, of course."
+        "lore": "A cup commonly used for fortunetelling. It can also hold water, of course.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120060419"
       },
       {
         "id": "circlet",
         "name": "Tiny Miracle's Earrings",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Tiny_Miracle%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120060428",
-        "lore": "A cheap accessory that is actually made from ancient meteoric ore."
+        "lore": "A cheap accessory that is actually made from ancient meteoric ore.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Tiny_Miracle%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120060428"
       }
     ]
   },
@@ -288,32 +288,32 @@
       {
         "id": "flower",
         "name": "Berserker's Rose",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png/revision/latest/scale-to-width-down/60?cb=20220202000733",
-        "lore": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker."
+        "lore": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png/revision/latest/scale-to-width-down/60?cb=20220202000733"
       },
       {
         "id": "plume",
         "name": "Berserker's Indigo Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Berserker%27s_Indigo_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120053942",
-        "lore": "An indigo feather from a legendary raven, part of which has been dyed crimson red."
+        "lore": "An indigo feather from a legendary raven, part of which has been dyed crimson red.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Berserker%27s_Indigo_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120053942"
       },
       {
         "id": "sands",
         "name": "Berserker's Timepiece",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png/revision/latest/scale-to-width-down/60?cb=20201120053952",
-        "lore": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world."
+        "lore": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png/revision/latest/scale-to-width-down/60?cb=20201120053952"
       },
       {
         "id": "goblet",
         "name": "Berserker's Bone Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054003",
-        "lore": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter."
+        "lore": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054003"
       },
       {
         "id": "circlet",
         "name": "Berserker's Battle Mask",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png/revision/latest/scale-to-width-down/60?cb=20220202000855",
-        "lore": "A hideous iron mask that has been left half-shattered from vicious battles."
+        "lore": "A hideous iron mask that has been left half-shattered from vicious battles.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png/revision/latest/scale-to-width-down/60?cb=20220202000855"
       }
     ]
   },
@@ -337,32 +337,32 @@
       {
         "id": "flower",
         "name": "Instructor's Brooch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Item_Instructor%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120053706",
-        "lore": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day."
+        "lore": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Item_Instructor%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120053706"
       },
       {
         "id": "plume",
         "name": "Instructor's Feather Accessory",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Item_Instructor%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120053734",
-        "lore": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times."
+        "lore": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Item_Instructor%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120053734"
       },
       {
         "id": "sands",
         "name": "Instructor's Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Instructor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120053803",
-        "lore": "A stopwatch used not for general timekeeping but to measure the duration of a training session."
+        "lore": "A stopwatch used not for general timekeeping but to measure the duration of a training session.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Instructor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120053803"
       },
       {
         "id": "goblet",
         "name": "Instructor's Tea Cup",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120053813",
-        "lore": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority."
+        "lore": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120053813"
       },
       {
         "id": "circlet",
         "name": "Instructor's Cap",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Instructor%27s_Cap.png/revision/latest/scale-to-width-down/60?cb=20201120053824",
-        "lore": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion."
+        "lore": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Instructor%27s_Cap.png/revision/latest/scale-to-width-down/60?cb=20201120053824"
       }
     ]
   },
@@ -386,32 +386,32 @@
       {
         "id": "flower",
         "name": "Exile's Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Exile%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120054137",
-        "lore": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something."
+        "lore": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Exile%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120054137"
       },
       {
         "id": "plume",
         "name": "Exile's Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Exile%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120054148",
-        "lore": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile."
+        "lore": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Exile%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120054148"
       },
       {
         "id": "sands",
         "name": "Exile's Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120054202",
-        "lore": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end."
+        "lore": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120054202"
       },
       {
         "id": "goblet",
         "name": "Exile's Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054213",
-        "lore": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off."
+        "lore": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054213"
       },
       {
         "id": "circlet",
         "name": "Exile's Circlet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Exile%27s_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120054256",
-        "lore": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was."
+        "lore": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Exile%27s_Circlet.png/revision/latest/scale-to-width-down/60?cb=20201120054256"
       }
     ]
   },
@@ -435,32 +435,32 @@
       {
         "id": "flower",
         "name": "Guardian's Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Guardian%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055924",
-        "lore": "An iris that was cherished by the Guardian. Unfortunately, the chance never came for it to be given to whom the Guardian loved."
+        "lore": "An iris that was cherished by the Guardian. Unfortunately, the chance never came for it to be given to whom the Guardian loved.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Guardian%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055924"
       },
       {
         "id": "plume",
         "name": "Guardian's Sigil",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Guardian%27s_Sigil.png/revision/latest/scale-to-width-down/60?cb=20201120055937",
-        "lore": "A feather-shaped brooch that symbolizes someone's yearning to defend others like a shield."
+        "lore": "A feather-shaped brooch that symbolizes someone's yearning to defend others like a shield.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Guardian%27s_Sigil.png/revision/latest/scale-to-width-down/60?cb=20201120055937"
       },
       {
         "id": "sands",
         "name": "Guardian's Clock",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Guardian%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120060015",
-        "lore": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time."
+        "lore": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Guardian%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120060015"
       },
       {
         "id": "goblet",
         "name": "Guardian's Vessel",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120060031",
-        "lore": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch."
+        "lore": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120060031"
       },
       {
         "id": "circlet",
         "name": "Guardian's Band",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Guardian%27s_Band.png/revision/latest/scale-to-width-down/60?cb=20201120060040",
-        "lore": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency."
+        "lore": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Guardian%27s_Band.png/revision/latest/scale-to-width-down/60?cb=20201120060040"
       }
     ]
   },
@@ -484,32 +484,32 @@
       {
         "id": "flower",
         "name": "Medal of the Brave",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Medal_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062546",
-        "lore": "A simple flower brooch that is a keepsake from someone's first adventure."
+        "lore": "A simple flower brooch that is a keepsake from someone's first adventure.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Medal_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062546"
       },
       {
         "id": "plume",
         "name": "Prospect of the Brave",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Prospect_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062559",
-        "lore": "A shimmering feather from a songbird that brings a nudge of courage to its wearer."
+        "lore": "A shimmering feather from a songbird that brings a nudge of courage to its wearer.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Prospect_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062559"
       },
       {
         "id": "sands",
         "name": "Fortitude of the Brave",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Fortitude_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062607",
-        "lore": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself."
+        "lore": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Fortitude_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062607"
       },
       {
         "id": "goblet",
         "name": "Outset of the Brave",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Outset_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062619",
-        "lore": "A crude wooden vessel filled only with memories."
+        "lore": "A crude wooden vessel filled only with memories.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Outset_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062619"
       },
       {
         "id": "circlet",
         "name": "Crown of the Brave",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Crown_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062627",
-        "lore": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown."
+        "lore": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Crown_of_the_Brave.png/revision/latest/scale-to-width-down/60?cb=20201120062627"
       }
     ]
   },
@@ -533,32 +533,32 @@
       {
         "id": "flower",
         "name": "Martial Artist's Red Flower",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Martial_Artist%27s_Red_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055759",
-        "lore": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain."
+        "lore": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Martial_Artist%27s_Red_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055759"
       },
       {
         "id": "plume",
         "name": "Martial Artist's Feather Accessory",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Martial_Artist%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120055810",
-        "lore": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans."
+        "lore": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Martial_Artist%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120055810"
       },
       {
         "id": "sands",
         "name": "Martial Artist's Water Hourglass",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120055819",
-        "lore": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass."
+        "lore": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120055819"
       },
       {
         "id": "goblet",
         "name": "Martial Artist's Wine Cup",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120055827",
-        "lore": "A rather exquisite wine cup used in pre-combat rituals."
+        "lore": "A rather exquisite wine cup used in pre-combat rituals.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120055827"
       },
       {
         "id": "circlet",
         "name": "Martial Artist's Bandana",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Martial_Artist%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120055837",
-        "lore": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them."
+        "lore": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Martial_Artist%27s_Bandana.png/revision/latest/scale-to-width-down/60?cb=20201120055837"
       }
     ]
   },
@@ -582,32 +582,32 @@
       {
         "id": "flower",
         "name": "Gambler's Brooch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Gambler%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120062914",
-        "lore": "A big, luxurious flower that can hide a loaded dice."
+        "lore": "A big, luxurious flower that can hide a loaded dice.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Gambler%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120062914"
       },
       {
         "id": "plume",
         "name": "Gambler's Feather Accessory",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Gambler%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120062922",
-        "lore": "The tail feather of a large bird. Perfect for discretely concealing a trump card."
+        "lore": "The tail feather of a large bird. Perfect for discretely concealing a trump card.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Gambler%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120062922"
       },
       {
         "id": "sands",
         "name": "Gambler's Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120062934",
-        "lore": "A shattered pocket watch that once took a lethal hit for its owner."
+        "lore": "A shattered pocket watch that once took a lethal hit for its owner.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120062934"
       },
       {
         "id": "goblet",
         "name": "Gambler's Dice Cup",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120062942",
-        "lore": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it."
+        "lore": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120062942"
       },
       {
         "id": "circlet",
         "name": "Gambler's Earrings",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Gambler%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120062950",
-        "lore": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks."
+        "lore": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Gambler%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120062950"
       }
     ]
   },
@@ -631,32 +631,32 @@
       {
         "id": "flower",
         "name": "Scholar's Bookmark",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Scholar%27s_Bookmark.png/revision/latest/scale-to-width-down/60?cb=20201120063103",
-        "lore": "A dried flower used as a bookmark, it had absorbed the scent from the pages."
+        "lore": "A dried flower used as a bookmark, it had absorbed the scent from the pages.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Scholar%27s_Bookmark.png/revision/latest/scale-to-width-down/60?cb=20201120063103"
       },
       {
         "id": "plume",
         "name": "Scholar's Quill Pen",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Scholar%27s_Quill_Pen.png/revision/latest/scale-to-width-down/60?cb=20201120063115",
-        "lore": "A bird's feather that serves as a quill pen, the tip has long been stained black."
+        "lore": "A bird's feather that serves as a quill pen, the tip has long been stained black.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Scholar%27s_Quill_Pen.png/revision/latest/scale-to-width-down/60?cb=20201120063115"
       },
       {
         "id": "sands",
         "name": "Scholar's Clock",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120063123",
-        "lore": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day."
+        "lore": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120063123"
       },
       {
         "id": "goblet",
         "name": "Scholar's Ink Cup",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120063134",
-        "lore": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes."
+        "lore": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120063134"
       },
       {
         "id": "circlet",
         "name": "Scholar's Lens",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Scholar%27s_Lens.png/revision/latest/scale-to-width-down/60?cb=20201120063144",
-        "lore": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying."
+        "lore": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Scholar%27s_Lens.png/revision/latest/scale-to-width-down/60?cb=20201120063144"
       }
     ]
   },
@@ -676,7 +676,8 @@
       {
         "id": "circlet",
         "name": "Tiara of Thunder",
-        "lore": ""
+        "lore": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it harkened the call of thunder year in and year out, it possesses remarkable resistance.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Tiara_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120054405"
       }
     ]
   },
@@ -696,7 +697,8 @@
       {
         "id": "circlet",
         "name": "Tiara of Torrents",
-        "lore": ""
+        "lore": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Tiara_of_Torrents.png/revision/latest/scale-to-width-down/60?cb=20201120054713"
       }
     ]
   },
@@ -716,7 +718,8 @@
       {
         "id": "circlet",
         "name": "Tiara of Flame",
-        "lore": ""
+        "lore": "A tiara worn by those tasked with offering sacrifices in ancient times. After being subjected to the dancing sacrificial flames year in and year out, it possesses remarkable resistance.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Tiara_of_Flame.png/revision/latest/scale-to-width-down/60?cb=20201120054540"
       }
     ]
   },
@@ -736,7 +739,8 @@
       {
         "id": "circlet",
         "name": "Tiara of Frost",
-        "lore": ""
+        "lore": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it once weathered years of icy cold, it possesses remarkable resistance.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiara_of_Frost.png/revision/latest/scale-to-width-down/60?cb=20201120054507"
       }
     ]
   },
@@ -760,32 +764,32 @@
       {
         "id": "flower",
         "name": "Gladiator's Nostalgia",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201120063313",
-        "lore": "No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness."
+        "lore": "No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201120063313"
       },
       {
         "id": "plume",
         "name": "Gladiator's Destiny",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Gladiator%27s_Destiny.png/revision/latest/scale-to-width-down/60?cb=20201120063322",
-        "lore": "A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom."
+        "lore": "A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Gladiator%27s_Destiny.png/revision/latest/scale-to-width-down/60?cb=20201120063322"
       },
       {
         "id": "sands",
         "name": "Gladiator's Longing",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png/revision/latest/scale-to-width-down/60?cb=20201120063332",
-        "lore": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom."
+        "lore": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png/revision/latest/scale-to-width-down/60?cb=20201120063332"
       },
       {
         "id": "goblet",
         "name": "Gladiator's Intoxication",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png/revision/latest/scale-to-width-down/60?cb=20201120063342",
-        "lore": "The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall."
+        "lore": "The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png/revision/latest/scale-to-width-down/60?cb=20201120063342"
       },
       {
         "id": "circlet",
         "name": "Gladiator's Triumphus",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Gladiator%27s_Triumphus.png/revision/latest/scale-to-width-down/60?cb=20201120063353",
-        "lore": "The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience."
+        "lore": "The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Gladiator%27s_Triumphus.png/revision/latest/scale-to-width-down/60?cb=20201120063353"
       }
     ]
   },
@@ -809,32 +813,32 @@
       {
         "id": "flower",
         "name": "Troupe's Dawnlight",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png/revision/latest/scale-to-width-down/60?cb=20201120063930",
-        "lore": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing."
+        "lore": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png/revision/latest/scale-to-width-down/60?cb=20201120063930"
       },
       {
         "id": "plume",
         "name": "Bard's Arrow Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120063940",
-        "lore": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it."
+        "lore": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120063940"
       },
       {
         "id": "sands",
         "name": "Concert's Final Hour",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063951",
-        "lore": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended."
+        "lore": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063951"
       },
       {
         "id": "goblet",
         "name": "Wanderer's String-Kettle",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png/revision/latest/scale-to-width-down/60?cb=20201120064002",
-        "lore": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which plays a wondrous tune as the water flows out."
+        "lore": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which plays a wondrous tune as the water flows out.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png/revision/latest/scale-to-width-down/60?cb=20201120064002"
       },
       {
         "id": "circlet",
         "name": "Conductor's Top Hat",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120064011",
-        "lore": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within."
+        "lore": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120064011"
       }
     ]
   },
@@ -858,32 +862,32 @@
       {
         "id": "flower",
         "name": "Royal Flora",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest/scale-to-width-down/60?cb=20201120063610",
-        "lore": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside."
+        "lore": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest/scale-to-width-down/60?cb=20201120063610"
       },
       {
         "id": "plume",
         "name": "Royal Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Royal_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063619",
-        "lore": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed."
+        "lore": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Royal_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063619"
       },
       {
         "id": "sands",
         "name": "Royal Pocket Watch",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120063628",
-        "lore": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history."
+        "lore": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120063628"
       },
       {
         "id": "goblet",
         "name": "Royal Silver Urn",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png/revision/latest/scale-to-width-down/60?cb=20201120063636",
-        "lore": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior."
+        "lore": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png/revision/latest/scale-to-width-down/60?cb=20201120063636"
       },
       {
         "id": "circlet",
         "name": "Royal Masque",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Royal_Masque.png/revision/latest/scale-to-width-down/60?cb=20201120063649",
-        "lore": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past."
+        "lore": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Royal_Masque.png/revision/latest/scale-to-width-down/60?cb=20201120063649"
       }
     ]
   },
@@ -907,32 +911,32 @@
       {
         "id": "flower",
         "name": "Bloodstained Flower of Iron",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png/revision/latest/scale-to-width-down/60?cb=20201120063726",
-        "lore": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master."
+        "lore": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png/revision/latest/scale-to-width-down/60?cb=20201120063726"
       },
       {
         "id": "plume",
         "name": "Bloodstained Black Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Bloodstained_Black_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063735",
-        "lore": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black."
+        "lore": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Bloodstained_Black_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120063735"
       },
       {
         "id": "sands",
         "name": "Bloodstained Final Hour",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Bloodstained_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063745",
-        "lore": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless."
+        "lore": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Bloodstained_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063745"
       },
       {
         "id": "goblet",
         "name": "Bloodstained Chevalier's Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120063755",
-        "lore": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood."
+        "lore": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120063755"
       },
       {
         "id": "circlet",
         "name": "Bloodstained Iron Mask",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Bloodstained_Iron_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120063804",
-        "lore": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask."
+        "lore": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Bloodstained_Iron_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120063804"
       }
     ]
   },
@@ -956,32 +960,32 @@
       {
         "id": "flower",
         "name": "Maiden's Distant Love",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png/revision/latest/scale-to-width-down/60?cb=20201120063428",
-        "lore": "A fragrant flower that will bloom for all eternity and never wither."
+        "lore": "A fragrant flower that will bloom for all eternity and never wither.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png/revision/latest/scale-to-width-down/60?cb=20201120063428"
       },
       {
         "id": "plume",
-        "name": "Maiden's Heart-stricken Infatuation",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Item_Maiden%27s_Heart-stricken_Infatuation.png/revision/latest/scale-to-width-down/60?cb=20201120063437",
-        "lore": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind."
+        "name": "Maiden's Heart-Stricken Infatuation",
+        "lore": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Item_Maiden%27s_Heart-Stricken_Infatuation.png/revision/latest/scale-to-width-down/60?cb=20201120063437"
       },
       {
         "id": "sands",
         "name": "Maiden's Passing Youth",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png/revision/latest/scale-to-width-down/60?cb=20201120063446",
-        "lore": "The hands of time will never come to an end, but the same cannot be said for those cherished years of the young maiden's life when she was doted upon."
+        "lore": "The hands of time will never come to an end, but the same cannot be said for those cherished years of the young maiden's life when she was doted upon.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png/revision/latest/scale-to-width-down/60?cb=20201120063446"
       },
       {
         "id": "goblet",
         "name": "Maiden's Fleeting Leisure",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png/revision/latest/scale-to-width-down/60?cb=20201120063454",
-        "lore": "A vessel made with sweet black tea in mind rather than bitter liquor."
+        "lore": "A vessel made with sweet black tea in mind rather than bitter liquor.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png/revision/latest/scale-to-width-down/60?cb=20201120063454"
       },
       {
         "id": "circlet",
         "name": "Maiden's Fading Beauty",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png/revision/latest/scale-to-width-down/60?cb=20201120063505",
-        "lore": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight."
+        "lore": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png/revision/latest/scale-to-width-down/60?cb=20201120063505"
       }
     ]
   },
@@ -1005,32 +1009,32 @@
       {
         "id": "flower",
         "name": "In Remembrance of Viridescent Fields",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest/scale-to-width-down/60?cb=20201120064508",
-        "lore": "A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest."
+        "lore": "A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest/scale-to-width-down/60?cb=20201120064508"
       },
       {
         "id": "plume",
         "name": "Viridescent Arrow Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120064516",
-        "lore": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless."
+        "lore": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120064516"
       },
       {
         "id": "sands",
         "name": "Viridescent Venerer's Determination",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png/revision/latest/scale-to-width-down/60?cb=20201120064525",
-        "lore": "A wondrous instrument that a hunter once wore. It forever points towards their prey."
+        "lore": "A wondrous instrument that a hunter once wore. It forever points towards their prey.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png/revision/latest/scale-to-width-down/60?cb=20201120064525"
       },
       {
         "id": "goblet",
         "name": "Viridescent Venerer's Vessel",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120064534",
-        "lore": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect."
+        "lore": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120064534"
       },
       {
         "id": "circlet",
         "name": "Viridescent Venerer's Diadem",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120064550",
-        "lore": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild."
+        "lore": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120064550"
       }
     ]
   },
@@ -1054,32 +1058,32 @@
       {
         "id": "flower",
         "name": "Flower of Creviced Cliff",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Flower_of_Creviced_Cliff.png/revision/latest/scale-to-width-down/60?cb=20201120064841",
-        "lore": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive."
+        "lore": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Flower_of_Creviced_Cliff.png/revision/latest/scale-to-width-down/60?cb=20201120064841"
       },
       {
         "id": "plume",
         "name": "Feather of Jagged Peaks",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Feather_of_Jagged_Peaks.png/revision/latest/scale-to-width-down/60?cb=20201120064919",
-        "lore": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew."
+        "lore": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Feather_of_Jagged_Peaks.png/revision/latest/scale-to-width-down/60?cb=20201120064919"
       },
       {
         "id": "sands",
         "name": "Sundial of Enduring Jade",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png/revision/latest/scale-to-width-down/60?cb=20201120064941",
-        "lore": "A sundial carved from a single, large piece of jade. It's lined with a pattern that silently records the passage of time."
+        "lore": "A sundial carved from a single, large piece of jade. It's lined with a pattern that silently records the passage of time.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png/revision/latest/scale-to-width-down/60?cb=20201120064941"
       },
       {
         "id": "goblet",
         "name": "Goblet of Chiseled Crag",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png/revision/latest/scale-to-width-down/60?cb=20201120064951",
-        "lore": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone."
+        "lore": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png/revision/latest/scale-to-width-down/60?cb=20201120064951"
       },
       {
         "id": "circlet",
         "name": "Mask of Solitude Basalt",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Mask_of_Solitude_Basalt.png/revision/latest/scale-to-width-down/60?cb=20201120065000",
-        "lore": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold."
+        "lore": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Mask_of_Solitude_Basalt.png/revision/latest/scale-to-width-down/60?cb=20201120065000"
       }
     ]
   },
@@ -1103,32 +1107,32 @@
       {
         "id": "flower",
         "name": "Summer Night's Bloom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png/revision/latest/scale-to-width-down/60?cb=20201120064133",
-        "lore": "A man-made flower in eternal bloom. Who knows if there truly is life in there?"
+        "lore": "A man-made flower in eternal bloom. Who knows if there truly is life in there?",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png/revision/latest/scale-to-width-down/60?cb=20201120064133"
       },
       {
         "id": "plume",
         "name": "Summer Night's Finale",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png/revision/latest/scale-to-width-down/60?cb=20201120064151",
-        "lore": "A well-crafted wooden dart. It will only stop once it has reached its destination."
+        "lore": "A well-crafted wooden dart. It will only stop once it has reached its destination.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png/revision/latest/scale-to-width-down/60?cb=20201120064151"
       },
       {
         "id": "sands",
         "name": "Summer Night's Moment",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20201120064255",
-        "lore": "A pocketwatch that has stopped at a certain point in time."
+        "lore": "A pocketwatch that has stopped at a certain point in time.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20201120064255"
       },
       {
         "id": "goblet",
         "name": "Summer Night's Waterballoon",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png/revision/latest/scale-to-width-down/60?cb=20201120064320",
-        "lore": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one."
+        "lore": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png/revision/latest/scale-to-width-down/60?cb=20201120064320"
       },
       {
         "id": "circlet",
         "name": "Summer Night's Mask",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120064405",
-        "lore": "A popular mask cast in the image of a deity, as described in the legends."
+        "lore": "A popular mask cast in the image of a deity, as described in the legends.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120064405"
       }
     ]
   },
@@ -1152,32 +1156,32 @@
       {
         "id": "flower",
         "name": "Thundersoother's Heart",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png/revision/latest/scale-to-width-down/60?cb=20201120065517",
-        "lore": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms."
+        "lore": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png/revision/latest/scale-to-width-down/60?cb=20201120065517"
       },
       {
         "id": "plume",
         "name": "Thundersoother's Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065527",
-        "lore": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning."
+        "lore": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065527"
       },
       {
         "id": "sands",
         "name": "Hour of Soothing Thunder",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Hour_of_Soothing_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120065535",
-        "lore": "A timepiece kept by hero who conquered thunder and lightning. The tiny shard of Electro crystal within flow back and forth with the passing of time."
+        "lore": "A timepiece kept by hero who conquered thunder and lightning. The tiny shard of Electro crystal within flow back and forth with the passing of time.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Hour_of_Soothing_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120065535"
       },
       {
         "id": "goblet",
         "name": "Thundersoother's Goblet",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120065626",
-        "lore": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning."
+        "lore": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120065626"
       },
       {
         "id": "circlet",
         "name": "Thundersoother's Diadem",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120065551",
-        "lore": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land."
+        "lore": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120065551"
       }
     ]
   },
@@ -1201,32 +1205,32 @@
       {
         "id": "flower",
         "name": "Thunderbird's Mercy",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest/scale-to-width-down/60?cb=20201120064634",
-        "lore": "A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster."
+        "lore": "A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest/scale-to-width-down/60?cb=20201120064634"
       },
       {
         "id": "plume",
         "name": "Survivor of Catastrophe",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png/revision/latest/scale-to-width-down/60?cb=20201120064643",
-        "lore": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution."
+        "lore": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png/revision/latest/scale-to-width-down/60?cb=20201120064643"
       },
       {
         "id": "sands",
         "name": "Hourglass of Thunder",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120064652",
-        "lore": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more."
+        "lore": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120064652"
       },
       {
         "id": "goblet",
         "name": "Omen of Thunderstorm",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png/revision/latest/scale-to-width-down/60?cb=20201120064701",
-        "lore": "A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within."
+        "lore": "A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png/revision/latest/scale-to-width-down/60?cb=20201120064701"
       },
       {
         "id": "circlet",
         "name": "Thunder Summoner's Crown",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png/revision/latest/scale-to-width-down/60?cb=20201120064711",
-        "lore": "A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion."
+        "lore": "A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png/revision/latest/scale-to-width-down/60?cb=20201120064711"
       }
     ]
   },
@@ -1250,32 +1254,32 @@
       {
         "id": "flower",
         "name": "Lavawalker's Resolution",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Lavawalker%27s_Resolution.png/revision/latest/scale-to-width-down/60?cb=20201120065116",
-        "lore": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire."
+        "lore": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Lavawalker%27s_Resolution.png/revision/latest/scale-to-width-down/60?cb=20201120065116"
       },
       {
         "id": "plume",
         "name": "Lavawalker's Salvation",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Lavawalker%27s_Salvation.png/revision/latest/scale-to-width-down/60?cb=20201120065131",
-        "lore": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames."
+        "lore": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Lavawalker%27s_Salvation.png/revision/latest/scale-to-width-down/60?cb=20201120065131"
       },
       {
         "id": "sands",
         "name": "Lavawalker's Torment",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png/revision/latest/scale-to-width-down/60?cb=20201120065142",
-        "lore": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it."
+        "lore": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png/revision/latest/scale-to-width-down/60?cb=20201120065142"
       },
       {
         "id": "goblet",
         "name": "Lavawalker's Epiphany",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png/revision/latest/scale-to-width-down/60?cb=20201120065152",
-        "lore": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty."
+        "lore": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png/revision/latest/scale-to-width-down/60?cb=20201120065152"
       },
       {
         "id": "circlet",
         "name": "Lavawalker's Wisdom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Lavawalker%27s_Wisdom.png/revision/latest/scale-to-width-down/60?cb=20201120065219",
-        "lore": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames."
+        "lore": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Lavawalker%27s_Wisdom.png/revision/latest/scale-to-width-down/60?cb=20201120065219"
       }
     ]
   },
@@ -1299,32 +1303,32 @@
       {
         "id": "flower",
         "name": "Witch's Flower of Blaze",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest/scale-to-width-down/60?cb=20201120065356",
-        "lore": "A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it."
+        "lore": "A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest/scale-to-width-down/60?cb=20201120065356"
       },
       {
         "id": "plume",
         "name": "Witch's Ever-Burning Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065406",
-        "lore": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot."
+        "lore": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065406"
       },
       {
         "id": "sands",
         "name": "Witch's End Time",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png/revision/latest/scale-to-width-down/60?cb=20201120065447",
-        "lore": "A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within."
+        "lore": "A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png/revision/latest/scale-to-width-down/60?cb=20201120065447"
       },
       {
         "id": "goblet",
         "name": "Witch's Heart Flames",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png/revision/latest/scale-to-width-down/60?cb=20201120065420",
-        "lore": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master."
+        "lore": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png/revision/latest/scale-to-width-down/60?cb=20201120065420"
       },
       {
         "id": "circlet",
         "name": "Witch's Scorching Hat",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120065429",
-        "lore": "A hat once worn by the witch who dreamt of burning away all the demons in the world. The large brim blocked her sight."
+        "lore": "A hat once worn by the witch who dreamt of burning away all the demons in the world. The large brim blocked her sight.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120065429"
       }
     ]
   },
@@ -1348,32 +1352,32 @@
       {
         "id": "flower",
         "name": "Snowswept Memory",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png/revision/latest/scale-to-width-down/60?cb=20201225230245",
-        "lore": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it."
+        "lore": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png/revision/latest/scale-to-width-down/60?cb=20201225230245"
       },
       {
         "id": "plume",
         "name": "Icebreaker's Resolve",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Icebreaker%27s_Resolve.png/revision/latest/scale-to-width-down/60?cb=20201225230054",
-        "lore": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks."
+        "lore": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Icebreaker%27s_Resolve.png/revision/latest/scale-to-width-down/60?cb=20201225230054"
       },
       {
         "id": "sands",
         "name": "Frozen Homeland's Demise",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Frozen_Homeland%27s_Demise.png/revision/latest/scale-to-width-down/60?cb=20201225230234",
-        "lore": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt."
+        "lore": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Frozen_Homeland%27s_Demise.png/revision/latest/scale-to-width-down/60?cb=20201225230234"
       },
       {
         "id": "goblet",
         "name": "Frost-Weaved Dignity",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Frost-Weaved_Dignity.png/revision/latest/scale-to-width-down/60?cb=20201225230040",
-        "lore": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it."
+        "lore": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Frost-Weaved_Dignity.png/revision/latest/scale-to-width-down/60?cb=20201225230040"
       },
       {
         "id": "circlet",
         "name": "Broken Rime's Echo",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Broken_Rime%27s_Echo.png/revision/latest/scale-to-width-down/60?cb=20201225230157",
-        "lore": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter."
+        "lore": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Broken_Rime%27s_Echo.png/revision/latest/scale-to-width-down/60?cb=20201225230157"
       }
     ]
   },
@@ -1397,32 +1401,32 @@
       {
         "id": "flower",
         "name": "Gilded Corsage",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest/scale-to-width-down/60?cb=20201225230417",
-        "lore": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago."
+        "lore": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest/scale-to-width-down/60?cb=20201225230417"
       },
       {
         "id": "plume",
         "name": "Gust of Nostalgia",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Gust_of_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201225230410",
-        "lore": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color."
+        "lore": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Gust_of_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201225230410"
       },
       {
         "id": "sands",
         "name": "Copper Compass",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png/revision/latest/scale-to-width-down/60?cb=20201225230459",
-        "lore": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor."
+        "lore": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png/revision/latest/scale-to-width-down/60?cb=20201225230459"
       },
       {
         "id": "goblet",
         "name": "Goblet of Thundering Deep",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png/revision/latest/scale-to-width-down/60?cb=20220202001855",
-        "lore": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves."
+        "lore": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png/revision/latest/scale-to-width-down/60?cb=20220202001855"
       },
       {
         "id": "circlet",
         "name": "Wine-Stained Tricorne",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Wine-Stained_Tricorne.png/revision/latest/scale-to-width-down/60?cb=20201225230357",
-        "lore": "An ancient, wine-stained sea hat that still reeks of alcohol even now."
+        "lore": "An ancient, wine-stained sea hat that still reeks of alcohol even now.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Wine-Stained_Tricorne.png/revision/latest/scale-to-width-down/60?cb=20201225230357"
       }
     ]
   },
@@ -1446,32 +1450,32 @@
       {
         "id": "flower",
         "name": "Flower of Accolades",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png/revision/latest/scale-to-width-down/60?cb=20210416205617",
-        "lore": "A flower made from gold leaf. It represents the glories and honors attained by its wearer"
+        "lore": "A flower made from gold leaf. It represents the glories and honors attained by its wearer",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png/revision/latest/scale-to-width-down/60?cb=20210416205617"
       },
       {
         "id": "plume",
         "name": "Ceremonial War-Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Ceremonial_War-Plume.png/revision/latest/scale-to-width-down/60?cb=20210428200249",
-        "lore": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world."
+        "lore": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Ceremonial_War-Plume.png/revision/latest/scale-to-width-down/60?cb=20210428200249"
       },
       {
         "id": "sands",
         "name": "Orichalceous Time-Dial",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Orichalceous_Time-Dial.png/revision/latest/scale-to-width-down/60?cb=20210428200248",
-        "lore": "A simple device for telling time. This was once standard-issue for the Millelith during times of war."
+        "lore": "A simple device for telling time. This was once standard-issue for the Millelith during times of war.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Orichalceous_Time-Dial.png/revision/latest/scale-to-width-down/60?cb=20210428200248"
       },
       {
         "id": "goblet",
         "name": "Noble's Pledging Vessel",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Noble%27s_Pledging_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210428200251",
-        "lore": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine."
+        "lore": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Noble%27s_Pledging_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210428200251"
       },
       {
         "id": "circlet",
         "name": "General's Ancient Helm",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Item_General%27s_Ancient_Helm.png/revision/latest/scale-to-width-down/60?cb=20210428200250",
-        "lore": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more."
+        "lore": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Item_General%27s_Ancient_Helm.png/revision/latest/scale-to-width-down/60?cb=20210428200250"
       }
     ]
   },
@@ -1495,32 +1499,32 @@
       {
         "id": "flower",
         "name": "Stainless Bloom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Stainless_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210416205644",
-        "lore": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade."
+        "lore": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Stainless_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210416205644"
       },
       {
         "id": "plume",
         "name": "Wise Doctor's Pinion",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Wise_Doctor%27s_Pinion.png/revision/latest/scale-to-width-down/60?cb=20210428200635",
-        "lore": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature."
+        "lore": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Wise_Doctor%27s_Pinion.png/revision/latest/scale-to-width-down/60?cb=20210428200635"
       },
       {
         "id": "sands",
         "name": "Moment of Cessation",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Moment_of_Cessation.png/revision/latest/scale-to-width-down/60?cb=20210428200637",
-        "lore": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time."
+        "lore": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Moment_of_Cessation.png/revision/latest/scale-to-width-down/60?cb=20210428200637"
       },
       {
         "id": "goblet",
         "name": "Surpassing Cup",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Surpassing_Cup.png/revision/latest/scale-to-width-down/60?cb=20210428200638",
-        "lore": "An intricately-made cup. Its appearance betrays nothing of its age to an observer."
+        "lore": "An intricately-made cup. Its appearance betrays nothing of its age to an observer.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Surpassing_Cup.png/revision/latest/scale-to-width-down/60?cb=20210428200638"
       },
       {
         "id": "circlet",
         "name": "Mocking Mask",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Mocking_Mask.png/revision/latest/scale-to-width-down/60?cb=20210428200636",
-        "lore": "A mask that covers the face, hiding one's expression from others."
+        "lore": "A mask that covers the face, hiding one's expression from others.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Mocking_Mask.png/revision/latest/scale-to-width-down/60?cb=20210428200636"
       }
     ]
   },
@@ -1544,32 +1548,32 @@
       {
         "id": "flower",
         "name": "Entangling Bloom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210721030058",
-        "lore": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true."
+        "lore": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png/revision/latest/scale-to-width-down/60?cb=20210721030058"
       },
       {
         "id": "plume",
         "name": "Shaft of Remembrance",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shaft_of_Remembrance.png/revision/latest/scale-to-width-down/60?cb=20210721030214",
-        "lore": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day."
+        "lore": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shaft_of_Remembrance.png/revision/latest/scale-to-width-down/60?cb=20210721030214"
       },
       {
         "id": "sands",
         "name": "Morning Dew's Moment",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Morning_Dew%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20210721030136",
-        "lore": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day."
+        "lore": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Morning_Dew%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20210721030136"
       },
       {
         "id": "goblet",
         "name": "Hopeful Heart",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Hopeful_Heart.png/revision/latest/scale-to-width-down/60?cb=20210721030110",
-        "lore": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks."
+        "lore": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Hopeful_Heart.png/revision/latest/scale-to-width-down/60?cb=20210721030110"
       },
       {
         "id": "circlet",
         "name": "Capricious Visage",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Capricious_Visage.png/revision/latest/scale-to-width-down/60?cb=20210721030041",
-        "lore": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips."
+        "lore": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Capricious_Visage.png/revision/latest/scale-to-width-down/60?cb=20210721030041"
       }
     ]
   },
@@ -1593,32 +1597,32 @@
       {
         "id": "flower",
         "name": "Magnificent Tsuba",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest/scale-to-width-down/60?cb=20210721030125",
-        "lore": "Legends has it that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun."
+        "lore": "Legends has it that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest/scale-to-width-down/60?cb=20210721030125"
       },
       {
         "id": "plume",
         "name": "Sundered Feather",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Sundered_Feather.png/revision/latest/scale-to-width-down/60?cb=20210721030225",
-        "lore": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman."
+        "lore": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Sundered_Feather.png/revision/latest/scale-to-width-down/60?cb=20210721030225"
       },
       {
         "id": "sands",
         "name": "Storm Cage",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Storm_Cage.png/revision/latest/scale-to-width-down/60?cb=20210721030223",
-        "lore": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work."
+        "lore": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Storm_Cage.png/revision/latest/scale-to-width-down/60?cb=20210721030223"
       },
       {
         "id": "goblet",
         "name": "Scarlet Vessel",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210721030208",
-        "lore": "An intricately-designed wine vessel that a world-famous martial artist once drank from."
+        "lore": "An intricately-designed wine vessel that a world-famous martial artist once drank from.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210721030208"
       },
       {
         "id": "circlet",
         "name": "Ornate Kabuto",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Ornate_Kabuto.png/revision/latest/scale-to-width-down/60?cb=20210721030152",
-        "lore": "A sturdy and hard helmet worn as armor by a noble samurai."
+        "lore": "A sturdy and hard helmet worn as armor by a noble samurai.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Ornate_Kabuto.png/revision/latest/scale-to-width-down/60?cb=20210721030152"
       }
     ]
   },
@@ -1642,32 +1646,32 @@
       {
         "id": "flower",
         "name": "Bloom Times",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png/revision/latest/scale-to-width-down/60?cb=20211124024926",
-        "lore": "A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories."
+        "lore": "A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png/revision/latest/scale-to-width-down/60?cb=20211124024926"
       },
       {
         "id": "plume",
         "name": "Plume of Luxury",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Plume_of_Luxury.png/revision/latest/scale-to-width-down/60?cb=20211124024107",
-        "lore": "A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form."
+        "lore": "A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Plume_of_Luxury.png/revision/latest/scale-to-width-down/60?cb=20211124024107"
       },
       {
         "id": "sands",
         "name": "Song of Life",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Song_of_Life.png/revision/latest/scale-to-width-down/60?cb=20211124024504",
-        "lore": "As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn."
+        "lore": "As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Song_of_Life.png/revision/latest/scale-to-width-down/60?cb=20211124024504"
       },
       {
         "id": "goblet",
         "name": "Calabash of Awakening",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Calabash_of_Awakening.png/revision/latest/scale-to-width-down/60?cb=20211124024245",
-        "lore": "A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop."
+        "lore": "A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Calabash_of_Awakening.png/revision/latest/scale-to-width-down/60?cb=20211124024245"
       },
       {
         "id": "circlet",
         "name": "Skeletal Hat",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Skeletal_Hat.png/revision/latest/scale-to-width-down/60?cb=20211124024522",
-        "lore": "A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured."
+        "lore": "A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Skeletal_Hat.png/revision/latest/scale-to-width-down/60?cb=20211124024522"
       }
     ]
   },
@@ -1691,32 +1695,32 @@
       {
         "id": "flower",
         "name": "Sea-Dyed Blossom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png/revision/latest/scale-to-width-down/60?cb=20211124071311",
-        "lore": "A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light."
+        "lore": "A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png/revision/latest/scale-to-width-down/60?cb=20211124071311"
       },
       {
         "id": "plume",
         "name": "Deep Palace's Plume",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Deep_Palace%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20211124071302",
-        "lore": "A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment."
+        "lore": "A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Deep_Palace%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20211124071302"
       },
       {
         "id": "sands",
         "name": "Cowry of Parting",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20211124071325",
-        "lore": "A clean, flawless shell that comes from the bottomless ocean."
+        "lore": "A clean, flawless shell that comes from the bottomless ocean.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20211124071325"
       },
       {
         "id": "goblet",
         "name": "Pearl Cage",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Pearl_Cage.png/revision/latest/scale-to-width-down/60?cb=20211124071308",
-        "lore": "The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim."
+        "lore": "The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Pearl_Cage.png/revision/latest/scale-to-width-down/60?cb=20211124071308"
       },
       {
         "id": "circlet",
         "name": "Crown of Watatsumi",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Crown_of_Watatsumi.png/revision/latest/scale-to-width-down/60?cb=20211124071327",
-        "lore": "An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi."
+        "lore": "An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Crown_of_Watatsumi.png/revision/latest/scale-to-width-down/60?cb=20211124071327"
       }
     ]
   },
@@ -1740,32 +1744,32 @@
       {
         "id": "flower",
         "name": "Flowering Life",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Flowering_Life.png/revision/latest/scale-to-width-down/60?cb=20220330033017",
-        "lore": "An ancient memento. It still looks as alive as the being that preserved it several centuries ago."
+        "lore": "An ancient memento. It still looks as alive as the being that preserved it several centuries ago.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Flowering_Life.png/revision/latest/scale-to-width-down/60?cb=20220330033017"
       },
       {
         "id": "plume",
         "name": "Feather of Nascent Light",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Feather_of_Nascent_Light.png/revision/latest/scale-to-width-down/60?cb=20220330032944",
-        "lore": "A dimly lustrous pinion steeped in strong memories."
+        "lore": "A dimly lustrous pinion steeped in strong memories.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Feather_of_Nascent_Light.png/revision/latest/scale-to-width-down/60?cb=20220330032944"
       },
       {
         "id": "sands",
         "name": "Solar Relic",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Item_Solar_Relic.png/revision/latest/scale-to-width-down/60?cb=20220330033109",
-        "lore": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal."
+        "lore": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Item_Solar_Relic.png/revision/latest/scale-to-width-down/60?cb=20220330033109"
       },
       {
         "id": "goblet",
         "name": "Moment of the Pact",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Moment_of_the_Pact.png/revision/latest/scale-to-width-down/60?cb=20220330033056",
-        "lore": "An old cup made of sand crystal. Its luster is somehow undimmed by age."
+        "lore": "An old cup made of sand crystal. Its luster is somehow undimmed by age.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Moment_of_the_Pact.png/revision/latest/scale-to-width-down/60?cb=20220330033056"
       },
       {
         "id": "circlet",
         "name": "Thundering Poise",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Thundering_Poise.png/revision/latest/scale-to-width-down/60?cb=20220330033151",
-        "lore": "This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless."
+        "lore": "This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Thundering_Poise.png/revision/latest/scale-to-width-down/60?cb=20220330033151"
       }
     ]
   },
@@ -1789,32 +1793,32 @@
       {
         "id": "flower",
         "name": "Soulscent Bloom",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png/revision/latest/scale-to-width-down/60?cb=20220330042626",
-        "lore": "A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it."
+        "lore": "A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png/revision/latest/scale-to-width-down/60?cb=20220330042626"
       },
       {
         "id": "plume",
         "name": "Jade Leaf",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Jade_Leaf.png/revision/latest/scale-to-width-down/60?cb=20220330033045",
-        "lore": "A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends."
+        "lore": "A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Jade_Leaf.png/revision/latest/scale-to-width-down/60?cb=20220330033045"
       },
       {
         "id": "sands",
         "name": "Symbol of Felicitation",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Symbol_of_Felicitation.png/revision/latest/scale-to-width-down/60?cb=20220330042638",
-        "lore": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin."
+        "lore": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Symbol_of_Felicitation.png/revision/latest/scale-to-width-down/60?cb=20220330042638"
       },
       {
         "id": "goblet",
         "name": "Chalice of the Font",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Chalice_of_the_Font.png/revision/latest/scale-to-width-down/60?cb=20220330033204",
-        "lore": "This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind."
+        "lore": "This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Chalice_of_the_Font.png/revision/latest/scale-to-width-down/60?cb=20220330033204"
       },
       {
         "id": "circlet",
         "name": "Flowing Rings",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Flowing_Rings.png/revision/latest/scale-to-width-down/60?cb=20220330033033",
-        "lore": "A pair of earrings made from a single piece of jade. It has a most gentle texture."
+        "lore": "A pair of earrings made from a single piece of jade. It has a most gentle texture.",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Flowing_Rings.png/revision/latest/scale-to-width-down/60?cb=20220330033033"
       }
     ]
   }

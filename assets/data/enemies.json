@@ -1,0 +1,2484 @@
+[
+  {
+    "id": "Pyro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Pyro Slime",
+    "description": "A small monster created by the sedimentation of Pyro dispersed throughout nature.Its intelligence is very basic, but its uses are just as broad–well, for hilichurls, that is.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Enemy_Pyro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192237",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Pyro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Pyro Slime",
+    "description": "A monster created by the sedimentation of Pyro dispersed throughout nature.Though its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Enemy_Large_Pyro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192248",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Hydro Slime",
+    "description": "A small monster created by the sedimentation of Hydro dispersed throughout nature.Legend has it that some people would use Hydro Slimes as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Hydro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192247",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Hydro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Hydro Slime",
+    "description": "A monster created by the sedimentation of Hydro dispersed throughout nature.A larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Enemy_Large_Hydro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213193048",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Anemo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Anemo Slime",
+    "description": "A small monster created by the coalescing of Anemo dispersed throughout nature.It is able to float in the air due to the power of Anemo.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Enemy_Anemo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192245",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Anemo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Anemo Slime",
+    "description": "A monster created by the coalescing of Anemo dispersed throughout nature.Owing to being comprised of a greater concentration of Anemo, their flotation abilities are stronger than that of Anemo Slimes. The hilichurls living out in the wilds have made use of this special characteristic, creating special vehicles that use Large Anemo Slimes as a form of locomotion to transport goods from unknown sources.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Enemy_Large_Anemo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192244",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Electro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Electro Slime",
+    "description": "A small monster created by the coalescing of Electro dispersed throughout nature.According to analyses, the jumping of Electro Slimes reflects the electric potential difference in the ground. In areas brimming over with Electro, their unusual movements can be observed and used to avoid danger.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Enemy_Electro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192243",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Electro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Electro Slime",
+    "description": "A monster created by the coalescing of Electro dispersed throughout nature.Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time. At present, some have attempted to harness this energy to aid in production activities. Perhaps some new science will be born from this...?",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Enemy_Large_Electro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213193034",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Mutant Electro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Mutant Electro Slime",
+    "description": "A monster created by the coalescing of Electro dispersed throughout nature.Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.One wonders if some great new science could emerge from the study of such phenomena...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Enemy_Mutant_Electro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192242",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Dendro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Dendro Slime",
+    "description": "A slime that has undergone ecological changes due to abundant Dendro in its environment.It has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Enemy_Dendro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192241",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Dendro Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Dendro Slime",
+    "description": "A slime that has undergone ecological changes due to abundant Dendro in its environment.There are some who see it as something similar to the Whopperflowers, hiding its true form to trick and hunt its prey, and some regard it as a slime that has been parasitized by some special plant. From this point of view, might some cultures also see these slimes as having some special medicinal value?",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Enemy_Large_Dendro_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192240",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Cryo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Cryo Slime",
+    "description": "A small monster created through the coagulation of Cryo in the natural environment.Competitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Enemy_Cryo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192239",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Cryo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Cryo Slime",
+    "description": "A monster created through the coagulation of Cryo in the natural environment.These slimes can use the abundant Cryo energies within themselves to freeze the moisture in the atmosphere and form a protective shell around themselves. They can also utilize a similar principle to freeze the water around them. On some level, this can be considered to be the freest species of slime, as it can cross oceans and seas with ease.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Enemy_Large_Cryo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192239",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Geo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Geo Slime",
+    "description": "Small monsters created through the buildup of Geo within the earth.Generally speaking, the crust of the earth is filled with Geo energy. Geo Slimes that are formed this way have a similarly \"down-to-earth\" sort of feeling.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Enemy_Geo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213192238",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Large Geo Slime",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Slime Condensate",
+      "Slime Secretions",
+      "Slime Concentrate"
+    ],
+    "name": "Large Geo Slime",
+    "description": "Monsters created through the buildup of Geo within the earth.They can harden the energy within their bodies into a carapace of stone that protects them and prevents damage. The legend of a \"Golden Geo Slime King\" once circulated among the Treasure Hoarders. They believed that since gemstones and ores have Geo energy in them, Geo Slimes, which also contain Geo energy, may also be a type of gemstone or ore.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Enemy_Large_Geo_Slime.png/revision/latest/scale-to-width-down/350?cb=20210213193040",
+    "group": "Slimes",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Eye of the Storm",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Eye of the Storm",
+    "description": "The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Eye_of_the_Storm_Icon.png/revision/latest?cb=20201103031931",
+    "group": "",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Pyro Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Smoldering Pearl",
+      "Adventurer",
+      "Instructor",
+      "Berserker",
+      "Prayers for Illumination",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Pyro Hypostasis",
+    "description": "Code Name: Ayin. A high-purity Pyro entity.Elemental hypostases have the ability to often enter a sort of \"emergency restart\" phase when they are about to be destroyed and can revive themselves in this way.Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Pyro_Hypostasis.png/revision/latest/scale-to-width-down/350?cb=20210817033405",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Dew of Repudiation",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Prayers for Destiny",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Hydro Hypostasis",
+    "description": "Code Name: He. A high-purity Hydro entity.Hypostases have strong rejection properties, and will mercilessly expel any that test them. The logic behind their behavior remains a mystery.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Enemy_Hydro_Hypostasis.png/revision/latest?cb=20210827094314",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Anemo Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Hurricane Seed",
+      "Lucky Dog",
+      "Berserker",
+      "Instructor",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Anemo Hypostasis",
+    "description": "Code name: Beth. A high-purity Anemo entity.Elemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.Research into hypostases is mainly led by scholars of Sumeru Academia, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Enemy_Anemo_Hypostasis.png/revision/latest/scale-to-width-down/350?cb=20210817033644",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Electro Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Lightning Prism",
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Electro Hypostasis",
+    "description": "Code Name: Aleph. A high-purity Electro entity.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Enemy_Electro_Hypostasis.png/revision/latest/scale-to-width-down/350?cb=20210817033929",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Cryo Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Crystalline Bloom",
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Cryo Hypostasis",
+    "description": "Code name: Daleth. A high-purity Cryo entity.Research suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Cryo_Hypostasis.png/revision/latest/scale-to-width-down/350?cb=20210817033529",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Geo Hypostasis",
+    "type": "Normal Bosses",
+    "drops": [
+      "Basalt Pillar",
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Geo Hypostasis",
+    "description": "Code Name: Gimel. A high-purity Geo entity.Elemental hypostases are ultra-compact structures with a high mass.Concentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to the elemental stimuli.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Enemy_Geo_Hypostasis.png/revision/latest/scale-to-width-down/350?cb=20210817033300",
+    "group": "Hypostases",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Oceanid",
+    "type": "Normal Bosses",
+    "drops": [
+      "Cleansing Heart",
+      "Adventurer",
+      "Berserker",
+      "The Exile",
+      "Prayers for Destiny",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Oceanid",
+    "description": "A life-form created from condensed Hydro elements of incredible purity.Often attached to bodies of water. It is said that as water bodies becomes purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Enemy_Oceanid.png/revision/latest/scale-to-width-down/350?cb=20210718074221",
+    "group": "",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Thunder Manifestation",
+    "type": "Normal Bosses",
+    "drops": [
+      "Storm Beads",
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Thunder Manifestation",
+    "description": "Amidst the storms of Amakumo Peak, you hear a raging, thunderous cry...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Thunder_Manifestation.png/revision/latest/scale-to-width-down/350?cb=20211014101229",
+    "group": "",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Pyro Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Pyro Specter",
+    "description": "A monster born from highly-concentrated Pyro elements that can float in the air.There was once an Academia student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Enemy_Pyro_Specter.png/revision/latest/scale-to-width-down/350?cb=20220113044145",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Hydro Specter",
+    "description": "A monster birthed from a high concentration of Hydro that can float in the air.On moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Enemy_Hydro_Specter.png/revision/latest/scale-to-width-down/350?cb=20211014102203",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Anemo Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Anemo Specter",
+    "description": "A monster birthed from a high concentration of Anemo that can float in the air.As reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Enemy_Anemo_Specter.png/revision/latest/scale-to-width-down/350?cb=20211014101913",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Electro Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Electro Specter",
+    "description": "A monster born from hightly-concentrated Electro elements that can float in the air.A certain researcher once studied these creatures. He believed they must be Hypostases of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Enemy_Electro_Specter.png/revision/latest/scale-to-width-down/350?cb=20220113044151",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Cryo Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Cryo Specter",
+    "description": "A monster born from highly-concentrated Cryo elements that can float in the air.A certain alchemist once studied these beings, speculating that they might be a kind of Slime or the Traveler, as none of the above needed a Vision to use the elements. He was reprimanded by his teacher.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Enemy_Cryo_Specter.png/revision/latest/scale-to-width-down/350?cb=20220113044124",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Geo Specter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Spectral Husk",
+      "Spectral Heart",
+      "Spectral Nucleus"
+    ],
+    "name": "Geo Specter",
+    "description": "A monster birthed from a high concentration of Geo that can float in the air.Geo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Enemy_Geo_Specter.png/revision/latest/scale-to-width-down/350?cb=20211014102111",
+    "group": "Specters",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hilichurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Hilichurl",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.They look very similar to humanity but seem to have lost both their intellect and spirituality. Their presence on the continent has been recorded for over a thousand years, and yet they have neither history nor civilization.Since the pitch-black calamity from five hundred years ago, they have begun to spread in large numbers across the land. They are not very strong, and they lack organization, but they nonetheless bring sizable trouble to humans every once in a while.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Enemy_Hilichurl.png/revision/latest/scale-to-width-down/350?cb=20210528040218",
+    "group": "",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Hilichurl Fighter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Hilichurl Fighter",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Ill-tempered warriors for their tribes, they are simple-minded believers in the power of brute force. If their muscles grow strong enough and their strength great enough, then one day they too shall raise up a great shield and become a mitachurl... Or will they?",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Enemy_Hilichurl_Fighter.png/revision/latest/scale-to-width-down/320?cb=20210528040259",
+    "group": "",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Hilichurl Berserker",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Hilichurl Berserker",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.These hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a certain special Knight, but due to the actions of these hilichurls.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Enemy_Hilichurl_Berserker.png/revision/latest/scale-to-width-down/350?cb=20210531023247",
+    "group": "",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Wooden Shield Hilichurl Guard",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Wooden Shield Hilichurl Guard",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Hilichurl warriors who have wooden shields. These shields are not only sturdy defense tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Enemy_Wooden_Shield_Hilichurl_Guard.png/revision/latest/scale-to-width-down/350?cb=20210531023427",
+    "group": "Hilichurl Guards",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Ice Shield Hilichurl Guard",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Ice Shield Hilichurl Guard",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Hilichurls display a strong sense of adaptability to their surroundings. In icy environments, they come up with ways and means to fashion this hard ice into shields to protect themselves.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Enemy_Ice_Shield_Hilichurl_Guard.png/revision/latest/scale-to-width-down/350?cb=20210531023340",
+    "group": "Hilichurl Guards",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Rock Shield Hilichurl Guard",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Rock Shield Hilichurl Guard",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Hardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Enemy_Rock_Shield_Hilichurl_Guard.png/revision/latest/scale-to-width-down/350?cb=20210531023416",
+    "group": "Hilichurl Guards",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Hilichurl Shooter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Firm Arrowhead",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ],
+    "name": "Hilichurl Shooter",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Hilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Enemy_Hilichurl_Shooter.png/revision/latest/scale-to-width-down/350?cb=20210531023437",
+    "group": "Hilichurl Shooters",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Pyro Hilichurl Shooter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Firm Arrowhead",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ],
+    "name": "Pyro Hilichurl Shooter",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.These archers wield simple crossbows, and their arrowheads are coated with a thin layer of flammable material that can set their targets on fire. El Musk of the previous generation believed that this is an innovation by brighter hilichurls who wished to cook their game after hunting it.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Enemy_Pyro_Hilichurl_Shooter.png/revision/latest/scale-to-width-down/350?cb=20210531023504",
+    "group": "Hilichurl Shooters",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Electro Hilichurl Shooter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Firm Arrowhead",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ],
+    "name": "Electro Hilichurl Shooter",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.These archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once–a most impressive feat indeed.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Enemy_Electro_Hilichurl_Shooter.png/revision/latest/scale-to-width-down/350?cb=20210531023455",
+    "group": "Hilichurl Shooters",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Cryo Hilichurl Shooter",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Firm Arrowhead",
+      "Sharp Arrowhead",
+      "Weathered Arrowhead"
+    ],
+    "name": "Cryo Hilichurl Shooter",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.These archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Enemy_Cryo_Hilichurl_Shooter.png/revision/latest/scale-to-width-down/350?cb=20210531023446",
+    "group": "Hilichurl Shooters",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Hilichurl Grenadier",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Hilichurl Grenadier",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.These sneaky fellows are skilled in the use of Pyro Slimes, using them as weapons to attack intruders. Skilled grenadiers may be able to destroy four wooden dummies in a single throw.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Enemy_Hilichurl_Grenadier.png/revision/latest/scale-to-width-down/350?cb=20210531023328",
+    "group": "Hilichurl Grenadiers",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Electro Hilichurl Grenadier",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Electro Hilichurl Grenadier",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Electro Slimes don't seem to have as many applications as Pyro Slimes or Anemo Slimes in the benighted lives of the Hilichurls.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Enemy_Electro_Hilichurl_Grenadier.png/revision/latest/scale-to-width-down/350?cb=20210721093633",
+    "group": "Hilichurl Grenadiers",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Cryo Hilichurl Grenadier",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask"
+    ],
+    "name": "Cryo Hilichurl Grenadier",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses.Hilichurls have discovered the use of Cryo Slimes in effectively keeping food fresh. Hilichurls have surprising amounts of wisdom in the practical use of Slimes, whether it be the use of Pyro and Cryo slimes to make Exploding Barrels, or the use of Anemo Slimes in vehicles... Perhaps this is their way of adapting to their hard lot in life.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Enemy_Hilichurl_Cryo_Grenadier.png/revision/latest/scale-to-width-down/317?cb=20210531023305",
+    "group": "Hilichurl Grenadiers",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Unusual Hilichurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Adventure EXP",
+      "Cabbage",
+      "Hilichurl",
+      "Mitachurl",
+      "Anemo Samachurl",
+      "Dendro Samachurl",
+      "Hydro Samachurl",
+      "Stonehide Lawachurl"
+    ],
+    "name": "Unusual Hilichurl",
+    "description": "\"Homu, homu, mimi domu!\"",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Enemy_Unusual_Hilichurl.png/revision/latest/scale-to-width-down/350?cb=20210507082406",
+    "group": "",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Wooden Shieldwall Mitachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Wooden Shieldwall Mitachurl",
+    "description": "A muscular hilichurl who has been forged in countless fights.They know how to use Dendro Slimes to create tough shields which they wield in combat.With their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Enemy_Wooden_Shieldwall_Mitachurl.png/revision/latest/scale-to-width-down/350?cb=20210721140253",
+    "group": "Mitachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Rock Shieldwall Mitachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Rock Shieldwall Mitachurl",
+    "description": "A muscular hilichurl that uses a rock as a shield.Fighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger.All young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Enemy_Rock_Shieldwall_Mitachurl.png/revision/latest/scale-to-width-down/350?cb=20210723100820",
+    "group": "Mitachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Ice Shieldwall Mitachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ice Shieldwall Mitachurl",
+    "description": "A muscular hilichurl that uses solid ice as a shield, wielding it in battle.Reason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the \"Mitachurl Index.\" This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Enemy_Ice_Shieldwall_Mitachurl.png/revision/latest/scale-to-width-down/350?cb=20210721142948",
+    "group": "Mitachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Blazing Axe Mitachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Blazing Axe Mitachurl",
+    "description": "Muscular hilichurls who wield large two-handed axes.Attacks with large strikes, and will use Pyro Slimes to infuse their axes with Pyro. They are very lethal.Usually, repeated quenching a weapon the way a Blazing Axe Mitachurl does will decrease the hardness of the metal and cause the axe-head's edge to chip more easily. But such is the strength of the mitachurls that even should the edge disappear altogether, they can still use their axes as hammers.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Blazing_Axe_Mitachurl.png/revision/latest/scale-to-width-down/350?cb=20210718095418",
+    "group": "Mitachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Crackling Axe Mitachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Crackling Axe Mitachurl",
+    "description": "Muscular hilichurls who wield large, two-handled axes.Attacks with large strikes and uses Electro Slimes to infuse their axes with Electro. Their blows are very lethal.Axes forged from steel are highly conductive material. The image of those tall and strong Crackling Axe Mitachurls holding their axes up to summon lightning is quite majestic to the hilichurls.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Enemy_Crackling_Axe_Mitachurl.png/revision/latest/scale-to-width-down/350?cb=20210721083734",
+    "group": "Mitachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Thunderhelm Lawachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Thunderhelm Lawachurl",
+    "description": "A mysterious \"lord\" of hilichurls that strides through the thunderstorm.This huge hilichurl is referred to as \"Lawa\" by its brethren. Its giant body is saturated with Electro energy, while the Elemental Energy seeps through the cracks in its body in the form of Electro Crystal growths.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Enemy_Thunderhelm_Lawachurl.png/revision/latest/scale-to-width-down/350?cb=20210724034019",
+    "group": "Lawachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Frostarm Lawachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Frostarm Lawachurl",
+    "description": "A mysterious \"lord\" of hilichurls that stalks the snow and fog.This huge hilichurl is referred to as a \"lawa\" by its brethren. Its body, honed to the very limit, almost seems to blend into its Cryo-filled environment, and its stoic nobility is like that of the frozen northland rivers.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Enemy_Frostarm_Lawachurl.png/revision/latest/scale-to-width-down/350?cb=20210717055543",
+    "group": "Lawachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Stonehide Lawachurl",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Heavy Horn",
+      "Black Bronze Horn",
+      "Black Crystal Horn",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Stonehide Lawachurl",
+    "description": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks.This huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Enemy_Stonehide_Lawachurl.png/revision/latest/scale-to-width-down/342?cb=20210717062412",
+    "group": "Lawachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Hydro Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Hydro Samachurl",
+    "description": "A wizened, mumbling hilichurl, one that chants of the power of Hydro.Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Enemy_Hydro_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210523072505",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Anemo Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Anemo Samachurl",
+    "description": "A wizened, mumbling hilichurl, one that spreads the message of Anemo.Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. Their ability to command the flowing winds stems from dark, forgotten memories.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Enemy_Anemo_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210523072324",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Electro Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Electro Samachurl",
+    "description": "A wizened, mumbling Hilichurl, one that prays to Electro. Hilichurls especially gifted in commanding elements who often reach the zenith of their skill in their twilight years. Since they possess such advanced skill in creating electricity and summoning thunder, you may as well use the crackling sound to compose an elegy.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Enemy_Electro_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210728190218",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Dendro Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Dendro Samachurl",
+    "description": "A wizened, mumbling hilichurl, one that awakens the might of Dendro.Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Enemy_Dendro_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210523072433",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Cryo Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Cryo Samachurl",
+    "description": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Enemy_Cryo_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210523102333",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Geo Samachurl",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Damaged Mask",
+      "Stained Mask",
+      "Ominous Mask",
+      "Divining Scroll",
+      "Sealed Scroll",
+      "Forbidden Curse Scroll"
+    ],
+    "name": "Geo Samachurl",
+    "description": "A wizened, mumbling hilichurl, one that listens to the strength of Geo.Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Enemy_Geo_Samachurl.png/revision/latest/scale-to-width-down/350?cb=20210523072406",
+    "group": "Samachurls",
+    "family": "Hilichurls"
+  },
+  {
+    "id": "Pyro Abyss Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Pyro Abyss Mage",
+    "description": "Abyss creatures who command the power of Pyro in battle. For unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Enemy_Pyro_Abyss_Mage.png/revision/latest/scale-to-width-down/350?cb=20210212145945",
+    "group": "Abyss Mages",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Hydro Abyss Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Hydro Abyss Mage",
+    "description": "Abyss creatures that utilize Hydro energy in battle.Stories circulate among adventurers that Abyss Mages are at the lowest rung of the Abyss Order's hierarchy and that they roam the various lands to scheme fell deeds of destruction. Though they also often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, their power is not to be underestimated.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Enemy_Hydro_Abyss_Mage.png/revision/latest/scale-to-width-down/350?cb=20210212151609",
+    "group": "Abyss Mages",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Electro Abyss Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Electro Abyss Mage",
+    "description": "Abyss creatures that utilise Electro in battles. While studying at the Academia, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mage manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Enemy_Electro_Abyss_Mage.png/revision/latest/scale-to-width-down/350?cb=20210725050418",
+    "group": "Abyss Mages",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Cryo Abyss Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Cryo Abyss Mage",
+    "description": "Abyss creatures that call upon Cryo in battle. Though they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Enemy_Cryo_Abyss_Mage.png/revision/latest/scale-to-width-down/350?cb=20210212153542",
+    "group": "Abyss Mages",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Abyss Herald: Wicked Torrents",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Abyss Herald: Wicked Torrents",
+    "description": "Servants of the Abyss Order that use Hydro in combat. These silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Enemy_Abyss_Herald_Wicked_Torrents.png/revision/latest/scale-to-width-down/245?cb=20211004164303",
+    "group": "Abyss Heralds",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Abyss Lector: Fathomless Flames",
+    "type": "Elite Enemies",
+    "drops": [],
+    "name": "Abyss Lector: Fathomless Flames",
+    "description": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.The surface people have a slightly distorted understanding of what their name means, calling them \"Lectors\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Enemy_Abyss_Lector_Fathomless_Flames.png/revision/latest/scale-to-width-down/350?cb=20220108040326",
+    "group": "Abyss Lectors",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Abyss Lector: Violet Lightning",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dead Ley Line Branch",
+      "Dead Ley Line Leaves",
+      "Ley Line Sprout",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Abyss Lector: Violet Lightning",
+    "description": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness.These are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Enemy_Abyss_Lector_Violet_Lightning.png/revision/latest/scale-to-width-down/349?cb=20211004161401",
+    "group": "Abyss Lectors",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Rockfond Rifthound Whelp",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Concealed Claw",
+      "Concealed Unguis",
+      "Concealed Talon",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Rockfond Rifthound Whelp",
+    "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"They follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Rockfond_Rifthound_Whelp.png/revision/latest/scale-to-width-down/350?cb=20211029031442",
+    "group": "Riftwolves",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Thundercraven Rifthound Whelp",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Concealed Claw",
+      "Concealed Unguis",
+      "Concealed Talon",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Thundercraven Rifthound Whelp",
+    "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"The previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Enemy_Thundercraven_Rifthound_Whelp.png/revision/latest/scale-to-width-down/350?cb=20211029030726",
+    "group": "Riftwolves",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Rockfond Rifthound",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Concealed Claw",
+      "Concealed Unguis",
+      "Concealed Talon",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Rockfond Rifthound",
+    "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\"They do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Enemy_Rockfond_Rifthound.png/revision/latest/scale-to-width-down/350?cb=20211029030414",
+    "group": "Riftwolves",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Thundercraven Rifthound",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Concealed Claw",
+      "Concealed Unguis",
+      "Concealed Talon",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Thundercraven Rifthound",
+    "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\"Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Enemy_Thundercraven_Rifthound.png/revision/latest/scale-to-width-down/350?cb=20211029030254",
+    "group": "Riftwolves",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Golden Wolflord",
+    "type": "Normal Bosses",
+    "drops": [
+      "Riftborn Regalia",
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Golden Wolflord",
+    "description": "A twisted beast from another world.This creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Enemy_Golden_Wolflord.png/revision/latest/scale-to-width-down/350?cb=20211113043309",
+    "group": "Riftwolves",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Shadowy Husk: Standard Bearer",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Shadowy Husk: Standard Bearer",
+    "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it has now lost any awareness of memory. But even so, it holds the banner of the royal house aloft into battle. Though it has forgotten its comrades or any royal blessing they may have been given, it will never lay this banner down.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Enemy_Shadowy_Husk_Standard_Bearer.png/revision/latest/scale-to-width-down/299?cb=20220219162606",
+    "group": "Shadowy Husks",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Shadowy Husk: Line Breaker",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Shadowy Husk: Line Breaker",
+    "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it no longer holds any \"intelliegence\" that it may still be called \"human.\" Yet the desire to destroy the foe and plunge into battle to defend others is etched into this empty suit of armor, even if no one remains to tell it where the enemy is or who or what exactly must be defended.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Enemy_Shadowy_Husk_Line_Breaker.png/revision/latest/scale-to-width-down/350?cb=20220219163951",
+    "group": "Shadowy Husks",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Shadowy Husk: Defender",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Shadowy Husk: Defender",
+    "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle. All shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Enemy_Shadowy_Husk_Defender.png/revision/latest/scale-to-width-down/350?cb=20220219164752",
+    "group": "Shadowy Husks",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Black Serpent Knight: Windcutter",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Gloomy Statuette",
+      "Dark Statuette",
+      "Deathly Statuette",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Black Serpent Knight: Windcutter",
+    "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"The Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Enemy_Black_Serpent_Knight_Windcutter.png/revision/latest/scale-to-width-down/350?cb=20220402060811",
+    "group": "Shadowy Husks",
+    "family": "The Abyss"
+  },
+  {
+    "id": "Fatui Skirmisher - Pyroslinger Bracer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Pyroslinger Bracer",
+    "description": "A Fatui soldier who wields a flaming gun.Skirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.Their ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Enemy_Fatui_Pyroslinger_Bracer.png/revision/latest/scale-to-width-down/231?cb=20210717104717",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Skirmisher - Hydrogunner Legionnaire",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+    "description": "A soldier encased within a Fatui war machine.Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water. These skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Enemy_Fatui_Hydrogunner_Legionnaire.png/revision/latest/scale-to-width-down/350?cb=20210703024152",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Skirmisher - Anemoboxer Vanguard",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+    "description": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.They departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Enemy_Fatui_Anemoboxer_Vanguard.png/revision/latest/scale-to-width-down/350?cb=20210703024040",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Skirmisher - Electrohammer Vanguard",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Electrohammer Vanguard",
+    "description": "A sturdily-build skirmisher armed with an Electro-powered war-hammer.As a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.But at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Enemy_Fatui_Electrohammer_Vanguard.png/revision/latest/scale-to-width-down/350?cb=20210703024008",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "description": "A soldier encased within a Fatui war machine.Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost. Though this may confer elemental power beyond the ken of ordinary humans, that power may yet to come at a price...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Cryogunner_Legionnaire.png/revision/latest/scale-to-width-down/350?cb=20210703024212",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Skirmisher - Geochanter Bracer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia"
+    ],
+    "name": "Fatui Skirmisher - Geochanter Bracer",
+    "description": "A skirmisher with the ability to generate a Geo Shield and defend their allies.Unlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.To complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Enemy_Fatui_Geochanter_Bracer.png/revision/latest/scale-to-width-down/287?cb=20210716151005",
+    "group": "Fatui Skirmishers",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Pyro Agent",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia",
+      "Hunter's Sacrificial Knife",
+      "Agent's Sacrificial Knife",
+      "Inspector's Sacrificial Knife",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Fatui Pyro Agent",
+    "description": "A Fatui secret agent. The duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.They also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Fatui_Pyro_Agent.png/revision/latest/scale-to-width-down/350?cb=20210717051842",
+    "group": "",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Electro Cicin Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia",
+      "Mist Grass Pollen",
+      "Mist Grass",
+      "Mist Grass Wick",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Fatui Electro Cicin Mage",
+    "description": "A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.Similarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Enemy_Fatui_Electro_Cicin_Mage.png/revision/latest/scale-to-width-down/350?cb=20210716084302",
+    "group": "Fatui Cicin Mages",
+    "family": "Fatui"
+  },
+  {
+    "id": "Fatui Cryo Cicin Mage",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Recruit's Insignia",
+      "Sergeant's Insignia",
+      "Lieutenant's Insignia",
+      "Mist Grass Pollen",
+      "Mist Grass",
+      "Mist Grass Wick",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Fatui Cryo Cicin Mage",
+    "description": "A Fatui mage who can command Cryo Cicins in battle. Their origins and what they look like under that mask are both mysteries.Reason dictates that those who lack Visions should not be able to control the elements as these mages do. However, in addition to using Mist Grass to control the Cryo Cicins, they also boldly wield the might of frost. Seeing them as they wander the land in their seemingly aimless way, one can't help but wonder about the duty that must compel them.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Enemy_Fatui_Cryo_Cicin_Mage.png/revision/latest/scale-to-width-down/307?cb=20210717050525",
+    "group": "Fatui Cicin Mages",
+    "family": "Fatui"
+  },
+  {
+    "id": "Mirror Maiden",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Dismal Prism",
+      "Crystal Prism",
+      "Polarizing Prism",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Mirror Maiden",
+    "description": "A member of a special Fatui honor guard from Snezhnaya.Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title \"Maiden\".",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Mirror_Maiden.png/revision/latest/scale-to-width-down/350?cb=20210721093325",
+    "group": "",
+    "family": "Fatui"
+  },
+  {
+    "id": "Ruin Guard",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Device",
+      "Chaos Circuit",
+      "Chaos Core",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Guard",
+    "description": "An ancient humanoid war machine.They are said to be remnants from a lost ancient nation. Some believe that they were developed not as war machines, but as protectors of the ruins.Though that hypothesis does not explain why would they choose to employ explosive weaponry inside the very ruins they are supposed to protect...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Enemy_Ruin_Guard.png/revision/latest/scale-to-width-down/350?cb=20210426204029",
+    "group": "Humanoid Ruin Machines",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Hunter",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Device",
+      "Chaos Circuit",
+      "Chaos Core",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Hunter",
+    "description": "A giant alien war machine.They are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat. Considering these mere relics possess such extraordinary power, one cannot help but wonder — what must the civilization that produced them have looked like at its height?",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Enemy_Ruin_Hunter.png/revision/latest/scale-to-width-down/350?cb=20210716091210",
+    "group": "Humanoid Ruin Machines",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Grader",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Device",
+      "Chaos Circuit",
+      "Chaos Core",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Grader",
+    "description": "An ancient humanoid war machine.Their form is similar to that of Ruin Guards, but it is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Enemy_Ruin_Grader.png/revision/latest/scale-to-width-down/350?cb=20210716143615",
+    "group": "Humanoid Ruin Machines",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Cruiser",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Gear",
+      "Chaos Axis",
+      "Chaos Oculus",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Cruiser",
+    "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Enemy_Ruin_Cruiser.png/revision/latest/scale-to-width-down/350?cb=20211006042921",
+    "group": "Ruin Sentinels",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Destroyer",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Gear",
+      "Chaos Axis",
+      "Chaos Oculus",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Destroyer",
+    "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Enemy_Ruin_Destroyer.png/revision/latest/scale-to-width-down/310?cb=20211006044344",
+    "group": "Ruin Sentinels",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Defender",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Gear",
+      "Chaos Axis",
+      "Chaos Oculus",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Defender",
+    "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than humanoid machines. The shield formed by its various components can resist any frontal attack.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Enemy_Ruin_Defender.png/revision/latest/scale-to-width-down/350?cb=20211006045534",
+    "group": "Ruin Sentinels",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Scout",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Chaos Gear",
+      "Chaos Axis",
+      "Chaos Oculus",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Ruin Scout",
+    "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Enemy_Ruin_Scout.png/revision/latest/scale-to-width-down/350?cb=20211006062455",
+    "group": "Ruin Sentinels",
+    "family": "Automatons"
+  },
+  {
+    "id": "Ruin Serpent",
+    "type": "Normal Bosses",
+    "drops": [
+      "Runic Fang",
+      "Traveling Doctor",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Ruin Serpent",
+    "description": "An ancient, bizzarely-shaped autonomous machine.It is said that this was heavy-duty engineering equipment left behind by a nation that has been destroyed. The gear system on its \"head\" can grind its way through even the hardest bedrock. If this was the case, then carving out tunnels with which the forces of this nation might access the whole continent would have been a thing of great ease.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Enemy_Ruin_Serpent.png/revision/latest/scale-to-width-down/350?cb=20220524190058",
+    "group": "Ruin Machines",
+    "family": "Automatons"
+  },
+  {
+    "id": "Perpetual Mechanical Array",
+    "type": "Normal Bosses",
+    "drops": [
+      "Perpetual Heart",
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Perpetual Mechanical Array",
+    "description": "A strange, alien machine.They say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks. This machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Perpetual_Mechanical_Array.png/revision/latest/scale-to-width-down/350?cb=20211006065506",
+    "group": "Ruin Machines",
+    "family": "Automatons"
+  },
+  {
+    "id": "Maguu Kenki",
+    "type": "Normal Bosses",
+    "drops": [
+      "Marionette Core",
+      "Lucky Dog",
+      "Instructor",
+      "Berserker",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Maguu Kenki",
+    "description": "An disciplined mechanical swordsman.Doesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.It is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.Some sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Enemy_Maguu_Kenki.png/revision/latest/scale-to-width-down/350?cb=20211005182254",
+    "group": "",
+    "family": "Automatons"
+  },
+  {
+    "id": "Treasure Hoarders - Scout",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders - Scout",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Theirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Enemy_Treasure_Hoarder_Scout.png/revision/latest/scale-to-width-down/350?cb=20210628131044",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Pyro Potioneer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Pyro Potioneer",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Risk-takers who utilize their knowledge of chemistry to mix volatile and flammable brews that aid in their comrades' dastardly deeds.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Enemy_Treasure_Hoarder_Pyro_Potioneer.png/revision/latest/scale-to-width-down/350?cb=20210628132221",
+    "group": "Treasure Hoarder Potioneers",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Hydro Potioneer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Hydro Potioneer",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.They say that some Treasure Hoarder Potioneers used to be charlatans who would wander villages, towns, and cities, hawking their special blends of elixirs, holy waters, and the like. These cure-alls certainly seem to serve better in combat than they ever did in chicanery.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Enemy_Treasure_Hoarder_Hydro_Potioneer.png/revision/latest/scale-to-width-down/350?cb=20210628132028",
+    "group": "Treasure Hoarder Potioneers",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Electro Potioneer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Electro Potioneer",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\"Potioneer\" is the nickname given to members of the Treasure Hoarder organization who know how to brew up dangerous chemicals.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Enemy_Treasure_Hoarder_Electro_Potioneer.png/revision/latest/scale-to-width-down/350?cb=20210628131927",
+    "group": "Treasure Hoarder Potioneers",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Cryo Potioneer",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Cryo Potioneer",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Cryo Potioneers are quite welcome sight amongst the Treasure Hoarders due to their elixirs having the ability to rapidly cool things down. Even out in the wild where there are no Mist Flowers to be found, they can have some cold liquor to make merry with.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Enemy_Treasure_Hoarder_Cryo_Potioneer.png/revision/latest/scale-to-width-down/350?cb=20211007035225",
+    "group": "Treasure Hoarder Potioneers",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Handyman",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Handyman",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.These members do physical work and are lower on the pecking order. They are often laughed at for their physique — but when the gang comes under attack, they get a chance to show their unexpectedly high strength and agility.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Enemy_Treasure_Hoarder_Handyman.png/revision/latest/scale-to-width-down/350?cb=20210628131423",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders - Marksman",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders - Marksman",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Though they are called \"marksmen\", this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Enemy_Treasure_Hoarder_Marksman.png/revision/latest/scale-to-width-down/350?cb=20210628131217",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Gravedigger",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Gravedigger",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Enemy_Treasure_Hoarder_Gravedigger.png/revision/latest/scale-to-width-down/350?cb=20210628131632",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders - Seaman",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders - Seaman",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Enemy_Treasure_Hoarder_Seaman.png/revision/latest/scale-to-width-down/350?cb=20210628131326",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders - Pugilist",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders - Pugilist",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Passionate about battle and muscles, they are quite picky about food and will often boast of the benefits of having fine musculature, leading to some dissatisfaction from their fellow Treasure Hoarders.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Enemy_Treasure_Hoarder_Pugilist.png/revision/latest/scale-to-width-down/350?cb=20210628131731",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders - Crusher",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders - Crusher",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.This one was originally a miner — one who, even with the allowance they were provided with after the closure of the Chasm, ended up with the Treasure Hoarders for various reasons.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Enemy_Treasure_Hoarder_Crusher.png/revision/latest/scale-to-width-down/350?cb=20210628131525",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Nobushi: Jintouban",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ],
+    "name": "Nobushi: Jintouban",
+    "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.Having pursued the path of a martial artist for a long time, they possess highly advanced sword skills but no longer use them for good.Sometimes, they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Enemy_Nobushi_-_Jintouban.png/revision/latest/scale-to-width-down/273?cb=20211014094759",
+    "group": "Nobushi",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Nobushi: Hitsukeban",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ],
+    "name": "Nobushi: Hitsukeban",
+    "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.They not only possess highly advanced sword skills, but can also carry out flame powder attacks using the elements. Objectively speaking, perhaps this method of winning goes against the path of a martial artist.Sometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Enemy_Nobushi_-_Hitsukeban.png/revision/latest/scale-to-width-down/222?cb=20211014094632",
+    "group": "Nobushi",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Nobushi: Kikouban",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ],
+    "name": "Nobushi: Kikouban",
+    "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.They possess highly-advanced sword skills and also use crossbows to ambush opponents, using any means to win. Those who have abandoned the title of a martial artist often abandon their dignity as well.Sometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Enemy_Nobushi_-_Kikouban.png/revision/latest/scale-to-width-down/278?cb=20211014094929",
+    "group": "Nobushi",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Kairagi: Fiery Might",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ],
+    "name": "Kairagi: Fiery Might",
+    "description": "Samurai who have fallen into banditry.They practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set the blades afire.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Kairagi_Fiery_Might.png/revision/latest/scale-to-width-down/350?cb=20211002150602",
+    "group": "Kairagi",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Kairagi: Dancing Thunder",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Old Handguard",
+      "Kageuchi Handguard",
+      "Famed Handguard"
+    ],
+    "name": "Kairagi: Dancing Thunder",
+    "description": "Samurai who have fallen into banditry.They possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Enemy_Kairagi_Dancing_Thunder.png/revision/latest/scale-to-width-down/350?cb=20211002150119",
+    "group": "Kairagi",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Pyro Whopperflower",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ],
+    "name": "Pyro Whopperflower",
+    "description": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.The world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/Enemy_Pyro_Whopperflower.png/revision/latest/scale-to-width-down/350?cb=20210523104223",
+    "group": "Whopperflowers",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Electro Whopperflower",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ],
+    "name": "Electro Whopperflower",
+    "description": "Energetic mimetic Plant monsters that use Electro to attack their prey.When fully-charged with Electro energy, they can unleash a strong electric current from their crowns. As such, some researchers have tried to apply them in other areas...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Enemy_Electro_Whopperflower.png/revision/latest/scale-to-width-down/350?cb=20210721082811",
+    "group": "Whopperflowers",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Cryo Whopperflower",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Whopperflower Nectar",
+      "Shimmering Nectar",
+      "Energy Nectar"
+    ],
+    "name": "Cryo Whopperflower",
+    "description": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Enemy_Cryo_Whopperflower.png/revision/latest/scale-to-width-down/350?cb=20210523104248",
+    "group": "Whopperflowers",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Pyro Regisvine",
+    "type": "Normal Bosses",
+    "drops": [
+      "Everflame Seed",
+      "Adventurer",
+      "Berserker",
+      "Instructor",
+      "Prayers for Illumination",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Pyro Regisvine",
+    "description": "A giant vine that has absorbed the ancient flame that rages within the Ley Lines.It is restless, as if filled with an endless fury.Poets, bards and even some academics believe that elements also contain emotions and hope. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Enemy_Pyro_Regisvine.png/revision/latest/scale-to-width-down/350?cb=20210523095244",
+    "group": "Regisvines",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Cryo Regisvine",
+    "type": "Normal Bosses",
+    "drops": [
+      "Hoarfrost Core",
+      "Lucky Dog",
+      "Berserker",
+      "The Exile",
+      "Prayers to Springtime",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Cryo Regisvine",
+    "description": "A monster formed from a vine that was imbued with the essence of biting frost within the Ley Lines.Some studies hold that plants are like organs of the world, harmonizing the turbulent elemental energies of the Ley Lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers and the like, which brim over with elemental energy.In certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — over the course of many years.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Enemy_Cryo_Regisvine.png/revision/latest/scale-to-width-down/350?cb=20210523095256",
+    "group": "Regisvines",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Geovishap Hatchling",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Fragile Bone Shard",
+      "Sturdy Bone Shard",
+      "Fossilized Bone Shard",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Geovishap Hatchling",
+    "description": "A young vishap with a hard Geo exoskeleton.Vishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Academia believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Enemy_Geovishap_Hatchling.png/revision/latest/scale-to-width-down/350?cb=20210629132452",
+    "group": "Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Geovishap",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Fragile Bone Shard",
+      "Sturdy Bone Shard",
+      "Fossilized Bone Shard",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Geovishap",
+    "description": "A mature Geovishap. It is said that after many years have passed, Geovishap Hatchlings will shed the armor that originally protected them and become Geovishaps. However these two and the older, greater Primo Geovishaps have spent many years hibernating under the mountains and have only emerged and become active in recent times. As such, none can personally attest to have witnessed or recorded such a thing in person.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Enemy_Geovishap.png/revision/latest/scale-to-width-down/350?cb=20210523100556",
+    "group": "Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Primo Geovishap",
+    "type": "Normal Bosses",
+    "drops": [
+      "Juvenile Jade",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Prayers for Wisdom",
+      "Prayers to Springtime",
+      "Prayers for Illumination",
+      "Prayers for Destiny",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Primo Geovishap",
+    "description": "After many years, the awesomely powerful Ancient Geovishaps grow accustomed to changes in their elemental environment.Folktales hold that after the great \"draconic calamity that led to the ruination of Tianqiu Valley, the overlord of the Geovishaps and Primo Geovishaps was imprisoned deep beneath the earth, and so too did they burrow into deep and unseen places, awaiting their chance to rise once more...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Enemy_Primo_Geovishap.png/revision/latest/scale-to-width-down/350?cb=20210625221447",
+    "group": "Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Primordial Bathysmal Vishap",
+    "type": "Elite Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Fragile Bone Shard",
+      "Sturdy Bone Shard",
+      "Fossilized Bone Shard",
+      "Traveling Doctor",
+      "Berserker",
+      "Instructor",
+      "The Exile"
+    ],
+    "name": "Primordial Bathysmal Vishap",
+    "description": "A vishap that dwells deep beneath the oceans.They were once the dominant race in the depths - and indeed, dragons were the overlords of the whole world in an even earlier age. But their former seven Sovereigns were defeated by a power from the heavens, withering one by one.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Primordial_Bathysmal_Vishap.png/revision/latest/scale-to-width-down/350?cb=20220113035647",
+    "group": "Bathysmal Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Rimebiter Bathysmal Vishap",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Rimebiter Bathysmal Vishap",
+    "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element.The coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms.These vishaps are stronger than their ordinary kin.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Enemy_Rimebiter_Bathysmal_Vishap.png/revision/latest/scale-to-width-down/350?cb=20211227045530",
+    "group": "Bathysmal Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Bolteater Bathysmal Vishap",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Bolteater Bathysmal Vishap",
+    "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro element.Following the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Enemy_Bolteater_Bathysmal_Vishap.png/revision/latest/scale-to-width-down/350?cb=20211227050127",
+    "group": "Bathysmal Vishaps",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Hydro Cicin",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP"
+    ],
+    "name": "Hydro Cicin",
+    "description": "Little creatures that can ever so slightly manipulate Hydro.They and other such creatures are known collectively as Cicins, and they truly adore the rare and wonderful Mist Grass plant. It is by exploiting this relationship that the Fatui Mages have sought to commandeer Cicins in battle.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Hydro_Cicin.png/revision/latest/scale-to-width-down/350?cb=20210629132219",
+    "group": "Cicins",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Electro Cicin",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP"
+    ],
+    "name": "Electro Cicin",
+    "description": "Little creatures that can ever so slightly manipulate Electro.They and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Enemy_Electro_Cicin.png/revision/latest/scale-to-width-down/350?cb=20210629132328",
+    "group": "Cicins",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Cryo Cicin",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP"
+    ],
+    "name": "Cryo Cicin",
+    "description": "Little creatures that can ever so slightly manipulate Cryo.They and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Enemy_Cryo_Cicin.png/revision/latest/scale-to-width-down/350?cb=20210629132059",
+    "group": "Cicins",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Floating Hydro Fungus",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Fungal Spores",
+      "Luminescent Pollen",
+      "Crystalline Cyst Dust"
+    ],
+    "name": "Floating Hydro Fungus",
+    "description": "A spore organism of some intelligence. It possesses extreme adaptability.It is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Enemy_Floating_Hydro_Fungus.png/revision/latest/scale-to-width-down/350?cb=20220402060823",
+    "group": "Floating Fungi",
+    "family": "Mystical Beasts"
+  },
+  {
+    "id": "Confront Stormterror",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Dvalin's Plume",
+      "Dvalin's Claw",
+      "Dvalin's Sigh",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Stormterror Dvalin",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Dvalin.png/revision/latest/scale-to-width-down/350?cb=20210426200736",
+    "description": "Now that the Stormterror crisis has passed, it's clear skies above Mondstadt once again.However, the memory of facing Dvalin in the sky amidst the storms is ever so vivid.Relive your memories and once again partake in the battle. Maybe you'll learn something new."
+  },
+  {
+    "id": "Wolf of the North Challenge",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Tail of Boreas",
+      "Ring of Boreas",
+      "Spirit Locket of Boreas",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Andrius",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Andrius.png/revision/latest/scale-to-width-down/350?cb=20210426192800",
+    "description": "A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god."
+  },
+  {
+    "id": "Enter the Golden House",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Tusk of Monoceros Caeli",
+      "Shard of a Foul Legacy",
+      "Shadow of the Warrior",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Childe",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Childe_Foul_Legacy_Transformation.png/revision/latest/scale-to-width-down/350?cb=20210703134306",
+    "description": "\"Childe\" Tartaglia, Eleventh of the Fatui Harbingers. He draws power from the ominous Delusion he possesses and fights using martial arts that he learned in the land of darkness.He is a pure warrior with an insatiable lust for battle. Each bloody conflict, each life-and-death struggle is a delightful trial for him. People say that the young Childe is famed throughout the land for his battle prowess. But he has never taken big talk of this kind to heart.After all...\"You shall ever be the eye of the storm,\"\"And the clashing of steel shall ever accompany you.\"\"The pitch-black memory of stepping into uttermost darkness,\"\"Shall, at last, become the strength by which you will overturn this world.\"'"
+  },
+  {
+    "id": "Beneath the Dragon-Queller",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Dragon Lord's Crown",
+      "Bloodjade Branch",
+      "Gilded Scale",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Azhdaha",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Azhdaha.png/revision/latest/scale-to-width-down/350?cb=20210508225637",
+    "description": "Azhdaha was unable to unseal itself in the end, and the quaking earth was at last put to rest.Yet the memories of facing the sealed dragon in the heart of the earth itself remain ever so vivid.Challenge it in your memories once more, and you may gain something new from that encounter..."
+  },
+  {
+    "id": "Narukami Island: Tenshukaku",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Molten Moment",
+      "Hellfire Butterfly",
+      "Ashen Heart",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Crimson Witch of Embers",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Enemy_Signora.png/revision/latest/scale-to-width-down/350?cb=20210821051327",
+    "description": "The Raiden Shogun's judgment has descended, and the Fatuus  Signora shall trouble the Seven Nations no longer.Yet the memories of climbing the steps of Tenshukaku and engaging her in duel before the throne are still fresh in your mind.Relive your memories of this duel, and you may learn something new."
+  },
+  {
+    "id": "End of the Oneiric Euthymia",
+    "type": "Weekly Bosses",
+    "drops": [
+      "Mudra of the Malefic General",
+      "Tears of the Calamitous God",
+      "The Meaning of Aeons",
+      "Berserker",
+      "Instructor",
+      "The Exile",
+      "Gladiator's Finale",
+      "Wanderer's Troupe"
+    ],
+    "name": "Magatsu Mitake Narukami no Mikoto",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Enemy_Magatsu_Mitake_Narukami_no_Mikoto.png/revision/latest/scale-to-width-down/350?cb=20220507195941",
+    "description": "A will that surpasses time itself finally caused her to step aside and allow Eternity to enter a new chapter.But behold, that thrilling battle at Mt. Yougou has been revived in the form of memories.Relive her test once more, and you might just learn something new..."
+  },
+  {
+    "id": "Hydro Mimic Boar",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Boar",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Enemy_Hydro_Mimic_Boar.png/revision/latest/scale-to-width-down/350?cb=20210531234935",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Crab",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Crab",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Enemy_Hydro_Mimic_Crab.png/revision/latest/scale-to-width-down/350?cb=20210531234936",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Crane",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Crane",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Enemy_Hydro_Mimic_Crane.png/revision/latest/scale-to-width-down/350?cb=20210618035356",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Ferret",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Ferret",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Enemy_Hydro_Mimic_Ferret.png/revision/latest/scale-to-width-down/350?cb=20210618035412",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Finch",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Finch",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Mimic_Finch.png/revision/latest?cb=20210531234938",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Frog",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Frog",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Enemy_Hydro_Mimic_Frog.png/revision/latest/scale-to-width-down/350?cb=20210531234939",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Mallard",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Mallard",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Enemy_Hydro_Mimic_Mallard.png/revision/latest/scale-to-width-down/349?cb=20210531234940",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Hydro Mimic Raptor",
+    "type": "Special Enemies",
+    "drops": [],
+    "name": "Hydro Mimic Raptor",
+    "description": "",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Enemy_Hydro_Mimic_Raptor.png/revision/latest/scale-to-width-down/350?cb=20210531234933",
+    "group": "Hydro Mimics",
+    "family": "Elemental Lifeforms"
+  },
+  {
+    "id": "Treasure Hoarders: Scout",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Scout",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Theirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Enemy_Treasure_Hoarder_Scout.png/revision/latest/scale-to-width-down/350?cb=20210628131044",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Marksman",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Marksman",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Though they are called \"marksmen\", this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Enemy_Treasure_Hoarder_Marksman.png/revision/latest/scale-to-width-down/350?cb=20210628131217",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Seaman",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Seaman",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Enemy_Treasure_Hoarder_Seaman.png/revision/latest/scale-to-width-down/350?cb=20210628131326",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Pugilist",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Pugilist",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.Passionate about battle and muscles, they are quite picky about food and will often boast of the benefits of having fine musculature, leading to some dissatisfaction from their fellow Treasure Hoarders.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Enemy_Treasure_Hoarder_Pugilist.png/revision/latest/scale-to-width-down/350?cb=20210628131731",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  },
+  {
+    "id": "Treasure Hoarders: Crusher",
+    "type": "Common Enemies",
+    "drops": [
+      "Mora",
+      "Character EXP",
+      "Treasure Hoarder Insignia",
+      "Silver Raven Insignia",
+      "Golden Raven Insignia"
+    ],
+    "name": "Treasure Hoarders: Crusher",
+    "description": "A member of decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.This one was originally a miner — one who, even with the allowance they were provided with after the closure of the Chasm, ended up with the Treasure Hoarders for various reasons.",
+    "thumbnail": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Enemy_Treasure_Hoarder_Crusher.png/revision/latest/scale-to-width-down/350?cb=20210628131525",
+    "group": "Treasure Hoarders",
+    "family": "Other Human Factions"
+  }
+]

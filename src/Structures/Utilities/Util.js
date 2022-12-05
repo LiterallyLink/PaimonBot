@@ -94,6 +94,8 @@ module.exports = class Util {
 		await this.cacheArtifacts();
 		await this.cacheFood();
 		await this.cachePotions();
+		await this.cacheWeapons();
+		await this.cacheEnemies();
 	}
 
 	async fetchWebdata(url) {
@@ -108,7 +110,7 @@ module.exports = class Util {
 		const $ = await this.fetchWebdata(characterListUrl);
 
 		$('.article-table').first().find('tr').each((_i, elem) => {
-			const character = $(elem).find('td').find('a').attr('title');
+			const character = $(elem).find('a').attr('title');
 
 			if (character && character !== 'Traveler') upToDateCharacterArray.push(character);
 		});
@@ -130,12 +132,8 @@ module.exports = class Util {
 			const region = $(`div[data-source="region"] .pi-data-value>`).text().trim() || 'None';
 			const birthday = $(`div[data-source="birthday"] .pi-data-value`).text().split(' ');
 			const titles = $(`div[data-source="title2"] li`).map((_i, elem) => $(elem).text().trim()).get();
-
 			const affiliations = $(`div[data-source="affiliation"] a`).map((_i, elem) => $(elem).text().trim()).get();
-
-			const rarity = +$(`td[data-source="rarity"] img`)
-				.attr('alt')
-				.replace(/[^0-9]/g, '');
+			const rarity = +$(`td[data-source="rarity"] img`).attr('alt').replace(/[^0-9]/g, '');
 
 			const $lore = await this.fetchWebdata(`${baseUrl}${character}/Lore`);
 			const lore = $lore('.pull-quote__text').html().replace(/<br>/g, ' ');
@@ -163,23 +161,24 @@ module.exports = class Util {
 			characterJSON.push(characterData);
 		}
 
-		const newCharacterJSON = JSON.stringify(characterJSON, null, 2);
-		fs.writeFileSync(`${this.directory}../assets/data/characters.json`, newCharacterJSON);
+		fs.writeFileSync(`${this.directory}../assets/data/characters.json`, JSON.stringify(characterJSON, null, 2));
+		return characterJSON;
 	}
 
 	async cacheCharacters() {
 		const upToDateCharacterList = await this.fetchUpToDateCharacterList();
 		const charactersJSON = require(`${this.directory}../assets/data/characters.json`);
-
 		const charactersToAdd = this.compareArrays(charactersJSON.map(char => char.name), upToDateCharacterList);
 
-		if (charactersToAdd.length > 0) await this.updateCharacterData(charactersToAdd);
+		let JSONToCache = charactersJSON;
 
-		const updatedCharacterJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/characters.json`, 'utf8'));
+		if (charactersToAdd.length > 0) JSONToCache = await this.updateCharacterData(charactersToAdd);
 
-		for (let i = 0; i < updatedCharacterJSON.length; i++) {
-			this.client.characters.set(updatedCharacterJSON[i].name, updatedCharacterJSON[i]);
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.characters.set(JSONToCache[i].name, JSONToCache[i]);
 		}
+
+		console.log(`Cached ${JSONToCache.length} characters.`);
 	}
 
 	async fetchUpToDateArtifactList() {
@@ -189,7 +188,7 @@ module.exports = class Util {
 		const $ = await this.fetchWebdata(artifactSetsURL);
 
 		$('.wikitable').find('tr').each((_i, elem) => {
-			const artifactSet = $(elem).find('td').find('a').attr('title');
+			const artifactSet = $(elem).find('a').attr('title');
 
 			if (artifactSet) upToDateArtifactArray.push(artifactSet);
 		});
@@ -202,35 +201,30 @@ module.exports = class Util {
 		const artifactsJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/artifacts.json`, 'utf8'));
 
 		for (let i = 0; i < artifactList.length; i++) {
-			const artifact = artifactList[i];
+			const setName = artifactList[i];
+			const $ = await this.fetchWebdata(`${baseUrl}${setName}`);
 
-			const $ = await this.fetchWebdata(`${baseUrl}${artifact}`);
-
-			const rarity = $(`ul[class="wds-tabs"] .wds-tabs__tab .wds-tabs__tab-label`).map((_i, elem) => +$(elem).text().replace(/[^0-9]/g, '')).get();
+			const rarity = $(`.wds-tabs__tab`).map((_i, elem) => +$(elem).text().replace(/[^0-9]/g, '')).get();
 
 			const artifactObj = {
-				name: artifact,
+				name: setName,
 				rarity,
 				bonuses: [],
 				pieces: []
 			};
 
-			const artifactTypes = ['flower', 'plume', 'sands', 'goblet', 'circlet'];
+			$('div[data-item-name="artifact set pieces"]').each((j, elem) => {
+				const pieceId = $(elem).find('b').text().split(' ')[0].toLowerCase();
+				const pieceName = $(elem).find('a').text().trim();
+				const pieceLore = $(`.description i`).eq(j).text();
 
-			for (let j = 0; j < artifactTypes.length; j++) {
-				const pieceName = $(`div[data-source="${artifactTypes[j]}"] .pi-data-value a`).text().trim();
+				const pieceSRCImage = $(elem).find('img').attr('src');
+				const pieceDataSRCImage = $(elem).find('img').attr('data-src');
 
-				if (pieceName) {
-					let imageType = 'src';
+				const pieceImage = pieceSRCImage.startsWith('https') ? pieceSRCImage : pieceDataSRCImage;
 
-					if (artifactTypes[j] === 'goblet' || artifactTypes[j] === 'circlet') imageType = 'data-src';
-
-					const pieceImage = $(`div[data-source="${artifactTypes[j]}"] img`).attr(imageType);
-					const pieceLore = $(`.description i`).eq(j).text();
-
-					artifactObj.pieces.push({ id: artifactTypes[j], name: pieceName, image: pieceImage, lore: pieceLore });
-				}
-			}
+				artifactObj.pieces.push({ id: pieceId, name: pieceName, lore: pieceLore, image: pieceImage });
+			});
 
 			const onePieceBonus = $(`div[data-source="1pcBonus"] .pi-data-value`).text().trim();
 			if (onePieceBonus !== '') artifactObj.bonuses.push({ name: 'One Piece Bonus', effect: onePieceBonus });
@@ -244,45 +238,47 @@ module.exports = class Util {
 			artifactsJSON.push(artifactObj);
 		}
 
-		const newArtifactsJSON = JSON.stringify(artifactsJSON, null, 2);
-		fs.writeFileSync(`${this.directory}../assets/data/artifacts.json`, newArtifactsJSON);
+		fs.writeFileSync(`${this.directory}../assets/data/artifacts.json`, JSON.stringify(artifactsJSON, null, 2));
+		return artifactsJSON;
 	}
 
 	async cacheArtifacts() {
 		const artifactList = await this.fetchUpToDateArtifactList();
 		const artifactJSON = require(`${this.directory}../assets/data/artifacts.json`);
-
 		const artifactsToAdd = this.compareArrays(artifactJSON.map(set => set.name), artifactList);
 
-		if (artifactsToAdd.length > 0) await this.updateArtifactData(artifactsToAdd);
+		let JSONToCache = artifactJSON;
 
-		const updatedArtifactJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/artifacts.json`, 'utf8'));
+		if (artifactsToAdd.length > 0) JSONToCache = await this.updateArtifactData(artifactsToAdd);
 
-		for (let i = 0; i < updatedArtifactJSON.length; i++) {
-			this.client.artifacts.set(updatedArtifactJSON[i].name, updatedArtifactJSON[i]);
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.artifacts.set(JSONToCache[i].name, JSONToCache[i]);
 		}
+
+		console.log(`Cached ${JSONToCache.length} artifact sets.`);
 	}
 
 	async cacheFood() {
 		const upToDateFoodList = await this.fetchUpToDateFoodList();
 		const foodJSON = require(`${this.directory}../assets/data/consumables/food.json`);
+		const foodToAdd = this.compareArrays(foodJSON.map(dish => dish.name), upToDateFoodList);
 
-		const foodToAdd = await this.compareArrays(foodJSON.map(dish => dish.name), upToDateFoodList);
+		let JSONToCache = foodJSON;
 
-		if (foodToAdd.length > 0) await this.retrieveAndSubmitFoodData(foodToAdd);
+		if (foodToAdd.length > 0) JSONToCache = await this.retrieveAndSubmitFoodData(foodToAdd);
 
-		const foodList = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/consumables/food.json`, 'utf8'));
-
-		for (let i = 0; i < foodList.length; i++) {
-			this.client.food.set(foodList[i].name, foodList[i]);
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.food.set(JSONToCache[i].name, JSONToCache[i]);
 		}
+
+		console.log(`Cached ${JSONToCache.length} food items.`);
 	}
 
 	async fetchUpToDateFoodList() {
 		const foodListUrl = 'https://genshin-impact.fandom.com/wiki/Food/Change_History?action=edit';
 
-		const webdata = await this.fetchWebdata(foodListUrl);
-		const stringOfFood = webdata('textarea').text();
+		const $ = await this.fetchWebdata(foodListUrl);
+		const stringOfFood = $('textarea').text();
 
 		return stringOfFood.match(/\|[^|]+\|/g).map(food => food.replace(/\|/g, '')) || [];
 	}
@@ -307,9 +303,13 @@ module.exports = class Util {
 				tiers: []
 			};
 
-			$('.new_genshin_recipe_body .card_caption').find('a').each((_i, ele) => {
-				foodObj.recipe.push($(ele).text());
+			$('.new_genshin_recipe_body .card_with_caption').each((_i, ele) => {
+				const amount = $(ele).find('.card_text').text();
+				const ingredient = $(ele).find('.card_caption').text();
+				foodObj.recipe.push(`x${amount} ${ingredient}`);
 			});
+
+			foodObj.recipe.pop();
 
 			const normalDescription = $('div[data-source="description"] .pi-data-value').text();
 
@@ -341,33 +341,34 @@ module.exports = class Util {
 			foodJSON.push(foodObj);
 		}
 
-		const newFoodDataJSON = JSON.stringify(foodJSON, null, 2);
-		fs.writeFileSync(`${this.directory}../assets/data/consumables/food.json`, newFoodDataJSON);
+		fs.writeFileSync(`${this.directory}../assets/data/consumables/food.json`, JSON.stringify(foodJSON, null, 2));
+		return foodJSON;
 	}
 
 	async cachePotions() {
 		const potionList = await this.fetchUpToDatePotionList();
 		const currentPotionJSON = require(`${this.directory}../assets/data/consumables/potions.json`);
-
 		const potionsToAdd = this.compareArrays(currentPotionJSON.map(potion => potion.name), potionList);
 
-		if (potionsToAdd.length > 0) await this.retrieveAndSubmitPotionData(potionsToAdd);
+		let JSONToCache = currentPotionJSON;
 
-		const potionJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/consumables/potions.json`, 'utf8'));
+		if (potionsToAdd.length > 0) JSONToCache = await this.retrieveAndSubmitPotionData(potionsToAdd);
 
-		for (let i = 0; i < potionJSON.length; i++) {
-			this.client.potions.set(potionJSON[i].name, potionJSON[i]);
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.potions.set(JSONToCache[i].name, JSONToCache[i]);
 		}
+
+		console.log(`Cached ${JSONToCache.length} potions.`);
 	}
 
 	async fetchUpToDatePotionList() {
 		const potionListURL = 'https://genshin-impact.fandom.com/wiki/Potions/List';
-		const webdata = await this.fetchWebdata(potionListURL);
+		const $ = await this.fetchWebdata(potionListURL);
 
 		const potionList = [];
 
-		webdata('.article-table tr td a').each((_i, ele) => {
-			const potion = webdata(ele).text();
+		$('.article-table tr td a').each((_i, ele) => {
+			const potion = $(ele).text();
 			if (potion !== '') potionList.push(potion);
 		});
 
@@ -382,8 +383,7 @@ module.exports = class Util {
 			const potionUrl = `${baseUrl}${potionsToAdd[i]}`;
 			const $ = await this.fetchWebdata(potionUrl);
 
-			let rarity = $('td[data-source="rarity"]').find('img').attr('alt');
-			rarity = parseInt(rarity);
+			const rarity = parseInt($('td[data-source="rarity"]').find('img').attr('alt'));
 
 			const description = $('div[data-source="description"] .pi-data-value').text().trim();
 			const effect = $('div[data-source="effect"] .pi-data-value').text();
@@ -408,11 +408,170 @@ module.exports = class Util {
 				potionObj.recipe.push(`x${amount} ${item}`);
 			});
 
+			potionObj.recipe.pop();
+
 			potionJSON.push(potionObj);
 		}
 
-		const newPotionDataJSON = JSON.stringify(potionJSON, null, 2);
-		fs.writeFileSync(`${this.directory}../assets/data/consumables/potions.json`, newPotionDataJSON);
+		fs.writeFileSync(`${this.directory}../assets/data/consumables/potions.json`, JSON.stringify(potionJSON, null, 2));
+		return potionJSON;
+	}
+
+	async cacheWeapons() {
+		const weaponList = await this.fetchUpToDateWeaponList();
+		const currentWeaponJSON = require(`${this.directory}../assets/data/weapons.json`);
+		const weaponsToAdd = this.compareArrays(currentWeaponJSON.map(weapon => weapon.name), weaponList);
+
+		let JSONToCache = currentWeaponJSON;
+
+		if (weaponsToAdd.length > 0) JSONToCache = await this.retrieveAndSubmitWeaponData(weaponsToAdd);
+
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.weapons.set(JSONToCache[i].name, JSONToCache[i]);
+		}
+
+		console.log(`Cached ${JSONToCache.length} weapons.`);
+	}
+
+	async fetchUpToDateWeaponList() {
+		const weaponListURL = 'https://genshin-impact.fandom.com/wiki/Weapons/List';
+		const $ = await this.fetchWebdata(weaponListURL);
+
+		const weaponsToAdd = [];
+
+		$('.article-table').first().find('tr').each((_i, ele) => {
+			const weapon = $(ele).find('td a').attr('title');
+
+			if (weapon) weaponsToAdd.push(weapon);
+		});
+
+		return weaponsToAdd;
+	}
+
+	async retrieveAndSubmitWeaponData(weaponsToAdd) {
+		const baseUrl = 'https://genshin-impact.fandom.com/wiki/';
+		const weaponJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/weapons.json`, 'utf8'));
+
+		for (let i = 0; i < weaponsToAdd.length; i++) {
+			const name = weaponsToAdd[i];
+			const $ = await this.fetchWebdata(`${baseUrl}${name}`);
+
+			const lore = $('.description i').text();
+			const baseThumbnail = $('.pi-image img').first().attr('src');
+			const ascensionThumbnail = $('.pi-image img').last().attr('src');
+			const type = $('div[data-source="type"] .pi-data-value').text();
+			const rarity = parseInt($('div[data-source="rarity"] img').attr('alt'));
+			const preview = $('div[class="ogv-gallery-item"] img').attr('data-src');
+			const passive = $('th[data-source="eff_rank1_var1"]').text();
+			const baseATK = $('.pi-smart-data-value').eq(0).text();
+			const statType = $('.pi-smart-data-value').eq(1).text();
+			const statValue = $('.pi-smart-data-value').eq(2).text();
+
+			const weaponObj = {
+				name,
+				rarity,
+				type,
+				lore,
+				passive,
+				baseThumbnail,
+				ascensionThumbnail,
+				obtain: [],
+				preview,
+				refinement: [],
+				materials: [],
+				baseATK,
+				statType,
+				statValue
+			};
+
+			for (let j = 1; j < 6; j++) {
+				weaponObj.refinement.push($(`td[data-source="eff_rank${j}_var1"]`).text());
+			}
+
+			$('.card_with_caption').each((_i, ele) => {
+				const amount = $(ele).find('.card_text').text();
+				const material = $(ele).find('.card_caption').text();
+				const image = $(ele).find('.card_image a').find('img').attr('data-src');
+
+				weaponObj.materials.push({ amount, material, image });
+			});
+
+			$('div[data-source="obtain"] .pi-data-value a').each((_i, ele) => {
+				weaponObj.obtain.push($(ele).text());
+			});
+
+			weaponJSON.push(weaponObj);
+		}
+
+		fs.writeFileSync(`${this.directory}../assets/data/weapons.json`, JSON.stringify(weaponJSON, null, 2));
+		return weaponJSON;
+	}
+
+	async cacheEnemies() {
+		const listOfEnemies = await this.fetchUpToDateEnemyList();
+		const currentEnemyJSON = require(`${this.directory}../assets/data/enemies.json`);
+		const enemiesToAdd = this.compareArrays(currentEnemyJSON.map(enemy => enemy.id), listOfEnemies);
+
+		let JSONToCache = currentEnemyJSON;
+
+		if (enemiesToAdd.length) JSONToCache = await this.retrieveAndSubmitEnemyData(enemiesToAdd);
+
+		for (let i = 0; i < JSONToCache.length; i++) {
+			this.client.enemies.set(JSONToCache[i].name, JSONToCache[i]);
+		}
+
+		console.log(`Cached ${this.client.enemies.size} enemies`);
+	}
+
+	async fetchUpToDateEnemyList() {
+		const enemyListURL = 'https://genshin-impact.fandom.com/wiki/Enemies/List';
+		const $ = await this.fetchWebdata(enemyListURL);
+		const enemyList = [];
+
+		$('.card_caption').each((_i, ele) => {
+			enemyList.push($(ele).find('a').attr('title'));
+		});
+
+		return enemyList;
+	}
+
+	async retrieveAndSubmitEnemyData(enemiesToAdd) {
+		const baseUrl = 'https://genshin-impact.fandom.com/wiki/';
+		const enemyJSON = JSON.parse(fs.readFileSync(`${this.directory}../assets/data/enemies.json`, 'utf8'));
+
+		for (let i = 0; i < enemiesToAdd.length; i++) {
+			const $ = await this.fetchWebdata(`${baseUrl}${enemiesToAdd[i]}`);
+
+			const type = $('div[data-source="type"] .pi-data-value').last().text();
+
+			const enemyObj = {
+				id: enemiesToAdd[i],
+				type,
+				drops: []
+			};
+
+			$('.card_caption').each((_i, ele) => {
+				const drop = $(ele).find('a').attr('title');
+				if (!enemyObj.drops.includes(drop)) enemyObj.drops.push(drop);
+			});
+
+			if (type === 'Weekly Bosses') {
+				enemyObj.name = $('[data-source="name"]').last().text();
+				enemyObj.thumbnail = $('.pi-image-thumbnail').last().attr('src');
+				enemyObj.description = $('.description div').first().text();
+			} else {
+				enemyObj.name = enemiesToAdd[i];
+				enemyObj.description = $('.description i').first().text().replace('<br>', ' ');
+				enemyObj.thumbnail = $('.pi-image-thumbnail').attr('src');
+				enemyObj.group = $('div[data-source="group"] .pi-data-value').text();
+				enemyObj.family = $('div[data-source="family"] .pi-data-value').text();
+			}
+
+			enemyJSON.push(enemyObj);
+		}
+
+		fs.writeFileSync(`${this.directory}../assets/data/enemies.json`, JSON.stringify(enemyJSON, null, 2));
+		return enemyJSON;
 	}
 
 	async loadSlashCommands(guildId) {

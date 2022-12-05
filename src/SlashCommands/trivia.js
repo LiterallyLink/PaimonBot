@@ -46,7 +46,7 @@ module.exports = {
 			const correctEmbed = new MessageEmbed()
 				.setTitle('Correct!')
 				.setThumbnail(`attachment://${image.name}`)
-				.setDescription(`_ _\nQ. ${question}\n\nYou chose: \`${answer}\`\nThe correct answer was \`${answer}\`_ _`)
+				.setDescription(`_ _\n**Q.** ${question}\n\nYou chose: \`${answer}\`\nThe correct answer was \`${answer}\`_ _`)
 				.setFooter({ text: 'You won 5000 Mora for answering correctly.' })
 				.setColor('GREEN');
 			triviaQuestion.edit({ embeds: [correctEmbed], components: [], files: [image] });
@@ -54,27 +54,24 @@ module.exports = {
 			const titlesArr = ["Couldn't think of anything?", "You're too slow!", 'Did you fall asleep?'];
 			const title = titlesArr[Math.floor(Math.random() * titlesArr.length)];
 
-			const paimonDrool = new MessageAttachment('.\\assets\\images\\paimon\\paimonDrool.png');
+			const paimonDrool = new MessageAttachment('.\\assets\\images\\paimon\\paimonDrool.png', 'paimonDrool.png');
 
 			const noAnswerEmbed = new MessageEmbed()
 				.setTitle(title)
-				.setThumbnail(`attachment://paimonDrool.png`)
+				.setThumbnail(`attachment://${paimonDrool.name}`)
 				.setDescription(`_ _\n**Q.** ${question}\n\nYou chose: \`No Answer Given\`\nThe correct answer was: \`${answer}\``)
 				.setColor('WHITE');
 			triviaQuestion.edit({ embeds: [noAnswerEmbed], components: [], files: [paimonDrool] });
 		} else {
-			const titlesArr = ['Incorrect!', 'Wrong!', 'Nope!', 'Really?', 'WRONG!'];
-			const title = titlesArr[Math.floor(Math.random() * titlesArr.length)];
-
-			const paimonStare = new MessageAttachment('.\\assets\\images\\paimon\\paimonStare.png');
+			const paimonShock = new MessageAttachment('.\\assets\\images\\paimon\\paimonShock.png', 'paimonShock.png');
 
 			const incorrectEmbed = new MessageEmbed()
-				.setTitle(title)
-				.setThumbnail(`attachment://paimonStare.png`)
-				.setDescription(`_ _\nQ. ${question}\n\nYou chose: \`${customId}\`\nThe correct answer was: \`${answer}\`_ _`)
+				.setTitle('Incorrect...')
+				.setThumbnail(`attachment://${paimonShock.name}`)
+				.setDescription(`**Q.** ${question}\n\nYou chose: \`${customId}\`\nThe correct answer was: \`${answer}\`_ _`)
 				.setFooter({ text: 'Better luck next time!' })
 				.setColor('RED');
-			triviaQuestion.edit({ embeds: [incorrectEmbed], components: [], files: [paimonStare] });
+			triviaQuestion.edit({ embeds: [incorrectEmbed], components: [], files: [paimonShock] });
 		}
 	},
 

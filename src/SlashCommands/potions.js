@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('potion')
+		.setName('potions')
 		.setDescription('Retrieve information on specific potions.')
 		.addStringOption(option =>
 			option
@@ -30,11 +30,13 @@ module.exports = {
 				.setColor('WHITE');
 			return application.followUp({ embeds: [potionEmbed] });
 		} else {
-			const randomPotion = [...potions.keys()][Math.floor(Math.random() * potions.size)];
+			const potionNames = [...potions.keys()];
+			const randomPotion = potionNames[Math.floor(Math.random() * potionNames.length)];
 
 			const potionHelpEmbed = new MessageEmbed()
 				.setTitle('Potion Command Help')
 				.setDescription(`To search for a specific potion.\nType \`/potion <name>\`\nExample \`/potion ${randomPotion}\``)
+				.addField('Potion List', potionNames.sort((a, b) => a.length - b.length).join('\n'))
 				.setColor('WHITE');
 			return application.followUp({ embeds: [potionHelpEmbed] });
 		}
